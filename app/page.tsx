@@ -4,6 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import StatsBar from "./components/StatsBar";
+import ServicesCardsSection from "./components/ServicesCardsSection";
 import PackagesSection, { PackageItem } from "./components/PackagesSection";
 import WhyChooseUs from "./components/WhyChooseUs";
 import HowItWorks from "./components/HowItWorks";
@@ -12,6 +13,7 @@ import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 import BookingModal from "./components/BookingModal";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import { ServiceItem } from "./config/services";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -37,6 +39,16 @@ export default function Home() {
     setModalOpen(true);
   };
 
+  const handleSelectService = (service: ServiceItem) => {
+    setSearchData({
+      boatType: service.title,
+      date: "",
+      guests: "2 Guests (Couple)",
+    });
+    setSelectedPackage(null);
+    setModalOpen(true);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       {/* Top Navigation */}
@@ -50,7 +62,10 @@ export default function Home() {
         {/* Credibility & Stats Bar */}
         <StatsBar />
 
-        {/* Curated Boat Tour Packages */}
+        {/* High-Converting 6 Services Cards Section */}
+        <ServicesCardsSection onOpenInquiry={handleSelectService} />
+
+        {/* Curated Granular Boat Tour Packages */}
         <div id="houseboats">
           <div id="shikara">
             <PackagesSection onSelectPackage={handleSelectPackage} />

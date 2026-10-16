@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { SITE_CONFIG, getPackageBookingWhatsAppUrl } from "../config/site";
+import { SITE_CONFIG } from "../config/site";
 import { PackageItem } from "./PackagesSection";
 
 interface BookingModalProps {
@@ -97,18 +97,23 @@ export default function BookingModal({
               onChange={(e) => setBoatType(e.target.value)}
               className="w-full text-sm font-medium border border-slate-300 rounded-xl px-3.5 py-2.5 focus:outline-hidden focus:border-emerald-600 focus:ring-1 focus:ring-emerald-600 bg-white"
             >
-              <option value="1-BHK Deluxe Houseboat">1-BHK Deluxe Houseboat (Couples)</option>
-              <option value="2-BHK Premium Houseboat">2-BHK Premium Houseboat (Family)</option>
-              <option value="3-BHK+ Luxury Houseboat">3-BHK to 6-BHK Luxury Houseboat (Group)</option>
-              <option value="Scenic Canal Shikara Ride (3 Hours)">
-                Scenic Canal Shikara Ride (3 Hours)
+              <option value="Private Houseboats (1 to 7 BHK Luxury/Deluxe)">
+                Private Houseboat (1 to 7 BHK)
               </option>
-              <option value="Sunrise Shikara Cruise">Sunrise Shikara Cruise (Early Morning)</option>
-              <option value="Exclusive Full-Day Houseboat Cruise">
-                Full-Day Houseboat Day Cruise (No stay)
+              <option value="Sharing Houseboats (Budget AC Room)">
+                Sharing Houseboat (Budget Room)
               </option>
-              <option value="Backwater Kayak & Canoe Safari">
+              <option value="Shikara Boat Rides (Narrow Village Canals)">
+                Shikara Boat Ride (Canal Tour)
+              </option>
+              <option value="Backwater Kayaking & Canoe Safari">
                 Backwater Kayak &amp; Canoe Safari
+              </option>
+              <option value="Speed Boat Rides (Vembanad Thrill)">
+                Speed Boat Ride (Vembanad Lake)
+              </option>
+              <option value="Backwater Homestays & Heritage Cottages">
+                Backwater Homestay &amp; Cottages
               </option>
             </select>
           </div>

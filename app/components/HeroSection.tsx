@@ -74,15 +74,15 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
 
         {/* SEO H1 Title */}
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight sm:leading-tight">
-          Alleppey Houseboat Booking &amp;{" "}
+          Alleppey Boat{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300">
-            Backwater Boat Tours
+            Tour Packages
           </span>
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed font-light">
-          Cruise tranquil lagoons, lush paddy fields, and canal villages. Verified houseboats, private shikara rides, and kayak adventures with fresh authentic Kerala meals.
+        <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed font-light">
+          Your one-stop booking hub for verified Kerala backwater experiences. Choose from private luxury houseboats, budget sharing houseboats, scenic shikara canal rides, guided kayaking, speed boats, and waterfront homestays.
         </p>
 
         {/* Value Proposition Highlights */}
@@ -103,7 +103,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
             <svg className="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span>No Agent Commission (Best Price)</span>
+            <span>Direct Boat Owner Rates (Zero Commission)</span>
           </div>
         </div>
 
@@ -120,7 +120,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
                   htmlFor="hero-boat-type"
                   className="block text-xs font-semibold text-emerald-300 uppercase tracking-wider"
                 >
-                  Experience Type
+                  Boat &amp; Tour Type
                 </label>
                 <div className="relative">
                   <select
@@ -129,23 +129,23 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
                     onChange={(e) => setBoatType(e.target.value)}
                     className="w-full bg-slate-900/90 text-white text-sm font-medium rounded-xl px-3.5 py-3 border border-slate-700 focus:outline-hidden focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 appearance-none cursor-pointer"
                   >
-                    <option value="Overnight Houseboat (Deluxe/Luxury)">
-                      Overnight Houseboat (Deluxe/Luxury)
+                    <option value="Private Houseboats (1 to 7 BHK Luxury/Deluxe)">
+                      Private Houseboats (1-7 BHK Luxury)
                     </option>
-                    <option value="Day Cruise Houseboat (11:30 AM - 5 PM)">
-                      Day Cruise Houseboat (11:30 AM - 5 PM)
+                    <option value="Sharing Houseboats (Budget Rooms)">
+                      Sharing Houseboats (Budget Rooms)
                     </option>
-                    <option value="Shikara Boat Ride (2 - 4 Hours)">
-                      Shikara Boat Ride (2 - 4 Hours)
+                    <option value="Shikara Boat Rides (Narrow Village Canals)">
+                      Shikara Boat Rides (Village Canals)
                     </option>
-                    <option value="Sunrise Shikara Cruise">
-                      Sunrise Shikara Cruise (Early Morning)
+                    <option value="Backwater Kayaking & Canoe Tours">
+                      Backwater Kayaking &amp; Canoe
                     </option>
-                    <option value="Backwater Kayaking & Canoe Tour">
-                      Backwater Kayaking &amp; Canoe Tour
+                    <option value="Speed Boat Rides (Vembanad Thrill)">
+                      Speed Boat Rides (High Speed)
                     </option>
-                    <option value="Speedboat & Motorboat Ride">
-                      Speedboat &amp; Motorboat Ride
+                    <option value="Backwater Homestay & Heritage Cottages">
+                      Backwater Homestay &amp; Cottages
                     </option>
                   </select>
                   <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-slate-400">

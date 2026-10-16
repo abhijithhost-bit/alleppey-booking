@@ -1,14 +1,14 @@
 export const SITE_CONFIG = {
   name: "Alleppey Booking",
-  tagline: "Premier Kerala Houseboat & Backwater Tour Bookings",
+  tagline: "Alleppey Boat Tour Packages & Backwater Vacations",
   description:
-    "Book verified Alleppey boat tour packages. Luxury overnight houseboats, day cruises, private shikara rides, and kayaking in the Kerala backwaters. Best rates guaranteed, authentic meals, and instant WhatsApp booking.",
+    "Book verified Alleppey boat tour packages with direct local rates. Luxury private houseboats, budget sharing houseboats, scenic shikara canal rides, kayaking, speed boats, and authentic waterfront homestays in Kerala.",
   phone: "7012761588",
   phoneFormatted: "+91 7012761588",
   phoneTel: "tel:+917012761588",
   whatsappNumber: "917012761588",
   whatsappDefaultMsg:
-    "Hello Alleppey Booking, I would like to inquire about booking a backwater boat tour.",
+    "Hello Alleppey Booking, I would like to inquire about Alleppey boat tour packages.",
   email: "bookings@alleppeybooking.com",
   address: {
     street: "Finishing Point Road, Punnamada",
@@ -37,11 +37,11 @@ export function getPackageBookingWhatsAppUrl(params: {
 }): string {
   const lines = [
     `*Booking Inquiry - ${SITE_CONFIG.name}*`,
-    `🛥️ *Package:* ${params.packageName}`,
-    params.boatType ? `⚓ *Boat Type:* ${params.boatType}` : "",
+    `✨ *Service/Package:* ${params.packageName}`,
+    params.boatType ? `⚓ *Category:* ${params.boatType}` : "",
     params.date ? `📅 *Preferred Date:* ${params.date}` : "",
     params.guests ? `👥 *Guests:* ${params.guests}` : "",
-    `\nPlease share availability, best price quote, and photos. Thank you!`,
+    `\nPlease share availability, best discounted rates, and photos. Thank you!`,
   ].filter(Boolean);
 
   return getWhatsAppUrl(lines.join("\n"));

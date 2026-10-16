@@ -1,6 +1,6 @@
 "use client";
 
-import { SITE_CONFIG, getWhatsAppUrl } from "../config/site";
+import { getWhatsAppUrl } from "../config/site";
 
 export default function FloatingWhatsApp() {
   return (

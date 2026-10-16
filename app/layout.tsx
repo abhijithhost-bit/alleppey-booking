@@ -23,21 +23,22 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: "Alleppey Houseboat Booking & Shikara Rides | Alleppey Booking",
-    template: "%s | Alleppey Booking",
+    default: "Alleppey Boat Tour Packages | Kerala Backwaters",
+    template: "%s | Alleppey Boat Tour Packages",
   },
   description:
-    "Book verified Alleppey boat tour packages. Luxury overnight houseboats, day cruises, private shikara rides, and kayaking in Kerala backwaters. Starting from ₹499. Instant WhatsApp booking.",
+    "Explore verified Alleppey boat tour packages. Book private houseboats, sharing houseboats, shikara rides, kayaking, speed boat tours, and backwater homestays. Best local rates guaranteed.",
   keywords: [
-    "Alleppey houseboat booking",
+    "Alleppey boat tour packages",
     "Alleppey boat booking",
+    "Alleppey private houseboats",
+    "Alleppey sharing houseboats",
+    "Alleppey shikara ride",
+    "Alleppey kayaking tour",
+    "Alleppey speed boat",
+    "Alleppey backwater homestay",
     "Kerala backwaters houseboat",
-    "Alappuzha shikara ride",
-    "Alleppey day cruise",
-    "Alleppey kayak tour",
     "houseboat price Alleppey",
-    "luxury houseboat Alappuzha",
-    "Alleppey backwater tour packages",
   ],
   authors: [{ name: SITE_CONFIG.name }],
   creator: SITE_CONFIG.name,
@@ -52,23 +53,23 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
-    title: "Alleppey Houseboat Booking & Shikara Rides | Alleppey Booking",
+    title: "Alleppey Boat Tour Packages | Houseboats, Shikara, Kayaking & Homestays",
     description:
-      "Verified Kerala backwater houseboats, private shikara boat rides, and day cruises in Alleppey. Direct local pricing with no commission. Book now on WhatsApp.",
+      "Explore verified Alleppey boat tour packages. Book private houseboats, sharing houseboats, shikara rides, kayaking, speed boat tours, and backwater homestays with direct owner rates.",
     images: [
       {
         url: "/hero-image-desktop.webp",
         width: 1200,
         height: 630,
-        alt: "Alleppey Houseboat cruising through Kerala backwaters",
+        alt: "Alleppey Boat Tour Packages on Kerala backwaters",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alleppey Houseboat Booking & Shikara Rides | Alleppey Booking",
+    title: "Alleppey Boat Tour Packages | Houseboats, Shikara, Kayaking & Homestays",
     description:
-      "Verified Kerala backwater houseboats, private shikara rides & day cruises in Alleppey. Starting from ₹499.",
+      "Explore verified Alleppey boat tour packages. Private houseboats, sharing houseboats, shikara rides, kayaking, speed boat, and homestays.",
     images: ["/hero-image-desktop.webp"],
   },
   robots: {
@@ -182,10 +183,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
       <head>
-        <title>Alleppey Houseboat Booking &amp; Shikara Rides | Alleppey Booking</title>
+        <title>Alleppey Boat Tour Packages | Kerala Backwaters</title>
         <meta
           name="description"
-          content="Book verified Alleppey boat tour packages. Luxury overnight houseboats, day cruises, private shikara rides, and kayaking in Kerala backwaters. Starting from ₹499. Instant WhatsApp booking."
+          content="Explore verified Alleppey boat tour packages. Book private houseboats, sharing houseboats, shikara rides, kayaking, speed boat tours, and backwater homestays. Best local rates guaranteed."
         />
         <link rel="canonical" href={SITE_CONFIG.url} />
 

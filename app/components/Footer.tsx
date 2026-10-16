@@ -63,37 +63,37 @@ export default function Footer() {
           {/* Boat Categories */}
           <div>
             <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-4">
-              Boat Tour Types
+              Alleppey Boat Tours &amp; Stays
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  1-BHK Deluxe Houseboats (Couples)
+                <Link href="/private-houseboats" className="hover:text-emerald-400 transition-colors">
+                  Private Houseboats (1 to 7 BHK)
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  2 &amp; 3 BHK Premium Houseboats (Families)
+                <Link href="/sharing-houseboats" className="hover:text-emerald-400 transition-colors">
+                  Sharing Houseboats (From ₹3,999)
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  4 to 6 BHK Luxury Houseboats (Groups)
+                <Link href="/shikara" className="hover:text-emerald-400 transition-colors">
+                  Shikara Boat Rides (From ₹800/hr)
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  Hourly Shikara Canal Rides (₹800/hr)
+                <Link href="/kayaking" className="hover:text-emerald-400 transition-colors">
+                  Backwater Kayaking &amp; Canoe
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  Sunrise &amp; Sunset Shikara Cruises
+                <Link href="/speed-boat" className="hover:text-emerald-400 transition-colors">
+                  Speed Boat Lake Thrills
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-emerald-400 transition-colors">
-                  Full Day Houseboat Day Cruises
+                <Link href="/homestays" className="hover:text-emerald-400 transition-colors">
+                  Waterfront Backwater Homestays
                 </Link>
               </li>
             </ul>
