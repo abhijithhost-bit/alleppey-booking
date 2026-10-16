@@ -182,6 +182,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
       <head>
+        <title>Alleppey Houseboat Booking &amp; Shikara Rides | Alleppey Booking</title>
+        <meta
+          name="description"
+          content="Book verified Alleppey boat tour packages. Luxury overnight houseboats, day cruises, private shikara rides, and kayaking in Kerala backwaters. Starting from ₹499. Instant WhatsApp booking."
+        />
+        <link rel="canonical" href={SITE_CONFIG.url} />
+
         {/* Preload Hero Images for LCP Optimization */}
         <link
           rel="preload"
