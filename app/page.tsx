@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import StatsBar from "./components/StatsBar";
 import ServicesCardsSection from "./components/ServicesCardsSection";
 import PackagesSection, { PackageItem } from "./components/PackagesSection";
+import FareCalculator from "./components/FareCalculator";
 import WhyChooseUs from "./components/WhyChooseUs";
 import HowItWorks from "./components/HowItWorks";
 import TestimonialsSection from "./components/TestimonialsSection";
@@ -50,48 +51,51 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50">
-      {/* Top Navigation */}
+    <div className="min-h-screen flex flex-col bg-white text-slate-900 antialiased selection:bg-orange-500 selection:text-white">
+      {/* 1. Top Navigation & Urgency Banner */}
       <Navbar onOpenBookingModal={() => setModalOpen(true)} />
 
-      {/* Main Content */}
+      {/* Main Content (60% White + 30% Light Green + 10% Orange Aesthetic) */}
       <main className="flex-1 w-full">
-        {/* SEO Hero Section with Responsive Mobile/Desktop Images & Quick Search */}
+        {/* 2. Hero Section with Live Availability Search & Fare Estimation Card */}
         <HeroSection onSearch={handleOpenSearchModal} />
 
-        {/* Credibility & Stats Bar */}
+        {/* 3. Credibility & Verified Fleet Stats Bar */}
         <StatsBar />
 
-        {/* High-Converting 6 Services Cards Section */}
+        {/* 4. 6 Curated Backwater Experience Cards with Quick Category Filters */}
         <ServicesCardsSection onOpenInquiry={handleSelectService} />
 
-        {/* Curated Granular Boat Tour Packages */}
+        {/* 5. Best-Selling Handpicked Boat Tour Packages */}
         <div id="houseboats">
           <div id="shikara">
             <PackagesSection onSelectPackage={handleSelectPackage} />
           </div>
         </div>
 
-        {/* Why Choose Us Trust Factors */}
+        {/* 6. Interactive Backwater Fare Estimator (High Conversion Tool) */}
+        <FareCalculator />
+
+        {/* 7. Why Choose Us (Zero Broker Fee, Live Kerala Meals, Certified Captains) */}
         <WhyChooseUs />
 
-        {/* 3-Step Booking Walkthrough */}
+        {/* 8. Simple 3-Step Booking Walkthrough */}
         <HowItWorks />
 
-        {/* Traveler Testimonials */}
+        {/* 9. Verified Traveler Testimonials & Social Proof */}
         <TestimonialsSection />
 
-        {/* FAQs & Local Travel Guide */}
+        {/* 10. FAQs & Local Guidance Accordion */}
         <FAQSection />
       </main>
 
-      {/* Footer */}
+      {/* 11. Footer with Direct Contact Guarantees */}
       <Footer />
 
-      {/* Floating WhatsApp Action Button */}
+      {/* 12. Persistent Floating WhatsApp & Mobile Sticky Conversion Bar */}
       <FloatingWhatsApp />
 
-      {/* Interactive Booking & Inquiry Modal */}
+      {/* 13. High-Converting Instant Booking & Custom Inquiry Modal */}
       <BookingModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}

@@ -4,31 +4,35 @@ import { SITE_CONFIG, getWhatsAppUrl } from "../config/site";
 export default function Footer() {
   return (
     <footer className="bg-slate-950 text-slate-400 text-sm border-t border-slate-900">
-      {/* Top CTA Strip */}
-      <div className="bg-emerald-950/70 border-b border-emerald-900/40 py-8 px-4 sm:px-6 lg:px-8">
+      {/* Top Pre-Footer High-Conversion Strip (30% Light Green + 10% Orange Action) */}
+      <div className="bg-linear-to-r from-emerald-900 via-emerald-800 to-teal-900 border-b border-emerald-700/50 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div>
-            <h3 className="text-white text-lg sm:text-xl font-bold">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-200 text-xs font-bold mb-2">
+              <span>🌴 Kerala Backwater Booking Hub</span>
+            </div>
+            <h3 className="text-white text-xl sm:text-2xl font-black">
               Ready to Cruise the Backwaters of Alleppey?
             </h3>
-            <p className="text-emerald-300/90 text-xs sm:text-sm mt-1">
-              Direct owner bookings, lowest rates guaranteed, and zero commission.
+            <p className="text-emerald-100 text-xs sm:text-sm mt-1">
+              Direct boat owner rates, guaranteed lowest price, and zero middleman commissions.
             </p>
           </div>
           <div className="flex items-center gap-3">
             <a
               href={SITE_CONFIG.phoneTel}
-              className="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-white transition-colors border border-white/15"
+              className="px-5 py-3 rounded-2xl text-xs sm:text-sm font-bold bg-white/10 hover:bg-white/20 text-white transition-colors border border-white/20"
             >
               Call {SITE_CONFIG.phone}
             </a>
+            {/* 10% Orange Button */}
             <a
               href={getWhatsAppUrl("Hi Alleppey Booking, I'm ready to book a boat cruise.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-500 hover:bg-emerald-400 text-slate-950 transition-colors shadow-md"
+              className="px-6 py-3 rounded-2xl text-xs sm:text-sm font-extrabold bg-linear-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white transition-all shadow-lg shadow-orange-950/30 orange-pulse"
             >
-              Book on WhatsApp
+              Book on WhatsApp ⚡
             </a>
           </div>
         </div>
@@ -40,18 +44,21 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-bold">
+              <div className="w-9 h-9 rounded-xl bg-linear-to-br from-emerald-600 to-teal-700 flex items-center justify-center text-white font-black text-sm shadow-md">
                 AB
               </div>
-              <span className="text-white font-extrabold text-xl tracking-tight">
-                Alleppey<span className="text-emerald-400">Booking</span>
-              </span>
+              <div className="flex items-center gap-0.5">
+                <span className="text-white font-extrabold text-xl tracking-tight">
+                  Alleppey<span className="text-emerald-400">Booking</span>
+                </span>
+                <span className="w-1.5 h-1.5 rounded-full bg-orange-500 ml-0.5 inline-block" />
+              </div>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Your trusted partner for authentic houseboat vacations, private shikara rides, and scenic backwater day cruises in Alappuzha, Kerala.
+              Your direct booking gateway for certified private luxury houseboats, budget sharing houseboats, scenic village shikara canal rides, and sunrise kayaking in Alappuzha, Kerala.
             </p>
-            <div className="text-xs text-slate-400 space-y-1">
-              <p className="text-slate-300 font-semibold">📍 Boarding &amp; Office:</p>
+            <div className="text-xs text-slate-400 space-y-1 pt-1">
+              <p className="text-slate-200 font-semibold">📍 Boarding Office &amp; Jetty:</p>
               <p>{SITE_CONFIG.address.street}</p>
               <p>
                 {SITE_CONFIG.address.city}, {SITE_CONFIG.address.state} –{" "}
@@ -62,110 +69,127 @@ export default function Footer() {
 
           {/* Boat Categories */}
           <div>
-            <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-4">
+            <h4 className="text-emerald-400 font-bold text-xs tracking-wider uppercase mb-4">
               Alleppey Boat Tours &amp; Stays
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/private-houseboats" className="hover:text-emerald-400 transition-colors">
+                <Link href="/private-houseboats" className="hover:text-orange-400 transition-colors">
                   Private Houseboats (1 to 7 BHK)
                 </Link>
               </li>
               <li>
-                <Link href="/sharing-houseboats" className="hover:text-emerald-400 transition-colors">
+                <Link href="/sharing-houseboats" className="hover:text-orange-400 transition-colors">
                   Sharing Houseboats (From ₹3,999)
                 </Link>
               </li>
               <li>
-                <Link href="/shikara" className="hover:text-emerald-400 transition-colors">
+                <Link href="/shikara" className="hover:text-orange-400 transition-colors">
                   Shikara Boat Rides (From ₹800/hr)
                 </Link>
               </li>
               <li>
-                <Link href="/kayaking" className="hover:text-emerald-400 transition-colors">
+                <Link href="/kayaking" className="hover:text-orange-400 transition-colors">
                   Backwater Kayaking &amp; Canoe
                 </Link>
               </li>
               <li>
-                <Link href="/speed-boat" className="hover:text-emerald-400 transition-colors">
+                <Link href="/speed-boat" className="hover:text-orange-400 transition-colors">
                   Speed Boat Lake Thrills
                 </Link>
               </li>
               <li>
-                <Link href="/homestays" className="hover:text-emerald-400 transition-colors">
+                <Link href="/homestays" className="hover:text-orange-400 transition-colors">
                   Waterfront Backwater Homestays
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Popular Backwater Routes */}
+          {/* Quick Helpful Links */}
           <div>
-            <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-4">
-              Scenic Routes &amp; Sights
+            <h4 className="text-emerald-400 font-bold text-xs tracking-wider uppercase mb-4">
+              Traveler Information
             </h4>
-            <ul className="space-y-2.5 text-xs text-slate-400">
-              <li>Punnamada Lake (Nehru Trophy Track)</li>
-              <li>Vembanad Lake (Largest backwater expanse)</li>
-              <li>Kuttanad (Paddy fields below sea level)</li>
-              <li>Nedumudy &amp; Pallathuruthy River Canals</li>
-              <li>Champakkulam Snake Boat &amp; Ancient Church</li>
-              <li>Pathiramanal Island (Migratory bird haven)</li>
+            <ul className="space-y-2.5 text-xs">
+              <li>
+                <Link href="/#fare-calculator" className="hover:text-orange-400 transition-colors">
+                  Backwater Fare Estimator
+                </Link>
+              </li>
+              <li>
+                <Link href="/#packages" className="hover:text-orange-400 transition-colors">
+                  Best-Seller Packages
+                </Link>
+              </li>
+              <li>
+                <Link href="/#why-us" className="hover:text-orange-400 transition-colors">
+                  Direct Boat Owner Advantages
+                </Link>
+              </li>
+              <li>
+                <Link href="/#faqs" className="hover:text-orange-400 transition-colors">
+                  Houseboat Booking FAQs
+                </Link>
+              </li>
+              <li>
+                <a
+                  href={getWhatsAppUrl("Hi, I want a custom group quote for Alleppey boat tour.")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-orange-400 transition-colors"
+                >
+                  Custom Group &amp; Corporate Quote
+                </a>
+              </li>
             </ul>
           </div>
 
-          {/* Contact & Support */}
-          <div>
-            <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-4">
-              Direct Contact
+          {/* Trust Guarantees */}
+          <div className="space-y-4">
+            <h4 className="text-emerald-400 font-bold text-xs tracking-wider uppercase mb-4">
+              Trust &amp; Certifications
             </h4>
-            <div className="space-y-3 text-xs">
-              <div>
-                <span className="block text-slate-500 font-medium">WhatsApp / Call:</span>
-                <a
-                  href={SITE_CONFIG.phoneTel}
-                  className="text-emerald-400 font-bold text-base hover:underline"
-                >
-                  {SITE_CONFIG.phoneFormatted}
-                </a>
+            <div className="space-y-2 text-xs">
+              <div className="flex items-center gap-2 text-slate-300">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Kerala Tourism Dept. Certified</span>
               </div>
-              <div>
-                <span className="block text-slate-500 font-medium">Email:</span>
-                <a
-                  href={`mailto:${SITE_CONFIG.email}`}
-                  className="text-slate-300 hover:text-white"
-                >
-                  {SITE_CONFIG.email}
-                </a>
+              <div className="flex items-center gap-2 text-slate-300">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>FSSAI Quality Checked Kitchens</span>
               </div>
-              <div>
-                <span className="block text-slate-500 font-medium">Support Hours:</span>
-                <span className="text-slate-300">24 Hours / 7 Days a Week</span>
+              <div className="flex items-center gap-2 text-slate-300">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>100% Life Jackets &amp; First Aid</span>
               </div>
-              <div className="pt-2">
-                <span className="inline-block text-[11px] bg-slate-900 border border-slate-800 text-emerald-400 px-3 py-1.5 rounded-lg">
-                  ✓ Kerala Tourism Recognized Fleet
-                </span>
+              <div className="flex items-center gap-2 text-slate-300">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Licensed Local Master Captains</span>
               </div>
+            </div>
+
+            <div className="pt-2">
+              <span className="text-[11px] text-slate-400 block mb-1">Direct Call Assistance:</span>
+              <a
+                href={SITE_CONFIG.phoneTel}
+                className="text-white font-bold text-base hover:text-orange-400 transition-colors block"
+              >
+                📞 {SITE_CONFIG.phoneFormatted}
+              </a>
             </div>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>
-            © {new Date().getFullYear()} {SITE_CONFIG.name}. All rights reserved.
-          </p>
-          <div className="flex items-center gap-6">
-            <Link href="#packages" className="hover:text-slate-300 transition-colors">
-              Packages
-            </Link>
-            <Link href="#why-us" className="hover:text-slate-300 transition-colors">
-              Safety &amp; Fleet
-            </Link>
-            <Link href="#faqs" className="hover:text-slate-300 transition-colors">
-              FAQs
-            </Link>
+        {/* Bottom Copyright & Disclaimer */}
+        <div className="mt-12 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+          <p>© {new Date().getFullYear()} {SITE_CONFIG.name}. All rights reserved. Direct boat booking platform.</p>
+          <div className="flex items-center gap-4 text-xs">
+            <span>Verified Jetty Operations</span>
+            <span>•</span>
+            <span>Zero Brokerage</span>
+            <span>•</span>
+            <span>Alappuzha, Kerala</span>
           </div>
         </div>
       </div>

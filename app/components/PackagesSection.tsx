@@ -108,7 +108,7 @@ const PACKAGES_DATA: PackageItem[] = [
     duration: "6 Hours (11:30 AM – 5:30 PM)",
     capacity: "5 to 25+ Guests",
     mealPlan: "Grand Kerala Banana Leaf Buffet Lunch + Evening Tea",
-    badge: "Best for Groups & Celebrations",
+    badge: "Best for Celebrations",
     features: [
       "No overnight stay needed – return the same evening",
       "Spacious dining hall & music system onboard",
@@ -152,15 +152,15 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
       : PACKAGES_DATA.filter((p) => p.category === selectedTab);
 
   return (
-    <section id="packages" className="py-16 sm:py-24 bg-slate-50 scroll-mt-20">
+    <section id="packages" className="py-16 sm:py-24 bg-linear-to-b from-white via-emerald-50/20 to-white scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
-          <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100 px-3.5 py-1 rounded-full">
-            Verified Backwater Fleet
+          <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-800 bg-emerald-100/80 px-3.5 py-1 rounded-full border border-emerald-200">
+            Handpicked Backwater Best-Sellers
           </span>
-          <h2 className="mt-3 text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Popular Alleppey Boat Tour Packages
+          <h2 className="mt-3 text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            Curated Alleppey Boat Tour Packages
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
             All boat packages include verified safety equipment, licensed local drivers, and zero hidden charges. Direct owner rates guaranteed.
@@ -178,10 +178,10 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
               <button
                 key={tab.id}
                 onClick={() => setSelectedTab(tab.id)}
-                className={`whitespace-nowrap px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
+                className={`whitespace-nowrap px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                   selectedTab === tab.id
-                    ? "bg-emerald-700 text-white shadow-md shadow-emerald-900/20"
-                    : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
+                    ? "bg-emerald-700 text-white shadow-md shadow-emerald-800/20"
+                    : "bg-white text-slate-700 hover:bg-emerald-50 border border-emerald-200/80"
                 }`}
               >
                 {tab.label}
@@ -190,7 +190,7 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
           </div>
         </div>
 
-        {/* Packages Grid */}
+        {/* Packages Grid (60% White + 30% Light Green + 10% Orange) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {filteredPackages.map((pkg) => {
             const whatsAppUrl = getPackageBookingWhatsAppUrl({
@@ -201,13 +201,13 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
             return (
               <div
                 key={pkg.id}
-                className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-200 border border-slate-200/80 flex flex-col justify-between overflow-hidden group"
+                className="bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 border border-emerald-100 hover:border-emerald-300 flex flex-col justify-between overflow-hidden group"
               >
                 {/* Top Card Body */}
                 <div className="p-6">
-                  {/* Badge & Category */}
+                  {/* Badge & Category Strip */}
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-100">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-emerald-900 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200">
                       {pkg.category === "houseboat"
                         ? "Houseboat"
                         : pkg.category === "shikara"
@@ -217,7 +217,7 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
                         : "Adventure"}
                     </span>
                     {pkg.badge && (
-                      <span className="text-[11px] font-semibold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200/60">
+                      <span className="text-[11px] font-bold text-orange-800 bg-orange-100 px-2.5 py-1 rounded-md border border-orange-200">
                         ★ {pkg.badge}
                       </span>
                     )}
@@ -228,13 +228,13 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
                     {pkg.title}
                   </h3>
                   <p className="text-xs text-slate-500 font-medium mt-1">
-                    Ideal for: {pkg.recommendedFor}
+                    Ideal for: <span className="text-slate-700 font-semibold">{pkg.recommendedFor}</span>
                   </p>
 
-                  {/* Pricing Box */}
-                  <div className="mt-4 p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                  {/* Pricing Box with Light Green Tint & Orange Discount Badge */}
+                  <div className="mt-4 p-4 rounded-2xl bg-emerald-50/60 border border-emerald-100">
                     <div className="flex items-baseline gap-2">
-                      <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+                      <span className="text-2xl sm:text-3xl font-black text-slate-900">
                         {pkg.price}
                       </span>
                       {pkg.originalPrice && (
@@ -242,17 +242,17 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
                           {pkg.originalPrice}
                         </span>
                       )}
-                      <span className="text-xs font-semibold text-emerald-700 ml-auto">
+                      <span className="text-xs font-extrabold text-orange-700 bg-orange-100 px-2 py-0.5 rounded ml-auto border border-orange-200">
                         Save 20%
                       </span>
                     </div>
-                    <span className="block text-[11px] text-slate-500 font-medium mt-0.5">
+                    <span className="block text-[11px] text-emerald-800 font-semibold mt-1">
                       {pkg.priceSub}
                     </span>
                   </div>
 
-                  {/* Trip Specs */}
-                  <div className="mt-4 space-y-2 py-3 border-y border-slate-100 text-xs text-slate-700">
+                  {/* Trip Specs (Light Green 30% Details) */}
+                  <div className="mt-4 space-y-2 py-3 border-y border-emerald-100 text-xs text-slate-700 bg-emerald-50/30 -mx-6 px-6">
                     <div className="flex items-center gap-2">
                       <svg className="w-4 h-4 text-emerald-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -278,7 +278,7 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
 
                   {/* Features List */}
                   <div className="mt-4">
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400">
                       Inclusions &amp; Highlights:
                     </span>
                     <ul className="mt-2 space-y-1.5 text-xs text-slate-600">
@@ -294,12 +294,12 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
                   </div>
                 </div>
 
-                {/* Card Action Footer */}
+                {/* Card Action Footer with High-Conversion Orange WhatsApp Button */}
                 <div className="p-6 pt-0 bg-white">
                   <div className="flex flex-col sm:flex-row items-center gap-2 pt-4 border-t border-slate-100">
                     <button
                       onClick={() => onSelectPackage?.(pkg)}
-                      className="w-full sm:w-1/2 py-2.5 px-3 rounded-xl text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors cursor-pointer"
+                      className="w-full sm:w-1/2 py-2.5 px-3 rounded-xl text-xs font-bold text-slate-800 bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 transition-colors cursor-pointer border border-slate-200"
                     >
                       Inquire Details
                     </button>
@@ -307,7 +307,7 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
                       href={whatsAppUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full sm:w-1/2 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors shadow-xs"
+                      className="w-full sm:w-1/2 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs font-extrabold text-white bg-linear-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 transition-all shadow-md shadow-orange-500/20"
                     >
                       <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
                         <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.311.045-.698.057-2.203-.541-1.849-.733-3.037-2.607-3.13-2.731-.093-.124-.747-.991-.747-1.89 0-.9.472-1.343.64-1.527.169-.184.368-.231.491-.231.124 0 .248.002.355.007.113.006.264-.043.414.318.15.362.513 1.25.558 1.343.045.093.076.202.016.324-.061.123-.092.199-.183.307-.091.108-.192.241-.274.324-.092.092-.188.192-.081.376.107.184.475.784 1.021 1.27.702.627 1.294.821 1.478.913.184.092.291.077.399-.046.107-.123.46-538.583-.722.123-.184.246-.153.414-.092.169.061 1.075.507 1.259.599.184.092.307.138.353.215.046.077.046.446-.098.851z" />
@@ -321,20 +321,23 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
           })}
         </div>
 
-        {/* Custom Booking Callout */}
-        <div className="mt-12 bg-gradient-to-r from-emerald-800 to-teal-900 rounded-2xl p-6 sm:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+        {/* Custom Booking Callout (Lush Light Green Gradient Container with Orange Accent) */}
+        <div className="mt-12 bg-linear-to-r from-emerald-800 to-teal-900 rounded-3xl p-6 sm:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
           <div>
-            <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-200 bg-white/10 px-2.5 py-1 rounded-md">
+              Group &amp; Event Booking
+            </span>
+            <h3 className="text-xl sm:text-2xl font-black tracking-tight mt-2">
               Need a Custom Boat Tour or Large Group Booking?
             </h3>
-            <p className="text-emerald-100 text-sm mt-1 max-w-xl">
-              We arrange 3 to 10-bedroom houseboats for weddings, family reunions, and corporate offsites. Get custom itineraries and group discounts.
+            <p className="text-emerald-100 text-xs sm:text-sm mt-1 max-w-xl leading-relaxed">
+              We arrange 3 to 10-bedroom houseboats for weddings, family reunions, and corporate offsites. Get custom itineraries and direct group discounts.
             </p>
           </div>
           <div className="flex items-center gap-3 shrink-0 w-full md:w-auto">
             <a
               href={SITE_CONFIG.phoneTel}
-              className="flex-1 md:flex-none text-center px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm border border-white/20 transition-colors"
+              className="flex-1 md:flex-none text-center px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm border border-white/20 transition-colors"
             >
               Call {SITE_CONFIG.phone}
             </a>
@@ -344,7 +347,7 @@ export default function PackagesSection({ onSelectPackage }: PackagesSectionProp
               })}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 md:flex-none flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-sm shadow-md transition-all hover:scale-105"
+              className="flex-1 md:flex-none flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-linear-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-orange-950/20 transition-all hover:scale-105 orange-pulse"
             >
               <span>Instant WhatsApp Quote</span>
             </a>
