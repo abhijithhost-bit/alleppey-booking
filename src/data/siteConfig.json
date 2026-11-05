@@ -1,0 +1,41 @@
+{
+  "name": "Alleppey Booking",
+  "tagline": "Verified Kerala Backwater Houseboat & Boating Experiences",
+  "domain": "alleppeybooking.com",
+  "url": "https://alleppeybooking.com",
+  "phones": [
+    {
+      "display": "+91 70127 61588",
+      "raw": "+917012761588",
+      "primary": true,
+      "isWhatsApp": true
+    },
+    {
+      "display": "+91 99477 53154",
+      "raw": "+919947753154",
+      "primary": false,
+      "isWhatsApp": false
+    },
+    {
+      "display": "+91 62387 94500",
+      "raw": "+916238794500",
+      "primary": false,
+      "isWhatsApp": false
+    }
+  ],
+  "whatsapp": "917012761588",
+  "whatsappUrl": "https://wa.me/917012761588",
+  "emails": [
+    "support@alleppeybooking.com",
+    "info@alleppeybooking.com"
+  ],
+  "address": {
+    "street": "Finishing Point Road",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "pincode": "688013",
+    "country": "India"
+  },
+  "hours": "Open Daily 24/7 (Booking Desk: 6:00 AM - 11:00 PM IST)",
+  "logo": "/wp-content/uploads/2026/06/Untitled-design-2-1.webp"
+}

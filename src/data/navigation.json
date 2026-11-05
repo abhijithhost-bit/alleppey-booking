@@ -1,0 +1,96 @@
+[
+  {
+    "label": "Home",
+    "href": "/"
+  },
+  {
+    "label": "Houseboats",
+    "href": "/house-boat-alleppey/",
+    "children": [
+      {
+        "label": "All Houseboats Fleet",
+        "href": "/house-boat-alleppey/"
+      },
+      {
+        "label": "Sharing Houseboat",
+        "href": "/sharing-houseboat-in-alleppey/"
+      },
+      {
+        "label": "1 Bedroom Houseboat",
+        "href": "/1-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "2 Bedroom Houseboat",
+        "href": "/2-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "3 Bedroom Houseboat",
+        "href": "/3-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "4 Bedroom Houseboat",
+        "href": "/4-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "5 Bedroom Houseboat",
+        "href": "/5-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "6 Bedroom Houseboat",
+        "href": "/6-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "7 Bedroom Houseboat",
+        "href": "/7-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "8 Bedroom Houseboat",
+        "href": "/8-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "10 Bedroom Houseboat",
+        "href": "/10-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "12 Bedroom Houseboat",
+        "href": "/12-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "14 Bedroom Houseboat",
+        "href": "/14-bedroom-houseboat-alleppey/"
+      },
+      {
+        "label": "Houseboat Itinerary",
+        "href": "/alleppey-boat-house-booking/"
+      }
+    ]
+  },
+  {
+    "label": "Sharing Houseboat",
+    "href": "/sharing-houseboat-in-alleppey/"
+  },
+  {
+    "label": "Shikara Ride",
+    "href": "/shikara-ride-in-alleppey/"
+  },
+  {
+    "label": "Kayaking",
+    "href": "/kayaking-in-alleppey/"
+  },
+  {
+    "label": "Speedboat",
+    "href": "/speed-boat-in-alleppey/"
+  },
+  {
+    "label": "Blogs",
+    "href": "/blogs/"
+  },
+  {
+    "label": "About Us",
+    "href": "/about-us/"
+  },
+  {
+    "label": "Contact",
+    "href": "/contact/"
+  }
+]

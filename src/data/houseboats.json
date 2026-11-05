@@ -1,0 +1,442 @@
+[
+  {
+    "bedrooms": 1,
+    "slug": "1-bedroom-houseboat-alleppey",
+    "title": "1 Bedroom Houseboat in Alleppey",
+    "shortTitle": "1 Bedroom Houseboat",
+    "badge": "Most Popular for Couples",
+    "capacity": "2 Adults (Up to 4 with extra beds)",
+    "startingPrice": 9000,
+    "priceDisplay": "₹9,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 9000,
+        "ac": "Night AC (9 PM - 6 AM)",
+        "meals": "All 3 Meals + Tea",
+        "deck": "Front Glass Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 11000,
+        "ac": "Full-Time 24h AC",
+        "meals": "Deluxe Menu + Kerala Fish Fry",
+        "deck": "Upper Sun Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 13500,
+        "ac": "Full-Time 24h AC",
+        "meals": "Chef Special + Karimeen Pollichathu",
+        "deck": "Private Upper Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+    "description": "Experience the ultimate private romantic getaway on our private 1 bedroom houseboat in Alleppey. Featuring a cozy air-conditioned bedroom with attached bathroom, scenic front living deck, and dedicated crew members including an expert captain and personal chef.",
+    "seo": {
+      "title": "1 Bedroom Houseboat Alleppey | Couples & Family Cruise",
+      "description": "Book a private 1 bedroom houseboat Alleppey perfect for couples and small families. Enjoy an AC room, dedicated crew, and fresh Kerala meals",
+      "focusKeyword": "1 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 2,
+    "slug": "2-bedroom-houseboat-alleppey",
+    "title": "2 Bedroom Houseboat in Alleppey",
+    "shortTitle": "2 Bedroom Houseboat",
+    "badge": "Ideal for Small Families",
+    "capacity": "4 to 8 Guests",
+    "startingPrice": 14000,
+    "priceDisplay": "₹14,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 14000,
+        "ac": "Night AC (9 PM - 6 AM)",
+        "meals": "All 3 Meals + Evening Snacks",
+        "deck": "Covered Glass Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 16500,
+        "ac": "Full-Time 24h AC",
+        "meals": "Premium Kerala Feast",
+        "deck": "Upper Deck with Chairs"
+      },
+      {
+        "name": "Luxury",
+        "price": 19500,
+        "ac": "Full-Time 24h AC",
+        "meals": "Gourmet Seafood & Kerala Meals",
+        "deck": "Spacious Upper Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg",
+    "description": "Perfect for families or two couples traveling together, our 2 bedroom houseboat offers complete privacy, two separate AC bedrooms with attached en-suite bathrooms, a common living/dining area, and freshly prepared backwater cuisine.",
+    "seo": {
+      "title": "Private 2 Bedroom Houseboat Alleppey | Backwater Cruise",
+      "description": "Book our top-rated private 2 bedroom houseboat in Alleppey. Perfect for families or groups up to 8 guests. Features 2 AC rooms. Reserve today!",
+      "focusKeyword": "2 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 3,
+    "slug": "3-bedroom-houseboat-alleppey",
+    "title": "3 Bedroom Houseboat in Alleppey",
+    "shortTitle": "3 Bedroom Houseboat",
+    "badge": "Family & Friends Choice",
+    "capacity": "6 to 12 Guests",
+    "startingPrice": 18000,
+    "priceDisplay": "₹18,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 18000,
+        "ac": "Night AC (9 PM - 6 AM)",
+        "meals": "All Meals Included",
+        "deck": "Front Viewing Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 21500,
+        "ac": "Full-Time 24h AC",
+        "meals": "Multi-Course Traditional Menu",
+        "deck": "Upper Sundeck"
+      },
+      {
+        "name": "Luxury",
+        "price": 25500,
+        "ac": "Full-Time 24h AC",
+        "meals": "Special Seafood & Duck Roast",
+        "deck": "AC Upper Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg",
+    "description": "Ideal for extended family gatherings and friend circles, the 3 bedroom houseboat features 3 private AC rooms, large dining table, open sightseeing deck, and full onboard service.",
+    "seo": {
+      "title": "Private 3 Bedroom Houseboat Alleppey | Backwater Cruise",
+      "description": "Private 3 bedroom houseboat Alleppey. Enjoy spacious AC rooms, an expert crew, traditional meals, and stunning backwater views. Book now",
+      "focusKeyword": "3 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 4,
+    "slug": "4-bedroom-houseboat-alleppey",
+    "title": "4 Bedroom Houseboat in Alleppey",
+    "shortTitle": "4 Bedroom Houseboat",
+    "badge": "Large Family Reunions",
+    "capacity": "8 to 16 Guests",
+    "startingPrice": 24000,
+    "priceDisplay": "₹24,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 24000,
+        "ac": "Night AC (9 PM - 6 AM)",
+        "meals": "All Meals Included",
+        "deck": "Expansive Viewing Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 28000,
+        "ac": "Full-Time 24h AC",
+        "meals": "Kerala Banquet & Fish Fry",
+        "deck": "Full Upper Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 33000,
+        "ac": "Full-Time 24h AC",
+        "meals": "Signature Backwater Cuisine",
+        "deck": "VIP Upper Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg",
+    "description": "Our spacious 4 bedroom houseboat accommodates up to 16 guests with luxury and ease. 4 en-suite AC bedrooms, sprawling open upper deck, and dedicated 4-member crew.",
+    "seo": {
+      "title": "Private 4 Bedroom Houseboat Alleppey | Up to 16 Guests",
+      "description": "Book a premium 4 bedroom houseboat Alleppey for your large group. Perfect for family reunions with 4 AC rooms, a private chef, and all meals included",
+      "focusKeyword": "4 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 5,
+    "slug": "5-bedroom-houseboat-alleppey",
+    "title": "5 Bedroom Houseboat in Alleppey",
+    "shortTitle": "5 Bedroom Houseboat",
+    "badge": "Big Group Celebrations",
+    "capacity": "10 to 20 Guests",
+    "startingPrice": 30000,
+    "priceDisplay": "₹30,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 30000,
+        "ac": "Night AC",
+        "meals": "All 3 Meals",
+        "deck": "Upper Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 35000,
+        "ac": "Full-Time AC",
+        "meals": "Special Feast",
+        "deck": "Large Party Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 42000,
+        "ac": "Full-Time AC",
+        "meals": "Live Chef Counters",
+        "deck": "Glass-Enclosed Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg",
+    "description": "Designed for larger families, corporate retreats, and group reunions. 5 AC bedrooms with separate bathrooms, huge sun deck, and top-tier hospitality.",
+    "seo": {
+      "title": "Private 5 Bedroom Houseboat Alleppey | Extended Families",
+      "description": "Book a private 5 bedroom houseboat Alleppey for families, friends, or group events. Enjoy 5 AC rooms, an expert crew, and fresh Kerala meals",
+      "focusKeyword": "5 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 6,
+    "slug": "6-bedroom-houseboat-alleppey",
+    "title": "6 Bedroom Houseboat in Alleppey",
+    "shortTitle": "6 Bedroom Houseboat",
+    "badge": "Group Holidays",
+    "capacity": "12 to 24 Guests",
+    "startingPrice": 36000,
+    "priceDisplay": "₹36,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 36000,
+        "ac": "Night AC",
+        "meals": "All Meals",
+        "deck": "Upper Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 42000,
+        "ac": "Full-Time AC",
+        "meals": "Premium Buffet",
+        "deck": "Large Conference Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 50000,
+        "ac": "Full-Time AC",
+        "meals": "Grand Kerala Sadya",
+        "deck": "VIP Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg",
+    "description": "Cruise the Vembanad waters with 6 full-size air-conditioned bedrooms, massive upper deck seating area, and dedicated onboard chefs.",
+    "seo": {
+      "title": "6 Bedroom Houseboat in Alleppey",
+      "description": "Cruise the Vembanad waters with 6 full-size air-conditioned bedrooms, massive upper deck seating area, and dedicated onboard chefs.",
+      "focusKeyword": "6 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 7,
+    "slug": "7-bedroom-houseboat-alleppey",
+    "title": "7 Bedroom Houseboat in Alleppey",
+    "shortTitle": "7 Bedroom Houseboat",
+    "badge": "Exclusive Events",
+    "capacity": "14 to 28 Guests",
+    "startingPrice": 42000,
+    "priceDisplay": "₹42,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 42000,
+        "ac": "Night AC",
+        "meals": "All Meals",
+        "deck": "Upper Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 49000,
+        "ac": "Full-Time AC",
+        "meals": "Premium Menu",
+        "deck": "Party Upper Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 58000,
+        "ac": "Full-Time AC",
+        "meals": "Gourmet Live Counters",
+        "deck": "Luxury Sun Deck"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg",
+    "description": "A majestic double-decker cruise boat featuring 7 AC bedrooms, broad viewing areas, and high-capacity catering for private celebrations.",
+    "seo": {
+      "title": "Private 7 Bedroom Houseboat Alleppey | Exclusive Cruises",
+      "description": "Experience the ultimate backwater retreat on our 7 bedroom houseboat in Alleppey. Enjoy private AC suites, personalized chef service, and expansive deck views.",
+      "focusKeyword": "7 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 8,
+    "slug": "8-bedroom-houseboat-alleppey",
+    "title": "8 Bedroom Houseboat in Alleppey",
+    "shortTitle": "8 Bedroom Houseboat",
+    "badge": "Grand Family Cruise",
+    "capacity": "16 to 32 Guests",
+    "startingPrice": 48000,
+    "priceDisplay": "₹48,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 48000,
+        "ac": "Night AC",
+        "meals": "All Meals",
+        "deck": "Double Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 56000,
+        "ac": "Full-Time AC",
+        "meals": "Grand Kerala Buffet",
+        "deck": "Large Party Floor"
+      },
+      {
+        "name": "Luxury",
+        "price": 66000,
+        "ac": "Full-Time AC",
+        "meals": "Exclusive Chef Special",
+        "deck": "Presidential Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg",
+    "description": "Spacious 8-bedroom houseboat capable of hosting multi-family vacations and wedding guest parties with uncompromised comfort.",
+    "seo": {
+      "title": "8 Bedroom Houseboat Alleppey for Family & Group Trips",
+      "description": "Plan your next big gathering on our private 8 bedroom houseboat Alleppey. Enjoy comfortable AC rooms, freshly prepared local meals, and a dedicated crew.",
+      "focusKeyword": "8 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 10,
+    "slug": "10-bedroom-houseboat-alleppey",
+    "title": "10 Bedroom Houseboat in Alleppey",
+    "shortTitle": "10 Bedroom Houseboat",
+    "badge": "Destination Events & Corporate",
+    "capacity": "20 to 40 Guests",
+    "startingPrice": 60000,
+    "priceDisplay": "₹60,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 60000,
+        "ac": "Night AC",
+        "meals": "All Meals",
+        "deck": "Mega Double Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 70000,
+        "ac": "Full-Time AC",
+        "meals": "Multi-Course Grand Feast",
+        "deck": "Conference Upper Floor"
+      },
+      {
+        "name": "Luxury",
+        "price": 82000,
+        "ac": "Full-Time AC",
+        "meals": "VIP Dining Experience",
+        "deck": "Royal Observation Deck"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg",
+    "description": "One of Alleppey's largest houseboats. 10 private AC bedrooms, conference/party deck, state-of-the-art sound systems, and dedicated crew for up to 40 guests.",
+    "seo": {
+      "title": "Book a 10 Bedroom Houseboat Alleppey | Up to 40 Guests",
+      "description": "Book the ultimate 10 bedroom houseboat alleppey. Perfect for destination weddings & corporate events. Fits 40 guests with private AC suites & meals included.",
+      "focusKeyword": "10 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 12,
+    "slug": "12-bedroom-houseboat-alleppey",
+    "title": "12 Bedroom Houseboat in Alleppey",
+    "shortTitle": "12 Bedroom Houseboat",
+    "badge": "Mega Group Vessel",
+    "capacity": "24 to 48 Guests",
+    "startingPrice": 72000,
+    "priceDisplay": "₹72,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 72000,
+        "ac": "Night AC",
+        "meals": "All Meals",
+        "deck": "Double Deck Mega Floor"
+      },
+      {
+        "name": "Premium",
+        "price": 84000,
+        "ac": "Full-Time AC",
+        "meals": "Grand Kerala Sadya Buffet",
+        "deck": "Banquet Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 98000,
+        "ac": "Full-Time AC",
+        "meals": "Signature Kerala Banquet",
+        "deck": "Full Observation Lounge"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+    "description": "A monumental cruising vessel with 12 spacious AC rooms, banquet dining space, and panoramic views of the palm-lined canals.",
+    "seo": {
+      "title": "Private 12 Bedroom Houseboat Alleppey | Check Prices",
+      "description": "Planning a massive family trip? Reserve our 12 bedroom houseboat Alleppey. Includes 12 luxury AC bedrooms, food, and a private backwater tour. Book today!",
+      "focusKeyword": "12 bedroom houseboat alleppey"
+    }
+  },
+  {
+    "bedrooms": 14,
+    "slug": "14-bedroom-houseboat-alleppey",
+    "title": "14 Bedroom Houseboat in Alleppey",
+    "shortTitle": "14 Bedroom Houseboat",
+    "badge": "Biggest Houseboat in Kerala",
+    "capacity": "28 to 56 Guests",
+    "startingPrice": 84000,
+    "priceDisplay": "₹84,000",
+    "tiers": [
+      {
+        "name": "Deluxe",
+        "price": 84000,
+        "ac": "Night AC",
+        "meals": "All Meals Included",
+        "deck": "Mega Double Deck"
+      },
+      {
+        "name": "Premium",
+        "price": 98000,
+        "ac": "Full-Time AC",
+        "meals": "Mega Kerala Buffet",
+        "deck": "Grand Event Deck"
+      },
+      {
+        "name": "Luxury",
+        "price": 115000,
+        "ac": "Full-Time AC",
+        "meals": "Custom Chef Catering",
+        "deck": "Royal Upper Observation Floor"
+      }
+    ],
+    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg",
+    "description": "The crown jewel of Kerala backwater cruising — our 14-bedroom giant houseboat accommodates up to 56 guests for grand weddings, anniversaries, and corporate milestones.",
+    "seo": {
+      "title": "14 Bedroom Houseboat Alleppey | Check Price & Availability",
+      "description": "Looking for the biggest boats in Kerala? Reserve our 14 bedroom houseboat Alleppey for massive family trips. All-inclusive packages with food and backwater tour.",
+      "focusKeyword": "14 bedroom houseboat alleppey"
+    }
+  }
+]
