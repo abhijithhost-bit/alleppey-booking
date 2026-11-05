@@ -1,0 +1,8 @@
+{
+  "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.next": true
+  }
+}
+
