@@ -1,48 +1,42 @@
 import type { Metadata } from "next";
+import pagesDataRaw from "@/data/pages_full.json";
 import siteConfig from "@/data/siteConfig.json";
-import Breadcrumb from "@/components/Breadcrumb";
-import BookingForm from "@/components/BookingForm";
-import ItineraryTimeline from "@/components/ItineraryTimeline";
+import WordPressPageView from "@/components/WordPressPageView";
+
+const pagesData = pagesDataRaw as Record<
+  string,
+  {
+    slug: string;
+    title: string;
+    seo: { title: string; description: string; focusKeyword?: string };
+    htmlContent: string;
+    schemas: any[];
+  }
+>;
+
+const page = pagesData["alleppey-boat-house-booking"];
 
 export const metadata: Metadata = {
-  title: "Alleppey Boat House Booking & Itinerary Guide 2026",
+  title: page?.seo?.title || "Alleppey Boat House Booking | Best Kerala Rates (2026)",
   description:
-    "Comprehensive guide to booking houseboats in Alleppey. Detailed 21-hour backwater cruising itinerary, meal plan schedules, route information, and booking tips.",
+    page?.seo?.description ||
+    "Secure your Alleppey boat house booking Explore 1-14 bedroom private houseboats. DTPC verified, AC, chef & delicious meals included. Book now",
   alternates: {
     canonical: `${siteConfig.url}/alleppey-boat-house-booking/`,
   },
   openGraph: {
-    title: "Alleppey Boat House Booking & Itinerary Guide 2026",
-    description:
-      "Comprehensive guide to booking houseboats in Alleppey. Detailed 21-hour backwater cruising itinerary and meal plans.",
+    title: page?.seo?.title,
+    description: page?.seo?.description,
     url: `${siteConfig.url}/alleppey-boat-house-booking/`,
   },
 };
 
 export default function ItineraryGuidePage() {
+  if (!page) return null;
   return (
-    <div className="py-6 sm:py-10 bg-slate-50 min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Breadcrumb items={[{ label: "Houseboat Itinerary & Guide" }]} />
-
-        <div className="text-center max-w-3xl mx-auto my-8">
-          <span className="text-xs font-bold text-[#2CD664] uppercase tracking-wider bg-emerald-100 px-3 py-1 rounded-full">
-            Cruising Guide 2026
-          </span>
-          <h1 className="text-3xl sm:text-5xl font-black text-[#0A2540] mt-3 tracking-tight">
-            Alleppey Boat House Booking &amp; Itinerary Guide
-          </h1>
-          <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
-            Detailed 21-hour cruise program, route map through Punnamada Lake and Vembanad canals, authentic Kerala menu schedules, and booking tips.
-          </p>
-        </div>
-
-        <ItineraryTimeline />
-
-        <div className="my-12">
-          <BookingForm title="Reserve Your Houseboat Itinerary" />
-        </div>
-      </div>
-    </div>
+    <WordPressPageView
+      htmlContent={page.htmlContent}
+      schemas={page.schemas}
+    />
   );
 }

@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import MobileCallBar from "@/components/MobileCallBar";
+import InteractiveScripts from "@/components/InteractiveScripts";
 import siteConfig from "@/data/siteConfig.json";
 
 export const metadata: Metadata = {
@@ -132,10 +131,9 @@ export default function RootLayout({
       </head>
       <body className="antialiased flex flex-col min-h-screen">
         <Header />
-        <main className="flex-1 pb-16 sm:pb-0">{children}</main>
+        <main className="flex-1">{children}</main>
         <Footer />
-        <FloatingWhatsApp />
-        <MobileCallBar />
+        <InteractiveScripts />
       </body>
     </html>
   );

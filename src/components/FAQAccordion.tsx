@@ -36,21 +36,21 @@ export default function FAQAccordion({
   };
 
   return (
-    <section className="py-12 bg-white rounded-3xl">
+    <section className="py-12 bg-white rounded-3xl border-2 border-[#EAE5DD] shadow-sm">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-orange-50 border border-orange-200 text-[#FF6600] rounded-full text-xs font-bold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-orange-50 border border-orange-200/80 text-[#FF6600] rounded-full text-xs font-bold uppercase tracking-wider mb-3">
             <HelpCircle className="w-3.5 h-3.5" />
             <span>Got Questions?</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0A2540]">
+          <h2 className="text-2xl sm:text-3xl font-black text-[#0A2540]">
             {title}
           </h2>
-          <p className="text-sm text-slate-500 mt-2 max-w-xl mx-auto">
+          <p className="text-sm text-slate-600 mt-2 max-w-xl mx-auto">
             {subtitle}
           </p>
         </div>
@@ -61,12 +61,12 @@ export default function FAQAccordion({
             return (
               <div
                 key={idx}
-                className="border border-slate-200 rounded-2xl overflow-hidden transition-colors"
+                className="border border-[#EAE5DD] rounded-2xl overflow-hidden transition-colors"
               >
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? null : idx)}
-                  className="w-full text-left p-5 flex justify-between items-center gap-4 bg-slate-50/50 hover:bg-slate-50 transition-colors"
+                  className="w-full text-left p-5 flex justify-between items-center gap-4 bg-[#FAF8F5]/60 hover:bg-[#FAF8F5] transition-colors"
                   aria-expanded={isOpen}
                 >
                   <span className="text-sm sm:text-base font-bold text-[#0A2540]">

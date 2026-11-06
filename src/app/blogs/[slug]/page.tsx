@@ -103,7 +103,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
   )}%22%20and%20would%20like%20to%20enquire%20about%20booking%20a%20tour.`;
 
   return (
-    <article className="py-6 sm:py-10 bg-slate-50 min-h-screen">
+    <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

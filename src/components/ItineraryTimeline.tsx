@@ -56,23 +56,23 @@ export default function ItineraryTimeline() {
   ];
 
   return (
-    <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-6 sm:p-10 my-8">
+    <div className="bg-white border-2 border-[#EAE5DD] rounded-3xl p-6 sm:p-10 my-8 shadow-sm">
       <div className="text-center max-w-2xl mx-auto mb-10">
-        <span className="text-xs font-bold text-[#FF6600] uppercase tracking-wider bg-orange-100/70 px-3 py-1 rounded-full">
+        <span className="text-xs font-bold text-[#FF6600] uppercase tracking-wider bg-orange-100/70 border border-orange-200/60 px-3 py-1 rounded-full">
           Cruise Schedule
         </span>
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0A2540] mt-2">
+        <h2 className="text-2xl sm:text-3xl font-black text-[#0A2540] mt-2">
           Alleppey Houseboat Itinerary & Meal Plan
         </h2>
-        <p className="text-xs sm:text-sm text-slate-500 mt-2">
+        <p className="text-xs sm:text-sm text-slate-600 mt-2">
           Standard 21-hour overnight cruise program (12:00 PM to 9:00 AM)
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Day 1 */}
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-          <div className="flex items-center gap-2 mb-6 pb-3 border-b border-slate-100">
+        <div className="bg-[#FAF8F5] rounded-2xl p-6 border border-[#EAE5DD]">
+          <div className="flex items-center gap-2 mb-6 pb-3 border-b border-[#EAE5DD]">
             <span className="w-8 h-8 rounded-full bg-[#0A2540] text-white flex items-center justify-center text-xs font-black">
               1
             </span>
@@ -104,10 +104,10 @@ export default function ItineraryTimeline() {
         </div>
 
         {/* Day 2 */}
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 flex flex-col justify-between">
+        <div className="bg-[#FAF8F5] rounded-2xl p-6 border border-[#EAE5DD] flex flex-col justify-between">
           <div>
-            <div className="flex items-center gap-2 mb-6 pb-3 border-b border-slate-100">
-              <span className="w-8 h-8 rounded-full bg-[#2CD664] text-white flex items-center justify-center text-xs font-black">
+            <div className="flex items-center gap-2 mb-6 pb-3 border-b border-[#EAE5DD]">
+              <span className="w-8 h-8 rounded-full bg-[#FF6600] text-white flex items-center justify-center text-xs font-black">
                 2
               </span>
               <h3 className="text-lg font-bold text-[#0A2540]">
