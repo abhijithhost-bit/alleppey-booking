@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = pagesData as Record<string, PageRecord>;
 
   const staticPages = Object.keys(pages)
-    .filter((k) => k !== "home")
+    .filter((k) => k !== "home" && k !== "alleppey-boat-house-booking")
     .map((slug) => ({
       url: `${baseUrl}/${slug}/`,
       lastModified: new Date(),

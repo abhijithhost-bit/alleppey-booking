@@ -36,9 +36,9 @@ export default function HouseboatCard({ boat }: HouseboatCardProps) {
       {/* Card Content */}
       <div className="p-6 flex-1 flex flex-col justify-between">
         <div>
-          <h3 className="text-xl font-extrabold text-[#0A2540] group-hover:text-[#FF6600] transition-colors mb-2">
+          <h2 className="text-xl font-extrabold text-[#0A2540] group-hover:text-[#FF6600] transition-colors mb-2">
             <Link href={`/${boat.slug}/`}>{boat.title}</Link>
-          </h3>
+          </h2>
           <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-4">
             {boat.description}
           </p>

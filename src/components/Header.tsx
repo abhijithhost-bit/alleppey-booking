@@ -18,7 +18,6 @@ export default function Header() {
     name: "Main Navigation",
     hasPart: [
       { "@type": "WebPage", name: "Private Houseboat Fleet", url: "https://alleppeybooking.com/house-boat-alleppey/" },
-      { "@type": "WebPage", name: "Private Houseboat Itinerary", url: "https://alleppeybooking.com/alleppey-boat-house-booking/" },
       { "@type": "WebPage", name: "Shared Houseboats", url: "https://alleppeybooking.com/sharing-houseboat-in-alleppey/" },
       { "@type": "WebPage", name: "Shikara Ride", url: "https://alleppeybooking.com/shikara-ride-in-alleppey/" },
       { "@type": "WebPage", name: "Blogs", url: "https://alleppeybooking.com/blogs/" },
@@ -136,7 +135,6 @@ export default function Header() {
                 </ul>
               </li>
 
-              <li><Link href="/alleppey-boat-house-booking/" onClick={closeMobileMenu}>Private Houseboat Itinerary</Link></li>
               <li><Link href="/sharing-houseboat-in-alleppey/" onClick={closeMobileMenu}>Shared Houseboats</Link></li>
               <li><Link href="/shikara-ride-in-alleppey/" onClick={closeMobileMenu}>Shikara</Link></li>
               <li><Link href="/kayaking-in-alleppey/" onClick={closeMobileMenu}>Kayaking</Link></li>

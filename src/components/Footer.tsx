@@ -76,7 +76,7 @@ export default function Footer() {
               aria-labelledby="footer-services-title"
             >
               <li>
-                <Link href="/alleppey-boat-house-booking/">
+                <Link href="/house-boat-alleppey/">
                   Private houseboats
                 </Link>
               </li>

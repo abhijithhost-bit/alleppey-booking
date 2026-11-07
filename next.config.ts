@@ -44,7 +44,21 @@ const nextConfig: NextConfig = {
       });
     }
 
-    // 2. Redirect legacy WordPress category and author archives to /blogs/
+    // 2. 301 Permanent Redirect for deprecated /alleppey-boat-house-booking/ to /house-boat-alleppey/
+    list.push(
+      {
+        source: "/alleppey-boat-house-booking",
+        destination: "/house-boat-alleppey/",
+        permanent: true,
+      },
+      {
+        source: "/alleppey-boat-house-booking/",
+        destination: "/house-boat-alleppey/",
+        permanent: true,
+      }
+    );
+
+    // 3. Redirect legacy WordPress category and author archives to /blogs/
     list.push(
       {
         source: "/category/:path*",
