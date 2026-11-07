@@ -36,6 +36,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
     <nav aria-label="Breadcrumb" className="py-4">
       <script
         type="application/ld+json"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ol className="flex items-center flex-wrap gap-1.5 text-xs text-slate-500">

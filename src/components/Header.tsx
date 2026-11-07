@@ -48,7 +48,8 @@ export default function Header() {
         <input
           type="checkbox"
           id="mobile-menu-check"
-          className="at-mobile-toggle"
+          className="at-mobile-toggle hidden"
+          style={{ display: "none" }}
           aria-label="Toggle mobile navigation"
           aria-controls="primary-nav"
           checked={mobileMenuOpen}
@@ -57,7 +58,7 @@ export default function Header() {
 
         <label
           htmlFor="mobile-menu-check"
-          className="at-hamburger"
+          className="at-hamburger md:hidden"
           tabIndex={0}
           role="button"
           aria-label="Menu"
@@ -89,7 +90,7 @@ export default function Header() {
               Services ▾
             </span>
 
-            <ul className="at-dropdown-content">
+            <ul className="at-dropdown-content list-none m-0 p-0">
               <li className={`at-sub-dropdown ${subDropdownOpen ? "mobile-open" : ""}`}>
                 <div className="at-sub-link-wrap">
                   <Link
@@ -120,7 +121,7 @@ export default function Header() {
                   </span>
                 </div>
 
-                <ul className="at-sub-dropdown-content">
+                <ul className="at-sub-dropdown-content list-none m-0 p-0">
                   <li><Link href="/1-bedroom-houseboat-alleppey/" onClick={closeMobileMenu}>1 Bedroom Houseboat</Link></li>
                   <li><Link href="/2-bedroom-houseboat-alleppey/" onClick={closeMobileMenu}>2 Bedroom Houseboat</Link></li>
                   <li><Link href="/3-bedroom-houseboat-alleppey/" onClick={closeMobileMenu}>3 Bedroom Houseboat</Link></li>

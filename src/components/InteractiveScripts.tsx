@@ -7,6 +7,9 @@ export default function InteractiveScripts() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // 0. CLEANUP ORPHANED CALENDARS ON ROUTE TRANSITION
+    document.querySelectorAll(".flatpickr-calendar").forEach((el) => el.remove());
+
     // 1. GALLERY THUMBNAILS SWITCHER
     function initGallery() {
       const mainImg = document.querySelector("#ab-main-img") as HTMLImageElement | null;
@@ -143,7 +146,7 @@ export default function InteractiveScripts() {
 
         // Update WhatsApp CTAs
         const waBtns = document.querySelectorAll("a[href*='wa.me'], a.ab-btn-wa");
-        const msg = `Hi Alleppey Booking, I want to check availability for ${boatTitle} (%0APackage: ${pkg}, %0ADate: ${dateVal}, %0AGuests: ${adultsCount} Adults, ${kidsCount} Kids). Please share live photos and rates.`;
+        const msg = `Hi Alleppey Booking, I want to check availability for ${boatTitle}\nPackage: ${pkg}\nDate: ${dateVal}\nGuests: ${adultsCount} Adults, ${kidsCount} Kids\nPlease share live photos and rates.`;
         waBtns.forEach((btn) => {
           const a = btn as HTMLAnchorElement;
           a.href = `https://wa.me/917012761588?text=${encodeURIComponent(msg)}`;
@@ -235,7 +238,10 @@ export default function InteractiveScripts() {
       initStickyScroll();
     }, 100);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      document.querySelectorAll(".flatpickr-calendar").forEach((el) => el.remove());
+    };
   }, [pathname]);
 
   return null;

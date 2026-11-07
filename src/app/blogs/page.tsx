@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import blogsData from "@/data/blogs_full.json";
 import siteConfig from "@/data/siteConfig.json";
 
@@ -34,12 +35,13 @@ export default function BlogsPage() {
   return (
     <>
       <style
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{
           __html: `
 /* --- GLOBALS & HERO --- */
 .bl-hero-wrapper {
     position: relative; width: 100vw; max-width: 100vw; margin-left: calc(-50vw + 50%); box-sizing: border-box;
-    background-image: linear-gradient(135deg, rgba(10, 25, 47, 0.9) 0%, rgba(10, 25, 47, 0.6) 50%, rgba(10, 25, 47, 0.3) 100%), url('/wp-content/uploads/2026/06/c7ae71982dfc11ea93ad0242ac110002-scaled.avif'); 
+    background-image: linear-gradient(135deg, rgba(10, 25, 47, 0.9) 0%, rgba(10, 25, 47, 0.6) 50%, rgba(10, 25, 47, 0.3) 100%), url('/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp'); 
     background-size: cover; background-position: center; padding: 120px 20px; font-family: 'Poppins', 'Lato', sans-serif; text-align: center;
 }
 .bl-hero-container { max-width: 800px; margin: 0 auto; color: #ffffff; }
@@ -92,11 +94,12 @@ export default function BlogsPage() {
           {blogs.map((b) => (
             <Link key={b.slug} href={`/blogs/${b.slug}/`} className="bl-card">
               <div className="bl-img-wrapper">
-                <img
+                <Image
                   src={b.image}
-                  alt={b.title}
-                  className="bl-card-img"
-                  loading="lazy"
+                  alt={b.title || "Alleppey Backwaters Travel Guide"}
+                  fill
+                  className="bl-card-img object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 900px) 50vw, 33vw"
                 />
               </div>
               <div className="bl-card-content">

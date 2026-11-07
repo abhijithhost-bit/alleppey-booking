@@ -106,6 +106,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
     <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen">
       <script
         type="application/ld+json"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -156,7 +157,8 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
         <div className="bg-white rounded-3xl p-6 sm:p-12 border border-slate-200/80 shadow-sm mb-12">
           <div
             className="blog-content prose prose-slate max-w-none"
-            dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+            suppressHydrationWarning
+            dangerouslySetInnerHTML={{ __html: (post.contentHtml || "").replace(/\r\n/g, "\n") }}
           />
 
           {/* In-Article WhatsApp Callout */}
