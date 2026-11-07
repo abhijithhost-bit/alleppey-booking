@@ -1028,14 +1028,14 @@
                 "@type": "ListItem",
                 "position": 3,
                 "name": "1 Bedroom Houseboat",
-                "item": "https://alleppeybooking.com/1-bedroom-houseboat-in-alleppey/"
+                "item": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "1 Bedroom Houseboat Alleppey",
-            "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/c7ae71982dfc11ea93ad0242ac110002-scaled.avif",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.jpeg",
             "description": "Book a private 1 bedroom houseboat Alleppey perfect for couples. Includes AC bedroom, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -1043,7 +1043,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "https://alleppeybooking.com/1-bedroom-houseboat-in-alleppey/",
+              "url": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "7500",
               "highPrice": "11000",
@@ -1191,7 +1191,7 @@
                 "@type": "ListItem",
                 "position": 3,
                 "name": "2 Bedroom Houseboat",
-                "item": "https://alleppeybooking.com/2-bedroom-houseboat-in-alleppey/"
+                "item": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/"
               }
             ]
           },
@@ -1206,7 +1206,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "https://alleppeybooking.com/2-bedroom-houseboat-in-alleppey/",
+              "url": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "9000",
               "highPrice": "17200",
@@ -1754,10 +1754,10 @@
         "image": [
           {
             "@type": "ImageObject",
-            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/c7ae71982dfc11ea93ad0242ac110002-scaled.avif",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.jpeg",
             "name": "Houseboat Exterior",
             "description": "Exterior view of a traditional vessel for your Alleppey boat house booking",
-            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/c7ae71982dfc11ea93ad0242ac110002-scaled.avif"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.jpeg"
           },
           {
             "@type": "ImageObject",

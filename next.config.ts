@@ -28,13 +28,48 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    return blogSlugs.map((slug) => ({
-      source: `/${slug}`,
-      destination: `/blogs/${slug}/`,
-      permanent: true, // HTTP 301 Permanent Redirect
-    }));
+    const list: { source: string; destination: string; permanent: boolean }[] = [];
+
+    // 1. 301 Permanent Redirects for original root-level WordPress blog posts
+    for (const slug of blogSlugs) {
+      list.push({
+        source: `/${slug}`,
+        destination: `/blogs/${slug}/`,
+        permanent: true,
+      });
+      list.push({
+        source: `/${slug}/`,
+        destination: `/blogs/${slug}/`,
+        permanent: true,
+      });
+    }
+
+    // 2. Redirect legacy WordPress category and author archives to /blogs/
+    list.push(
+      {
+        source: "/category/:path*",
+        destination: "/blogs/",
+        permanent: true,
+      },
+      {
+        source: "/author/:path*",
+        destination: "/blogs/",
+        permanent: true,
+      },
+      {
+        source: "/feed",
+        destination: "/blogs/",
+        permanent: true,
+      },
+      {
+        source: "/feed/",
+        destination: "/blogs/",
+        permanent: true,
+      }
+    );
+
+    return list;
   },
 };
 
 export default nextConfig;
-

@@ -51,6 +51,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -104,32 +107,14 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-        <title>Alleppey Boat Tour Packages | Kerala Backwater Bookings 2026</title>
-        <meta
-          name="description"
-          content="Explore all Alleppey boat tour packages in one place. Book verified private houseboats, Shikara rides, kayaking, and speed boats with instant WhatsApp confirmation."
-        />
-        <link rel="canonical" href="https://alleppeybooking.com/" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+      <body className="antialiased flex flex-col min-h-screen">
         <script
           type="application/ld+json"
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(localBusinessSchema),
           }}
         />
-      </head>
-      <body className="antialiased flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
