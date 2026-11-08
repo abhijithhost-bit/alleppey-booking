@@ -171,7 +171,7 @@
 
   /* Mobile Styles */
   @media (max-width: 768px) {
-    .ab-hb-hero { padding: 60px 15px 80px; }
+    .ab-hb-hero { padding: clamp(105px, 14vw, 125px) 16px 70px; }
     .ab-hb-scale-wrap { display: none; } 
     .ab-hb-grid { grid-template-columns: 1fr; gap: 20px; } 
     .ab-hb-card-content { padding: 16px; }

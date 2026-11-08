@@ -156,7 +156,6 @@
 /* Strip leftover WordPress classes */
 .blog-content .wp-block-list { list-style: disc; padding-left: 1.75rem; margin: 0 0 1.5rem 0; }
 .blog-content .wp-block-image img { border-radius: 12px; max-width: 100%; height: auto; }
-.blog-content .wp-block-heading { /* inherited styles apply */ }
 .blog-content .wp-block-quote { border-left: 4px solid #2cd664; padding: 1rem 1.5rem; background: #f0fdf4; border-radius: 0 12px 12px 0; }
 .blog-content .wp-figure { margin: 2rem 0; }
 
@@ -166,7 +165,7 @@
   .bl-hero-title { font-size: 42px; }
 }
 @media (max-width: 768px) {
-  .bl-hero-wrapper { padding: 80px 15px; }
+  .bl-hero-wrapper { padding: clamp(100px, 14vw, 120px) 16px 50px; }
   .bl-hero-title { font-size: 36px; }
   .bl-main-wrapper { padding: 50px 15px; }
   .bl-grid-container { grid-template-columns: 1fr; gap: 30px; }

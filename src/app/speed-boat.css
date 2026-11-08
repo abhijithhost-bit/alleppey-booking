@@ -224,7 +224,7 @@ select.sb-form-control {
 }
 
 @media (max-width: 860px) {
-    .sb-hero-wrapper { padding: 90px 20px 70px; background-position: 70% center; }
+    .sb-hero-wrapper { padding: clamp(105px, 14vw, 125px) 20px 70px; background-position: 70% center; }
     .sb-hero-container { grid-template-columns: 1fr; gap: 40px; text-align: center; }
     .sb-badge { margin: 0 auto 20px auto; }
     .sb-feature-list { align-items: center; justify-content: center; }

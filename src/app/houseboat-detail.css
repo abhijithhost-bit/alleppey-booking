@@ -201,8 +201,11 @@
   .ab-sh-price-note svg { flex-shrink: 0; width: 14px !important; height: 14px !important; min-width: 14px !important; color: var(--text-muted); margin-top: 2px; }
   
   /* Booking Fields */
-  .ab-booking-unified { border: 1px solid #9ca3af; border-radius: var(--r); overflow: hidden; margin-bottom: 16px; margin-top: 20px; }
+  .ab-booking-unified { border: 1px solid #9ca3af; border-radius: var(--r); overflow: visible; margin-bottom: 16px; margin-top: 20px; }
+  .ab-booking-unified > .ab-booking-field:first-child { border-top-left-radius: calc(var(--r) - 1px); border-top-right-radius: calc(var(--r) - 1px); }
+  .ab-booking-unified > .ab-booking-field:last-child { border-bottom-left-radius: calc(var(--r) - 1px); border-bottom-right-radius: calc(var(--r) - 1px); }
   .ab-booking-field { padding: 12px 14px; position: relative; background: #ffffff; transition: background 0.3s ease; border-bottom: 1px solid #9ca3af; }
+  .ab-booking-field.ab-date-field { z-index: 25; }
   .ab-booking-field:last-child { border-bottom: none; }
   .ab-booking-field:hover { background: #f9fafb; }
   .ab-field-label { display: block; font-size: 10px; font-weight: 800; color: var(--text-dark); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
@@ -288,7 +291,7 @@
       .ab-sh-content { order: 3; width: 100%; }
   }
   @media (max-width: 768px) {
-      #ab-single-houseboat { padding: 30px 15px 100px; } 
+      #ab-single-houseboat { padding: clamp(85px, 12vw, 105px) 15px 100px; } 
       .ab-sh-main-image-wrap { height: auto; aspect-ratio: 3 / 2; border-radius: 12px; margin-bottom: 12px; }
       .ab-thumb { height: 56px !important; width: 80px !important; border-radius: 10px; }
       .ab-thumb-wrap { flex: 0 0 80px; }

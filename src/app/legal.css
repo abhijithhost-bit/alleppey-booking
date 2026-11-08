@@ -148,7 +148,7 @@
 
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
-    .pp-hero-wrapper { padding: 80px 15px 100px 15px; }
+    .pp-hero-wrapper { padding: clamp(100px, 14vw, 120px) 16px 100px; }
     .pp-hero-title { font-size: 32px; }
     .pp-document-card { padding: 30px 20px; margin-top: -60px; }
     .pp-section h3 { font-size: 18px; }
@@ -296,7 +296,7 @@
 
 /* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 768px) {
-    .tc-hero-wrapper { padding: 80px 15px 100px 15px; }
+    .tc-hero-wrapper { padding: clamp(100px, 14vw, 120px) 16px 100px; }
     .tc-hero-title { font-size: 32px; }
     .tc-document-card { padding: 30px 20px; margin-top: -60px; }
     .tc-section h3 { font-size: 18px; }

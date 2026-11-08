@@ -270,7 +270,7 @@
     .ct-hero-title { font-size: 42px; }
 }
 @media (max-width: 768px) {
-    .ct-hero-wrapper { padding: 80px 15px; }
+    .ct-hero-wrapper { padding: clamp(100px, 14vw, 120px) 16px 50px; }
     .ct-hero-title { font-size: 36px; }
     .ct-main-wrapper { padding: 50px 15px; }
     .ct-form-row { flex-direction: column; gap: 0; }

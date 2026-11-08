@@ -171,7 +171,7 @@ export default function FleetPageView() {
                   >
                     <meta itemProp="name" content={altTag} />
                     <div className="ab-hb-img-wrap">
-                      <img src={img} alt={altTag} width="400" height="260" decoding="async" itemProp="image" />
+                      <img src={img} alt="Alleppey Houseboat Fleet Luxury Bedroom Cruise" title={altTag} width="400" height="260" decoding="async" itemProp="image" />
                       {item.badge && <span className="ab-hb-badge">{item.badge}</span>}
                     </div>
                     <div className="ab-hb-card-content">

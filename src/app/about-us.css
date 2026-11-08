@@ -248,7 +248,7 @@
     .au-features-container { grid-template-columns: 1fr; margin-top: 50px; }
 }
 @media (max-width: 768px) {
-    .au-hero-wrapper { padding: 80px 15px; }
+    .au-hero-wrapper { padding: clamp(100px, 14vw, 120px) 16px 50px; }
     .au-hero-title { font-size: 36px; }
     .au-story-wrapper, .au-team-wrapper { padding: 50px 15px; }
     .au-story-text h2 { font-size: 28px; }
