@@ -70,5 +70,5 @@ export default async function HouseboatSlugPage({ params }: PageProps) {
     notFound();
   }
 
-  return <HouseboatDetailTemplate boat={boat as any} />;
+  return <HouseboatDetailTemplate boat={boat} />;
 }

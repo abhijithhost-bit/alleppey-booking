@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const homeSchemas = [
@@ -357,15 +358,15 @@ export default function HomePageView() {
     <div className="custom-bottom-stats" aria-label="Business Statistics">
         <div className="custom-stat-item">
             <div className="custom-stat-icon" aria-hidden="true">✓</div>
-            <div><strong>2000+</strong><br /><span style={{"color":"#ccc","fontSize":"12px"}}>Happy Guests</span></div>
+            <div><strong>2000+</strong><br /><span className="text-[#ccc] text-xs">Happy Guests</span></div>
         </div>
         <div className="custom-stat-item">
             <div className="custom-stat-icon" aria-hidden="true">G</div>
-            <div><strong>4.8★</strong><br /><span style={{"color":"#ccc","fontSize":"12px"}}>Google Rating</span></div>
+            <div><strong>4.8★</strong><br /><span className="text-[#ccc] text-xs">Google Rating</span></div>
         </div>
         <div className="custom-stat-item">
             <div className="custom-stat-icon" aria-hidden="true">✓</div>
-            <div><strong>3+</strong><br /><span style={{"color":"#ccc","fontSize":"12px"}}>Years Running</span></div>
+            <div><strong>3+</strong><br /><span className="text-[#ccc] text-xs">Years Running</span></div>
         </div>
     </div>
 </section>
@@ -527,7 +528,16 @@ export default function HomePageView() {
         
         <div className="why-image-col">
             
-            <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" alt="Couple kayaking in the green backwaters" className="why-main-img" decoding="async" />
+            <div className="relative w-full aspect-[4/3]">
+              <Image
+                src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg"
+                alt="Couple kayaking in the green backwaters"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="why-main-img object-cover"
+                loading="lazy"
+              />
+            </div>
             
             <div className="why-badge">
                 <div className="why-badge-icon" aria-hidden="true">👍</div>
@@ -585,9 +595,7 @@ export default function HomePageView() {
 
     </div>
 </section>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+
 
 
 

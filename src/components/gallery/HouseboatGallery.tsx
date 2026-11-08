@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef } from "react";
+import Image from "next/image";
 import { HouseboatGalleryItem } from "@/types";
 import { X } from "lucide-react";
 
@@ -62,15 +63,15 @@ export default function HouseboatGallery({
             }
           }}
         >
-          <img
+          <Image
             id="ab-main-img"
             src={selectedImg}
             alt={currentItem.alt || title}
             title={currentItem.title || title}
-            fetchPriority="high"
-            width={1200}
-            height={800}
-            className={`w-full h-full object-cover transition-opacity duration-200 ${
+            fill
+            priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 800px"
+            className={`object-cover transition-opacity duration-200 ${
               isFading ? "opacity-40" : "opacity-100"
             }`}
           />
@@ -82,7 +83,6 @@ export default function HouseboatGallery({
           <div
             ref={thumbsContainerRef}
             className="ab-sh-thumbnails flex items-center gap-2.5 mt-3 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-slate-300"
-            style={{ WebkitOverflowScrolling: "touch" }}
           >
             {images.map((img, idx) => {
               const isActive = img.src === selectedImg;
@@ -98,13 +98,13 @@ export default function HouseboatGallery({
                   }`}
                   aria-label={`Select photo ${idx + 1}: ${img.title || img.alt || "Houseboat view"}`}
                 >
-                  <img
+                  <Image
                     src={img.src}
                     alt={img.alt || title}
                     title={img.title || title}
-                    width={100}
-                    height={70}
-                    className={`ab-thumb w-full h-full object-cover ${isActive ? "active" : ""}`}
+                    fill
+                    sizes="96px"
+                    className={`ab-thumb object-cover ${isActive ? "active" : ""}`}
                     loading="lazy"
                   />
                 </button>
@@ -121,6 +121,7 @@ export default function HouseboatGallery({
           onClick={() => setIsLightboxOpen(false)}
           role="dialog"
           aria-modal="true"
+          aria-label={`Lightbox: ${currentItem.title || currentItem.alt || title}`}
         >
           <button
             type="button"
@@ -134,10 +135,14 @@ export default function HouseboatGallery({
             className="relative max-w-5xl max-h-[85vh] cursor-default"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <Image
               src={selectedImg}
-              alt={currentItem.alt || title}
-              className="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl"
+              alt={currentItem.alt || currentItem.title || title}
+              width={1200}
+              height={800}
+              style={{ maxWidth: "100%", maxHeight: "85vh", objectFit: "contain" }}
+              className="rounded-xl shadow-2xl"
+              unoptimized
             />
             {currentItem.title && (
               <p className="text-center text-white/80 text-sm mt-3 font-medium">

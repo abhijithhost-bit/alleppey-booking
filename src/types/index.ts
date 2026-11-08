@@ -56,6 +56,13 @@ export interface HouseboatGalleryItem {
   title: string;
 }
 
+export interface HouseboatAmenityStructured {
+  title: string;
+  badge?: string;
+  sub?: string;
+  icon: string;
+}
+
 export interface Houseboat {
   bedrooms: number;
   slug: string;
@@ -76,6 +83,7 @@ export interface Houseboat {
   aboutTitle?: string;
   aboutParagraphs?: string[];
   amenities?: string[];
+  amenitiesStructured?: HouseboatAmenityStructured[];
   faqs?: ActivityFAQ[];
   review?: { quote: string; author: string } | null;
   schemas?: any[];

@@ -26,14 +26,7 @@ import {
 } from "lucide-react";
 
 interface HouseboatDetailTemplateProps {
-  boat: Houseboat & {
-    amenitiesStructured?: {
-      title: string;
-      badge?: string;
-      sub?: string;
-      icon: string;
-    }[];
-  };
+  boat: Houseboat;
 }
 
 export default function HouseboatDetailTemplate({

@@ -6,6 +6,7 @@ import { useState } from "react";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [subDropdownOpen, setSubDropdownOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
 
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
@@ -85,7 +86,18 @@ export default function Header() {
               tabIndex={0}
               role="button"
               aria-haspopup="true"
-              aria-expanded="false"
+              aria-expanded={servicesOpen}
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+              onFocus={() => setServicesOpen(true)}
+              onBlur={() => setServicesOpen(false)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setServicesOpen((prev) => !prev);
+                }
+                if (e.key === "Escape") setServicesOpen(false);
+              }}
             >
               Services ▾
             </span>
