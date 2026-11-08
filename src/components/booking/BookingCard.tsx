@@ -355,6 +355,12 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
             <span>Maximum capacity is {maxCapacity} guests total.</span>
           </div>
 
+          {/* Pricing Disclaimer */}
+          <p className="mt-2 text-[11px] text-slate-400 italic leading-relaxed">
+            Prices shown are estimate only. Final quote depends on date, season
+            and boat availability.
+          </p>
+
           {/* Testimonial / Review snippet */}
           {!compact && review && (
             <div className="ab-sidebar-review mt-5 p-3.5 bg-brand-orange-light/50 rounded-xl border border-brand-orange/20">
