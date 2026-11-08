@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -373,15 +374,15 @@ export default function TenBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is the 10 bedroom houseboat Alleppey suitable for corporate offsites and weddings? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes! As one of the largest vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 40 passengers (up to 120 for day cruises).</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>How is food served for a large group on a boat house in Alleppey? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">We deploy a multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Are all 10 bedrooms located on a single level? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">To maximize space and provide panoramic views, our 10 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy.</div>
                     </details>
@@ -452,7 +453,7 @@ export default function TenBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

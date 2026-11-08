@@ -76,9 +76,22 @@
   text-decoration: none;
 }
 .bl-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
-.bl-img-wrapper { position: relative; width: 100%; height: 240px; overflow: hidden; }
-.bl-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.bl-card:hover .bl-card-img { transform: scale(1.08); }
+.bl-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background-color: #f1f5f9;
+}
+.bl-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.bl-card:hover .bl-card-img {
+  transform: scale(1.06);
+}
 .bl-card-content { padding: 30px 25px; display: flex; flex-direction: column; flex: 1; }
 .bl-category { color: #ff6600; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; }
 .bl-card-title { color: #1a2b3c; font-size: 20px; font-weight: 700; line-height: 1.4; margin: 0 0 15px 0; transition: color 0.3s ease; }

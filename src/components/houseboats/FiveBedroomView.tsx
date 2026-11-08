@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -398,15 +399,15 @@ export default function FiveBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is the 5 bedroom houseboat in Alleppey suitable for multiple families traveling together? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes! The 5 bedroom configuration is perfect for extended families or multiple families traveling together. It provides private, air-conditioned rooms for each group while offering a massive common deck to enjoy meals and sightseeing together.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>How many guests can comfortably stay on the 5 bedroom houseboat? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Our 5 bedroom houseboats are incredibly spacious and can comfortably accommodate up to 20 guests for overnight or night stays, and up to 40 guests for day cruises. We provide extra mattresses and ample dining space so large groups can comfortably gather without feeling crowded.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Do all 5 bedrooms come with private bathrooms? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Absolutely. Every single one of the 5 air-conditioned bedrooms on the boat includes a fully equipped, private attached western-style washroom to ensure maximum comfort and privacy for all guests.</div>
                     </details>
@@ -477,7 +478,7 @@ export default function FiveBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

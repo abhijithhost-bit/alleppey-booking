@@ -212,7 +212,7 @@ export default function ContactView() {
         <span>What is the quickest way to get a response?</span>
         <span className="faq-icon">+</span>
       </div>
-      <div className="faq-a" style={{"maxHeight":"200px"}}>
+      <div className="faq-a">
         <p>Messaging us directly on WhatsApp is the fastest way to reach our team. We typically respond within minutes to answer questions or confirm your bookings.</p>
       </div>
     </div>

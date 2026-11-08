@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -527,15 +528,15 @@ export default function SixBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is the 6 bedroom houseboat in Alleppey suitable for large corporate events or reunions? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes! Our 6 bedroom houseboat is uniquely designed for large groups. With extensive deck space and six individual air-conditioned suites, it provides both the social areas needed for corporate team-building or family reunions and the privacy that each guest deserves.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>How many guests can comfortably stay on the 6 bedroom houseboat? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">The 6 bedroom houseboat is our most spacious option, comfortably hosting up to 24 guests (and up to 60 for day cruises). We arrange premium bedding and extra mattresses to ensure that every member of your large group enjoys a restful stay on the backwaters.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Will a large group of 24 feel cramped on this houseboat? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Not at all. This specific houseboat is built with an extra-wide beam and an extended deck layout. It is specifically engineered to ensure that even with a full capacity of 24 guests, everyone has ample space to dine, socialize, and enjoy the scenic views comfortably.</div>
                     </details>
@@ -606,7 +607,7 @@ export default function SixBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

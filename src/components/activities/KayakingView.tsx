@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -246,7 +247,7 @@ export default function KayakingView() {
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-date-picker">SELECT DATE</label>
                 <div className="ky-date-wrapper">
-                    <input type="date" id="ky-date-picker" className="ky-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
+                    <DatePicker id="ky-date-picker" className="ky-form-control" value={date} onChange={setDate} placeholder="Select check-in date" />
                 </div>
             </div>
             <a id="ky-submit" className="ky-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
@@ -646,7 +647,7 @@ export default function KayakingView() {
       <div className="faq-list">
         <div className={`faq-item ${openFaq === 0 ? 'open active' : ''}`}>
           <div className="faq-q" onClick={() => setOpenFaq(openFaq === 0 ? null : 0)} ><span>How do I book kayaking in Alleppey?</span><span className="faq-icon">+</span></div>
-          <div className="faq-a" style={{"maxHeight":"200px"}}><p>The easiest way is to message us on WhatsApp — we confirm your booking in minutes. You can also use the booking form on this page to check availability.</p></div>
+          <div className="faq-a"><p>The easiest way is to message us on WhatsApp — we confirm your booking in minutes. You can also use the booking form on this page to check availability.</p></div>
         </div>
         <div className={`faq-item ${openFaq === 1 ? 'open active' : ''}`}>
           <div className="faq-q" onClick={() => setOpenFaq(openFaq === 1 ? null : 1)} ><span>Do I need previous kayaking experience?</span><span className="faq-icon">+</span></div>

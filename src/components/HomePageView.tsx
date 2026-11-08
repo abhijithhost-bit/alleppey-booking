@@ -813,7 +813,7 @@ export default function HomePageView() {
         <span>How do I book Alleppey Boat Tour Packages?</span>
         <span className="faq-icon">+</span>
       </div>
-      <div className="faq-a" style={{"maxHeight":"200px"}}>
+      <div className="faq-a">
         <p>The easiest way is to message us on WhatsApp — we confirm your booking in minutes. You can also use the booking form on any listing page.</p>
       </div>
     </div>
@@ -901,12 +901,7 @@ export default function HomePageView() {
             >
               &times;
             </button>
-            <img
-              id="gal-lightbox-img"
-              src={lightbox.src}
-              alt={lightbox.alt}
-              style={{ maxHeight: "80vh", maxWidth: "90vw", objectFit: "contain", borderRadius: "12px" }}
-            />
+            <img id="gal-lightbox-img" src={lightbox.src} alt="Alleppey Backwaters Houseboat Gallery Experience" style={{ maxHeight: "80vh", maxWidth: "90vw", objectFit: "contain", borderRadius: "12px" }} />
             <div id="gal-caption">{lightbox.title}</div>
           </div>
         </div>

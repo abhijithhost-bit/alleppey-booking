@@ -1029,3 +1029,17 @@ span.flatpickr-weekday {
   background: transparent;
 }
 
+/* --- UNIVERSAL FAQ ACCORDION EXPANSION --- */
+.faq-item.open .faq-a,
+.faq-item.active .faq-a {
+  max-height: 1000px !important;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease !important;
+}
+.faq-item:not(.open):not(.active) .faq-a {
+  max-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: hidden !important;
+}
+
+

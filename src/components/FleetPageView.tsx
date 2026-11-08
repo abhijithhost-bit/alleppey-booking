@@ -171,14 +171,7 @@ export default function FleetPageView() {
                   >
                     <meta itemProp="name" content={altTag} />
                     <div className="ab-hb-img-wrap">
-                      <img
-                        src={img}
-                        alt={altTag}
-                        width="400"
-                        height="260"
-                        decoding="async"
-                        itemProp="image"
-                      />
+                      <img src={img} alt={altTag} width="400" height="260" decoding="async" itemProp="image" />
                       {item.badge && <span className="ab-hb-badge">{item.badge}</span>}
                     </div>
                     <div className="ab-hb-card-content">
@@ -307,19 +300,19 @@ export default function FleetPageView() {
 
     <section className="ab-hb-faq-section">
         <h2>Frequently Asked Questions</h2>
-        <details className="ab-hb-faq-item">
+        <details className="ab-hb-faq-item" name="faq">
             <summary>Are houseboats safe for children and infants? <span className="ab-hb-faq-icon">+</span></summary>
             <div className="ab-hb-faq-content">Yes, absolutely! Our houseboats are fully enclosed with safety rails. Our crew is highly trained, and life jackets are available on board for all age groups.</div>
         </details>
-        <details className="ab-hb-faq-item">
+        <details className="ab-hb-faq-item" name="faq">
             <summary>What are the standard AC timings? <span className="ab-hb-faq-icon">+</span></summary>
             <div className="ab-hb-faq-content">For standard Deluxe and Premium packages, the air conditioning in the bedrooms is turned on from 9:00 PM to 6:00 AM while the boat is docked for the night.</div>
         </details>
-        <details className="ab-hb-faq-item">
+        <details className="ab-hb-faq-item" name="faq">
             <summary>Do you provide pure vegetarian food? <span className="ab-hb-faq-icon">+</span></summary>
             <div className="ab-hb-faq-content">Yes, we prepare excellent pure vegetarian meals in a clean, separate kitchen area upon request. Please inform us of any dietary restrictions beforehand.</div>
         </details>
-        <details className="ab-hb-faq-item">
+        <details className="ab-hb-faq-item" name="faq">
             <summary>Can the houseboat cruise at night? <span className="ab-hb-faq-icon">+</span></summary>
             <div className="ab-hb-faq-content">No. As per strict Kerala government regulations, all houseboats must dock safely by the riverbank at 5:30 PM. Cruising resumes the next morning at 8:00 AM.</div>
         </details>

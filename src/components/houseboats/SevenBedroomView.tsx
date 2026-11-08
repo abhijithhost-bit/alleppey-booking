@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -437,15 +438,15 @@ export default function SevenBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is a 7 bedroom houseboat in Alleppey better for large groups than two smaller boats? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes, absolutely. Staying together on one 7 bedroom vessel allows for unified group interaction, centralized banquet dining, and a single cruising itinerary that is impossible to properly coordinate when your party is split across two separate smaller boats.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>How does the service change for up to 28 guests? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">To ensure impeccable service for a full capacity of 28 guests, we assign a 5-person dedicated crew to this houseboat (compared to our standard 3 or 4-person crews). This ensures that meal preparation, housekeeping, and navigation are maintained at the highest premium standard for your entire party.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is there enough common space on the boat for all 28 people to sit together? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes. This specific 7 bedroom houseboat is constructed with an extra-wide beam and significantly extended lower and upper decks. It is meticulously designed so that 28 guests can comfortably dine and socialize simultaneously without feeling restricted.</div>
                     </details>
@@ -516,7 +517,7 @@ export default function SevenBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

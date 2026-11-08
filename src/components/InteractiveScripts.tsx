@@ -133,6 +133,7 @@ export default function InteractiveScripts() {
       const dInput = container.querySelector("#ab-date") as HTMLInputElement | null;
       if (dInput) {
         dInput.addEventListener("change", refreshPricing);
+        dInput.addEventListener("input", refreshPricing);
       }
 
       function refreshPricing() {

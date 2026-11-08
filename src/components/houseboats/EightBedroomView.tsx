@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -333,15 +334,15 @@ export default function EightBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Why should we choose a single 8 bedroom houseboat in Alleppey over multiple smaller vessels? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Booking a single 8 bedroom houseboat in Alleppey ensures your entire group of 32 stays together. It allows for unified interaction, centralized dining in a massive hall, and a cohesive itinerary that is incredibly difficult to coordinate if your party is split across two or three separate smaller boats.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Can the crew manage food and service for 32 people efficiently? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Absolutely. To handle the increased demands of a massive group, we automatically upgrade the staffing on this vessel to an elite 6-person dedicated crew, including multiple chefs. This guarantees that housekeeping, navigation, and large-scale meal preparations meet our highest premium standards.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Does an 8 bedroom boat feel crowded with 32 passengers? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Not at all. As one of the largest vessels operating on the backwaters, it boasts an extra-wide beam, a colossal upper deck, and a mega dining hall. It is expertly designed to provide ample breathing room, ensuring guests can comfortably socialize or find a quiet corner simultaneously.</div>
                     </details>
@@ -412,7 +413,7 @@ export default function EightBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -217,7 +218,7 @@ export default function ShikaraRideView() {
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-date-picker">SELECT DATE</label>
                 <div className="sh-date-wrapper">
-                    <input type="date" id="shikara-date-picker" className="sh-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
+                    <DatePicker id="shikara-date-picker" className="sh-form-control" value={date} onChange={setDate} placeholder="Select check-in date" />
                 </div>
             </div>
 
@@ -669,7 +670,7 @@ export default function ShikaraRideView() {
             <span>How do I book a Shikara ride in Alleppey?</span>
             <span className="faq-icon" aria-hidden="true">+</span>
           </div>
-          <div className="faq-a" style={{"maxHeight":"200px"}}>
+          <div className="faq-a">
             <p>The easiest way to book is to message us on WhatsApp. We will confirm your timing and availability within minutes.</p>
           </div>
         </div>

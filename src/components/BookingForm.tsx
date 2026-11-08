@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { MessageCircle, Calendar, Users, Ship, CheckCircle2 } from "lucide-react";
+import DatePicker from "@/components/DatePicker";
 
 interface BookingFormProps {
   initialService?: string;
@@ -127,14 +128,12 @@ Please confirm room availability, photos, and current best rates.`;
             <label className="block text-xs font-bold uppercase tracking-wider text-[#0A2540] mb-1.5">
               Cruise Date
             </label>
-            <div className="relative">
-              <input
-                type="date"
-                value={formData.date}
-                onChange={(e) => setFormData({ ...formData, date: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-[#EAE5DD] bg-[#FAF8F5]/40 focus:bg-white focus:border-[#FF6600] focus:ring-2 focus:ring-orange-200 text-sm outline-none transition-all text-[#0A2540]"
-              />
-            </div>
+            <DatePicker
+              value={formData.date}
+              onChange={(date) => setFormData({ ...formData, date })}
+              placeholder="Select check-in date"
+              className="px-4 py-2.5 rounded-xl border border-[#EAE5DD] bg-[#FAF8F5]/40 focus-within:bg-white focus-within:border-[#FF6600] focus-within:ring-2 focus-within:ring-orange-200 text-sm outline-none transition-all text-[#0A2540]"
+            />
           </div>
 
           <div>

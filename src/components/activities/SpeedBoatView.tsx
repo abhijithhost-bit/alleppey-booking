@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -217,7 +218,7 @@ export default function SpeedBoatView() {
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-date-picker">SELECT DATE</label>
                 <div className="sb-date-wrapper">
-                    <input type="date" id="sb-date-picker" className="sb-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
+                    <DatePicker id="sb-date-picker" className="sb-form-control" value={date} onChange={setDate} placeholder="Select check-in date" />
                 </div>
             </div>
 
@@ -629,7 +630,7 @@ export default function SpeedBoatView() {
         <span>How do I book a speed boat in Alleppey?</span>
         <span className="faq-icon" aria-hidden="true">+</span>
       </div>
-      <div className="faq-a" style={{"maxHeight":"200px"}}>
+      <div className="faq-a">
         <p>The easiest and fastest way to book a speed boat in Alleppey is to message us directly on WhatsApp. We confirm your ride, timing, and availability within minutes.</p>
       </div>
     </div>

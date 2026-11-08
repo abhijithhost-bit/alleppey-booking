@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -448,15 +449,15 @@ export default function FourBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>With up to 16 guests, is the dining and lounge area large enough for everyone to sit together? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes! The main living areas are specifically designed for large groups. All 16 guests can comfortably sit, dine, and enjoy the backwater views together without feeling cramped.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>How does the bedding work if we have more than 8 adults in the 4 bedrooms? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">The standard setup includes 4 double beds (sleeping 8). For larger groups of up to 16 people, we provide comfortable extra mattresses and premium bedding in the spacious rooms. Please confirm your exact group size when booking.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Can we play our own music and have a party on the houseboat? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Absolutely! You can bring your own Bluetooth speakers to enjoy music during your daytime cruise. However, to respect the peaceful backwater villages, loud music must be turned off by 9:00 PM.</div>
                     </details>
@@ -527,7 +528,7 @@ export default function FourBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

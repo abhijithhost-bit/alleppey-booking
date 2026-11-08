@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -378,15 +379,15 @@ export default function TwoBedroomView() {
             <div className="ab-sh-section">
                 <h2>Frequently Asked Questions</h2>
                 <div className="ab-faq-container">
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Are the two bedrooms located next to each other? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Yes, both bedrooms are situated side-by-side along the corridor of the houseboat, making it highly convenient for parents traveling with children in the adjacent room.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Do both bedrooms have their own private bathrooms? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Absolutely. Each of the two air-conditioned bedrooms comes with its own fully equipped, attached western-style washroom for complete privacy between groups.</div>
                     </details>
-                    <details className="ab-faq-item">
+                    <details className="ab-faq-item" name="faq">
                         <summary>Is the houseboat safe for toddlers and elderly family members? <span className="ab-faq-icon" aria-hidden="true" role="presentation">+</span></summary>
                         <div className="ab-faq-content">Our family houseboats are fully enclosed with sturdy safety rails. However, please note that the crew is not medically trained for elderly care, and guests must supervise toddlers closely while on the open deck.</div>
                     </details>
@@ -457,7 +458,7 @@ export default function TwoBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="date" id="ab-date" className="ab-date-input" required />
+                            <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">

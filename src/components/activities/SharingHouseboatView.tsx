@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import DatePicker from "@/components/DatePicker";
 
 const schemas = [
   {
@@ -176,7 +177,7 @@ export default function SharingHouseboatView() {
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-date-picker">SELECT DATE</label>
                     <div className="hb-date-wrapper">
-                        <input type="date" id="shared-date-picker" className="hb-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
+                        <DatePicker id="shared-date-picker" className="hb-form-control" value={date} onChange={setDate} placeholder="Select check-in date" />
                     </div>
                 </div>
                 <a id="shared-submit" className="hb-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
@@ -428,16 +429,16 @@ export default function SharingHouseboatView() {
         <div className="faq-list">
             
             <div className={`faq-item ${openFaq === 0 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 0 ? null : 0)}  aria-expanded="true" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 0 ? null : 0)} aria-expanded={openFaq === 0} role="button">
                     <span>How do I book a sharing houseboat in Alleppey?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
-                <div className="faq-a" style={{"maxHeight":"200px"}}>
+                <div className="faq-a">
                     <p>The easiest way is to message us on WhatsApp. We confirm your room booking, availability, and pricing in minutes.</p>
                 </div>
             </div>
             
             <div className={`faq-item ${openFaq === 1 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 1 ? null : 1)}  aria-expanded="false" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 1 ? null : 1)} aria-expanded={openFaq === 1} role="button">
                     <span>What is the difference between a private and sharing houseboat?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
                 <div className="faq-a">
@@ -446,7 +447,7 @@ export default function SharingHouseboatView() {
             </div>
             
             <div className={`faq-item ${openFaq === 2 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 2 ? null : 2)}  aria-expanded="false" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 2 ? null : 2)} aria-expanded={openFaq === 2} role="button">
                     <span>Are meals included in the price?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
                 <div className="faq-a">
@@ -455,7 +456,7 @@ export default function SharingHouseboatView() {
             </div>
             
             <div className={`faq-item ${openFaq === 3 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 3 ? null : 3)}  aria-expanded="false" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 3 ? null : 3)} aria-expanded={openFaq === 3} role="button">
                     <span>What is the best time to visit Alleppey?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
                 <div className="faq-a">
@@ -464,7 +465,7 @@ export default function SharingHouseboatView() {
             </div>
             
             <div className={`faq-item ${openFaq === 4 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 4 ? null : 4)}  aria-expanded="false" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 4 ? null : 4)} aria-expanded={openFaq === 4} role="button">
                     <span>Is it safe for children and solo travellers?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
                 <div className="faq-a">
@@ -473,7 +474,7 @@ export default function SharingHouseboatView() {
             </div>
             
             <div className={`faq-item ${openFaq === 5 ? 'open active' : ''}`}>
-                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 5 ? null : 5)}  aria-expanded="false" role="button">
+                <div className="faq-q" onClick={() => setOpenFaq(openFaq === 5 ? null : 5)} aria-expanded={openFaq === 5} role="button">
                     <span>Can I do a same-day booking?</span><span className="faq-icon" aria-hidden="true">+</span>
                 </div>
                 <div className="faq-a">
