@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { createPortal } from "react-dom";
 import { Calendar as CalendarIcon, ChevronLeft, ChevronRight, X } from "lucide-react";
 
 interface DatePickerProps {
@@ -65,19 +64,12 @@ export default function DatePicker({
 }: DatePickerProps) {
   const [internalValue, setInternalValue] = useState<string>(value ?? defaultValue);
   const [isOpen, setIsOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const [coords, setCoords] = useState<{ top: number; left: number; width: number } | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   const currentValue = value !== undefined ? value : internalValue;
 
-  // Normalize minDate to 00:00:00
   const normalizedMinDate = new Date(
     minDate.getFullYear(),
     minDate.getMonth(),
@@ -86,12 +78,10 @@ export default function DatePicker({
 
   const selectedDate = parseYYYYMMDD(currentValue);
 
-  // View state for current displayed month/year in calendar
   const [viewDate, setViewDate] = useState<Date>(() => {
     return selectedDate || normalizedMinDate;
   });
 
-  // When value changes from outside, sync viewDate and internalValue
   useEffect(() => {
     if (value !== undefined) {
       setInternalValue(value);
@@ -102,51 +92,7 @@ export default function DatePicker({
     }
   }, [value]);
 
-  // Calculate coordinates for portal positioning
-  useEffect(() => {
-    if (!isOpen || !containerRef.current) return;
-
-    function updatePosition() {
-      if (!containerRef.current) return;
-      const rect = containerRef.current.getBoundingClientRect();
-      const popoverWidth = Math.min(330, window.innerWidth - 32);
-
-      // Horizontal placement
-      let left = rect.left;
-      if (left + popoverWidth > window.innerWidth - 16) {
-        left = window.innerWidth - popoverWidth - 16;
-      }
-      if (left < 16) {
-        left = 16;
-      }
-
-      // Vertical placement (flip upward if close to bottom of viewport)
-      const popoverHeight = 360;
-      const spaceBelow = window.innerHeight - rect.bottom;
-      let top = rect.bottom + window.scrollY + 6;
-
-      if (spaceBelow < popoverHeight && rect.top > popoverHeight) {
-        top = rect.top + window.scrollY - popoverHeight - 6;
-      }
-
-      setCoords({
-        top,
-        left,
-        width: popoverWidth,
-      });
-    }
-
-    updatePosition();
-    window.addEventListener("resize", updatePosition);
-    window.addEventListener("scroll", updatePosition, true);
-
-    return () => {
-      window.removeEventListener("resize", updatePosition);
-      window.removeEventListener("scroll", updatePosition, true);
-    };
-  }, [isOpen]);
-
-  // Close on click outside or Escape
+  // Close on outside click / touch / Escape
   useEffect(() => {
     function handlePointerDown(e: MouseEvent | TouchEvent) {
       const target = e.target as Node;
@@ -155,11 +101,8 @@ export default function DatePicker({
       setIsOpen(false);
     }
     function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        setIsOpen(false);
-      }
+      if (e.key === "Escape") setIsOpen(false);
     }
-
     if (isOpen) {
       document.addEventListener("mousedown", handlePointerDown);
       document.addEventListener("touchstart", handlePointerDown);
@@ -195,7 +138,6 @@ export default function DatePicker({
     return curMonthStart <= minMonthStart;
   })();
 
-  // Days calculations
   const firstDayIndex = new Date(viewYear, viewMonth, 1).getDay();
   const totalDaysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
 
@@ -216,7 +158,6 @@ export default function DatePicker({
     onChange?.(dateStr);
     setIsOpen(false);
 
-    // Sync hidden input and dispatch standard DOM event
     setTimeout(() => {
       const input = document.getElementById(id) as HTMLInputElement | null;
       if (input) {
@@ -244,259 +185,11 @@ export default function DatePicker({
     }, 0);
   };
 
-  const popoverContent = isOpen && coords && mounted ? (
-    <div
-      ref={popoverRef}
-      role="dialog"
-      aria-modal="true"
-      className="ab-datepicker-popover"
-      style={{
-        position: "absolute",
-        top: `${coords.top}px`,
-        left: `${coords.left}px`,
-        width: `${coords.width}px`,
-        zIndex: 99999999,
-        backgroundColor: "#ffffff",
-        borderRadius: "16px",
-        boxShadow: "0 25px 60px rgba(10, 37, 64, 0.22), 0 4px 16px rgba(0,0,0,0.06)",
-        border: "1px solid #e2e8f0",
-        padding: "16px",
-        fontFamily: "'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
-        boxSizing: "border-box",
-        animation: "abDateFadeIn 0.16s ease-out",
-      }}
-    >
-      {/* Header Month / Year & Nav */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          marginBottom: "12px",
-        }}
-      >
-        <button
-          type="button"
-          onClick={handlePrevMonth}
-          disabled={isPrevDisabled}
-          aria-label="Previous Month"
-          style={{
-            background: "transparent",
-            border: "1px solid #e2e8f0",
-            borderRadius: "8px",
-            width: "32px",
-            height: "32px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            cursor: isPrevDisabled ? "not-allowed" : "pointer",
-            opacity: isPrevDisabled ? 0.3 : 1,
-            color: "#0a2540",
-          }}
-        >
-          <ChevronLeft size={18} />
-        </button>
-
-        <span
-          style={{
-            fontWeight: 700,
-            fontSize: "14px",
-            color: "#0a2540",
-            letterSpacing: "-0.2px",
-          }}
-        >
-          {MONTH_NAMES[viewMonth]} {viewYear}
-        </span>
-
-        <button
-          type="button"
-          onClick={handleNextMonth}
-          aria-label="Next Month"
-          style={{
-            background: "transparent",
-            border: "1px solid #e2e8f0",
-            borderRadius: "8px",
-            width: "32px",
-            height: "32px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            cursor: "pointer",
-            color: "#0a2540",
-          }}
-        >
-          <ChevronRight size={18} />
-        </button>
-      </div>
-
-      {/* Weekday Labels */}
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(7, 1fr)",
-          gap: "4px",
-          marginBottom: "8px",
-          textAlign: "center",
-        }}
-      >
-        {DAYS_OF_WEEK.map((d) => (
-          <span
-            key={d}
-            style={{
-              fontSize: "11px",
-              fontWeight: 700,
-              color: "#94a3b8",
-              textTransform: "uppercase",
-            }}
-          >
-            {d}
-          </span>
-        ))}
-      </div>
-
-      {/* Days Grid */}
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(7, 1fr)",
-          gap: "4px",
-          textAlign: "center",
-        }}
-      >
-        {days.map((day, idx) => {
-          if (day === null) {
-            return <div key={`empty-${idx}`} style={{ height: "34px" }} />;
-          }
-
-          const cellDate = new Date(viewYear, viewMonth, day);
-          const isPast = cellDate < normalizedMinDate;
-          const isToday =
-            cellDate.getFullYear() === normalizedMinDate.getFullYear() &&
-            cellDate.getMonth() === normalizedMinDate.getMonth() &&
-            cellDate.getDate() === normalizedMinDate.getDate();
-
-          const isSelected =
-            selectedDate !== null &&
-            cellDate.getFullYear() === selectedDate.getFullYear() &&
-            cellDate.getMonth() === selectedDate.getMonth() &&
-            cellDate.getDate() === selectedDate.getDate();
-
-          let bgColor = "transparent";
-          let textColor = "#1e293b";
-          let fontWeight = 500;
-          let border = "1px solid transparent";
-
-          if (isSelected) {
-            bgColor = "#2cd664";
-            textColor = "#ffffff";
-            fontWeight = 700;
-          } else if (isToday) {
-            border = "1px solid #2cd664";
-            textColor = "#2cd664";
-            fontWeight = 700;
-          } else if (isPast) {
-            textColor = "#cbd5e1";
-          }
-
-          return (
-            <button
-              key={`day-${day}`}
-              type="button"
-              disabled={isPast}
-              onClick={() => handleSelectDay(day)}
-              style={{
-                height: "34px",
-                width: "100%",
-                borderRadius: "8px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: "13px",
-                fontWeight,
-                backgroundColor: bgColor,
-                color: textColor,
-                border,
-                cursor: isPast ? "not-allowed" : "pointer",
-                opacity: isPast ? 0.35 : 1,
-                transition: "all 0.15s ease",
-              }}
-              onMouseEnter={(e) => {
-                if (!isPast && !isSelected) {
-                  e.currentTarget.style.backgroundColor = "#e6f9ed";
-                  e.currentTarget.style.color = "#0a2540";
-                }
-              }}
-              onMouseLeave={(e) => {
-                if (!isPast && !isSelected) {
-                  e.currentTarget.style.backgroundColor = isToday ? "transparent" : "transparent";
-                  e.currentTarget.style.color = isToday ? "#2cd664" : "#1e293b";
-                }
-              }}
-            >
-              {day}
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Quick Footer */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginTop: "12px",
-          paddingTop: "10px",
-          borderTop: "1px solid #f1f5f9",
-        }}
-      >
-        <button
-          type="button"
-          onClick={() => {
-            const todayStr = formatToYYYYMMDD(normalizedMinDate);
-            handleSelectDay(normalizedMinDate.getDate());
-          }}
-          style={{
-            background: "transparent",
-            border: "none",
-            color: "#2cd664",
-            fontSize: "12px",
-            fontWeight: 700,
-            cursor: "pointer",
-            padding: "4px 8px",
-            borderRadius: "6px",
-          }}
-        >
-          Today
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setIsOpen(false)}
-          style={{
-            background: "transparent",
-            border: "none",
-            color: "#64748b",
-            fontSize: "12px",
-            fontWeight: 600,
-            cursor: "pointer",
-            padding: "4px 8px",
-            borderRadius: "6px",
-          }}
-        >
-          Close
-        </button>
-      </div>
-    </div>
-  ) : null;
-
   return (
     <div
       ref={containerRef}
-      className={`relative inline-block w-full ${className}`}
-      style={{ position: "relative", width: "100%" }}
+      className="relative w-full"
     >
-      {/* Hidden native input for form compatibility and DOM queries */}
       <input
         type="hidden"
         id={id}
@@ -505,78 +198,150 @@ export default function DatePicker({
         required={required}
       />
 
-      {/* Trigger Button styled like form control */}
-      <div
-        role="button"
-        tabIndex={0}
+      {/* Trigger Button */}
+      <button
+        type="button"
+        id={`${id}-trigger`}
         aria-haspopup="dialog"
         aria-expanded={isOpen}
         aria-label={currentValue ? `Selected date: ${formatDisplayDate(currentValue)}` : placeholder}
         onClick={() => setIsOpen((prev) => !prev)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            setIsOpen((prev) => !prev);
-          }
-        }}
-        className="ab-datepicker-trigger flex items-center justify-between w-full cursor-pointer select-none"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          width: "100%",
-          minHeight: "26px",
-          cursor: "pointer",
-          userSelect: "none",
-        }}
+        className={`ab-datepicker-trigger flex items-center justify-between w-full py-2.5 px-3.5 bg-slate-50 hover:bg-slate-100/80 border border-slate-200 rounded-xl text-left transition-colors select-none cursor-pointer ${className}`}
       >
         <span
-          className="truncate"
-          style={{
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-            whiteSpace: "nowrap",
-            color: currentValue ? "#0a2540" : "#64748b",
-            fontWeight: currentValue ? 700 : 500,
-            fontSize: "15px",
-            lineHeight: 1.2,
-          }}
+          className={`truncate text-sm leading-normal ${
+            currentValue ? "text-brand-navy font-bold" : "text-slate-400 font-medium"
+          }`}
         >
           {currentValue ? formatDisplayDate(currentValue) : placeholder}
         </span>
 
-        <div className="flex items-center gap-1.5" style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+        <div className="flex items-center gap-1.5 flex-shrink-0">
           {currentValue && (
-            <button
-              type="button"
+            <span
+              role="button"
+              tabIndex={0}
               aria-label="Clear date"
               onClick={handleClear}
-              className="p-1 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-600 transition"
-              style={{
-                background: "transparent",
-                border: "none",
-                cursor: "pointer",
-                padding: "2px",
-                color: "#94a3b8",
-                display: "flex",
-                alignItems: "center",
-              }}
+              className="p-1 hover:bg-slate-200/70 rounded-full text-slate-400 hover:text-slate-600 transition cursor-pointer"
             >
               <X size={14} />
-            </button>
+            </span>
           )}
           <CalendarIcon
             size={18}
-            className="text-[#2cd664]"
-            style={{ color: "#2cd664", flexShrink: 0 }}
+            className="text-[#2cd664] flex-shrink-0"
           />
         </div>
-      </div>
+      </button>
 
-      {/* Calendar Popover rendered in Portal to prevent clipping */}
-      {mounted && typeof document !== "undefined" && popoverContent
-        ? createPortal(popoverContent, document.body)
-        : null}
+      {/* Popover directly below trigger */}
+      {isOpen && (
+        <div
+          ref={popoverRef}
+          role="dialog"
+          aria-modal="true"
+          className="ab-datepicker-popover absolute z-[9999] left-0 right-0 top-full mt-1.5 bg-white rounded-2xl p-3 sm:p-4 border border-slate-200 shadow-2xl animate-fadeIn"
+        >
+          {/* Header Month / Year & Nav */}
+          <div className="flex items-center justify-between mb-2 sm:mb-3">
+            <button
+              type="button"
+              onClick={handlePrevMonth}
+              disabled={isPrevDisabled}
+              aria-label="Previous Month"
+              className="w-8 h-8 rounded-lg border border-slate-200 flex items-center justify-center text-brand-navy hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+            >
+              <ChevronLeft size={18} />
+            </button>
+
+            <span className="font-bold text-sm text-brand-navy tracking-tight">
+              {MONTH_NAMES[viewMonth]} {viewYear}
+            </span>
+
+            <button
+              type="button"
+              onClick={handleNextMonth}
+              aria-label="Next Month"
+              className="w-8 h-8 rounded-lg border border-slate-200 flex items-center justify-center text-brand-navy hover:bg-slate-100 transition-all cursor-pointer"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
+
+          {/* Weekday Labels */}
+          <div className="grid grid-cols-7 gap-1 mb-1 text-center">
+            {DAYS_OF_WEEK.map((d) => (
+              <span key={d} className="text-[11px] font-bold text-slate-400 uppercase py-0.5">
+                {d}
+              </span>
+            ))}
+          </div>
+
+          {/* Days Grid */}
+          <div className="grid grid-cols-7 gap-1 text-center">
+            {days.map((day, idx) => {
+              if (day === null) {
+                return <div key={`empty-${idx}`} className="h-8" />;
+              }
+
+              const cellDate = new Date(viewYear, viewMonth, day);
+              const isPast = cellDate < normalizedMinDate;
+              const isToday =
+                cellDate.getFullYear() === normalizedMinDate.getFullYear() &&
+                cellDate.getMonth() === normalizedMinDate.getMonth() &&
+                cellDate.getDate() === normalizedMinDate.getDate();
+
+              const isSelected =
+                selectedDate !== null &&
+                cellDate.getFullYear() === selectedDate.getFullYear() &&
+                cellDate.getMonth() === selectedDate.getMonth() &&
+                cellDate.getDate() === selectedDate.getDate();
+
+              return (
+                <button
+                  key={`day-${day}`}
+                  type="button"
+                  disabled={isPast}
+                  onClick={() => handleSelectDay(day)}
+                  className={`h-8 w-full rounded-lg text-xs font-semibold flex items-center justify-center transition-all ${
+                    isSelected
+                      ? "bg-[#2cd664] text-white font-bold shadow-sm"
+                      : isToday
+                      ? "border border-[#2cd664] text-[#2cd664] font-bold"
+                      : isPast
+                      ? "text-slate-300 cursor-not-allowed opacity-40"
+                      : "text-slate-700 hover:bg-emerald-50 hover:text-brand-navy"
+                  }`}
+                >
+                  {day}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Quick Footer */}
+          <div className="flex justify-between items-center mt-2.5 pt-2 border-t border-slate-100">
+            <button
+              type="button"
+              onClick={() => {
+                handleSelectDay(normalizedMinDate.getDate());
+              }}
+              className="text-xs font-bold text-[#2cd664] hover:text-emerald-700 cursor-pointer px-2 py-1 rounded-md hover:bg-emerald-50 transition-colors"
+            >
+              Today
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setIsOpen(false)}
+              className="text-xs font-semibold text-slate-500 hover:text-slate-700 cursor-pointer px-2 py-1 rounded-md hover:bg-slate-100 transition-colors"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

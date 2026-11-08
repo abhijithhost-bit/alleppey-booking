@@ -3,7 +3,6 @@ import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import "./home.css";
 import "./fleet.css";
-import "./houseboat-detail.css";
 import "./sharing-houseboat.css";
 import "./shikara-ride.css";
 import "./kayaking.css";
@@ -14,7 +13,6 @@ import "./legal.css";
 import "./blogs.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import InteractiveScripts from "@/components/InteractiveScripts";
 import siteConfig from "@/data/siteConfig.json";
 
 const poppins = Poppins({
@@ -144,7 +142,6 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <InteractiveScripts />
       </body>
     </html>
   );

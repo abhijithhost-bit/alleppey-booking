@@ -359,7 +359,7 @@ export default function ShikaraRideView() {
                         </div>
                     </div>
 
-                    <p style={{"fontSize":"14px","fontStyle":"italic","color":"var(--text-muted)","marginTop":"20px"}}>Looking for an overnight stay instead? Explore our premium <a href="/house-boat-alleppey/" className="sk-promo-link">Alleppey boathouse packages</a>, or check our dedicated <a href="/speed-boat-in-alleppey/" className="sk-promo-link">speed boat options</a>.</p>
+                    <p style={{"fontSize":"14px","fontStyle":"italic","color":"var(--text-muted)","marginTop":"20px"}}>Looking for an overnight stay instead? Explore our premium <Link href="/house-boat-alleppey/" className="sk-promo-link">Alleppey boathouse packages</Link>, or check our dedicated <Link href="/speed-boat-in-alleppey/" className="sk-promo-link">speed boat options</Link>.</p>
                     
                     <div className="sk-tags-wrap">
                         <span className="sk-tag"><span aria-hidden="true">📸</span> Perfect for Photography</span>

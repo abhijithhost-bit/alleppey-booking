@@ -54,22 +54,32 @@ const schemas = [
 
 export default function ContactView() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
 
-  const handleWhatsAppSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleWhatsAppSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const fName = (document.getElementById("wa-fname") as HTMLInputElement)?.value.trim() || "";
-    const lName = (document.getElementById("wa-lname") as HTMLInputElement)?.value.trim() || "";
-    const email = (document.getElementById("wa-email") as HTMLInputElement)?.value.trim() || "";
-    const phone = (document.getElementById("wa-phone") as HTMLInputElement)?.value.trim() || "";
-    const subject = (document.getElementById("wa-subject") as HTMLInputElement)?.value.trim() || "";
-    const message = (document.getElementById("wa-message") as HTMLTextAreaElement)?.value.trim() || "";
+    const { firstName, lastName, email, phone, subject, message } = formData;
 
     let waText = "Hello Alleppey Booking Team! 👋\n\n";
-    if (fName || lName) waText += "*Name:* " + fName + " " + lName + "\n";
-    if (email) waText += "*Email:* " + email + "\n";
-    if (phone) waText += "*Phone:* " + phone + "\n";
-    if (subject) waText += "*Subject:* " + subject + "\n";
-    if (message) waText += "\n*Message:*\n" + message;
+    if (firstName || lastName) waText += `*Name:* ${firstName} ${lastName}\n`.trim() + "\n";
+    if (email) waText += `*Email:* ${email}\n`;
+    if (phone) waText += `*Phone:* ${phone}\n`;
+    if (subject) waText += `*Subject:* ${subject}\n`;
+    if (message) waText += `\n*Message:*\n${message}`;
 
     const url = "https://wa.me/917012761588?text=" + encodeURIComponent(waText);
     window.open(url, "_blank");
@@ -157,36 +167,83 @@ export default function ContactView() {
                 <div className="ct-form-row">
                     <div className="ct-form-group">
                         <label className="ct-label">FIRST NAME</label>
-                        <input type="text" id="wa-fname" className="ct-input" placeholder="John" />
+                        <input
+                          type="text"
+                          id="wa-fname"
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleInputChange}
+                          className="ct-input"
+                          placeholder="John"
+                        />
                     </div>
                     <div className="ct-form-group">
                         <label className="ct-label">LAST NAME</label>
-                        <input type="text" id="wa-lname" className="ct-input" placeholder="Doe" />
+                        <input
+                          type="text"
+                          id="wa-lname"
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleInputChange}
+                          className="ct-input"
+                          placeholder="Doe"
+                        />
                     </div>
                 </div>
 
                 <div className="ct-form-row">
                     <div className="ct-form-group">
                         <label className="ct-label">EMAIL ADDRESS</label>
-                        <input type="email" id="wa-email" className="ct-input" placeholder="john@example.com" />
+                        <input
+                          type="email"
+                          id="wa-email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleInputChange}
+                          className="ct-input"
+                          placeholder="john@example.com"
+                        />
                     </div>
                     <div className="ct-form-group">
                         <label className="ct-label">PHONE NUMBER (OPTIONAL)</label>
-                        <input type="tel" id="wa-phone" className="ct-input" placeholder="+91 00000 00000" />
+                        <input
+                          type="tel"
+                          id="wa-phone"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleInputChange}
+                          className="ct-input"
+                          placeholder="+91 00000 00000"
+                        />
                     </div>
                 </div>
 
                 <div className="ct-form-group">
                     <label className="ct-label">SUBJECT / INQUIRY TYPE</label>
-                    <input type="text" id="wa-subject" className="ct-input" placeholder="e.g., Booking a Private Houseboat" />
+                    <input
+                      type="text"
+                      id="wa-subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleInputChange}
+                      className="ct-input"
+                      placeholder="e.g., Booking a Private Houseboat"
+                    />
                 </div>
 
                 <div className="ct-form-group">
                     <label className="ct-label">YOUR MESSAGE</label>
-                    <textarea id="wa-message" className="ct-textarea" placeholder="How can we help you plan your trip?"></textarea>
+                    <textarea
+                      id="wa-message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleInputChange}
+                      className="ct-textarea"
+                      placeholder="How can we help you plan your trip?"
+                    ></textarea>
                 </div>
 
-                <button type="button" className="ct-wa-btn" >
+                <button type="submit" className="ct-wa-btn">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                     Send via WhatsApp →
                 </button>

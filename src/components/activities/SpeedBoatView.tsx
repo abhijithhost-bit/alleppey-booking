@@ -248,7 +248,7 @@ export default function SpeedBoatView() {
                 <p>Highly recommended for families and groups looking to book a thrilling ride. </p>
                 
                 
-                <p style={{"fontSize":"14px","fontStyle":"italic","color":"#6b7280"}}>Looking for a more relaxed pace? Explore our traditional <a href="/shikara-ride-in-alleppey/" style={{"color":"#ff6600","textDecoration":"none","fontWeight":"600"}} title="Book Shikara Ride in Alleppey">Shikara rides</a>, or book an overnight stay on a premium <a href="/house-boat-alleppey/" style={{"color":"#ff6600","textDecoration":"none","fontWeight":"600"}} title="Book Alleppey Houseboat">Kerala Houseboat</a>.</p>
+                <p style={{"fontSize":"14px","fontStyle":"italic","color":"#6b7280"}}>Looking for a more relaxed pace? Explore our traditional <Link href="/shikara-ride-in-alleppey/" style={{"color":"#ff6600","textDecoration":"none","fontWeight":"600"}} title="Book Shikara Ride in Alleppey">Shikara rides</Link>, or book an overnight stay on a premium <Link href="/house-boat-alleppey/" style={{"color":"#ff6600","textDecoration":"none","fontWeight":"600"}} title="Book Alleppey Houseboat">Kerala Houseboat</Link>.</p>
                 
                 <div className="sb-pill-container">
                     <span className="sb-pill">🚤 Premium 7-Seater Capacity</span>

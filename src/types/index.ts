@@ -50,6 +50,12 @@ export interface HouseboatTier {
   deck: string;
 }
 
+export interface HouseboatGalleryItem {
+  src: string;
+  alt: string;
+  title: string;
+}
+
 export interface Houseboat {
   bedrooms: number;
   slug: string;
@@ -63,6 +69,16 @@ export interface Houseboat {
   image: string;
   description: string;
   seo: SEOData;
+  h1?: string;
+  headerMeta?: string[];
+  defaultImage?: string;
+  gallery?: HouseboatGalleryItem[];
+  aboutTitle?: string;
+  aboutParagraphs?: string[];
+  amenities?: string[];
+  faqs?: ActivityFAQ[];
+  review?: { quote: string; author: string } | null;
+  schemas?: any[];
 }
 
 export interface ActivityFAQ {

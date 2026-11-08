@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import houseboatsData from "@/data/houseboats.json";
 import siteConfig from "@/data/siteConfig.json";
-import { HOUSEBOAT_VIEWS } from "@/components/houseboats";
+import HouseboatDetailTemplate from "@/components/houseboat/HouseboatDetailTemplate";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -64,11 +64,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HouseboatSlugPage({ params }: PageProps) {
   const { slug } = await params;
-  const HouseboatView = HOUSEBOAT_VIEWS[slug];
+  const boat = houseboatsBySlug[slug];
 
-  if (!HouseboatView) {
+  if (!boat) {
     notFound();
   }
 
-  return <HouseboatView />;
+  return <HouseboatDetailTemplate boat={boat as any} />;
 }

@@ -37,7 +37,275 @@
       "title": "1 Bedroom Houseboat Alleppey | Couples & Family Cruise",
       "description": "Book a private 1 bedroom houseboat Alleppey perfect for couples and small families. Enjoy an AC room, dedicated crew, and fresh Kerala meals",
       "focusKeyword": "1 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 1 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 4 Guests",
+      "1 AC Bedroom",
+      "4.9/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+        "alt": "Premium 1 bedroom houseboat Alleppey exterior cruising on the backwaters",
+        "title": "1 Bedroom Houseboat Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg",
+        "alt": "Comfortable living area with wooden sofa in a 1 BHK Alleppey houseboat",
+        "title": "Private Houseboat Living Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg",
+        "alt": "Luxury air-conditioned bedroom inside a 1 bedroom private houseboat in Alleppey",
+        "title": "Private AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg",
+        "alt": "Premium dining space and lounge area inside a private Alleppey houseboat",
+        "title": "Houseboat Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg",
+        "alt": "Open-air upper deck seating area on a 1 bedroom private houseboat in Kerala",
+        "title": "Upper Deck Seating"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg",
+        "alt": "Clean and hygienic attached western bathroom in an Alleppey private houseboat",
+        "title": "Attached Washroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg",
+        "alt": "Modern washbasin and aesthetic mirror inside a premium houseboat bathroom",
+        "title": "Modern Washbasin"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg",
+        "alt": "Fully equipped private kitchen onboard a 1 bedroom houseboat in Alleppey",
+        "title": "Houseboat Kitchen"
+      }
+    ],
+    "aboutTitle": "About This Houseboat",
+    "aboutParagraphs": [
+      "Experience the perfect romantic getaway with our premium <strong>1 bedroom houseboat Alleppey</strong> packages. Enjoy complete privacy for couples and small families as you cruise through the stunning Vembanad Lake and the narrow, peaceful village canals.",
+      "Your journey is completely taken care of by your dedicated <strong>3-person professional crew</strong> (Captain, Cook, and Engine Driver) who will navigate the waters and prepare fresh, authentic Kerala meals right on board."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>Captain, Cook, Engine Driver</span>",
+      "1 Bedroom + Attached Bathroom<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>5 to 6 hours of sightseeing</span>",
+      "Drinks &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Welcome drink &amp; evening tea</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 1 bedroom houseboat safe for children and infants?",
+        "a": "Yes, our houseboats are fully enclosed with safety rails. Please note that our crew is not specially trained for elderly assistance, and life jackets are not provided for houseboats, so please plan accordingly."
+      },
+      {
+        "q": "Can we get pure vegetarian food?",
+        "a": "Yes, we prepare excellent pure vegetarian meals in a separate, clean kitchen area. Just let us know your dietary preferences when confirming your booking."
+      },
+      {
+        "q": "Are portable speakers allowed on board?",
+        "a": "Yes, you are welcome to bring your own portable speakers. However, out of respect for the local village communities, we kindly request low volume after 10:00 PM."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "1 Bedroom Houseboat",
+                "item": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "1 Bedroom Houseboat Alleppey",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp",
+            "description": "Book a private 1 bedroom houseboat Alleppey perfect for couples. Includes AC bedroom, 3-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "7500",
+              "highPrice": "13500",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 1 bedroom houseboat safe for children and infants?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our houseboats are fully enclosed with safety rails. Please note that our crew is not specially trained for elderly assistance, and life jackets are not provided for houseboats, so please plan accordingly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can we get pure vegetarian food?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we prepare excellent pure vegetarian meals in a separate, clean kitchen area. Just let us know your dietary preferences when confirming your booking."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are portable speakers allowed on board?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, you are welcome to bring your own portable speakers. However, out of respect for the local village communities, we kindly request low volume after 10:00 PM."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "1 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 1 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "1 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+                "name": "1 Bedroom Houseboat Exterior",
+                "description": "Premium 1 bedroom houseboat Alleppey exterior cruising on the backwaters",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg",
+                "name": "Private Houseboat Living Area",
+                "description": "Comfortable living area with wooden sofa in a 1 BHK Alleppey houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg",
+                "name": "Private AC Bedroom",
+                "description": "Luxury air-conditioned bedroom inside a 1 bedroom private houseboat in Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg",
+                "name": "Houseboat Dining Area",
+                "description": "Premium dining space and lounge area inside a private Alleppey houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg",
+                "name": "Upper Deck Seating",
+                "description": "Open-air upper deck seating area on a 1 bedroom private houseboat in Kerala",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg",
+                "name": "Attached Washroom",
+                "description": "Clean and hygienic attached western bathroom in an Alleppey private houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg",
+                "name": "Modern Washbasin",
+                "description": "Modern washbasin and aesthetic mirror inside a premium houseboat bathroom",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg",
+                "name": "Houseboat Kitchen",
+                "description": "Fully equipped private kitchen onboard a 1 bedroom houseboat in Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "Captain, Cook, Engine Driver",
+        "icon": "crew"
+      },
+      {
+        "title": "1 Bedroom + Attached Bathroom",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "5 to 6 hours of sightseeing",
+        "icon": "cruise"
+      },
+      {
+        "title": "Drinks & Snacks",
+        "sub": "Welcome drink & evening tea",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 2,
@@ -77,7 +345,299 @@
       "title": "Private 2 Bedroom Houseboat Alleppey | Backwater Cruise",
       "description": "Book our top-rated private 2 bedroom houseboat in Alleppey. Perfect for families or groups up to 8 guests. Features 2 AC rooms. Reserve today!",
       "focusKeyword": "2 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 2 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 8 Guests",
+      "2 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+        "alt": "Thumbnail view of the premium Alleppey houseboat exterior.",
+        "title": "2 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg",
+        "alt": "Premium air-conditioned living room with wooden sofa seating inside a family-friendly houseboat in Alleppey.",
+        "title": "Houseboat Indoor Lounge"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg",
+        "alt": "Luxury air-conditioned master bedroom featuring a large double bed and modern decor inside our private Kerala backwater houseboat.",
+        "title": "Luxury AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg",
+        "alt": "Elegant wooden hallway with decorative leaf wall art connecting the rooms inside our 2 bedroom houseboat in Alleppey.",
+        "title": "Interior Corridor - Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg",
+        "alt": "Clean and modern attached bathroom featuring elegant marble tiles, a western toilet, and an illuminated mirror inside a premium twin-room boat stay.",
+        "title": "Modern Attached Bathroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg",
+        "alt": "Fully equipped attached bathroom with a shower, western toilet, and marble-style tiles docked on Vembanad Lake.",
+        "title": "Attached Bathroom with Shower"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg",
+        "alt": "Spacious open-air upper deck dining area offering panoramic views on our private 2 bedroom houseboat in Alleppey.",
+        "title": "Upper Deck Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg",
+        "alt": "Aesthetic modern washbasin setup featuring an elegant mirror and wooden cabinetry inside an Alleppey backwater cruise boat.",
+        "title": "Houseboat Washbasin Setup"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg",
+        "alt": "Polished wooden staircase leading to the upper deck of our private houseboat in Alleppey.",
+        "title": "Wooden Houseboat Staircase"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg",
+        "alt": "Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat.",
+        "title": "Spacious Living Area with Windows"
+      }
+    ],
+    "aboutTitle": "About Our Private 2 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Designed specifically for family vacations and group trips in Kerala, our <strong>2 bedroom houseboat in Alleppey</strong> offers the ideal blend of shared living spaces and personal privacy. With two separate air-conditioned bedrooms—each featuring its own attached washroom—it’s the perfect setup for two couples, extended families, or a small group of friends of up to 8 people (and up to 25 guests for day cruises).",
+      "Instead of booking multiple hotel rooms, stay together on the water. Bond over board games in the spacious common deck, dine together with panoramic views of the beautiful Vembanad Lake, and let our <strong>expert 3-person crew</strong> handle all the navigation and culinary duties for a truly stress-free holiday."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>3-Person Dedicated Crew</span>",
+      "2 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Are the two bedrooms located next to each other?",
+        "a": "Yes, both bedrooms are situated side-by-side along the corridor of the houseboat, making it highly convenient for parents traveling with children in the adjacent room."
+      },
+      {
+        "q": "Do both bedrooms have their own private bathrooms?",
+        "a": "Absolutely. Each of the two air-conditioned bedrooms comes with its own fully equipped, attached western-style washroom for complete privacy between groups."
+      },
+      {
+        "q": "Is the houseboat safe for toddlers and elderly family members?",
+        "a": "Our family houseboats are fully enclosed with sturdy safety rails. However, please note that the crew is not medically trained for elderly care, and guests must supervise toddlers closely while on the open deck."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "2 Bedroom Houseboat",
+                "item": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "2 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+            "description": "Book a private 2 bedroom houseboat Alleppey perfect for families and small groups. Includes 2 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "9000",
+              "highPrice": "17200",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Are the two bedrooms located next to each other?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, both bedrooms are situated side-by-side along the corridor of the houseboat, making it highly convenient for parents traveling with children in the adjacent room."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do both bedrooms have their own private bathrooms?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. Each of the two air-conditioned bedrooms comes with its own fully equipped, attached western-style washroom for complete privacy between groups."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the houseboat safe for toddlers and elderly family members?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our family houseboats are fully enclosed with sturdy safety rails. However, please note that the crew is not medically trained for elderly care, and guests must supervise toddlers closely while on the open deck."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "2 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 2 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "2 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+                "name": "2 Bedroom Houseboat Alleppey Exterior",
+                "description": "Exterior view of a premium 2 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg",
+                "name": "Houseboat Indoor Lounge",
+                "description": "Premium air-conditioned living room with wooden sofa seating inside a family-friendly houseboat in Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg",
+                "name": "Luxury AC Bedroom",
+                "description": "Luxury air-conditioned master bedroom featuring a large double bed and modern decor inside our private Kerala backwater houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg",
+                "name": "Interior Corridor - Houseboat Alleppey",
+                "description": "Elegant wooden hallway with decorative leaf wall art connecting the rooms inside our 2 bedroom houseboat in Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg",
+                "name": "Modern Attached Bathroom",
+                "description": "Clean and modern attached bathroom featuring elegant marble tiles, a western toilet, and an illuminated mirror inside a premium twin-room boat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg",
+                "name": "Attached Bathroom with Shower",
+                "description": "Fully equipped attached bathroom with a shower, western toilet, and marble-style tiles docked on Vembanad Lake.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg",
+                "name": "Upper Deck Dining Area",
+                "description": "Spacious open-air upper deck dining area offering panoramic views on our private 2 bedroom houseboat in Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg",
+                "name": "Houseboat Washbasin Setup",
+                "description": "Aesthetic modern washbasin setup featuring an elegant mirror and wooden cabinetry inside an Alleppey backwater cruise boat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg",
+                "name": "Wooden Houseboat Staircase",
+                "description": "Polished wooden staircase leading to the upper deck of our private houseboat in Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg",
+                "name": "Spacious Living Area with Windows",
+                "description": "Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "3-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "2 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 3,
@@ -117,7 +677,287 @@
       "title": "Private 3 Bedroom Houseboat Alleppey | Backwater Cruise",
       "description": "Private 3 bedroom houseboat Alleppey. Enjoy spacious AC rooms, an expert crew, traditional meals, and stunning backwater views. Book now",
       "focusKeyword": "3 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 3 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 12 Guests",
+      "3 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+        "alt": "Thumbnail view of the premium 3 bedroom Alleppey houseboat exterior.",
+        "title": "Premium Houseboat Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg",
+        "alt": "Elegant illuminated hallway with wooden flooring inside a private Kerala backwater houseboat.",
+        "title": "Luxury Houseboat Interior Corridor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg",
+        "alt": "Luxurious air-conditioned master bedroom featuring modern mirror decor in our 3 bedroom houseboat Alleppey.",
+        "title": "Luxury AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg",
+        "alt": "Premium dining area with a long table and beautiful ambient lighting on a family-friendly houseboat stay.",
+        "title": "Premium Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg",
+        "alt": "Open-air upper deck balcony offering stunning evening views on our Alleppey backwater cruise.",
+        "title": "Houseboat Upper Deck Balcony"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg",
+        "alt": "Spacious and comfortable AC bedroom with modern lighting inside a premium three-room boat stay.",
+        "title": "Comfortable Guest Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg",
+        "alt": "Scenic view of a 3 bedroom houseboat Alleppey docked on Vembanad Lake showcasing Kerala culture.",
+        "title": "Scenic Backwater Houseboat View"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg",
+        "alt": "Air-conditioned indoor lounge featuring sliding glass doors and panoramic water views.",
+        "title": "Indoor Lounge with Lake View"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg",
+        "alt": "Elegant dining setup under custom LED lighting perfect for large groups in a premium Kerala houseboat.",
+        "title": "Elegant Group Dining Setup"
+      }
+    ],
+    "aboutTitle": "About Our Private 3 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Designed specifically for family vacations and group trips in Kerala, our <strong>3 bedroom houseboat in Alleppey</strong> offers the ideal blend of shared living spaces and personal privacy. With three separate air-conditioned bedrooms—each featuring its own attached washroom—it’s the perfect setup for three couples, extended families, or a small group of friends of up to 12 people (and up to 30 guests for day cruises).",
+      "Instead of booking multiple hotel rooms, stay together on the water. Bond over board games in the spacious common deck, dine together with panoramic views of the beautiful Vembanad Lake, and let our <strong>expert 3-person crew</strong> handle all the navigation and culinary duties for a truly stress-free holiday."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>3-Person Dedicated Crew</span>",
+      "3 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Are the three bedrooms located next to each other?",
+        "a": "Yes, all bedrooms are situated side-by-side along the corridor of the houseboat, making it highly convenient for parents traveling with children in the adjacent room."
+      },
+      {
+        "q": "Do all three bedrooms have their own private bathrooms?",
+        "a": "Absolutely. Each of the air-conditioned bedrooms comes with its own fully equipped, attached western-style washroom for complete privacy between groups."
+      },
+      {
+        "q": "Is the houseboat safe for toddlers and elderly family members?",
+        "a": "Our family houseboats are fully enclosed with sturdy safety rails. However, please note that the crew is not medically trained for elderly care, and guests must supervise toddlers closely while on the open deck."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "3 Bedroom Houseboat",
+                "item": "/3-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "3 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+            "description": "Book a private 3 bedroom houseboat Alleppey perfect for families and large groups. Includes 3 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/3-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "13500",
+              "highPrice": "24000",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Are the three bedrooms located next to each other?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, all bedrooms are situated side-by-side along the corridor of the houseboat, making it highly convenient for parents traveling with children in the adjacent room."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do all three bedrooms have their own private bathrooms?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. Each of the air-conditioned bedrooms comes with its own fully equipped, attached western-style washroom for complete privacy between groups."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the houseboat safe for toddlers and elderly family members?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our family houseboats are fully enclosed with sturdy safety rails. However, please note that the crew is not medically trained for elderly care, and guests must supervise toddlers closely while on the open deck."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "3 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 3 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "3 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+                "name": "3 Bedroom Houseboat Alleppey Exterior",
+                "description": "Exterior view of a luxury 3 bedroom houseboat Alleppey cruising on the backwaters.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg",
+                "name": "Luxury Houseboat Interior Corridor",
+                "description": "Elegant illuminated hallway with wooden flooring inside a private Kerala backwater houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg",
+                "name": "Luxury AC Bedroom",
+                "description": "Luxurious air-conditioned master bedroom featuring modern mirror decor in our 3 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg",
+                "name": "Premium Houseboat Dining Area",
+                "description": "Premium dining area with a long table and beautiful ambient lighting on a family-friendly houseboat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg",
+                "name": "Houseboat Upper Deck Balcony",
+                "description": "Open-air upper deck balcony offering stunning evening views on our Alleppey backwater cruise.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg",
+                "name": "Comfortable Guest Bedroom",
+                "description": "Spacious and comfortable AC bedroom with modern lighting inside a premium three-room boat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg",
+                "name": "Scenic Backwater Houseboat View",
+                "description": "Scenic view of a 3 bedroom houseboat Alleppey docked on Vembanad Lake showcasing Kerala culture.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg",
+                "name": "Indoor Lounge with Lake View",
+                "description": "Air-conditioned indoor lounge featuring sliding glass doors and panoramic water views.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg",
+                "name": "Elegant Group Dining Setup",
+                "description": "Elegant dining setup under custom LED lighting perfect for large groups in a premium Kerala houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "3-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "3 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 4,
@@ -157,7 +997,383 @@
       "title": "Private 4 Bedroom Houseboat Alleppey | Up to 16 Guests",
       "description": "Book a premium 4 bedroom houseboat Alleppey for your large group. Perfect for family reunions with 4 AC rooms, a private chef, and all meals included",
       "focusKeyword": "4 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 4 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 16 Guests",
+      "4 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+        "alt": "Exterior view of our premium 4 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters.",
+        "title": "4 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg",
+        "alt": "Spacious air-conditioned indoor lounge and glass dining table inside a luxury four-room boat stay.",
+        "title": "Indoor Lounge & Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg",
+        "alt": "Elegant wooden hallway adorned with traditional Kerala murals connecting the rooms of the houseboat.",
+        "title": "Houseboat Interior Corridor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg",
+        "alt": "Side profile of a large family-friendly backwater cruise boat docked gracefully on Vembanad Lake.",
+        "title": "Scenic Houseboat Profile"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg",
+        "alt": "Comfortable wooden living space featuring plush white seating inside our private Kerala houseboat.",
+        "title": "Luxury Houseboat Living Space"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg",
+        "alt": "Fully equipped AC master bedroom featuring beautiful wall art in our 4 bedroom houseboat Alleppey.",
+        "title": "AC Master Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg",
+        "alt": "Cozy air-conditioned guest bedroom with premium bedding and sliding windows for a relaxing group stay.",
+        "title": "Premium Guest Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg",
+        "alt": "Panoramic views from the air-conditioned indoor living area of a premium Alleppey boat house.",
+        "title": "Scenic Lounge Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg",
+        "alt": "Third luxury AC bedroom featuring elegant decor and a comfortable double bed for extended families.",
+        "title": "Third AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg",
+        "alt": "Twin bed AC room perfect for kids or friends joining a large group houseboat in Kerala.",
+        "title": "Twin Bed AC Room"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg",
+        "alt": "Cozy indoor lounge area with blue seating inside a 4 bedroom houseboat Alleppey.",
+        "title": "Cozy Indoor Lounge Space"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg",
+        "alt": "Convenient corridor washbasin and mirror setup on our family-friendly Kerala backwater boat.",
+        "title": "Corridor Washbasin Setup"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg",
+        "alt": "Bright and comfortable AC bedroom featuring traditional Kerala wall art on a private backwater cruise.",
+        "title": "Bright Guest Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg",
+        "alt": "Freshly prepared Kerala breakfast with fruits and juice served onboard a 4 bedroom houseboat Alleppey.",
+        "title": "Fresh Onboard Breakfast"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg",
+        "alt": "Spacious air-conditioned living and dining area designed for large groups and families.",
+        "title": "Spacious AC Living Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg",
+        "alt": "Clean and hygienic attached bathroom with a shower and western toilet inside a four-room boat stay.",
+        "title": "Clean Attached Bathroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg",
+        "alt": "Well-appointed twin bedroom perfect for kids or friends sharing a 4 bedroom houseboat Alleppey.",
+        "title": "Twin Guest Bedroom"
+      }
+    ],
+    "aboutTitle": "About Our Private 4 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Designed specifically for family vacations and group trips in Kerala, our <strong>4 bedroom houseboat Alleppey</strong> offers the ideal blend of shared living spaces and personal privacy. With four separate air-conditioned bedrooms—each featuring its own attached washroom—it’s the perfect setup for four couples, extended families, or a large group of friends of up to 16 people (and up to 30 guests for day cruises).",
+      "Instead of booking multiple hotel rooms, stay together on the water. Bond over board games in the spacious common deck, dine together with panoramic views of the beautiful Vembanad Lake, and let our <strong>expert 3-person crew</strong> handle all the navigation and culinary duties for a truly stress-free holiday."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>3-Person Dedicated Crew</span>",
+      "4 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "With up to 16 guests, is the dining and lounge area large enough for everyone to sit together?",
+        "a": "Yes! The main living areas are specifically designed for large groups. All 16 guests can comfortably sit, dine, and enjoy the backwater views together without feeling cramped."
+      },
+      {
+        "q": "How does the bedding work if we have more than 8 adults in the 4 bedrooms?",
+        "a": "The standard setup includes 4 double beds (sleeping 8). For larger groups of up to 16 people, we provide comfortable extra mattresses and premium bedding in the spacious rooms. Please confirm your exact group size when booking."
+      },
+      {
+        "q": "Can we play our own music and have a party on the houseboat?",
+        "a": "Absolutely! You can bring your own Bluetooth speakers to enjoy music during your daytime cruise. However, to respect the peaceful backwater villages, loud music must be turned off by 9:00 PM."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "4 Bedroom Houseboat",
+                "item": "/4-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "4 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+            "description": "Book a private 4 bedroom houseboat Alleppey perfect for families and large groups. Includes 4 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/4-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "18000",
+              "highPrice": "36500",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "With up to 16 guests, is the dining and lounge area large enough for everyone to sit together?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! The main living areas are specifically designed for large groups. All 16 guests can comfortably sit, dine, and enjoy the backwater views together without feeling cramped."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does the bedding work if we have more than 8 adults in the 4 bedrooms?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The standard setup includes 4 double beds (sleeping 8). For larger groups of up to 16 people, we provide comfortable extra mattresses and premium bedding in the spacious rooms. Please confirm your exact group size when booking."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can we play our own music and have a party on the houseboat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely! You can bring your own Bluetooth speakers to enjoy music during your daytime cruise. However, to respect the peaceful backwater villages, loud music must be turned off by 9:00 PM."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "4 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 4 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "4 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+                "name": "4 Bedroom Houseboat Alleppey Exterior",
+                "description": "Exterior view of our premium 4 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg",
+                "name": "Indoor Lounge & Dining Area",
+                "description": "Spacious air-conditioned indoor lounge and glass dining table inside a luxury four-room boat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg",
+                "name": "Houseboat Interior Corridor",
+                "description": "Elegant wooden hallway adorned with traditional Kerala murals connecting the rooms of the houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg",
+                "name": "Scenic Houseboat Profile",
+                "description": "Side profile of a large family-friendly backwater cruise boat docked gracefully on Vembanad Lake.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg",
+                "name": "Luxury Houseboat Living Space",
+                "description": "Comfortable wooden living space featuring plush white seating inside our private Kerala houseboat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg",
+                "name": "AC Master Bedroom",
+                "description": "Fully equipped AC master bedroom featuring beautiful wall art in our 4 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg",
+                "name": "Premium Guest Bedroom",
+                "description": "Cozy air-conditioned guest bedroom with premium bedding and sliding windows for a relaxing group stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg",
+                "name": "Scenic Lounge Area",
+                "description": "Panoramic views from the air-conditioned indoor living area of a premium Alleppey boat house.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg",
+                "name": "Third AC Bedroom",
+                "description": "Third luxury AC bedroom featuring elegant decor and a comfortable double bed for extended families.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg",
+                "name": "Twin Bed AC Room",
+                "description": "Twin bed AC room perfect for kids or friends joining a large group houseboat in Kerala.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg",
+                "name": "Cozy Indoor Lounge Space",
+                "description": "Cozy indoor lounge area with blue seating inside a 4 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg",
+                "name": "Corridor Washbasin Setup",
+                "description": "Convenient corridor washbasin and mirror setup on our family-friendly Kerala backwater boat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg",
+                "name": "Bright Guest Bedroom",
+                "description": "Bright and comfortable AC bedroom featuring traditional Kerala wall art on a private backwater cruise.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg",
+                "name": "Fresh Onboard Breakfast",
+                "description": "Freshly prepared Kerala breakfast with fruits and juice served onboard a 4 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg",
+                "name": "Spacious AC Living Area",
+                "description": "Spacious air-conditioned living and dining area designed for large groups and families.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg",
+                "name": "Clean Attached Bathroom",
+                "description": "Clean and hygienic attached bathroom with a shower and western toilet inside a four-room boat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg",
+                "name": "Twin Guest Bedroom",
+                "description": "Well-appointed twin bedroom perfect for kids or friends sharing a 4 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "3-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "4 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 5,
@@ -197,7 +1413,323 @@
       "title": "Private 5 Bedroom Houseboat Alleppey | Extended Families",
       "description": "Book a private 5 bedroom houseboat Alleppey for families, friends, or group events. Enjoy 5 AC rooms, an expert crew, and fresh Kerala meals",
       "focusKeyword": "5 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 5 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 20 Guests",
+      "5 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+        "alt": "Premium 5 bedroom houseboat Alleppey exterior view with a spacious upper deck.",
+        "title": "5 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg",
+        "alt": "Spacious air-conditioned lounge area inside our luxury Kerala boat stay.",
+        "title": "Luxury Houseboat Lounge Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg",
+        "alt": "Evening view of an illuminated 5 bedroom houseboat Alleppey on the calm backwaters.",
+        "title": "Illuminated Houseboat at Dusk"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg",
+        "alt": "Master AC suite featuring a beautiful golden ceiling design.",
+        "title": "Master AC Suite Design"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg",
+        "alt": "Private AC bedroom with floral decor inside a luxury Alleppey boat.",
+        "title": "Private AC Bedroom Decor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg",
+        "alt": "Comfortable double bed in an AC room for large family group stays.",
+        "title": "Botanical Theme AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg",
+        "alt": "Clean and modern air-conditioned guest room for your backwater cruise.",
+        "title": "Modern Guest AC Room"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg",
+        "alt": "Beautifully furnished AC cabin on our premium 5 bedroom houseboat Alleppey.",
+        "title": "Furnished Family AC Cabin"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg",
+        "alt": "Large indoor dining area perfect for up to 20 guests to eat together.",
+        "title": "Spacious Group Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg",
+        "alt": "Elegant wooden corridor connecting the guest rooms.",
+        "title": "Wooden Interior Corridor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg",
+        "alt": "Large air-conditioned dining area with a glass-topped wooden table inside a 5 bedroom houseboat Alleppey.",
+        "title": "Spacious Houseboat Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg",
+        "alt": "Luxurious indoor lounge with plush seating and panoramic windows aboard our 5 bedroom houseboat Alleppey.",
+        "title": "Luxury Houseboat Indoor Lounge"
+      }
+    ],
+    "aboutTitle": "About Our Private 5 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Designed specifically for large family vacations, corporate outings, and group trips in Kerala, our <strong>5 bedroom houseboat Alleppey</strong> offers the ideal blend of shared living spaces and personal privacy. With five separate air-conditioned bedrooms—each featuring its own attached washroom—it’s the perfect setup for five couples, extended families, or a large group of friends of up to 20 people (and up to 40 guests for day cruises).",
+      "Instead of booking multiple hotel rooms, stay together on the water. Bond over board games in the spacious common deck, dine together with panoramic views of the beautiful Vembanad Lake, and let our <strong>4-person dedicated crew</strong> handle all the navigation and culinary duties for a truly stress-free holiday."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>4-Person Dedicated Crew</span>",
+      "5 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 5 bedroom houseboat in Alleppey suitable for multiple families traveling together?",
+        "a": "Yes! The 5 bedroom configuration is perfect for extended families or multiple families traveling together. It provides private, air-conditioned rooms for each group while offering a massive common deck to enjoy meals and sightseeing together."
+      },
+      {
+        "q": "How many guests can comfortably stay on the 5 bedroom houseboat?",
+        "a": "Our 5 bedroom houseboats are incredibly spacious and can comfortably accommodate up to 20 guests for overnight or night stays, and up to 40 guests for day cruises. We provide extra mattresses and ample dining space so large groups can comfortably gather without feeling crowded."
+      },
+      {
+        "q": "Do all 5 bedrooms come with private bathrooms?",
+        "a": "Absolutely. Every single one of the 5 air-conditioned bedrooms on the boat includes a fully equipped, private attached western-style washroom to ensure maximum comfort and privacy for all guests."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "5 Bedroom Houseboat",
+                "item": "/5-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "5 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+            "description": "Book a private 5 bedroom houseboat Alleppey perfect for families and massive groups. Includes 5 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/5-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "22500",
+              "highPrice": "50000",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 5 bedroom houseboat in Alleppey suitable for multiple families traveling together?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! The 5 bedroom configuration is perfect for extended families or multiple families traveling together. It provides private, air-conditioned rooms for each group while offering a massive common deck to enjoy meals and sightseeing together."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many guests can comfortably stay on the 5 bedroom houseboat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our 5 bedroom houseboats are incredibly spacious and can comfortably accommodate up to 20 guests for overnight or night stays, and up to 40 guests for day cruises. We provide extra mattresses and ample dining space so large groups can comfortably gather without feeling crowded."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do all 5 bedrooms come with private bathrooms?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. Every single one of the 5 air-conditioned bedrooms on the boat includes a fully equipped, private attached western-style washroom to ensure maximum comfort and privacy for all guests."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "5 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 5 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "5 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+                "name": "5 Bedroom Houseboat Alleppey Exterior",
+                "description": "Premium 5 bedroom houseboat Alleppey exterior view with a spacious upper deck.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg",
+                "name": "Luxury Houseboat Lounge Area",
+                "description": "Spacious air-conditioned lounge area inside our luxury Kerala boat stay.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg",
+                "name": "Illuminated Houseboat at Dusk",
+                "description": "Evening view of an illuminated 5 bedroom houseboat Alleppey on the calm backwaters.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg",
+                "name": "Master AC Suite Design",
+                "description": "Master AC suite featuring a beautiful golden ceiling design.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg",
+                "name": "Private AC Bedroom Decor",
+                "description": "Private AC bedroom with floral decor inside a luxury Alleppey boat.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg",
+                "name": "Botanical Theme AC Bedroom",
+                "description": "Comfortable double bed in an AC room for large family group stays.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg",
+                "name": "Modern Guest AC Room",
+                "description": "Clean and modern air-conditioned guest room for your backwater cruise.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg",
+                "name": "Furnished Family AC Cabin",
+                "description": "Beautifully furnished AC cabin on our premium 5 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg",
+                "name": "Spacious Group Dining Area",
+                "description": "Large indoor dining area perfect for up to 20 guests to eat together.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg",
+                "name": "Wooden Interior Corridor",
+                "description": "Elegant wooden corridor connecting the guest rooms.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg",
+                "name": "Spacious Houseboat Dining Area",
+                "description": "Large air-conditioned dining area with a glass-topped wooden table inside a 5 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg",
+                "name": "Luxury Houseboat Indoor Lounge",
+                "description": "Luxurious indoor lounge with plush seating and panoramic windows aboard our 5 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "4-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "5 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 6,
@@ -237,7 +1769,479 @@
       "title": "6 Bedroom Houseboat in Alleppey",
       "description": "Cruise the Vembanad waters with 6 full-size air-conditioned bedrooms, massive upper deck seating area, and dedicated onboard chefs.",
       "focusKeyword": "6 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 6 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 24 Guests",
+      "6 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+        "alt": "Exterior view of a luxury 6 bedroom houseboat Alleppey cruising on Vembanad Lake",
+        "title": "Private 6 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg",
+        "alt": "Spacious air-conditioned guest room with lake views inside a 6 bedroom houseboat Alleppey",
+        "title": "Lake View AC Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg",
+        "alt": "Elegant wooden hallway illuminated with warm hanging lights on our Alleppey backwater cruise",
+        "title": "Traditional Wooden Corridor Interior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg",
+        "alt": "Comfortable double bed with modern amenities for large group houseboat stays in Kerala",
+        "title": "Comfortable Guest Room Accommodation"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg",
+        "alt": "Expansive indoor dining and lounge area perfect for a 6 bedroom houseboat Alleppey family trip",
+        "title": "Large Indoor Dining Lounge"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg",
+        "alt": "Open-air upper deck balcony with artificial grass flooring for sightseeing along the backwaters",
+        "title": "Open Air Upper Deck Balcony"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg",
+        "alt": "Premium private bedroom featuring traditional wood finishes and scenic window views",
+        "title": "Premium Private Bedroom Setup"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg",
+        "alt": "Well-lit sleeping quarters ensuring a restful night during your Alleppey group vacation",
+        "title": "Well-Lit Sleeping Quarters"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg",
+        "alt": "Luxury suite equipped with a wooden wardrobe and comfortable bedding for guests",
+        "title": "Luxury Suite with Wardrobe"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg",
+        "alt": "Clean and modern attached western bathroom facilities included in our 6 bedroom houseboat Alleppey",
+        "title": "Modern Attached Bathroom Facilities"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg",
+        "alt": "Luxurious AC bedroom inside a premium 6 bedroom houseboat Alleppey featuring a comfortable double bed and elegant modern decor.",
+        "title": "Luxury AC Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg",
+        "alt": "Spacious suite with split AC, beautiful towel art, and striped blinds in our 6 bedroom houseboat Alleppey for premium large group comfort.",
+        "title": "Spacious Suite - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg",
+        "alt": "Modern bedroom with decorative LED lighting, beautiful wooden interiors, and large windows on a 6 bedroom houseboat Alleppey.",
+        "title": "Modern LED Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg",
+        "alt": "Beautifully designed bedroom with warm yellow accents, round mirrors, and plush bedding on a private 6 bedroom houseboat Alleppey.",
+        "title": "Premium Yellow Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg",
+        "alt": "Clean and hygienic attached western bathroom with premium shower fittings and yellow tiles inside a luxury 6 bedroom houseboat Alleppey.",
+        "title": "Attached Bathroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg",
+        "alt": "Exclusive open-air upper deck balcony with artificial grass and backwater views on a 6 bedroom houseboat Alleppey.",
+        "title": "Upper Deck Balcony - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg",
+        "alt": "Expansive air-conditioned living room with comfortable brown sofas and a flat screen TV in the 6 bedroom houseboat Alleppey.",
+        "title": "Luxury Living Area - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg",
+        "alt": "Large lower deck dining hall with traditional zigzag wooden flooring and seating for 24 guests on a 6 bedroom houseboat Alleppey.",
+        "title": "Large Dining Hall - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg",
+        "alt": "Elegant dining table setup with a fresh fruit basket inside the spacious lounge of our premium 6 bedroom houseboat Alleppey.",
+        "title": "Elegant Dining Setup - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg",
+        "alt": "A stunning view of the long wooden corridor and dining area typical of a luxury 6 bedroom houseboat Alleppey.",
+        "title": "Long Wooden Corridor - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg",
+        "alt": "Fully equipped onboard kitchen managed by a private chef, preparing fresh meals on a 6 bedroom houseboat alleppey.",
+        "title": "Onboard Kitchen - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg",
+        "alt": "Comfortable air-conditioned guest bedroom featuring traditional wooden decor and warm lighting on a 6 bedroom houseboat alleppey.",
+        "title": "Guest AC Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg",
+        "alt": "Expansive lounge and dining hall with beautiful wooden flooring and ceiling lights inside a 6 bedroom houseboat alleppey.",
+        "title": "Spacious Lounge & Dining - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg",
+        "alt": "Premium modern bedroom with stylish LED headboard, large scenic windows, and striped flooring on a 6 bedroom houseboat alleppey.",
+        "title": "Premium Modern Bedroom - 6 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg",
+        "alt": "Beautifully furnished AC bedroom with an attached modern shower washroom and premium decor on a private 6 bedroom houseboat alleppey.",
+        "title": "Bedroom with Attached Bath - 6 Bedroom Houseboat Alleppey"
+      }
+    ],
+    "aboutTitle": "About Our Private 6 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Designed specifically for massive family vacations, large corporate outings, and grand group trips in Kerala, our <strong>6 bedroom houseboat Alleppey</strong> offers the ideal blend of shared living spaces and personal privacy. With six separate air-conditioned bedrooms—each featuring its own attached washroom—it’s the perfect setup for six couples, extended families, or a large group of friends of up to 24 people (and up to 60 guests for day cruises).",
+      "Instead of booking multiple hotel rooms, stay together on the water. Bond over board games in the spacious common deck, dine together with panoramic views of the beautiful Vembanad Lake, and let our <strong>4-person dedicated crew</strong> handle all the navigation and culinary duties for a truly stress-free holiday."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>4-Person Dedicated Crew</span>",
+      "6 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 6 bedroom houseboat in Alleppey suitable for large corporate events or reunions?",
+        "a": "Yes! Our 6 bedroom houseboat is uniquely designed for large groups. With extensive deck space and six individual air-conditioned suites, it provides both the social areas needed for corporate team-building or family reunions and the privacy that each guest deserves."
+      },
+      {
+        "q": "How many guests can comfortably stay on the 6 bedroom houseboat?",
+        "a": "The 6 bedroom houseboat is our most spacious option, comfortably hosting up to 24 guests (and up to 60 for day cruises). We arrange premium bedding and extra mattresses to ensure that every member of your large group enjoys a restful stay on the backwaters."
+      },
+      {
+        "q": "Will a large group of 24 feel cramped on this houseboat?",
+        "a": "Not at all. This specific houseboat is built with an extra-wide beam and an extended deck layout. It is specifically engineered to ensure that even with a full capacity of 24 guests, everyone has ample space to dine, socialize, and enjoy the scenic views comfortably."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "6 Bedroom Houseboat",
+                "item": "/6-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "6 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+            "description": "Book a private 6 bedroom houseboat Alleppey perfect for large families and massive groups. Includes 6 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/6-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "32000",
+              "highPrice": "70400",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 6 bedroom houseboat in Alleppey suitable for large corporate events or reunions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! Our 6 bedroom houseboat is uniquely designed for large groups. With extensive deck space and six individual air-conditioned suites, it provides both the social areas needed for corporate team-building or family reunions and the privacy that each guest deserves."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many guests can comfortably stay on the 6 bedroom houseboat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The 6 bedroom houseboat is our most spacious option, comfortably hosting up to 24 guests (and up to 60 for day cruises). We arrange premium bedding and extra mattresses to ensure that every member of your large group enjoys a restful stay on the backwaters."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will a large group of 24 feel cramped on this houseboat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not at all. This specific houseboat is built with an extra-wide beam and an extended deck layout. It is specifically engineered to ensure that even with a full capacity of 24 guests, everyone has ample space to dine, socialize, and enjoy the scenic views comfortably."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "6 Bedroom Houseboat Inside Gallery",
+            "description": "See the premium comfort you can expect from your 6 bedroom private houseboat in Alleppey.",
+            "about": {
+              "@type": "Thing",
+              "name": "6 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+                "name": "Private 6 Bedroom Houseboat Alleppey Exterior",
+                "description": "Exterior view of a luxury 6 bedroom houseboat Alleppey cruising on Vembanad Lake",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg",
+                "name": "Lake View AC Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Spacious air-conditioned guest room with lake views inside a 6 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg",
+                "name": "Traditional Wooden Corridor Interior",
+                "description": "Elegant wooden hallway illuminated with warm hanging lights on our Alleppey backwater cruise",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg",
+                "name": "Comfortable Guest Room Accommodation",
+                "description": "Comfortable double bed with modern amenities for large group houseboat stays in Kerala",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg",
+                "name": "Large Indoor Dining Lounge",
+                "description": "Expansive indoor dining and lounge area perfect for a 6 bedroom houseboat Alleppey family trip",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg",
+                "name": "Open Air Upper Deck Balcony",
+                "description": "Open-air upper deck balcony with artificial grass flooring for sightseeing along the backwaters",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg",
+                "name": "Premium Private Bedroom Setup",
+                "description": "Premium private bedroom featuring traditional wood finishes and scenic window views",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg",
+                "name": "Well-Lit Sleeping Quarters",
+                "description": "Well-lit sleeping quarters ensuring a restful night during your Alleppey group vacation",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg",
+                "name": "Luxury Suite with Wardrobe",
+                "description": "Luxury suite equipped with a wooden wardrobe and comfortable bedding for guests",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg",
+                "name": "Modern Attached Bathroom Facilities",
+                "description": "Clean and modern attached western bathroom facilities included in our 6 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg",
+                "name": "Luxury AC Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Luxurious AC bedroom inside a premium 6 bedroom houseboat Alleppey featuring a comfortable double bed and elegant modern decor.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg",
+                "name": "Spacious Suite - 6 Bedroom Houseboat Alleppey",
+                "description": "Spacious suite with split AC, beautiful towel art, and striped blinds in our 6 bedroom houseboat Alleppey for premium large group comfort.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg",
+                "name": "Modern LED Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Modern bedroom with decorative LED lighting, beautiful wooden interiors, and large windows on a 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg",
+                "name": "Premium Yellow Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Beautifully designed bedroom with warm yellow accents, round mirrors, and plush bedding on a private 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg",
+                "name": "Attached Bathroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Clean and hygienic attached western bathroom with premium shower fittings and yellow tiles inside a luxury 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg",
+                "name": "Upper Deck Balcony - 6 Bedroom Houseboat Alleppey",
+                "description": "Exclusive open-air upper deck balcony with artificial grass and backwater views on a 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg",
+                "name": "Luxury Living Area - 6 Bedroom Houseboat Alleppey",
+                "description": "Expansive air-conditioned living room with comfortable brown sofas and a flat screen TV in the 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg",
+                "name": "Large Dining Hall - 6 Bedroom Houseboat Alleppey",
+                "description": "Large lower deck dining hall with traditional zigzag wooden flooring and seating for 24 guests on a 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg",
+                "name": "Elegant Dining Setup - 6 Bedroom Houseboat Alleppey",
+                "description": "Elegant dining table setup with a fresh fruit basket inside the spacious lounge of our premium 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg",
+                "name": "Long Wooden Corridor - 6 Bedroom Houseboat Alleppey",
+                "description": "A stunning view of the long wooden corridor and dining area typical of a luxury 6 bedroom houseboat Alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg",
+                "name": "Onboard Kitchen - 6 Bedroom Houseboat Alleppey",
+                "description": "Fully equipped onboard kitchen managed by a private chef, preparing fresh meals on a 6 bedroom houseboat alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg",
+                "name": "Guest AC Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Comfortable air-conditioned guest bedroom featuring traditional wooden decor and warm lighting on a 6 bedroom houseboat alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg",
+                "name": "Spacious Lounge & Dining - 6 Bedroom Houseboat Alleppey",
+                "description": "Expansive lounge and dining hall with beautiful wooden flooring and ceiling lights inside a 6 bedroom houseboat alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg",
+                "name": "Premium Modern Bedroom - 6 Bedroom Houseboat Alleppey",
+                "description": "Premium modern bedroom with stylish LED headboard, large scenic windows, and striped flooring on a 6 bedroom houseboat alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg",
+                "name": "Bedroom with Attached Bath - 6 Bedroom Houseboat Alleppey",
+                "description": "Beautifully furnished AC bedroom with an attached modern shower washroom and premium decor on a private 6 bedroom houseboat alleppey.",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "4-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "6 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 7,
@@ -277,7 +2281,371 @@
       "title": "Private 7 Bedroom Houseboat Alleppey | Exclusive Cruises",
       "description": "Experience the ultimate backwater retreat on our 7 bedroom houseboat in Alleppey. Enjoy private AC suites, personalized chef service, and expansive deck views.",
       "focusKeyword": "7 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 7 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 28 Guests",
+      "7 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+        "alt": "Exterior view of the luxury 7 bedroom houseboat Alleppey cruising on the backwaters",
+        "title": "Luxury 7 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg",
+        "alt": "Unique bunk bed family suite inside a private 7 bedroom houseboat Alleppey",
+        "title": "Family Bunk Bed Suite - Alleppey Houseboat"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg",
+        "alt": "Beautifully crafted wooden staircase and hallway inside our Alleppey backwater boat",
+        "title": "Wooden Interior Hallway and Stairs"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg",
+        "alt": "Modern attached washroom with elegant leaf wallpaper for guests on the cruise",
+        "title": "Modern Attached Bathroom Facility"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg",
+        "alt": "Air-conditioned guest bedroom with a beige scalloped headboard on an Alleppey 7 bedroom houseboat",
+        "title": "Premium AC Guest Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg",
+        "alt": "Luxury master suite featuring unique interior design on our 7 bedroom houseboat in Alleppey",
+        "title": "Luxury Master Suite Design"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg",
+        "alt": "Spacious lounge and living area with comfortable seating on a 7 bedroom houseboat Alleppey",
+        "title": "Spacious Indoor Lounge Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg",
+        "alt": "Premium double bedroom with modern decor perfectly suited for a large group stay",
+        "title": "Premium Double Bedroom with Modern Decor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg",
+        "alt": "Beautifully furnished AC room with a floral headboard design on an Alleppey backwater cruise",
+        "title": "Furnished AC Room with Floral Headboard"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg",
+        "alt": "Elegant wooden doors and ambient lighting in the corridor of a 7 bedroom houseboat Alleppey",
+        "title": "Elegant Wooden Corridor Doors"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg",
+        "alt": "Long wooden corridor equipped with safety life jackets aboard our 7 bedroom houseboat Alleppey",
+        "title": "Safe Wooden Corridor - 7 Bedroom Houseboat"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg",
+        "alt": "Modern reception and welcome counter area inside the spacious houseboat",
+        "title": "Modern Welcome Counter Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg",
+        "alt": "Expansive dining hall with elegant ceiling lights ready for large groups on a 7 bedroom houseboat Alleppey",
+        "title": "Expansive Banquet Dining Hall"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg",
+        "alt": "Long banquet seating with panoramic glass windows offering backwater views during your Alleppey cruise",
+        "title": "Panoramic Backwater Dining View"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg",
+        "alt": "Relaxing outdoor balcony deck with artificial grass and seating on our private 7 bedroom houseboat Alleppey",
+        "title": "Outdoor Viewing Balcony Deck"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg",
+        "alt": "Front exterior view of the premium Virtue 7 bedroom houseboat cruising through Alleppey backwaters",
+        "title": "Front Exterior Houseboat View"
+      }
+    ],
+    "aboutTitle": "About Our Private 7 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Experience the ultimate backwater retreat on our <strong>7 bedroom houseboat Alleppey</strong>. Engineered specifically for massive groups of up to 28 guests (and up to 80 for day cruises), this boat features an enhanced structural design that prioritizes communal flow—allowing your group to dine, lounge, and sightsee across our expansive upper and lower deck views without ever feeling crowded.",
+      "With seven separate private AC suites (each containing its own attached bathroom), we offer the perfect balance of shared entertainment and individual privacy. Furthermore, to accommodate the logistics of a larger party, this vessel includes an upgraded <strong>5-person dedicated crew</strong> to ensure seamless navigation, personalized chef service, and culinary excellence throughout your Kerala backwater journey."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>5-Person Dedicated Crew</span>",
+      "7 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is a 7 bedroom houseboat in Alleppey better for large groups than two smaller boats?",
+        "a": "Yes, absolutely. Staying together on one 7 bedroom vessel allows for unified group interaction, centralized banquet dining, and a single cruising itinerary that is impossible to properly coordinate when your party is split across two separate smaller boats."
+      },
+      {
+        "q": "How does the service change for up to 28 guests?",
+        "a": "To ensure impeccable service for a full capacity of 28 guests, we assign a 5-person dedicated crew to this houseboat (compared to our standard 3 or 4-person crews). This ensures that meal preparation, housekeeping, and navigation are maintained at the highest premium standard for your entire party."
+      },
+      {
+        "q": "Is there enough common space on the boat for all 28 people to sit together?",
+        "a": "Yes. This specific 7 bedroom houseboat is constructed with an extra-wide beam and significantly extended lower and upper decks. It is meticulously designed so that 28 guests can comfortably dine and socialize simultaneously without feeling restricted."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "7 Bedroom Luxury Houseboat",
+                "item": "/7-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Private 7 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+            "description": "Book a massive 7 bedroom houseboat Alleppey designed exclusively for mega groups of up to 28 guests (up to 80 for day cruises). Features 7 AC suites, an elite 5-person crew, and an extra-wide backwater viewing deck.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/7-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "28000",
+              "highPrice": "56000",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is a 7 bedroom houseboat in Alleppey better for large groups than two smaller boats?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, absolutely. Staying together on one 7 bedroom vessel allows for unified group interaction, centralized banquet dining, and a single cruising itinerary that is impossible to properly coordinate when your party is split across two separate smaller boats."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does the service change for up to 28 guests?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To ensure impeccable service for a full capacity of 28 guests, we assign a 5-person dedicated crew to this houseboat (compared to our standard 3 or 4-person crews). This ensures that meal preparation, housekeeping, and navigation are maintained at the highest premium standard for your entire party."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there enough common space on the boat for all 28 people to sit together?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. This specific 7 bedroom houseboat is constructed with an extra-wide beam and significantly extended lower and upper decks. It is meticulously designed so that 28 guests can comfortably dine and socialize simultaneously without feeling restricted."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "7 Bedroom Houseboat Inside Gallery",
+            "description": "Explore the immense layout and luxury suites of our 7 bedroom private houseboat in Alleppey, capable of hosting 28 guests.",
+            "about": {
+              "@type": "Thing",
+              "name": "Private 7 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+                "name": "Luxury 7 Bedroom Houseboat Alleppey Exterior",
+                "description": "Exterior view of the luxury 7 bedroom houseboat Alleppey cruising on the backwaters",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg",
+                "name": "Family Bunk Bed Suite - Alleppey Houseboat",
+                "description": "Unique bunk bed family suite inside a private 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg",
+                "name": "Wooden Interior Hallway and Stairs",
+                "description": "Beautifully crafted wooden staircase and hallway inside our Alleppey backwater boat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg",
+                "name": "Modern Attached Bathroom Facility",
+                "description": "Modern attached washroom with elegant leaf wallpaper for guests on the cruise",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg",
+                "name": "Premium AC Guest Bedroom",
+                "description": "Air-conditioned guest bedroom with a beige scalloped headboard on an Alleppey 7 bedroom houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg",
+                "name": "Luxury Master Suite Design",
+                "description": "Luxury master suite featuring unique interior design on our 7 bedroom houseboat in Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg",
+                "name": "Spacious Indoor Lounge Area",
+                "description": "Spacious lounge and living area with comfortable seating on a 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg",
+                "name": "Premium Double Bedroom with Modern Decor",
+                "description": "Premium double bedroom with modern decor perfectly suited for a large group stay",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg",
+                "name": "Furnished AC Room with Floral Headboard",
+                "description": "Beautifully furnished AC room with a floral headboard design on an Alleppey backwater cruise",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg",
+                "name": "Elegant Wooden Corridor Doors",
+                "description": "Elegant wooden doors and ambient lighting in the corridor of a 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg",
+                "name": "Safe Wooden Corridor - 7 Bedroom Houseboat",
+                "description": "Long wooden corridor equipped with safety life jackets aboard our 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg",
+                "name": "Modern Welcome Counter Area",
+                "description": "Modern reception and welcome counter area inside the spacious houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg",
+                "name": "Expansive Banquet Dining Hall",
+                "description": "Expansive dining hall with elegant ceiling lights ready for large groups on a 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg",
+                "name": "Panoramic Backwater Dining View",
+                "description": "Long banquet seating with panoramic glass windows offering backwater views during your Alleppey cruise",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg",
+                "name": "Outdoor Viewing Balcony Deck",
+                "description": "Relaxing outdoor balcony deck with artificial grass and seating on our private 7 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg",
+                "name": "Front Exterior Houseboat View",
+                "description": "Front exterior view of the premium Virtue 7 bedroom houseboat cruising through Alleppey backwaters",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "5-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "7 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 8,
@@ -317,7 +2685,263 @@
       "title": "8 Bedroom Houseboat Alleppey for Family & Group Trips",
       "description": "Plan your next big gathering on our private 8 bedroom houseboat Alleppey. Enjoy comfortable AC rooms, freshly prepared local meals, and a dedicated crew.",
       "focusKeyword": "8 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 8 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 32 Guests",
+      "8 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+        "alt": "Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters",
+        "title": "Vembanad Queen 8 Bedroom Houseboat Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg",
+        "alt": "Comfortable living area with traditional wooden seating for large groups on a private houseboat",
+        "title": "Spacious Wooden Lounge Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg",
+        "alt": "Long polished wooden corridor connecting the guest suites on our 8 bedroom houseboat in Alleppey",
+        "title": "Premium Interior Corridor"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg",
+        "alt": "Private AC guest room featuring warm ambient lighting and a floral headboard",
+        "title": "Ambient Floral AC Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg",
+        "alt": "Luxury bedroom with a glowing circular headboard design on an 8 bedroom houseboat Alleppey",
+        "title": "Illuminated Arch Headboard Suite"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg",
+        "alt": "Elegant air-conditioned suite with scenic window views on a Kerala backwater cruise",
+        "title": "Elegant Tree Pattern Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg",
+        "alt": "Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat",
+        "title": "Premium Suite with Towel Art"
+      }
+    ],
+    "aboutTitle": "About Our Private 8 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Organizing a monumental family gathering or a massive corporate summit? Our flagship <strong>8 bedroom houseboat Alleppey</strong> serves as the ultimate floating resort for mega groups. Capable of comfortably accommodating up to 32 guests (and up to 100 for day cruises), this colossal vessel delivers an unmatched Kerala backwater experience. Rather than dividing your large party among several smaller boats, keep everyone united on one majestic cruise.",
+      "The layout includes eight independent, air-conditioned suites—each with its own private bathroom—alongside an exceptionally wide upper deck and a vast dining hall. To ensure flawless hospitality for your passengers, this particular boat operates with an elite <strong>6-person dedicated crew</strong>, seamlessly handling all navigation and large-scale meal preparations throughout your journey."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>6-Person Dedicated Crew</span>",
+      "8 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Why should we choose a single 8 bedroom houseboat in Alleppey over multiple smaller vessels?",
+        "a": "Booking a single 8 bedroom houseboat in Alleppey ensures your entire group of 32 stays together. It allows for unified interaction, centralized dining in a massive hall, and a cohesive itinerary that is incredibly difficult to coordinate if your party is split across two or three separate smaller boats."
+      },
+      {
+        "q": "Can the crew manage food and service for 32 people efficiently?",
+        "a": "Absolutely. To handle the increased demands of a massive group, we automatically upgrade the staffing on this vessel to an elite 6-person dedicated crew, including multiple chefs. This guarantees that housekeeping, navigation, and large-scale meal preparations meet our highest premium standards."
+      },
+      {
+        "q": "Does an 8 bedroom boat feel crowded with 32 passengers?",
+        "a": "Not at all. As one of the largest vessels operating on the backwaters, it boasts an extra-wide beam, a colossal upper deck, and a mega dining hall. It is expertly designed to provide ample breathing room, ensuring guests can comfortably socialize or find a quiet corner simultaneously."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "8 Bedroom Luxury Houseboat",
+                "item": "/8-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Private 8 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+            "description": "Book a massive 8 bedroom houseboat Alleppey designed exclusively for mega groups of up to 32 guests (up to 100 for day cruises). Features 8 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/8-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "32000",
+              "highPrice": "99200",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "108",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why should we choose a single 8 bedroom houseboat in Alleppey over multiple smaller vessels?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Booking a single 8 bedroom houseboat in Alleppey ensures your entire group of 32 stays together. It allows for unified interaction, centralized dining in a massive hall, and a cohesive itinerary that is incredibly difficult to coordinate if your party is split across two or three separate smaller boats."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the crew manage food and service for 32 people efficiently?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. To handle the increased demands of a massive group, we automatically upgrade the staffing on this vessel to an elite 6-person dedicated crew, including multiple chefs. This guarantees that housekeeping, navigation, and large-scale meal preparations meet our highest premium standards."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does an 8 bedroom boat feel crowded with 32 passengers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not at all. As one of the largest vessels operating on the backwaters, it boasts an extra-wide beam, a colossal upper deck, and a mega dining hall. It is expertly designed to provide ample breathing room, ensuring guests can comfortably socialize or find a quiet corner simultaneously."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "8 Bedroom Houseboat Inside Gallery",
+            "description": "Explore the immense layout and luxury suites of our 8 bedroom private houseboat in Alleppey, capable of hosting 32 guests.",
+            "about": {
+              "@type": "Thing",
+              "name": "Private 8 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+                "name": "Vembanad Queen 8 Bedroom Houseboat Exterior",
+                "description": "Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters",
+                "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg",
+                "name": "Spacious Wooden Lounge Area",
+                "description": "Comfortable living area with traditional wooden seating for large groups on a private houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg",
+                "name": "Premium Interior Corridor",
+                "description": "Long polished wooden corridor connecting the guest suites on our 8 bedroom houseboat in Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg",
+                "name": "Ambient Floral AC Bedroom",
+                "description": "Private AC guest room featuring warm ambient lighting and a floral headboard",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg",
+                "name": "Illuminated Arch Headboard Suite",
+                "description": "Luxury bedroom with a glowing circular headboard design on an 8 bedroom houseboat Alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg",
+                "name": "Elegant Tree Pattern Bedroom",
+                "description": "Elegant air-conditioned suite with scenic window views on a Kerala backwater cruise",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg",
+                "name": "Premium Suite with Towel Art",
+                "description": "Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "6-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "8 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 10,
@@ -357,7 +2981,323 @@
       "title": "Book a 10 Bedroom Houseboat Alleppey | Up to 40 Guests",
       "description": "Book the ultimate 10 bedroom houseboat alleppey. Perfect for destination weddings & corporate events. Fits 40 guests with private AC suites & meals included.",
       "focusKeyword": "10 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 10 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 40 Guests",
+      "10 AC Bedrooms",
+      "4.9/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+        "alt": "Illuminated Royal Waves 10 bedroom houseboat alleppey exterior at dusk",
+        "title": "Royal Waves 10 Bedroom Houseboat Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp",
+        "alt": "Royal Waves 10 bedroom houseboat alleppey cruising the backwaters during daytime",
+        "title": "10 Bedroom Houseboat Profile"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp",
+        "alt": "Spacious living area with modern sofa inside the 10 bedroom houseboat alleppey",
+        "title": "Luxury Living Area and Lounge"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp",
+        "alt": "Luxury suite with circular lighted headboard in the 10 bedroom houseboat alleppey",
+        "title": "Premium AC Bedroom Suite"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg",
+        "alt": "Air-conditioned guest room with backwater views on the 10 bedroom houseboat alleppey",
+        "title": "Scenic Window Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg",
+        "alt": "Modern bedroom interior with geometric wall decor on the 10 bedroom houseboat alleppey",
+        "title": "Elegant Guest Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg",
+        "alt": "Comfortable bedding and wooden interiors inside the 10 bedroom houseboat alleppey",
+        "title": "Wooden Interior Bedroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg",
+        "alt": "Cozy and well-lit private cabin inside the 10 bedroom houseboat alleppey",
+        "title": "Cozy Private Cabin"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp",
+        "alt": "Clean attached marble bathroom with modern fittings in the 10 bedroom houseboat alleppey",
+        "title": "Modern Attached Bathroom"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp",
+        "alt": "Illuminated wooden staircase leading to the upper deck of the 10 bedroom houseboat alleppey",
+        "title": "Upper Deck Staircase Access"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp",
+        "alt": "Massive dining hall with elegant table setups inside the 10 bedroom houseboat alleppey",
+        "title": "Elegant Group Dining Hall"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp",
+        "alt": "Expansive wooden lounge and dining deck with decorative lighting on the 10 bedroom houseboat alleppey",
+        "title": "Expansive Wooden Lounge Deck"
+      }
+    ],
+    "aboutTitle": "About The Premium 10 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Searching for the ultimate venue for a destination wedding, corporate offsite, or massive family get-together? Our luxurious <strong>10 bedroom houseboat Alleppey</strong> offers an unparalleled floating experience on the Vembanad Lake. With a sprawling layout designed to comfortably host up to 40 guests (and up to 120 for day cruises), it entirely eliminates the logistical headache of splitting your large group across multiple smaller boats.",
+      "This mega-vessel features ten private, beautifully appointed suites, each equipped with modern air-conditioning and attached western bathrooms. To guarantee exceptional hospitality for such a massive party, the boat is fully staffed by an expert <strong>6-person crew</strong>. Our specialized chefs curate grand buffet-style Kerala meals in the vast dining hall, ensuring your backwater journey is seamless, majestic, and completely unforgettable."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>6-Person Dedicated Crew</span>",
+      "10 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing options</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 10 bedroom houseboat Alleppey suitable for corporate offsites and weddings?",
+        "a": "Yes! As one of the largest vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 40 passengers (up to 120 for day cruises)."
+      },
+      {
+        "q": "How is food served for a large group on a boat house in Alleppey?",
+        "a": "We deploy a multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+      },
+      {
+        "q": "Are all 10 bedrooms located on a single level?",
+        "a": "To maximize space and provide panoramic views, our 10 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "10 Bedroom Luxury Houseboat",
+                "item": "/10-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Private 10 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+            "description": "Book a massive 10 bedroom houseboat Alleppey designed exclusively for mega groups of up to 40 guests (up to 120 for day cruises). Features 10 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck ideal for events.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/10-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "40000",
+              "highPrice": "104000",
+              "offerCount": "3",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "108",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 10 bedroom houseboat Alleppey suitable for corporate offsites and weddings?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! As one of the largest vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 40 passengers (up to 120 for day cruises)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is food served for a large group on a boat house in Alleppey?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We deploy a multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are all 10 bedrooms located on a single level?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To maximize space and provide panoramic views, our 10 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ImageGallery",
+            "name": "10 Bedroom Houseboat Inside Gallery",
+            "description": "Explore the immense layout and luxury suites of our 10 bedroom private houseboat in Alleppey, capable of hosting 40 guests.",
+            "about": {
+              "@type": "Thing",
+              "name": "Private 10 Bedroom Houseboat Alleppey"
+            },
+            "image": [
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+                "name": "Grand 10 Bedroom Houseboat Exterior",
+                "description": "Illuminated Royal Waves 10 bedroom houseboat alleppey exterior at dusk",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp",
+                "name": "10 Bedroom Houseboat Profile",
+                "description": "Royal Waves 10 bedroom houseboat alleppey cruising the backwaters during daytime",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp",
+                "name": "Luxury Living Area and Lounge",
+                "description": "Spacious living area with modern sofa inside the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp",
+                "name": "Premium AC Bedroom Suite",
+                "description": "Luxury suite with circular lighted headboard in the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg",
+                "name": "Scenic Window Bedroom",
+                "description": "Air-conditioned guest room with backwater views on the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg",
+                "name": "Elegant Guest Bedroom",
+                "description": "Modern bedroom interior with geometric wall decor on the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg",
+                "name": "Wooden Interior Bedroom",
+                "description": "Comfortable bedding and wooden interiors inside the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg",
+                "name": "Cozy Private Cabin",
+                "description": "Cozy and well-lit private cabin inside the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp",
+                "name": "Modern Attached Bathroom",
+                "description": "Clean attached marble bathroom with modern fittings in the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp",
+                "name": "Upper Deck Staircase Access",
+                "description": "Illuminated wooden staircase leading to the upper deck of the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp",
+                "name": "Elegant Group Dining Hall",
+                "description": "Massive dining hall with elegant table setups inside the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp"
+              },
+              {
+                "@type": "ImageObject",
+                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp",
+                "name": "Expansive Wooden Lounge Deck",
+                "description": "Expansive wooden lounge and dining deck with decorative lighting on the 10 bedroom houseboat alleppey",
+                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "6-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "10 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 12,
@@ -397,7 +3337,243 @@
       "title": "Private 12 Bedroom Houseboat Alleppey | Check Prices",
       "description": "Planning a massive family trip? Reserve our 12 bedroom houseboat Alleppey. Includes 12 luxury AC bedrooms, food, and a private backwater tour. Book today!",
       "focusKeyword": "12 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 12 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 48 Guests",
+      "12 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
+        "alt": "Exterior view of the luxury 12 bedroom houseboat Alleppey on the backwaters",
+        "title": "Premium 12 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-001.jpg",
+        "alt": "Spacious wooden dining hall inside the 12 bedroom houseboat Alleppey",
+        "title": "12 Bedroom Houseboat Alleppey Dining Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-002.jpg",
+        "alt": "Illuminated interior hallway leading to guest rooms in the 12 bedroom houseboat Alleppey",
+        "title": "12 Bedroom Houseboat Alleppey Interior Hallway"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-003.jpg",
+        "alt": "Long table setup for group dining on the 12 bedroom houseboat Alleppey",
+        "title": "Group Dining Setup in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-004.jpg",
+        "alt": "Comfortable lounge area with green sofas aboard the 12 bedroom houseboat Alleppey",
+        "title": "12 Bedroom Houseboat Alleppey Lounge Area"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-005.jpg",
+        "alt": "Modern bathroom featuring double sinks inside the 12 bedroom houseboat Alleppey",
+        "title": "Modern Double Sink Bathroom in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-006.jpg",
+        "alt": "Scenic upper deck with artificial grass on the 12 bedroom houseboat Alleppey",
+        "title": "12 Bedroom Houseboat Alleppey Upper Deck"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-007.jpg",
+        "alt": "Luxury guest bedroom offering backwater views on the 12 bedroom houseboat Alleppey",
+        "title": "Luxury Bedroom in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-008.jpg",
+        "alt": "Clean and well-maintained attached bathroom in the 12 bedroom houseboat Alleppey",
+        "title": "Attached Bathroom in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-009.jpg",
+        "alt": "Side profile of the premium 12 bedroom houseboat Alleppey cruising the backwaters",
+        "title": "12 Bedroom Houseboat Alleppey Cruising"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-010.jpg",
+        "alt": "Well-lit wooden staircase and hallway inside the luxury 12 bedroom houseboat Alleppey",
+        "title": "Interior Staircase of 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-012.jpg",
+        "alt": "Elegant wooden reception counter area aboard the premium 12 bedroom houseboat Alleppey",
+        "title": "Wooden Counter Area in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-013.jpg",
+        "alt": "Spacious dining area with long tables ready for guests on the 12 bedroom houseboat Alleppey",
+        "title": "Dining Area on 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-011.jpg",
+        "alt": "Comfortable air-conditioned suite with large scenic windows in the 12 bedroom houseboat Alleppey",
+        "title": "Scenic Bedroom Suite in 12 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-014.jpg",
+        "alt": "Expansive dining hall offering panoramic water views from the 12 bedroom houseboat Alleppey",
+        "title": "Panoramic Dining Hall of 12 Bedroom Houseboat Alleppey"
+      }
+    ],
+    "aboutTitle": "About The Premium 12 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Searching for the ultimate venue for a destination wedding, corporate offsite, or massive family get-together? Our luxurious <strong>12 bedroom houseboat Alleppey</strong> offers an unparalleled floating experience on the Vembanad Lake. With a sprawling layout designed to comfortably host up to 48 overnight guests (and up to 150 for day cruises), it entirely eliminates the logistical headache of splitting your large group across multiple smaller boats.",
+      "This mega-vessel features twelve private, beautifully appointed suites, each equipped with modern air-conditioning and attached western bathrooms. To guarantee exceptional hospitality for such a massive party, the boat is fully staffed by an expert <strong>6-person crew</strong>. Our specialized chefs curate grand buffet-style Kerala meals in the vast dining hall, ensuring your backwater journey is seamless, majestic, and completely unforgettable."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>6-Person Dedicated Crew</span>",
+      "12 Bedrooms + Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The whole boat is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Sightseeing options available</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 12 bedroom houseboat Alleppey suitable for corporate offsites and weddings?",
+        "a": "Yes! As one of the largest vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 48 passengers (up to 150 for day cruises)."
+      },
+      {
+        "q": "How is food served for a large group on a boat house in Alleppey?",
+        "a": "We deploy a multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+      },
+      {
+        "q": "Are all 12 bedrooms located on a single level?",
+        "a": "To maximize space and provide panoramic views, our 12 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "12 Bedroom Luxury Houseboat",
+                "item": "/12-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Private 12 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
+            "description": "Book a massive 12 bedroom houseboat Alleppey designed exclusively for mega groups of up to 48 guests (and up to 150 guests for day cruises). Features 12 AC suites, an elite 6-person crew, and multiple packages including overnight, day cruise, and night stay.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/12-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "48000",
+              "highPrice": "129600",
+              "offerCount": "3",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "108",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 12 bedroom houseboat Alleppey suitable for corporate offsites and weddings?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! As one of the largest vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 48 passengers (up to 150 for day cruises)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is food served for a large group on a boat house in Alleppey?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We deploy a multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are all 12 bedrooms located on a single level?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To maximize space and provide panoramic views, our 12 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "6-Person Dedicated Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "12 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The whole boat is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   },
   {
     "bedrooms": 14,
@@ -437,6 +3613,217 @@
       "title": "14 Bedroom Houseboat Alleppey | Check Price & Availability",
       "description": "Looking for the biggest boats in Kerala? Reserve our 14 bedroom houseboat Alleppey for massive family trips. All-inclusive packages with food and backwater tour.",
       "focusKeyword": "14 bedroom houseboat alleppey"
-    }
+    },
+    "h1": "Private 14 Bedroom Houseboat Alleppey",
+    "headerMeta": [
+      "Up to 56 Guests",
+      "14 AC Bedrooms",
+      "4.8/5 Rating"
+    ],
+    "defaultImage": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
+    "gallery": [
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
+        "alt": "Exterior view of the premium 14 bedroom houseboat Alleppey floating on the backwaters",
+        "title": "Premium 14 Bedroom Houseboat Alleppey Exterior"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-001.jpg",
+        "alt": "Illuminated wooden hallway inside a luxury 14 bedroom houseboat Alleppey",
+        "title": "Corridor in 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-002.jpg",
+        "alt": "Scenic backwater window view from a suite inside the 14 bedroom houseboat Alleppey",
+        "title": "Scenic Bedroom - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-004.jpg",
+        "alt": "Massive dining hall with decorative ceiling on a 14 bedroom houseboat Alleppey",
+        "title": "Grand Dining Hall - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-005.jpg",
+        "alt": "Comfortable lounge seating area aboard the 14 bedroom houseboat Alleppey",
+        "title": "Lounge Deck - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-006.jpg",
+        "alt": "Modern attached bathroom facilities inside the 14 bedroom houseboat Alleppey",
+        "title": "Attached Bathroom - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-007.jpg",
+        "alt": "Cozy AC bedroom with elegant red bedding on the 14 bedroom houseboat Alleppey",
+        "title": "AC Bedroom - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-008.jpg",
+        "alt": "Beautifully decorated guest cabin in the 14 bedroom houseboat Alleppey",
+        "title": "Guest Cabin - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-009.jpg",
+        "alt": "Spacious group dining setup inside the 14 bedroom houseboat Alleppey",
+        "title": "Group Dining - 14 Bedroom Houseboat Alleppey"
+      },
+      {
+        "src": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-010.jpg",
+        "alt": "Air-conditioned private bedroom with warm interiors on the 14 bedroom houseboat Alleppey",
+        "title": "Private Bedroom - 14 Bedroom Houseboat Alleppey"
+      }
+    ],
+    "aboutTitle": "About The Premium 14 Bedroom Houseboat in Alleppey",
+    "aboutParagraphs": [
+      "Searching for the ultimate super-vessel venue for a massive destination wedding, corporate retreat, or giant family get-together? Our ultra-luxurious <strong>14 bedroom houseboat alleppey</strong> offers an unmatched floating experience on the Vembanad Lake. With an expansive layout designed to comfortably host up to 56 guests (and up to 200 for day cruises), it completely eliminates the hassle of dividing your large group across separate boats.",
+      "This grand vessel features fourteen private, beautifully appointed suites, each equipped with modern air-conditioning and attached western bathrooms. To guarantee exceptional hospitality for your group, the boat is fully staffed by a dedicated professional crew. Our expert onboard chefs curate grand buffet-style Kerala meals in the vast dining hall, ensuring your backwater journey is seamless, majestic, and unforgettable."
+    ],
+    "amenities": [
+      "Air Conditioning<br /><span style={{\"display\":\"inline-block\",\"marginTop\":\"4px\",\"padding\":\"3px 8px\",\"background\":\"#fff4ed\",\"color\":\"var(--brand-orange)\",\"borderRadius\":\"4px\",\"fontWeight\":\"700\",\"fontSize\":\"10px\",\"border\":\"1px solid #fed7aa\",\"letterSpacing\":\"0.5px\"}}>9:00 PM TO 6:00 AM</span>",
+      "Private Crew<br /><span style={{\"color\":\"var(--text-muted)\"}}>Dedicated Professional Crew</span>",
+      "14 Bedrooms + Attached Bathrooms<br /><span style={{\"color\":\"var(--text-muted)\"}}>Clean &amp; well-maintained suites</span>",
+      "100% Private<br /><span style={{\"color\":\"var(--text-muted)\"}}>The entire vessel is yours</span>",
+      "Backwater Cruise<br /><span style={{\"color\":\"var(--text-muted)\"}}>Scenic sightseeing routes</span>",
+      "Meals &amp; Snacks<br /><span style={{\"color\":\"var(--text-muted)\"}}>Freshly prepared on board</span>",
+      "All Inclusive<br /><span style={{\"color\":\"var(--text-muted)\"}}>Taxes &amp; fuel charges covered</span>"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 14 bedroom houseboat alleppey suitable for corporate offsites and weddings?",
+        "a": "Yes! As one of the largest mega-vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 56 passengers (up to 200 for day cruises)."
+      },
+      {
+        "q": "How is food served for a large group on a boat house in Alleppey?",
+        "a": "We deploy an expert multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+      },
+      {
+        "q": "Are all 14 bedrooms located on a single level?",
+        "a": "To maximize space and provide panoramic backwater views, our 14 bedroom boats feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+      }
+    ],
+    "review": null,
+    "schemas": [
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Houseboats",
+                "item": "/house-boat-alleppey/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "14 Bedroom Luxury Houseboat",
+                "item": "/14-bedroom-houseboat-alleppey/"
+              }
+            ]
+          },
+          {
+            "@type": "Product",
+            "name": "Private 14 Bedroom Houseboat Alleppey",
+            "image": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
+            "description": "Book a massive 14 bedroom houseboat alleppey designed exclusively for mega groups of up to 56 guests (up to 200 for day cruises). Features 14 AC suites, a professional crew, and multiple packages including overnight, day cruise, and night stay.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Alleppey Booking"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "/14-bedroom-houseboat-alleppey/",
+              "priceCurrency": "INR",
+              "lowPrice": "56000",
+              "highPrice": "171200",
+              "offerCount": "3",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the 14 bedroom houseboat alleppey suitable for corporate offsites and weddings?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! As one of the largest mega-vessels in the Kerala backwaters, it boasts a massive upper deck perfect for ceremonies, DJ nights, and corporate meetings, comfortably accommodating all 56 passengers (up to 200 for day cruises)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is food served for a large group on a boat house in Alleppey?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We deploy an expert multi-chef culinary team to manage a full buffet-style catering setup. This ensures that every guest enjoys hot, authentic Kerala cuisine simultaneously in our spacious dining hall without long wait times."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are all 14 bedrooms located on a single level?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To maximize space and provide panoramic backwater views, our 14 bedroom boats feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "amenitiesStructured": [
+      {
+        "title": "Air Conditioning",
+        "badge": "9:00 PM TO 6:00 AM",
+        "icon": "ac"
+      },
+      {
+        "title": "Private Crew",
+        "sub": "Dedicated Professional Crew",
+        "icon": "crew"
+      },
+      {
+        "title": "14 Bedrooms + Bathrooms",
+        "sub": "Clean & well-maintained suites",
+        "icon": "bed"
+      },
+      {
+        "title": "100% Private",
+        "sub": "The entire vessel is yours",
+        "icon": "private"
+      },
+      {
+        "title": "Backwater Cruise",
+        "sub": "Scenic sightseeing options",
+        "icon": "cruise"
+      },
+      {
+        "title": "Meals & Snacks",
+        "sub": "Freshly prepared on board",
+        "icon": "food"
+      },
+      {
+        "title": "All Inclusive",
+        "sub": "Taxes & fuel charges covered",
+        "icon": "inclusive"
+      }
+    ]
   }
 ]
