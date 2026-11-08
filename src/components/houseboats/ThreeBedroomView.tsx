@@ -457,7 +457,7 @@ export default function ThreeBedroomView() {
                                 <div className="ab-guest-info"><span>Adults</span></div>
                                 <div className="ab-guest-controls">
                                     <button type="button" id="btn-adult-minus" className="ab-ctrl-btn" aria-label="Decrease adults">-</button>
-                                    <input type="text" id="val-adults" className="ab-guest-val" value="6" inputMode="numeric" pattern="[0-9]*" aria-label="Number of adults" />
+                                    <input type="text" id="val-adults" className="ab-guest-val" defaultValue="6" inputMode="numeric" pattern="[0-9]*" aria-label="Number of adults" />
                                     <button type="button" id="btn-adult-plus" className="ab-ctrl-btn" aria-label="Increase adults">+</button>
                                 </div>
                             </div>
@@ -465,7 +465,7 @@ export default function ThreeBedroomView() {
                                 <div className="ab-guest-info"><span>Kids</span><small>Below 5</small></div>
                                 <div className="ab-guest-controls">
                                     <button type="button" id="btn-kid-minus" className="ab-ctrl-btn" aria-label="Decrease kids">-</button>
-                                    <input type="text" id="val-kids" className="ab-guest-val" value="0" inputMode="numeric" pattern="[0-9]*" aria-label="Number of kids" />
+                                    <input type="text" id="val-kids" className="ab-guest-val" defaultValue="0" inputMode="numeric" pattern="[0-9]*" aria-label="Number of kids" />
                                     <button type="button" id="btn-kid-plus" className="ab-ctrl-btn" aria-label="Increase kids">+</button>
                                 </div>
                             </div>

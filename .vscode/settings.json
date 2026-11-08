@@ -4,6 +4,9 @@
   "files.exclude": {
     "**/.git": true,
     "**/.next": true
+  },
+  "files.associations": {
+    "**/.next/trace": "plaintext",
+    "**/trace": "plaintext"
   }
 }
-
