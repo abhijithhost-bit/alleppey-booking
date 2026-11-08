@@ -237,8 +237,6 @@ export default function FourBedroomView() {
       ))}
 
       <div className="houseboat-detail-pure w-full">
-        
-<link rel="preload" as="image" href="/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg" fetchPriority="high" />
 
 
 
@@ -478,11 +476,28 @@ export default function FourBedroomView() {
                 
                 <div className="ab-sh-price-card-body">
                     <div className="ab-sh-price-header">
-                        <div className="ab-sh-price-amount"><span className="ab-price-from">From</span> ₹24,000</div>
+                        <div className="ab-header-top-badge">
+                            <span className="ab-private-badge">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                100% Private Charter
+                            </span>
+                            <span className="ab-dtpc-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+                                Verified Boat
+                            </span>
+                        </div>
+                        <div className="ab-sh-price-amount"><span className="ab-price-from">From</span> ₹24,000<span className="ab-price-period">/ trip</span></div>
                         <span className="ab-sh-price-subtitle">Whole boat • 4 bedroom houseboat • Up to 16 guests</span>
-                        <div className="ab-sh-price-note">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" /></svg>
-                            <span>Estimated price shown. Final rates and boat allocation vary by group size, dates, and real-time availability. Message us for your exact quote!</span>
+                        
+                        <div className="ab-trust-strip">
+                            <div className="ab-trust-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>All 3 Kerala Meals + Tea Included</span>
+                            </div>
+                            <div className="ab-trust-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Private Dedicated Crew (Captain + Chef)</span>
+                            </div>
                         </div>
                     </div>
                     
@@ -493,26 +508,26 @@ export default function FourBedroomView() {
                                 <div className="ab-custom-select-trigger" id="custom-select-trigger">
                                     <div className="ab-cst-content">
                                         <span className="ab-cst-title">Overnight Cruise</span>
-                                        <span className="ab-cst-subtitle">12:00 PM - 9:00 AM</span>
+                                        <span className="ab-cst-subtitle">12:00 PM - 9:00 AM (Next Day)</span>
                                     </div>
                                     <svg className="ab-cst-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><polyline points="6 9 12 15 18 9" /></svg>
                                 </div>
                                 
                                 <div className="ab-custom-select-options">
-                                    <div className="ab-cso-item " data-value="overnight">
+                                    <div className="ab-cso-item selected" data-value="overnight">
                                         <div className="ab-cso-title">
                                             <span className="ab-cso-title-text">Overnight Cruise</span>
                                             <span className="ab-cso-badge">Best Seller</span>
                                         </div>
-                                        <span className="ab-cso-subtitle">12:00 PM - 9:00 AM</span>
+                                        <span className="ab-cso-subtitle">12:00 PM - 9:00 AM (All Meals Included)</span>
                                     </div>
                                     <div className="ab-cso-item" data-value="day">
                                         <div className="ab-cso-title"><span className="ab-cso-title-text">Day Cruise</span></div>
-                                        <span className="ab-cso-subtitle">11:30 AM - 5:00 PM</span>
+                                        <span className="ab-cso-subtitle">11:30 AM - 5:00 PM (Lunch + Snacks)</span>
                                     </div>
                                     <div className="ab-cso-item" data-value="night">
                                         <div className="ab-cso-title"><span className="ab-cso-title-text">Night Stay</span></div>
-                                        <span className="ab-cso-subtitle">5:00 PM - 9:00 AM</span>
+                                        <span className="ab-cso-subtitle">5:00 PM - 9:00 AM (Dinner + Breakfast)</span>
                                     </div>
                                 </div>
                                 
@@ -527,14 +542,14 @@ export default function FourBedroomView() {
                         </div>
 
                         <div className="ab-booking-field ab-date-field">
-                            <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
+                            <label className="ab-field-label" htmlFor="ab-date">Check-in Date</label>
                             <DatePicker id="ab-date" className="ab-date-input" placeholder="Select check-in date" required />
                         </div>
 
                         <div className="ab-booking-field">
                             <label className="ab-field-label">Guests</label>
                             <div className="ab-guest-inner-row">
-                                <div className="ab-guest-info"><span>Adults</span></div>
+                                <div className="ab-guest-info"><span>Adults</span><small>Age 5 and above</small></div>
                                 <div className="ab-guest-controls">
                                     <button type="button" id="btn-adult-minus" className="ab-ctrl-btn" aria-label="Decrease adults">-</button>
                                     <input type="text" id="val-adults" className="ab-guest-val" defaultValue="8" inputMode="numeric" pattern="[0-9]*" aria-label="Number of adults" />
@@ -542,7 +557,7 @@ export default function FourBedroomView() {
                                 </div>
                             </div>
                             <div className="ab-guest-inner-row">
-                                <div className="ab-guest-info"><span>Kids</span><small>Below 5</small></div>
+                                <div className="ab-guest-info"><span>Kids</span><small>Below 5 years (Free)</small></div>
                                 <div className="ab-guest-controls">
                                     <button type="button" id="btn-kid-minus" className="ab-ctrl-btn" aria-label="Decrease kids">-</button>
                                     <input type="text" id="val-kids" className="ab-guest-val" defaultValue="0" inputMode="numeric" pattern="[0-9]*" aria-label="Number of kids" />
@@ -554,11 +569,11 @@ export default function FourBedroomView() {
 
                     <div className="ab-price-breakdown" id="ab-price-breakdown">
                         <div className="ab-pb-row">
-                            <span id="ab-pb-base-label" style={{"display":"flex","alignItems":"center"}}>Base Price <span style={{"fontSize":"11.5px","fontWeight":"500","color":"#9ca3af","marginLeft":"4px"}}>(Up to 8 guests)</span></span>
+                            <span id="ab-pb-base-label" style={{"display":"flex","alignItems":"center"}}>Base Price <span style={{"fontSize":"11.5px","fontWeight":"500","color":"#9ca3af","marginLeft":"4px"}}>(Up to 8 Adults)</span></span>
                             <span id="ab-pb-base">₹24,000</span>
                         </div>
                         <div className="ab-pb-row" id="ab-pb-extra-row" style={{"display":"none"}}>
-                            <span>Extra Guests Charge</span>
+                            <span>Extra Adults Charge</span>
                             <span id="ab-pb-extra">₹0</span>
                         </div>
                         <hr className="ab-pb-divider" />
@@ -572,21 +587,6 @@ export default function FourBedroomView() {
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" /></svg>
                         Maximum capacity is 16 guests total.
                     </div>
-
-                    
-                    <div className="ab-btn-row ab-hide-desktop">
-                        <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%204%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
-                            Check Availability
-                        </a>
-                        <a href="tel:+917012761588" className="ab-btn-call" aria-label="Call Us Directly">Call Us Directly</a>
-                    </div>
-
-                    
-                    <div className="ab-hide-mobile" style={{"marginTop":"16px","textAlign":"center"}}>
-                        <a href="tel:+917012761588" className="ab-btn-call" aria-label="Call Us Directly" style={{"width":"100%"}}>Call Us Directly</a>
-                    </div>
-
                     <div className="ab-sidebar-review">
                         <div className="ab-sr-stars">★★★★★</div>
                         <div className="ab-sr-quote">"Absolutely magical. The crew treated us like royalty and the food was the best we had in Kerala!"</div>
@@ -594,15 +594,18 @@ export default function FourBedroomView() {
                     </div>
                 </div>
 
-                
-                <div className="ab-sh-price-card-footer ab-hide-mobile">
-                    <div style={{"display":"flex","flexDirection":"column"}}>
-                        <span style={{"fontSize":"10px","fontWeight":"600","color":"var(--text-muted)","textTransform":"uppercase","letterSpacing":"0.5px","lineHeight":"1"}}>Total Estimate</span>
-                        <span id="ab-pb-total-footer" style={{"fontSize":"18px","fontWeight":"800","color":"var(--text-dark)","marginTop":"2px","lineHeight":"1.1"}}>₹24,000</span>
+                <div className="ab-sh-price-card-docked">
+                    <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%204%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability on WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
+                        Check Availability on WhatsApp
+                    </a>
+                    <div className="ab-response-guarantee">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        Usually replies in 2 mins
                     </div>
-                    <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%204%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability" style={{"padding":"10px 14px","margin":"0","width":"auto","fontSize":"13px"}}>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
-                        Check Availability
+                    <a href="tel:+917012761588" className="ab-docked-call-link" aria-label="Call Us Directly">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Prefer to call? +91 70127 61588
                     </a>
                 </div>
 
@@ -612,14 +615,19 @@ export default function FourBedroomView() {
 </div>
 
 <div className="ab-mobile-sticky-bar ab-hide-bar">
-    <div className="ab-msb-price">
-        <span>Starting from</span>
-        <strong>₹24,000</strong>
+    <div className="ab-msb-info" id="ab-sticky-scroll-btn" role="button" tabIndex={0} aria-label="Tap to customize booking details">
+        <div className="ab-msb-price">
+            <span>Total Estimate</span>
+            <strong>₹24,000</strong>
+        </div>
+        <button type="button" className="ab-msb-modify-btn" aria-label="Customize details">
+            Modify details <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>
     </div>
-    <button type="button" id="ab-sticky-scroll-btn" className="ab-btn-wa" style={{"padding":"12px 24px","fontSize":"14px","boxShadow":"0 4px 10px rgba(37, 211, 102, 0.3)","border":"none","cursor":"pointer"}} aria-label="Scroll to Check Availability">
+    <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%204%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa ab-msb-cta" target="_blank" rel="noopener noreferrer" aria-label="Book on WhatsApp">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
-        Check Availability
-    </button>
+        WhatsApp
+    </a>
 </div>
 </article>
 

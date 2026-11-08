@@ -9,6 +9,26 @@ export default function InteractiveScripts() {
   useEffect(() => {
     const cleanups: (() => void)[] = [];
 
+    // Toggle houseboat-specific body class to hide generic global floating action buttons
+    const isHouseboat = Boolean(
+      document.getElementById("ab-single-houseboat") ||
+      document.getElementById("ab-houseboats-alleppey") ||
+      document.querySelector(".fleet-pure-page") ||
+      pathname?.includes("houseboat") ||
+      pathname?.includes("house-boat")
+    );
+    if (isHouseboat) {
+      document.body.classList.add("is-houseboat-page");
+      document.body.classList.add("is-houseboat-detail");
+    } else {
+      document.body.classList.remove("is-houseboat-page");
+      document.body.classList.remove("is-houseboat-detail");
+    }
+    cleanups.push(() => {
+      document.body.classList.remove("is-houseboat-page");
+      document.body.classList.remove("is-houseboat-detail");
+    });
+
     // 0. CLEANUP ORPHANED CALENDARS ON ROUTE TRANSITION
     document.querySelectorAll(".flatpickr-calendar").forEach((el) => el.remove());
 
@@ -79,7 +99,7 @@ export default function InteractiveScripts() {
           baseGuests: 2,
           maxGuestsOvernight: 4,
           maxGuestsDay: 6,
-          overnight: { base: 9000, extraPerAdult: 1000, threshold: 2 },
+          overnight: { base: 11000, extraPerAdult: 1000, threshold: 2 },
           day: { base: 8000, extraPerAdult: 1000, threshold: 2 },
           night: { base: 7500, extraPerAdult: 500, threshold: 2 },
         },
@@ -593,18 +613,22 @@ export default function InteractiveScripts() {
         handleScroll();
       }
 
-      const scrollBtn = document.getElementById("ab-sticky-scroll-btn");
-      if (scrollBtn) {
-        scrollBtn.addEventListener("click", () => {
-          const widget =
-            document.querySelector(".ab-sh-price-card") ||
-            document.getElementById("booking-widget") ||
-            document.querySelector(".hb-card");
-          if (widget) {
-            widget.scrollIntoView({ behavior: "smooth", block: "center" });
-          }
-        });
-      }
+      const scrollToWidget = () => {
+        const widget =
+          document.querySelector(".ab-sh-price-card") ||
+          document.getElementById("booking-widget") ||
+          document.querySelector(".hb-card");
+        if (widget) {
+          widget.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      };
+
+      const scrollTriggers = document.querySelectorAll(
+        "#ab-sticky-scroll-btn, .ab-msb-modify-btn, .ab-msb-price, .ab-msb-info"
+      );
+      scrollTriggers.forEach((trigger) => {
+        trigger.addEventListener("click", scrollToWidget);
+      });
     }
 
     // Run initializations after DOM settles

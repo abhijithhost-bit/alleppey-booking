@@ -132,8 +132,8 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
-      <body className="antialiased flex flex-col min-h-screen">
+    <html lang="en" suppressHydrationWarning className={`${poppins.variable} ${inter.variable}`}>
+      <body suppressHydrationWarning className="antialiased flex flex-col min-h-screen">
         <script
           type="application/ld+json"
           suppressHydrationWarning

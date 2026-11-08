@@ -6,12 +6,12 @@
     "shortTitle": "1 Bedroom Houseboat",
     "badge": "Most Popular for Couples",
     "capacity": "2 Adults (Up to 4 with extra beds)",
-    "startingPrice": 9000,
-    "priceDisplay": "₹9,000",
+    "startingPrice": 11000,
+    "priceDisplay": "₹11,000",
     "tiers": [
       {
         "name": "Deluxe",
-        "price": 9000,
+        "price": 11000,
         "ac": "Night AC (9 PM - 6 AM)",
         "meals": "All 3 Meals + Tea",
         "deck": "Front Glass Deck"

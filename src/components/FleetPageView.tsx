@@ -57,7 +57,7 @@ const AB_IMAGES = [
 ];
 
 const AB_HOUSEBOATS = [ 
-  {n:1,  price:9000,  priceDay:8000,  priceNight:7500,  base:2,  max:4,  badge:"Best for Couples",  desc:"A cozy private cruise for two — perfect for honeymoons and quiet getaways.", link:"/1-bedroom-houseboat-alleppey/"},
+  {n:1,  price:11000, priceDay:8000,  priceNight:7500,  base:2,  max:4,  badge:"Best for Couples",  desc:"A cozy private cruise for two — perfect for honeymoons and quiet getaways.", link:"/1-bedroom-houseboat-alleppey/"},
   {n:2,  price:14000, priceDay:12000, priceNight:9000,  base:4,  max:8,  badge:"Most Popular",      desc:"Our most-booked size — ideal for couples travelling together or close friends.", link:"/2-bedroom-houseboat-alleppey/"},
   {n:3,  price:18000, priceDay:14000, priceNight:13500, base:6,  max:12, badge:"",                  desc:"Comfortable space for a small family or a close-knit group of friends.", link:"/3-bedroom-houseboat-alleppey/"},
   {n:4,  price:24000, priceDay:20000, priceNight:18000, base:8,  max:16, badge:"Family Favourite",  desc:"Room to spread out — a favourite for family reunions and festive trips.", link:"/4-bedroom-houseboat-alleppey/"},
@@ -80,7 +80,7 @@ export default function FleetPageView() {
     }
   };
 
-  const money = (v: number) => "₹" + Number(v).toLocaleString("en-IN");
+  const money = (v: number) => "₹" + v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   const waLink = (n: number) =>
     "https://wa.me/917012761588?text=" +
     encodeURIComponent(
@@ -99,11 +99,8 @@ export default function FleetPageView() {
         />
       )}
 
-      <div className="fleet-pure-page w-full">
-        {/* Render hero & header */}
-        <link rel="preload" as="image" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp" />
-
-<div className="ab-hb-wrap" id="ab-houseboats-alleppey">
+      <div className="fleet-pure-page w-full" suppressHydrationWarning>
+        <div className="ab-hb-wrap" id="ab-houseboats-alleppey">
 
 
   <header className="ab-hb-hero">
