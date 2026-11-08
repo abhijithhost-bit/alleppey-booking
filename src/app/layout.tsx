@@ -1,5 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./home.css";
+import "./fleet.css";
+import "./houseboat-detail.css";
+import "./sharing-houseboat.css";
+import "./shikara-ride.css";
+import "./kayaking.css";
+import "./speed-boat.css";
+import "./about-us.css";
+import "./contact.css";
+import "./legal.css";
+import "./blogs.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import InteractiveScripts from "@/components/InteractiveScripts";
@@ -107,6 +118,10 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="antialiased flex flex-col min-h-screen">
         <script
           type="application/ld+json"

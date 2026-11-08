@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, User, ArrowLeft, MessageCircle, Share2, Clock } from "lucide-react";
+import { Calendar, User, ArrowLeft, MessageCircle, Clock } from "lucide-react";
 import blogsData from "@/data/blogs.json";
 import siteConfig from "@/data/siteConfig.json";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -15,6 +15,8 @@ interface BlogPageProps {
 
 const blogs = blogsData as BlogPost[];
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return blogs.map((b) => ({
     slug: b.slug,
@@ -26,30 +28,21 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
   const post = blogs.find((b) => b.slug === slug);
 
   if (!post) {
-    return {
-      title: "Blog Post Not Found | Alleppey Booking",
-    };
+    return { title: "Blog Post Not Found | Alleppey Booking" };
   }
 
   return {
     title: post.seo.title,
     description: post.seo.description,
     keywords: post.seo.focusKeyword ? [post.seo.focusKeyword] : undefined,
-    alternates: {
-      canonical: `${siteConfig.url}/blogs/${slug}/`,
-    },
+    alternates: { canonical: `${siteConfig.url}/blogs/${slug}/` },
     openGraph: {
       title: post.seo.title,
       description: post.seo.description,
       url: `${siteConfig.url}/blogs/${slug}/`,
       type: "article",
       publishedTime: post.date,
-      images: [
-        {
-          url: `${siteConfig.url}${post.image}`,
-          alt: post.title,
-        },
-      ],
+      images: [{ url: `${siteConfig.url}${post.image}`, alt: post.title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -60,13 +53,24 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
   };
 }
 
+/** Strip WordPress block comments and wp-* classes from HTML */
+function cleanWpHtml(html: string): string {
+  return html
+    .replace(/<!--\s*\/?wp:[^>]*-->/g, "")
+    .replace(/\bclass="wp-block-list\b[^"]*"/g, "")
+    .replace(/\bclass="wp-block-heading\b[^"]*"/g, "")
+    .replace(/\bclass="wp-block-image[^"]*"/g, "")
+    .replace(/\bclass="wp-image-\d+[^"]*"/g, "")
+    .replace(/\bclass="\s*"/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 export default async function SingleBlogPage({ params }: BlogPageProps) {
   const { slug } = await params;
   const post = blogs.find((b) => b.slug === slug);
 
-  if (!post) {
-    notFound();
-  }
+  if (!post) notFound();
 
   const relatedBlogs = blogs.filter((b) => b.slug !== slug).slice(0, 3);
 
@@ -77,12 +81,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
     image: [`${siteConfig.url}${post.image}`],
     datePublished: post.date,
     dateModified: post.date,
-    author: [
-      {
-        "@type": "Person",
-        name: post.author,
-      },
-    ],
+    author: [{ "@type": "Person", name: post.author }],
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,
@@ -98,9 +97,9 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
     },
   };
 
-  const whatsappInquiryUrl = `https://wa.me/917012761588?text=Hello%20Alleppey%20Booking%2C%20I%20read%20your%20article%20%22${encodeURIComponent(
-    post.title
-  )}%22%20and%20would%20like%20to%20enquire%20about%20booking%20a%20tour.`;
+  const whatsappInquiryUrl = `https://wa.me/917012761588?text=Hello%20Alleppey%20Booking%2C%20I%20read%20your%20article%20%22${encodeURIComponent(post.title)}%22%20and%20would%20like%20to%20enquire%20about%20booking%20a%20tour.`;
+
+  const cleanedContent = cleanWpHtml(post.contentHtml || "");
 
   return (
     <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen">
@@ -117,9 +116,9 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
           ]}
         />
 
-        {/* Article Header Box */}
+        {/* Article Header */}
         <header className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-sm mt-4 mb-8">
-          <div className="flex items-center gap-3 text-xs text-slate-400 mb-4">
+          <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-4">
             <span className="flex items-center gap-1.5 font-medium text-slate-600">
               <Calendar className="w-3.5 h-3.5 text-[#FF6600]" />
               <span>{post.date}</span>
@@ -153,12 +152,12 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
           </div>
         </header>
 
-        {/* Main Article Body */}
+        {/* Main Article Body — cleaned WordPress HTML */}
         <div className="bg-white rounded-3xl p-6 sm:p-12 border border-slate-200/80 shadow-sm mb-12">
           <div
-            className="blog-content prose prose-slate max-w-none"
+            className="blog-content"
             suppressHydrationWarning
-            dangerouslySetInnerHTML={{ __html: (post.contentHtml || "").replace(/\r\n/g, "\n") }}
+            dangerouslySetInnerHTML={{ __html: cleanedContent }}
           />
 
           {/* In-Article WhatsApp Callout */}
@@ -183,6 +182,17 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
           </div>
         </div>
 
+        {/* Back to Blogs Link */}
+        <div className="mb-8">
+          <Link
+            href="/blogs/"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#0A2540] hover:text-[#FF6600] transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to All Guides
+          </Link>
+        </div>
+
         {/* Bottom Booking Form */}
         <div className="my-12">
           <BookingForm
@@ -197,10 +207,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
             <h2 className="text-xl sm:text-2xl font-extrabold text-[#0A2540]">
               More Travel Guides
             </h2>
-            <Link
-              href="/blogs/"
-              className="text-xs font-bold text-[#FF6600] hover:underline"
-            >
+            <Link href="/blogs/" className="text-xs font-bold text-[#FF6600] hover:underline">
               View All Guides →
             </Link>
           </div>

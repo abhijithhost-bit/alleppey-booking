@@ -1,42 +1,22 @@
 import type { Metadata } from "next";
-import pagesDataRaw from "@/data/pages_full.json";
 import siteConfig from "@/data/siteConfig.json";
-import WordPressPageView from "@/components/WordPressPageView";
-
-const pagesData = pagesDataRaw as Record<
-  string,
-  {
-    slug: string;
-    title: string;
-    seo: { title: string; description: string; focusKeyword?: string };
-    htmlContent: string;
-    schemas: any[];
-  }
->;
-
-const page = pagesData["shikara-ride-in-alleppey"];
+import ShikaraRideView from "@/components/activities/ShikaraRideView";
 
 export const metadata: Metadata = {
-  title: page?.seo?.title || "Best Shikara Ride in Alleppey | Explore Alappuzha Backwaters",
+  title: "Alleppey Shikara Boat Ride | Narrow Canals & Village Tours",
   description:
-    page?.seo?.description ||
-    "Book a private Shikara Ride in Alleppey to explore the Kerala backwaters on your own schedule. Message us on WhatsApp for instant confirmation",
+    "Book an authentic Shikara boat ride in Alleppey from ₹800/hr. Explore shallow village canals inaccessible to houseboats. Instant WhatsApp booking.",
   alternates: {
     canonical: `${siteConfig.url}/shikara-ride-in-alleppey/`,
   },
   openGraph: {
-    title: page?.seo?.title,
-    description: page?.seo?.description,
+    title: "Alleppey Shikara Boat Ride | Narrow Canals & Village Tours",
+    description:
+      "Book an authentic Shikara boat ride in Alleppey from ₹800/hr. Explore shallow village canals inaccessible to houseboats. Instant WhatsApp booking.",
     url: `${siteConfig.url}/shikara-ride-in-alleppey/`,
   },
 };
 
 export default function ShikaraRidePage() {
-  if (!page) return null;
-  return (
-    <WordPressPageView
-      htmlContent={page.htmlContent}
-      schemas={page.schemas}
-    />
-  );
+  return <ShikaraRideView />;
 }

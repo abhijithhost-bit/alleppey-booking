@@ -15,7 +15,12 @@ const blogSlugs = [
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  compress: true,
+  poweredByHeader: false,
   images: {
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [360, 480, 640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
       {
         protocol: "https",
@@ -26,6 +31,36 @@ const nextConfig: NextConfig = {
         hostname: "alleppeybooking.com",
       },
     ],
+  },
+  async headers() {
+    return [
+      {
+        source: "/wp-content/uploads/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/:path*",
+        headers: [
+          {
+            key: "X-Content-Type-Options",
+            value: "nosniff",
+          },
+          {
+            key: "X-Frame-Options",
+            value: "SAMEORIGIN",
+          },
+          {
+            key: "Referrer-Policy",
+            value: "strict-origin-when-cross-origin",
+          },
+        ],
+      },
+    ];
   },
   async redirects() {
     const list: { source: string; destination: string; permanent: boolean }[] = [];

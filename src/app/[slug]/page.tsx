@@ -1,62 +1,43 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import pagesDataRaw from "@/data/pages_full.json";
+import houseboatsData from "@/data/houseboats.json";
 import siteConfig from "@/data/siteConfig.json";
-import WordPressPageView from "@/components/WordPressPageView";
+import { HOUSEBOAT_VIEWS } from "@/components/houseboats";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-const pagesData = pagesDataRaw as Record<
-  string,
-  {
-    slug: string;
-    title: string;
-    seo: { title: string; description: string; focusKeyword?: string };
-    htmlContent: string;
-    schemas: any[];
-  }
->;
+const houseboatsBySlug = Object.fromEntries(
+  houseboatsData.map((boat) => [boat.slug, boat])
+);
 
-const houseboatSlugs = [
-  "1-bedroom-houseboat-alleppey",
-  "2-bedroom-houseboat-alleppey",
-  "3-bedroom-houseboat-alleppey",
-  "4-bedroom-houseboat-alleppey",
-  "5-bedroom-houseboat-alleppey",
-  "6-bedroom-houseboat-alleppey",
-  "7-bedroom-houseboat-alleppey",
-  "8-bedroom-houseboat-alleppey",
-  "10-bedroom-houseboat-alleppey",
-  "12-bedroom-houseboat-alleppey",
-  "14-bedroom-houseboat-alleppey",
-];
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return houseboatSlugs.map((slug) => ({ slug }));
+  return houseboatsData.map((boat) => ({ slug: boat.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const page = pagesData[slug];
+  const boat = houseboatsBySlug[slug];
 
-  if (!page) {
+  if (!boat) {
     return {
       title: "Houseboat Not Found | Alleppey Booking",
     };
   }
 
   return {
-    title: page.seo.title,
-    description: page.seo.description,
-    keywords: page.seo.focusKeyword ? [page.seo.focusKeyword] : undefined,
+    title: boat.seo.title,
+    description: boat.seo.description,
+    keywords: boat.seo.focusKeyword ? [boat.seo.focusKeyword] : undefined,
     alternates: {
       canonical: `${siteConfig.url}/${slug}/`,
     },
     openGraph: {
-      title: page.seo.title,
-      description: page.seo.description,
+      title: boat.seo.title,
+      description: boat.seo.description,
       url: `${siteConfig.url}/${slug}/`,
     },
   };
@@ -64,16 +45,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HouseboatSlugPage({ params }: PageProps) {
   const { slug } = await params;
-  const page = pagesData[slug];
+  const HouseboatView = HOUSEBOAT_VIEWS[slug];
 
-  if (!page) {
+  if (!HouseboatView) {
     notFound();
   }
 
-  return (
-    <WordPressPageView
-      htmlContent={page.htmlContent}
-      schemas={page.schemas}
-    />
-  );
+  return <HouseboatView />;
 }

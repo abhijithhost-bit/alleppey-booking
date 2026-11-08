@@ -1,0 +1,303 @@
+/* =========================================
+   1. PRIVACY POLICY - HERO SECTION
+   ========================================= */
+.pp-hero-wrapper {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    /* Clean, dark authoritative background matching T&C */
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.95) 0%, rgba(10, 25, 47, 0.8) 100%);
+    padding: 100px 20px;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    text-align: center;
+}
+
+.pp-hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.pp-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.pp-hero-title {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.5px;
+}
+
+.pp-hero-subtitle {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #a0aec0;
+    margin: 0 auto;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+/* =========================================
+   2. PRIVACY POLICY - CONTENT SECTION
+   ========================================= */
+.pp-content-wrapper {
+    font-family: 'Poppins', 'Lato', sans-serif;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    background-color: #f4f7f6;
+    padding: 60px 20px 100px 20px;
+}
+
+.pp-document-card {
+    max-width: 900px;
+    margin: -40px auto 0 auto; /* Pulls the card slightly up into the hero section */
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 50px 60px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.04);
+    border: 1px solid #eef0f2;
+    position: relative;
+    z-index: 10;
+}
+
+.pp-last-updated {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 40px;
+    display: block;
+    border-bottom: 1px solid #eef0f2;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.pp-section {
+    margin-bottom: 40px;
+}
+
+.pp-section:last-child {
+    margin-bottom: 0;
+}
+
+.pp-section h3 {
+    color: #1a2b3c;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Green accent line next to headings to differentiate from T&C's orange */
+.pp-section h3::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: #2cd664;
+    border-radius: 4px;
+}
+
+.pp-section p, 
+.pp-section li {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.pp-section ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.pp-section li {
+    margin-bottom: 8px;
+}
+
+.pp-section strong {
+    color: #1a2b3c;
+    font-weight: 700;
+}
+
+.pp-contact-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pp-contact-box p { margin-bottom: 5px; }
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .pp-hero-wrapper { padding: 80px 15px 100px 15px; }
+    .pp-hero-title { font-size: 32px; }
+    .pp-document-card { padding: 30px 20px; margin-top: -60px; }
+    .pp-section h3 { font-size: 18px; }
+}
+
+
+
+/* =========================================
+   1. TERMS & CONDITIONS - HERO SECTION
+   ========================================= */
+.tc-hero-wrapper {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    /* Clean, dark authoritative background */
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.95) 0%, rgba(10, 25, 47, 0.8) 100%);
+    padding: 100px 20px;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    text-align: center;
+}
+
+.tc-hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.tc-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.tc-hero-title {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.5px;
+}
+
+.tc-hero-subtitle {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #a0aec0;
+    margin: 0 auto;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+/* =========================================
+   2. TERMS & CONDITIONS - CONTENT SECTION
+   ========================================= */
+.tc-content-wrapper {
+    font-family: 'Poppins', 'Lato', sans-serif;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    background-color: #f4f7f6;
+    padding: 60px 20px 100px 20px;
+}
+
+.tc-document-card {
+    max-width: 900px;
+    margin: -40px auto 0 auto; /* Pulls the card slightly up into the hero section */
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 50px 60px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.04);
+    border: 1px solid #eef0f2;
+    position: relative;
+    z-index: 10;
+}
+
+.tc-last-updated {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 40px;
+    display: block;
+    border-bottom: 1px solid #eef0f2;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.tc-section {
+    margin-bottom: 40px;
+}
+
+.tc-section:last-child {
+    margin-bottom: 0;
+}
+
+.tc-section h3 {
+    color: #1a2b3c;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Orange accent line next to headings */
+.tc-section h3::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: #ff6600;
+    border-radius: 4px;
+}
+
+.tc-section p, 
+.tc-section li {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.tc-section ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.tc-section li {
+    margin-bottom: 8px;
+}
+
+.tc-section strong {
+    color: #1a2b3c;
+    font-weight: 700;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .tc-hero-wrapper { padding: 80px 15px 100px 15px; }
+    .tc-hero-title { font-size: 32px; }
+    .tc-document-card { padding: 30px 20px; margin-top: -60px; }
+    .tc-section h3 { font-size: 18px; }
+}
