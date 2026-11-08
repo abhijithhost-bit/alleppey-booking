@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import "./home.css";
 import "./fleet.css";
@@ -15,6 +16,20 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import InteractiveScripts from "@/components/InteractiveScripts";
 import siteConfig from "@/data/siteConfig.json";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -117,11 +132,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      </head>
+    <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
       <body className="antialiased flex flex-col min-h-screen">
         <script
           type="application/ld+json"

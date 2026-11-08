@@ -139,6 +139,13 @@ const schemas = [
 export default function SpeedBoatView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [duration, setDuration] = useState("30 Minute Ride");
+  const [guests, setGuests] = useState("4 Persons");
+  const [date, setDate] = useState("");
+
+  const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
+    `Hi Alleppey Booking, I want to book an Alleppey Speed Boat Ride.\n- Duration: ${duration}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and available slots.`
+  )}`;
 
   return (
     <>
@@ -152,7 +159,6 @@ export default function SpeedBoatView() {
       ))}
 
       <div className="activity-pure w-full">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
 
 
@@ -189,8 +195,7 @@ export default function SpeedBoatView() {
             
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-duration">DURATION</label>
-                <select id="sb-duration" className="sb-form-control" aria-required="true">
-                    <option value="" disabled >Select Time</option>
+                <select id="sb-duration" className="sb-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
                     <option value="10 Minute Ride">10 Minute Ride</option>
                     <option value="30 Minute Ride">30 Minute Ride</option>
                     <option value="1 Hour Ride">1 Hour Ride</option>
@@ -199,8 +204,7 @@ export default function SpeedBoatView() {
 
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-guests">NUMBER OF GUESTS</label>
-                <select id="sb-guests" className="sb-form-control" aria-required="true">
-                    <option value="" disabled >Select Persons</option>
+                <select id="sb-guests" className="sb-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
                     <option value="2 Persons">2 Persons</option>
                     <option value="3 Persons">3 Persons</option>
                     <option value="4 Persons">4 Persons</option>
@@ -213,17 +217,11 @@ export default function SpeedBoatView() {
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-date-picker">SELECT DATE</label>
                 <div className="sb-date-wrapper">
-                    <input type="text" id="sb-date-picker" className="sb-form-control" placeholder="Pick a date" readOnly aria-required="true" />
-                    <svg aria-hidden="true" className="sb-calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                        <line x1="16" y1="2" x2="16" y2="6" />
-                        <line x1="8" y1="2" x2="8" y2="6" />
-                        <line x1="3" y1="10" x2="21" y2="10" />
-                    </svg>
+                    <input type="date" id="sb-date-picker" className="sb-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
                 </div>
             </div>
 
-            <a id="sb-submit" className="sb-submit-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
+            <a id="sb-submit" className="sb-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
 
             
             <p className="sb-price-text" itemProp="offers" itemScope itemType="https://schema.org/Offer">
@@ -418,7 +416,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Group speed boat fun" />
       <meta itemProp="description" content="Group of family and friends wearing life jackets having fun on our 10 minutes package during sunset speed boat in alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp" alt="Group of family and friends wearing life jackets having fun on our 10 minutes package during sunset speed boat in alleppey" title="Group speed boat fun" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp" alt="Group of family and friends wearing life jackets having fun on our 10 minutes package during sunset speed boat in alleppey" title="Group speed boat fun" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -429,7 +427,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Sunset family speed boat ride" />
       <meta itemProp="description" content="Family enjoying a sunset speed boat in alleppey ride on the backwaters" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" alt="Family enjoying a sunset speed boat in alleppey ride on the backwaters" title="Sunset family speed boat ride" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" alt="Family enjoying a sunset speed boat in alleppey ride on the backwaters" title="Sunset family speed boat ride" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -440,7 +438,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Couple speed boat ride" />
       <meta itemProp="description" content="Happy couple wearing life jackets enjoying a ride on a speed boat in Alleppey backwaters" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg" alt="Happy couple wearing life jackets enjoying a ride on a speed boat in Alleppey backwaters" title="Couple speed boat ride" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg" alt="Happy couple wearing life jackets enjoying a ride on a speed boat in Alleppey backwaters" title="Couple speed boat ride" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -451,7 +449,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Friends group speed boat" />
       <meta itemProp="description" content="Happy friends enjoying a group ride on a speed boat in Alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp" alt="Happy friends enjoying a group ride on a speed boat in Alleppey" title="Friends group speed boat" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp" alt="Happy friends enjoying a group ride on a speed boat in Alleppey" title="Friends group speed boat" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -462,7 +460,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Family enjoying speed boat" />
       <meta itemProp="description" content="Smiling family having fun on a speed boat in Alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg" alt="Smiling family having fun on a speed boat in Alleppey" title="Family enjoying speed boat" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg" alt="Smiling family having fun on a speed boat in Alleppey" title="Family enjoying speed boat" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -473,7 +471,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Family on yellow boat" />
       <meta itemProp="description" content="Parents and child on a yellow speed boat in Alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp" alt="Parents and child on a yellow speed boat in Alleppey" title="Family on yellow boat" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp" alt="Parents and child on a yellow speed boat in Alleppey" title="Family on yellow boat" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -484,7 +482,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Couples speed boat trip" />
       <meta itemProp="description" content="Friends and couples having fun on a speed boat in Alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg" alt="Friends and couples having fun on a speed boat in Alleppey" title="Couples speed boat trip" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg" alt="Friends and couples having fun on a speed boat in Alleppey" title="Couples speed boat trip" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -495,7 +493,7 @@ export default function SpeedBoatView() {
       <meta itemProp="name" content="Scenic backwater views" />
       <meta itemProp="description" content="Scenic evening backwater view from a speed boat in Alleppey" />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp" alt="Scenic evening backwater view from a speed boat in Alleppey" title="Scenic backwater views" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp" alt="Scenic evening backwater view from a speed boat in Alleppey" title="Scenic backwater views" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>

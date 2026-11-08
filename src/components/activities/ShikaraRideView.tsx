@@ -140,6 +140,13 @@ const schemas = [
 export default function ShikaraRideView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [duration, setDuration] = useState("3 Hours");
+  const [guests, setGuests] = useState("4 Persons");
+  const [date, setDate] = useState("");
+
+  const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
+    `Hi Alleppey Booking, I want to book an Alleppey Shikara Boat Ride.\n- Duration: ${duration}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and boat photos.`
+  )}`;
 
   return (
     <>
@@ -154,10 +161,6 @@ export default function ShikaraRideView() {
 
       <div className="activity-pure w-full">
         <link rel="preload" as="image" href="/wp-content/uploads/2026/06/shikara-adventure.webp" />
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
 
 
@@ -189,8 +192,7 @@ export default function ShikaraRideView() {
             
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-duration">DURATION...</label>
-                <select id="shikara-duration" className="sh-form-control" aria-required="true">
-                    <option value="" disabled >Select Hours</option>
+                <select id="shikara-duration" className="sh-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
                     <option value="2 Hours">2 Hours</option>
                     <option value="3 Hours">3 Hours</option>
                     <option value="4 Hours">4 Hours</option>
@@ -202,8 +204,7 @@ export default function ShikaraRideView() {
 
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-guests">NUMBER OF GUESTS...</label>
-                <select id="shikara-guests" className="sh-form-control" aria-required="true">
-                    <option value="" disabled >Select Persons</option>
+                <select id="shikara-guests" className="sh-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
                     <option value="2 Persons">2 Persons</option>
                     <option value="3 Persons">3 Persons</option>
                     <option value="4 Persons">4 Persons</option>
@@ -216,17 +217,11 @@ export default function ShikaraRideView() {
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-date-picker">SELECT DATE</label>
                 <div className="sh-date-wrapper">
-                    <input type="text" id="shikara-date-picker" className="sh-form-control" placeholder="Pick a date" readOnly aria-required="true" />
-                    <svg aria-hidden="true" className="sh-calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                        <line x1="16" y1="2" x2="16" y2="6" />
-                        <line x1="8" y1="2" x2="8" y2="6" />
-                        <line x1="3" y1="10" x2="21" y2="10" />
-                    </svg>
+                    <input type="date" id="shikara-date-picker" className="sh-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
                 </div>
             </div>
 
-            <a id="shikara-submit" className="sh-submit-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
+            <a id="shikara-submit" className="sh-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
 
             <p className="sh-price-text"><strong>Prices vary by group size and duration</strong><br />Message us for an instant custom quote</p>
             
@@ -300,42 +295,42 @@ export default function ShikaraRideView() {
       
       <div className="gal-grid">
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourists Relaxing on Shikara Deck image"  >
-          <img src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing and enjoying the view from the front deck of a shikara boat in Alleppey backwaters." title="Tourists Relaxing on Shikara Deck" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing and enjoying the view from the front deck of a shikara boat in Alleppey backwaters." title="Tourists Relaxing on Shikara Deck" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Family on Traditional Shikara image"  >
-          <img src="/wp-content/uploads/2026/06/shikara-adventure.webp" alt="A happy family posing on a traditional wooden shikara boat near the lush green shores of Alleppey." title="Family on Traditional Shikara" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/shikara-adventure.webp" alt="A happy family posing on a traditional wooden shikara boat near the lush green shores of Alleppey." title="Family on Traditional Shikara" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View image of a colorful boat on a scenic shikara ride in Alleppey"  >
-          <img src="/wp-content/uploads/2026/08/shikara-000.jpg" alt="Two people standing at the bow of a colorful traditional boat with a woven roof during a scenic shikara ride in Alleppey backwaters." title="Scenic Shikara Ride in Alleppey" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/08/shikara-000.jpg" alt="Two people standing at the bow of a colorful traditional boat with a woven roof during a scenic shikara ride in Alleppey backwaters." title="Scenic Shikara Ride in Alleppey" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourist with Eagle in Alleppey image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg" alt="A female tourist smiling with a large eagle perched on her shoulder near the Alleppey backwaters." title="Tourist with Eagle in Alleppey" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg" alt="A female tourist smiling with a large eagle perched on her shoulder near the Alleppey backwaters." title="Tourist with Eagle in Alleppey" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Couple Enjoying Boat Ride image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg" alt="A romantic couple leaning back and relaxing on the front rails of a shikara boat in Kerala." title="Couple Enjoying Boat Ride" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg" alt="A romantic couple leaning back and relaxing on the front rails of a shikara boat in Kerala." title="Couple Enjoying Boat Ride" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View image of a family enjoying a shikara ride in Alleppey"  >
-          <img src="/wp-content/uploads/2026/08/shikara-001.jpg" alt="A family of three posing on the yellow deck of a boat while enjoying a relaxing shikara ride in Alleppey backwaters." title="Family Enjoying a Shikara Ride in Alleppey" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/08/shikara-001.jpg" alt="A family of three posing on the yellow deck of a boat while enjoying a relaxing shikara ride in Alleppey backwaters." title="Family Enjoying a Shikara Ride in Alleppey" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Shikara Cruising Backwaters image"  >
-          <img src="/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp" alt="A traditional wooden shikara boat cruising smoothly across the wide Alleppey backwaters." title="Shikara Cruising Backwaters" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp" alt="A traditional wooden shikara boat cruising smoothly across the wide Alleppey backwaters." title="Shikara Cruising Backwaters" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourists Dining by Backwaters image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="A group of tourists enjoying a meal around a table under a colorful umbrella near the Alleppey backwaters." title="Tourists Dining by Backwaters" loading="lazy" decoding="async" width="800" height="600" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="A group of tourists enjoying a meal around a table under a colorful umbrella near the Alleppey backwaters." title="Tourists Dining by Backwaters" decoding="async" width="800" height="600" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
       </div>
@@ -631,7 +626,7 @@ export default function ShikaraRideView() {
             </div>
             <div className="sk-logistics-grid">
                 <div className="sk-map-frame">
-                    <iframe title="Map showing boarding location for Shikara ride in Alleppey" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d245.944450335839!2d76.3633801!3d9.4990565!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1785909781417!5m2!1sen!2sin" width="100%" height="100%" style={{"border":"0"}} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe title="Map showing boarding location for Shikara ride in Alleppey" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d245.944450335839!2d76.3633801!3d9.4990565!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1785909781417!5m2!1sen!2sin" width="100%" height="100%" style={{"border":"0"}} allowFullScreen referrerPolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
                 <div className="sk-logistics-card">
                     <div className="sk-log-item">

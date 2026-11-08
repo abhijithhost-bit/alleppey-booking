@@ -28,6 +28,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const imageUrl = boat.image ? `${siteConfig.url}${boat.image}` : undefined;
+
   return {
     title: boat.seo.title,
     description: boat.seo.description,
@@ -39,6 +41,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: boat.seo.title,
       description: boat.seo.description,
       url: `${siteConfig.url}/${slug}/`,
+      siteName: siteConfig.name,
+      images: imageUrl
+        ? [
+            {
+              url: imageUrl,
+              width: 1200,
+              height: 800,
+              alt: boat.title,
+            },
+          ]
+        : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: boat.seo.title,
+      description: boat.seo.description,
+      images: imageUrl ? [imageUrl] : undefined,
     },
   };
 }

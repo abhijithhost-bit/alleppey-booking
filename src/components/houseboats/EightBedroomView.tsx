@@ -171,8 +171,6 @@ export default function EightBedroomView() {
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
-
 <article className="ab-single-wrap" id="ab-single-houseboat">
 
 
@@ -192,16 +190,16 @@ export default function EightBedroomView() {
     <div className="ab-sh-layout">
         <section className="ab-sh-gallery-container">
             <div className="ab-sh-main-image-wrap">
-                <img id="ab-main-img" src="{currentImg}" alt="Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters" title="Vembanad Queen 8 Bedroom Houseboat Exterior" fetchPriority="high" width="1200" height="800" />
+                <img id="ab-main-img" src={currentImg} alt="Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters" title="Vembanad Queen 8 Bedroom Houseboat Exterior" fetchPriority="high" width="1200" height="800" />
             </div>
             <div className="ab-sh-thumbnails">
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" ? 'active' : ''}`} src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" alt="Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters" title="Vembanad Queen 8 Bedroom Houseboat Exterior" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg" alt="Comfortable living area with traditional wooden seating for large groups on a private houseboat" title="Spacious Wooden Lounge Area" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg" alt="Long polished wooden corridor connecting the guest suites on our 8 bedroom houseboat in Alleppey" title="Premium Interior Corridor" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg" alt="Private AC guest room featuring warm ambient lighting and a floral headboard" title="Ambient Floral AC Bedroom" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg" alt="Luxury bedroom with a glowing circular headboard design on an 8 bedroom houseboat Alleppey" title="Illuminated Arch Headboard Suite" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg" alt="Elegant air-conditioned suite with scenic window views on a Kerala backwater cruise" title="Elegant Tree Pattern Bedroom" loading="lazy" width="100" height="70" /></div>
-                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg" alt="Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat" title="Premium Suite with Towel Art" loading="lazy" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" ? 'active' : ''}`} src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" alt="Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters" title="Vembanad Queen 8 Bedroom Houseboat Exterior" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg" alt="Comfortable living area with traditional wooden seating for large groups on a private houseboat" title="Spacious Wooden Lounge Area" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg" alt="Long polished wooden corridor connecting the guest suites on our 8 bedroom houseboat in Alleppey" title="Premium Interior Corridor" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg" alt="Private AC guest room featuring warm ambient lighting and a floral headboard" title="Ambient Floral AC Bedroom" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg" alt="Luxury bedroom with a glowing circular headboard design on an 8 bedroom houseboat Alleppey" title="Illuminated Arch Headboard Suite" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg" alt="Elegant air-conditioned suite with scenic window views on a Kerala backwater cruise" title="Elegant Tree Pattern Bedroom" width="100" height="70" /></div>
+                <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg")}><img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg" alt="Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat" title="Premium Suite with Towel Art" width="100" height="70" /></div>
             </div>
         </section>
 
@@ -414,7 +412,7 @@ export default function EightBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="text" id="ab-date" className="ab-date-input" placeholder="Select date" readOnly required />
+                            <input type="date" id="ab-date" className="ab-date-input" required />
                         </div>
 
                         <div className="ab-booking-field">
@@ -461,7 +459,7 @@ export default function EightBedroomView() {
 
                     
                     <div className="ab-btn-row ab-hide-desktop">
-                        <a href="#" className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability">
+                        <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%208%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                             Check Availability
                         </a>
@@ -486,7 +484,7 @@ export default function EightBedroomView() {
                         <span style={{"fontSize":"10px","fontWeight":"600","color":"var(--text-muted)","textTransform":"uppercase","letterSpacing":"0.5px","lineHeight":"1"}}>Total Estimate</span>
                         <span id="ab-pb-total-footer" style={{"fontSize":"18px","fontWeight":"800","color":"var(--text-dark)","marginTop":"2px","lineHeight":"1.1"}}>₹48,000</span>
                     </div>
-                    <a href="#" className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability" style={{"padding":"10px 14px","margin":"0","width":"auto","fontSize":"13px"}}>
+                    <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%208%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability" style={{"padding":"10px 14px","margin":"0","width":"auto","fontSize":"13px"}}>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                         Check Availability
                     </a>

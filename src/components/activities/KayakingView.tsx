@@ -174,6 +174,14 @@ const schemas = [
 export default function KayakingView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [duration, setDuration] = useState("2 Hours (Includes Village Canals)");
+  const [preferredTime, setPreferredTime] = useState("Sunset (4:30 PM - 6:30 PM) - Popular");
+  const [guests, setGuests] = useState("2 Persons");
+  const [date, setDate] = useState("");
+
+  const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
+    `Hi Alleppey Booking, I want to book a Kayaking Tour in Alleppey.\n- Duration: ${duration}\n- Time: ${preferredTime}\n- Kayakers: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm availability and rates.`
+  )}`;
 
   return (
     <>
@@ -188,7 +196,6 @@ export default function KayakingView() {
 
       <div className="activity-pure w-full">
         <link rel="preload" as="image" href="/wp-content/uploads/2026/06/4.webp" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
 
 
@@ -213,16 +220,14 @@ export default function KayakingView() {
             <h2 className="ky-box-title">Book Your <em>Kayak</em></h2>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-duration">DURATION</label>
-                <select id="ky-duration" className="ky-form-control" aria-required="true">
-                    <option value="" disabled >Select Session</option>
+                <select id="ky-duration" className="ky-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
                     <option value="1 Hour (Open Water / Lake Edge)">1 Hour (Open Water / Lake Edge)</option>
                     <option value="2 Hours (Includes Village Canals)">2 Hours (Includes Village Canals)</option>
                 </select>
             </div>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-time">PREFERRED TIME</label>
-                <select id="ky-time" className="ky-form-control" aria-required="true">
-                    <option value="" disabled >Select Time</option>
+                <select id="ky-time" className="ky-form-control" aria-required="true" value={preferredTime} onChange={(e) => setPreferredTime(e.target.value)}>
                     <option value="Sunrise (6:00 AM - 8:00 AM)">Sunrise (6:00 AM - 8:00 AM)</option>
                     <option value="Daytime (8:00 AM - 4:00 PM)">Daytime (8:00 AM - 4:00 PM)</option>
                     <option value="Sunset (4:30 PM - 6:30 PM) - Popular">Sunset (4:30 PM - 6:30 PM) - Popular</option>
@@ -230,8 +235,7 @@ export default function KayakingView() {
             </div>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-guests">NUMBER OF KAYAKERS</label>
-                <select id="ky-guests" className="ky-form-control" aria-required="true">
-                    <option value="" disabled >Select Persons</option>
+                <select id="ky-guests" className="ky-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
                     <option value="1 Person">1 Person</option>
                     <option value="2 Persons">2 Persons</option>
                     <option value="3 Persons">3 Persons</option>
@@ -242,11 +246,10 @@ export default function KayakingView() {
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-date-picker">SELECT DATE</label>
                 <div className="ky-date-wrapper">
-                    <input type="text" id="ky-date-picker" className="ky-form-control" placeholder="Pick a date" readOnly aria-required="true" />
-                    <svg aria-hidden="true" className="ky-calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+                    <input type="date" id="ky-date-picker" className="ky-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
                 </div>
             </div>
-            <a id="ky-submit" className="ky-submit-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
+            <a id="ky-submit" className="ky-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
             <p className="ky-price-text"><strong>Starting at just ₹500</strong><br />Message us for an instant custom quote</p>
         </div>
     </div>
@@ -352,35 +355,35 @@ export default function KayakingView() {
       </div>
       <div className="gal-grid">
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" width="800" height="600" alt="Couple enjoying a guided kayaking tour in Alleppey" title="Couple enjoying kayaking" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" width="800" height="600" alt="Couple enjoying a guided kayaking tour in Alleppey" title="Couple enjoying kayaking" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" width="800" height="600" alt="Group of friends kayaking the Kerala backwaters" title="Friends kayaking together" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" width="800" height="600" alt="Group of friends kayaking the Kerala backwaters" title="Friends kayaking together" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg" width="800" height="600" alt="Four friends paddling their kayaks in Alappuzha" title="Four friends kayaking" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg" width="800" height="600" alt="Four friends paddling their kayaks in Alappuzha" title="Four friends kayaking" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp" width="800" height="600" alt="Group on colorful kayaks during backwater tour" title="Group posing on kayaks" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp" width="800" height="600" alt="Group on colorful kayaks during backwater tour" title="Group posing on kayaks" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg" width="800" height="600" alt="Paddling through a narrow green canal in Alleppey" title="Paddling through green canal" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg" width="800" height="600" alt="Paddling through a narrow green canal in Alleppey" title="Paddling through green canal" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg" width="800" height="600" alt="Solo traveler enjoying kayaking in Alleppey" title="Solo traveler kayaking" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg" width="800" height="600" alt="Solo traveler enjoying kayaking in Alleppey" title="Solo traveler kayaking" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg" width="800" height="600" alt="Couple on open water during a Kerala kayak tour" title="Couple on open water" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg" width="800" height="600" alt="Couple on open water during a Kerala kayak tour" title="Couple on open water" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg" width="800" height="600" alt="Playful moment while kayaking the backwaters" title="Playful kayaking moment" loading="lazy" />
+          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg" width="800" height="600" alt="Playful moment while kayaking the backwaters" title="Playful kayaking moment" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
       </div>
@@ -630,7 +633,7 @@ export default function KayakingView() {
                 </div>
             </div>
             <div className="ky-map-container">
-                <iframe src="https://maps.google.com/maps?q=Finishing%20Point%20Area,%20Alappuzha,%20Kerala&t=&z=16&ie=UTF8&iwloc=&output=embed" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Map of Alleppey Kayaking location"></iframe>
+                <iframe src="https://maps.google.com/maps?q=Finishing%20Point%20Area,%20Alappuzha,%20Kerala&t=&z=16&ie=UTF8&iwloc=&output=embed" allowFullScreen referrerPolicy="no-referrer-when-downgrade" title="Map of Alleppey Kayaking location"></iframe>
             </div>
         </div>
     </div>

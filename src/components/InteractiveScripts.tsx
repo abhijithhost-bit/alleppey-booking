@@ -216,14 +216,30 @@ export default function InteractiveScripts() {
       };
     }
 
-    // 5. STICKY SCROLL TO BOOK BUTTON
+    // 5. STICKY SCROLL TO BOOK BUTTON & MOBILE BAR
     function initStickyScroll() {
+      const stickyBar = document.querySelector(".ab-mobile-sticky-bar");
+      if (stickyBar) {
+        const handleScroll = () => {
+          if (window.scrollY > 400) {
+            stickyBar.classList.remove("ab-hide-bar");
+          } else {
+            stickyBar.classList.add("ab-hide-bar");
+          }
+        };
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        handleScroll();
+      }
+
       const scrollBtn = document.getElementById("ab-sticky-scroll-btn");
       if (scrollBtn) {
         scrollBtn.addEventListener("click", () => {
-          const widget = document.getElementById("booking-widget") || document.querySelector(".hb-card");
+          const widget =
+            document.querySelector(".ab-sh-price-card") ||
+            document.getElementById("booking-widget") ||
+            document.querySelector(".hb-card");
           if (widget) {
-            widget.scrollIntoView({ behavior: "smooth", block: "start" });
+            widget.scrollIntoView({ behavior: "smooth", block: "center" });
           }
         });
       }

@@ -26,7 +26,7 @@ const schemas = [
             "@type": "ListItem",
             "position": 3,
             "name": "2 Bedroom Houseboat",
-            "item": "/2-bedroom-houseboat-in-alleppey/"
+            "item": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/"
           }
         ]
       },
@@ -41,7 +41,7 @@ const schemas = [
         },
         "offers": {
           "@type": "AggregateOffer",
-          "url": "/2-bedroom-houseboat-in-alleppey/",
+          "url": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/",
           "priceCurrency": "INR",
           "lowPrice": "9000",
           "highPrice": "17200",
@@ -192,8 +192,6 @@ export default function TwoBedroomView() {
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
-
 <article className="ab-single-wrap" id="ab-single-houseboat">
 
 
@@ -213,38 +211,38 @@ export default function TwoBedroomView() {
     <div className="ab-sh-layout">
         <section className="ab-sh-gallery-container">
             <div className="ab-sh-main-image-wrap">
-                <img id="ab-main-img" src="{currentImg}" alt="Exterior view of a premium 2 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters." title="2 Bedroom Houseboat Alleppey Exterior" fetchPriority="high" width="1200" height="800" />
+                <img id="ab-main-img" src={currentImg} alt="Exterior view of a premium 2 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters." title="2 Bedroom Houseboat Alleppey Exterior" fetchPriority="high" width="1200" height="800" />
             </div>
             <div className="ab-sh-thumbnails">
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg" alt="Thumbnail view of the premium Alleppey houseboat exterior." title="2 Bedroom Houseboat Alleppey Exterior" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg" alt="Thumbnail view of the premium Alleppey houseboat exterior." title="2 Bedroom Houseboat Alleppey Exterior" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg" alt="Premium air-conditioned living room with wooden sofa seating inside a family-friendly houseboat in Alleppey." title="Houseboat Indoor Lounge" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg" alt="Premium air-conditioned living room with wooden sofa seating inside a family-friendly houseboat in Alleppey." title="Houseboat Indoor Lounge" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg" alt="Luxury air-conditioned master bedroom featuring a large double bed and modern decor inside our private Kerala backwater houseboat." title="Luxury AC Bedroom" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg" alt="Luxury air-conditioned master bedroom featuring a large double bed and modern decor inside our private Kerala backwater houseboat." title="Luxury AC Bedroom" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg" alt="Elegant wooden hallway with decorative leaf wall art connecting the rooms inside our 2 bedroom houseboat in Alleppey." title="Interior Corridor - Houseboat Alleppey" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg" alt="Elegant wooden hallway with decorative leaf wall art connecting the rooms inside our 2 bedroom houseboat in Alleppey." title="Interior Corridor - Houseboat Alleppey" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg" alt="Clean and modern attached bathroom featuring elegant marble tiles, a western toilet, and an illuminated mirror inside a premium twin-room boat stay." title="Modern Attached Bathroom" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg" alt="Clean and modern attached bathroom featuring elegant marble tiles, a western toilet, and an illuminated mirror inside a premium twin-room boat stay." title="Modern Attached Bathroom" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg" alt="Fully equipped attached bathroom with a shower, western toilet, and marble-style tiles docked on Vembanad Lake." title="Attached Bathroom with Shower" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg" alt="Fully equipped attached bathroom with a shower, western toilet, and marble-style tiles docked on Vembanad Lake." title="Attached Bathroom with Shower" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg" alt="Spacious open-air upper deck dining area offering panoramic views on our private 2 bedroom houseboat in Alleppey." title="Upper Deck Dining Area" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg" alt="Spacious open-air upper deck dining area offering panoramic views on our private 2 bedroom houseboat in Alleppey." title="Upper Deck Dining Area" width="100" height="70" />
                 </div>
                  <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg" alt="Aesthetic modern washbasin setup featuring an elegant mirror and wooden cabinetry inside an Alleppey backwater cruise boat." title="Houseboat Washbasin Setup" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg" alt="Aesthetic modern washbasin setup featuring an elegant mirror and wooden cabinetry inside an Alleppey backwater cruise boat." title="Houseboat Washbasin Setup" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg" alt="Polished wooden staircase leading to the upper deck of our private houseboat in Alleppey." title="Wooden Houseboat Staircase" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg" alt="Polished wooden staircase leading to the upper deck of our private houseboat in Alleppey." title="Wooden Houseboat Staircase" width="100" height="70" />
                 </div>
                 <div className="ab-thumb-wrap" onClick={() => setCurrentImg("/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg")}>
-                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg" alt="Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat." title="Spacious Living Area with Windows" loading="lazy" width="100" height="70" />
+                    <img className={`ab-thumb ${currentImg === "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg" ? 'active' : ''}`} src="/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg" alt="Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat." title="Spacious Living Area with Windows" width="100" height="70" />
                 </div>
             </div>
         </section>
@@ -459,7 +457,7 @@ export default function TwoBedroomView() {
 
                         <div className="ab-booking-field ab-date-field">
                             <label className="ab-field-label" htmlFor="ab-date">Check-in</label>
-                            <input type="text" id="ab-date" className="ab-date-input" placeholder="Select date" readOnly required />
+                            <input type="date" id="ab-date" className="ab-date-input" required />
                         </div>
 
                         <div className="ab-booking-field">
@@ -506,7 +504,7 @@ export default function TwoBedroomView() {
 
                     
                     <div className="ab-btn-row ab-hide-desktop">
-                        <a href="#" className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability">
+                        <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%202%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                             Check Availability
                         </a>
@@ -531,7 +529,7 @@ export default function TwoBedroomView() {
                         <span style={{"fontSize":"10px","fontWeight":"600","color":"var(--text-muted)","textTransform":"uppercase","letterSpacing":"0.5px","lineHeight":"1"}}>Total Estimate</span>
                         <span id="ab-pb-total-footer" style={{"fontSize":"18px","fontWeight":"800","color":"var(--text-dark)","marginTop":"2px","lineHeight":"1.1"}}>₹14,000</span>
                     </div>
-                    <a href="#" className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability" style={{"padding":"10px 14px","margin":"0","width":"auto","fontSize":"13px"}}>
+                    <a href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20check%20availability%20for%202%20Bedroom%20Houseboat%20Alleppey." className="ab-btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Check Availability" style={{"padding":"10px 14px","margin":"0","width":"auto","fontSize":"13px"}}>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" role="presentation"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                         Check Availability
                     </a>

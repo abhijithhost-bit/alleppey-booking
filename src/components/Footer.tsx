@@ -1,33 +1,8 @@
 import Link from "next/link";
 
 export default function Footer() {
-  const agencySchema = {
-    "@context": "https://schema.org",
-    "@type": "TravelAgency",
-    name: "Alleppey Booking",
-    url: "https://alleppeybooking.com/",
-    description:
-      "Your perfect Alleppey getaway. We provide the best-verified operators for houseboats, shikara rides, kayaking, and speedboats with zero hidden charges.",
-    telephone: ["+917012761588", "+919947753154", "+916238794500"],
-    email: "support@alleppeybooking.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Punnamada Finishing Point Road, Punnamada",
-      addressLocality: "Alappuzha",
-      addressRegion: "Kerala",
-      postalCode: "688013",
-      addressCountry: "IN",
-    },
-    sameAs: ["https://wa.me/917012761588"],
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(agencySchema) }}
-      />
       <footer className="at-footer" role="contentinfo" aria-label="Site Footer">
         <div className="at-footer-container">
           <div className="at-footer-brand">

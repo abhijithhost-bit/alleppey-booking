@@ -91,6 +91,13 @@ const schemas = [
 export default function SharingHouseboatView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [rooms, setRooms] = useState("1 Bedroom");
+  const [guests, setGuests] = useState("2 Persons");
+  const [date, setDate] = useState("");
+
+  const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
+    `Hi Alleppey Booking, I want to book a Sharing Houseboat in Alleppey.\n- Rooms: ${rooms}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and cabin photos.`
+  )}`;
 
   return (
     <>
@@ -107,10 +114,6 @@ export default function SharingHouseboatView() {
         <link rel="dns-prefetch" href="https://wa.me" />
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
 <link rel="preload" as="image" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" />
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
 
 
@@ -149,8 +152,7 @@ export default function SharingHouseboatView() {
                 <h2 className="hb-box-title">Reserve Your <em>Room</em></h2>
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-rooms">I WANT TO BOOK...</label>
-                    <select id="shared-rooms" className="hb-form-control" aria-required="true">
-                        <option value="" disabled >Select Rooms</option>
+                    <select id="shared-rooms" className="hb-form-control" aria-required="true" value={rooms} onChange={(e) => setRooms(e.target.value)}>
                         <option value="1 Bedroom">1 Bedroom</option>
                         <option value="2 Bedrooms">2 Bedrooms</option>
                         <option value="3 Bedrooms">3 Bedrooms</option>
@@ -159,8 +161,7 @@ export default function SharingHouseboatView() {
                 </div>
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-guests">NUMBER OF GUESTS...</label>
-                    <select id="shared-guests" className="hb-form-control" aria-required="true">
-                        <option value="" disabled >Select Persons</option>
+                    <select id="shared-guests" className="hb-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
                         <option value="1 Person">1 Person</option>
                         <option value="2 Persons">2 Persons</option>
                         <option value="3 Persons">3 Persons</option>
@@ -175,16 +176,10 @@ export default function SharingHouseboatView() {
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-date-picker">SELECT DATE</label>
                     <div className="hb-date-wrapper">
-                        <input type="text" id="shared-date-picker" className="hb-form-control" placeholder="Pick a date" readOnly aria-required="true" />
-                        <svg aria-hidden="true" className="hb-calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                            <line x1="16" y1="2" x2="16" y2="6" />
-                            <line x1="8" y1="2" x2="8" y2="6" />
-                            <line x1="3" y1="10" x2="21" y2="10" />
-                        </svg>
+                        <input type="date" id="shared-date-picker" className="hb-form-control" value={date} onChange={(e) => setDate(e.target.value)} aria-required="true" />
                     </div>
                 </div>
-                <a id="shared-submit" className="hb-submit-btn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
+                <a id="shared-submit" className="hb-submit-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Check Rates and Availability via WhatsApp">Check Rates & Availability →</a>
                 <p className="hb-price-text"><strong>Starting from just ₹5999</strong><br />Message us for an instant custom quote</p>
             </div>
         </div>
@@ -313,42 +308,42 @@ export default function SharingHouseboatView() {
         <div className="gal-grid">
             
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Private AC Bedroom image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg" alt="Exterior view of a premium sharing houseboat in Alleppey cruising on the backwaters at dusk with beautiful warm lighting." title="Private AC Bedroom" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg" alt="Exterior view of a premium sharing houseboat in Alleppey cruising on the backwaters at dusk with beautiful warm lighting." title="Private AC Bedroom" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Attached Bathroom image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg" alt="Front view of the Vembanad Queen shared houseboat in Alleppey navigating the tranquil Kerala backwaters under a cloudy sky" title="Attached Bathroom" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg" alt="Front view of the Vembanad Queen shared houseboat in Alleppey navigating the tranquil Kerala backwaters under a cloudy sky" title="Attached Bathroom" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Upper Deck Views image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg" alt="A sharing houseboat in Alleppey docked alongside a scenic paved walkway surrounded by tropical palm trees" title="Upper Deck Views" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg" alt="A sharing houseboat in Alleppey docked alongside a scenic paved walkway surrounded by tropical palm trees" title="Upper Deck Views" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Onboard Dining image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg" alt="Spacious indoor living area inside a shared Alleppey boathouse, featuring a comfortable sectional sofa and panoramic water views" title="Onboard Dining" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg" alt="Spacious indoor living area inside a shared Alleppey boathouse, featuring a comfortable sectional sofa and panoramic water views" title="Onboard Dining" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Living Room Area image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg" alt="Cozy private AC bedroom with warm lighting and comfortable bedding available on a sharing houseboat in Alleppey" title="Living Room Area" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg" alt="Cozy private AC bedroom with warm lighting and comfortable bedding available on a sharing houseboat in Alleppey" title="Living Room Area" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Sundeck Seating image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg" alt="Modern private cabin with stylish wall decor and a double bed on a budget backwater cruise in Alleppey" title="Sundeck Seating" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg" alt="Modern private cabin with stylish wall decor and a double bed on a budget backwater cruise in Alleppey" title="Sundeck Seating" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Wooden Interiors image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg" alt="Traditional wooden interiors of a private bedroom with a green tufted headboard on a sharing houseboat in Alleppey." title="Wooden Interiors" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg" alt="Traditional wooden interiors of a private bedroom with a green tufted headboard on a sharing houseboat in Alleppey." title="Wooden Interiors" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Exterior Boat View image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg" alt="Clean and modern attached bathroom featuring decorative patterned tiles inside an Alleppey shared houseboat." title="Exterior Boat View" loading="lazy" decoding="async" width="800" height="600" />
+                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg" alt="Clean and modern attached bathroom featuring decorative patterned tiles inside an Alleppey shared houseboat." title="Exterior Boat View" decoding="async" width="800" height="600" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 

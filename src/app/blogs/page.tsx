@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import blogsData from "@/data/blogs_full.json";
+import blogsData from "@/data/blogs.json";
 import siteConfig from "@/data/siteConfig.json";
 
 export const metadata: Metadata = {
@@ -58,6 +58,7 @@ export default function BlogsPage() {
                   src={b.image}
                   alt={b.title || "Alleppey Backwaters Travel Guide"}
                   fill
+                  loading="eager"
                   className="bl-card-img object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 900px) 50vw, 33vw"
                 />

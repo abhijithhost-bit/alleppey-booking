@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const homeSchemas = [
   {
@@ -13,31 +12,31 @@ const homeSchemas = [
         "@type": "ListItem",
         "position": 1,
         "name": "Private Houseboat",
-        "url": "/house-boat-alleppey/"
+        "url": "https://alleppeybooking.com/house-boat-alleppey/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Shared Boathouses",
-        "url": "/sharing-houseboat-in-alleppey/"
+        "url": "https://alleppeybooking.com/sharing-houseboat-in-alleppey/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Shikara",
-        "url": "/shikara-ride-in-alleppey/"
+        "url": "https://alleppeybooking.com/shikara-ride-in-alleppey/"
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Kayaking",
-        "url": "/kayaking-in-alleppey/"
+        "url": "https://alleppeybooking.com/kayaking-in-alleppey/"
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Speedboat",
-        "url": "/speed-boat-in-alleppey/"
+        "url": "https://alleppeybooking.com/speed-boat-in-alleppey/"
       }
     ]
   },
@@ -136,8 +135,8 @@ const homeSchemas = [
     "@context": "https://schema.org/",
     "@type": "TravelAgency",
     "name": "Alleppey Booking",
-    "url": "/",
-    "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp",
+    "url": "https://alleppeybooking.com/",
+    "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp",
     "telephone": "+917012761588",
     "priceRange": "₹₹",
     "address": {
@@ -381,7 +380,7 @@ export default function HomePageView() {
     <div className="at-cards-wrapper">
         
         
-        <a href="/house-boat-alleppey/" className="at-card">
+        <Link href="/house-boat-alleppey/" className="at-card">
             <div className="at-card-bg" style={{"backgroundImage":"url('/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp')"}}></div>
             <div className="at-card-overlay"></div>
             <div className="at-card-content">
@@ -396,10 +395,10 @@ export default function HomePageView() {
                     <span className="at-book-btn">Check Availability →</span>
                 </div>
             </div>
-        </a>
+        </Link>
 
         
-        <a href="/sharing-houseboat-in-alleppey/" className="at-card">
+        <Link href="/sharing-houseboat-in-alleppey/" className="at-card">
             <div className="at-card-bg" style={{"backgroundImage":"url('/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp')"}}></div>
             <div className="at-card-overlay"></div>
             <div className="at-card-content">
@@ -414,10 +413,10 @@ export default function HomePageView() {
                     <span className="at-book-btn">Check Availability →</span>
                 </div>
             </div>
-        </a>
+        </Link>
 
         
-        <a href="/shikara-ride-in-alleppey/" className="at-card">
+        <Link href="/shikara-ride-in-alleppey/" className="at-card">
             <div className="at-card-bg" style={{"backgroundImage":"url('/wp-content/uploads/2026/06/shikara-adventure.webp')"}}></div>
             <div className="at-card-overlay"></div>
             <div className="at-card-content">
@@ -432,10 +431,10 @@ export default function HomePageView() {
                     <span className="at-book-btn">Check Availability →</span>
                 </div>
             </div>
-        </a>
+        </Link>
 
         
-        <a href="/kayaking-in-alleppey/" className="at-card">
+        <Link href="/kayaking-in-alleppey/" className="at-card">
             <div className="at-card-bg" style={{"backgroundImage":"url('/wp-content/uploads/2026/06/4.webp')"}}></div>
             <div className="at-card-overlay"></div>
             <div className="at-card-content">
@@ -450,10 +449,10 @@ export default function HomePageView() {
                     <span className="at-book-btn">Check Availability →</span>
                 </div>
             </div>
-        </a>
+        </Link>
 
         
-        <a href="/speed-boat-in-alleppey/" className="at-card">
+        <Link href="/speed-boat-in-alleppey/" className="at-card">
             <div className="at-card-bg" style={{"backgroundImage":"url('/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp')"}}></div>
             <div className="at-card-overlay"></div>
             <div className="at-card-content">
@@ -468,7 +467,7 @@ export default function HomePageView() {
                     <span className="at-book-btn">Check Availability →</span>
                 </div>
             </div>
-        </a>
+        </Link>
     </div>
 </div>
 
@@ -528,7 +527,7 @@ export default function HomePageView() {
         
         <div className="why-image-col">
             
-            <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" alt="Couple kayaking in the green backwaters" className="why-main-img" loading="lazy" decoding="async" />
+            <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" alt="Couple kayaking in the green backwaters" className="why-main-img" decoding="async" />
             
             <div className="why-badge">
                 <div className="why-badge-icon" aria-hidden="true">👍</div>
@@ -603,7 +602,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Traditional Kerala Lunch" />
       <meta itemProp="description" content="Tourists enjoying a traditional Kerala lunch at an Alleppey backwater restaurant." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="Tourists enjoying a traditional Kerala lunch on an Alleppey backwater tour" title="Traditional Kerala Lunch" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="Tourists enjoying a traditional Kerala lunch on an Alleppey backwater tour" title="Traditional Kerala Lunch" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -613,7 +612,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Authentic Kerala Meals" />
       <meta itemProp="description" content="Close-up of a traditional Kerala meal served on a banana leaf during a houseboat cruise." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp" alt="Close-up of a traditional Kerala meal served on a banana leaf during a houseboat cruise" title="Authentic Kerala Meals" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp" alt="Close-up of a traditional Kerala meal served on a banana leaf during a houseboat cruise" title="Authentic Kerala Meals" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -623,7 +622,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Shikara Boat Ride in Alleppey" />
       <meta itemProp="description" content="Tourists relaxing on the open deck of a Shikara boat in the Kerala backwaters." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" />
-      <img src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing on the open deck of a Shikara boat ride in Alleppey" title="Shikara Boat Deck" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing on the open deck of a Shikara boat ride in Alleppey" title="Shikara Boat Deck" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -633,7 +632,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Kayaking in Alleppey Backwaters" />
       <meta itemProp="description" content="Group of people kayaking through the narrow canals of the Kerala backwaters." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" alt="Group of people kayaking in the Alleppey Kerala backwaters" title="Backwater Kayaking" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" alt="Group of people kayaking in the Alleppey Kerala backwaters" title="Backwater Kayaking" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -643,7 +642,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Private Alleppey Houseboat" />
       <meta itemProp="description" content="Traditional Kerala private houseboat cruising the calm backwaters of Alleppey." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg" />
-      <img src="/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg" alt="Traditional Kerala private houseboat cruising the calm Alleppey backwaters" title="Traditional Houseboat" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg" alt="Traditional Kerala private houseboat cruising the calm Alleppey backwaters" title="Traditional Houseboat" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -653,7 +652,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Luxury Houseboat at Night" />
       <meta itemProp="description" content="Luxury Alleppey houseboat illuminated at dusk on Vembanad Lake." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg" alt="Luxury Alleppey cruise boat illuminated at dusk on the backwaters" title="Luxury Cruise at Dusk" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg" alt="Luxury Alleppey cruise boat illuminated at dusk on the backwaters" title="Luxury Cruise at Dusk" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -663,7 +662,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Houseboat Bedroom Interior" />
       <meta itemProp="description" content="Air-conditioned bedroom interior inside a budget-friendly shared boathouse in Alleppey." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp" />
-      <img src="/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp" alt="Air-conditioned bedroom interior inside a shared boathouse in Alleppey" title="AC Bedroom Interior" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp" alt="Air-conditioned bedroom interior inside a shared boathouse in Alleppey" title="AC Bedroom Interior" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>
@@ -673,7 +672,7 @@ export default function HomePageView() {
       <meta itemProp="name" content="Speedboat Ride in Alleppey" />
       <meta itemProp="description" content="Family enjoying a sunset speedboat ride across the wide waters of Alleppey." />
       <link itemProp="contentUrl" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" />
-      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" alt="Family enjoying a sunset speedboat ride in Alleppey backwaters" title="Sunset Speedboat Ride" loading="lazy" decoding="async" width="800" height="600" itemProp="thumbnail" />
+      <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp" alt="Family enjoying a sunset speedboat ride in Alleppey backwaters" title="Sunset Speedboat Ride" decoding="async" width="800" height="600" itemProp="thumbnail" />
       <div className="gal-overlay" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
       </div>

@@ -8,6 +8,7 @@ import { Houseboat, Activity, BlogPost, PageRecord } from "@/types";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;
+  const siteUpdateDate = new Date("2026-11-01T00:00:00.000Z");
   const houseboats = houseboatsData as Houseboat[];
   const activities = activitiesData as Activity[];
   const blogs = blogsData as BlogPost[];
@@ -17,21 +18,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((k) => k !== "home" && k !== "alleppey-boat-house-booking")
     .map((slug) => ({
       url: `${baseUrl}/${slug}/`,
-      lastModified: new Date(),
+      lastModified: siteUpdateDate,
       changeFrequency: "weekly" as const,
       priority: slug === "house-boat-alleppey" || slug === "contact" ? 0.9 : 0.7,
     }));
 
   const houseboatPages = houseboats.map((b) => ({
     url: `${baseUrl}/${b.slug}/`,
-    lastModified: new Date(),
+    lastModified: siteUpdateDate,
     changeFrequency: "weekly" as const,
     priority: 0.9,
   }));
 
   const activityPages = activities.map((a) => ({
     url: `${baseUrl}/${a.slug}/`,
-    lastModified: new Date(),
+    lastModified: siteUpdateDate,
     changeFrequency: "weekly" as const,
     priority: 0.85,
   }));
@@ -46,13 +47,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: `${baseUrl}/`,
-      lastModified: new Date(),
+      lastModified: siteUpdateDate,
       changeFrequency: "daily" as const,
       priority: 1.0,
     },
     {
       url: `${baseUrl}/blogs/`,
-      lastModified: new Date(),
+      lastModified: siteUpdateDate,
       changeFrequency: "weekly" as const,
       priority: 0.85,
     },

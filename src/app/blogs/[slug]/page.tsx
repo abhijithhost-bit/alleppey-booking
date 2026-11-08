@@ -223,6 +223,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
                     src={b.image}
                     alt={b.title}
                     fill
+                    loading="eager"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />

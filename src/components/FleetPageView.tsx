@@ -100,15 +100,8 @@ export default function FleetPageView() {
       )}
 
       <div className="fleet-pure-page w-full">
-        {/* Render hero & header from HTML */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
-
-<link rel="preload" as="image" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp" />
+        {/* Render hero & header */}
+        <link rel="preload" as="image" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp" />
 
 <div className="ab-hb-wrap" id="ab-houseboats-alleppey">
 
@@ -121,13 +114,25 @@ export default function FleetPageView() {
         
         <nav className="ab-hb-scale-wrap" aria-label="Browse houseboats by bedroom count">
             <span className="ab-hb-scale-tag">1 BR</span>
-            <div className="ab-hb-scale" id="ab-hb-pillnav"></div>
+            <div className="ab-hb-scale" id="ab-hb-pillnav">
+              {AB_HOUSEBOATS.map((b) => (
+                <button
+                  key={b.n}
+                  type="button"
+                  className="ab-hb-pill"
+                  onClick={() => scrollToCard(`hb-card-${b.n}`)}
+                  title={`View ${b.n} Bedroom Houseboat`}
+                >
+                  {b.n}
+                </button>
+              ))}
+            </div>
             <span className="ab-hb-scale-tag">14 BR</span>
         </nav>
 
         <div className="ab-hb-hero-actions">
             <a className="ab-hb-btn ab-hb-btn-primary" href="#ab-hb-compact">Browse All Houseboats ↓</a>
-            <a className="ab-hb-btn ab-hb-btn-outline" id="ab-hb-hero-wa" href="#" target="_blank" rel="noopener noreferrer">
+            <a className="ab-hb-btn ab-hb-btn-outline" id="ab-hb-hero-wa" href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20want%20to%20enquire%20about%20your%20Alleppey%20Houseboat%20fleet." target="_blank" rel="noopener noreferrer">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                 WhatsApp Us
             </a>
@@ -171,7 +176,6 @@ export default function FleetPageView() {
                         alt={altTag}
                         width="400"
                         height="260"
-                        loading="lazy"
                         decoding="async"
                         itemProp="image"
                       />
@@ -256,8 +260,8 @@ export default function FleetPageView() {
     <p className="ab-hb-note">*Starting prices shown are examples — please confirm exact rates on WhatsApp. Final price depends on season, boat tier (Deluxe / Premium / Luxury) and availability.</p>
     
     <div className="ab-hb-bottom-actions">
-        <a className="ab-hb-btn ab-hb-btn-primary" style={{"borderRadius":"50px","padding":"14px 28px"}} href="/house-boat-alleppey/">View All Itineraries</a>
-        <a className="ab-hb-btn ab-hb-btn-outline-dark" id="ab-hb-bottom-wa-custom" href="#" target="_blank" rel="noopener noreferrer">Get Custom Quote via WhatsApp</a>
+        <Link className="ab-hb-btn ab-hb-btn-primary" style={{"borderRadius":"50px","padding":"14px 28px"}} href="/house-boat-alleppey/">View All Itineraries</Link>
+        <a className="ab-hb-btn ab-hb-btn-outline-dark" id="ab-hb-bottom-wa-custom" href="https://wa.me/917012761588?text=Hi%20Alleppey%20Booking%2C%20I%20would%20like%20to%20get%20a%20custom%20houseboat%20package%20quote." target="_blank" rel="noopener noreferrer">Get Custom Quote via WhatsApp</a>
     </div>
 
     <div className="ab-hb-features-grid">
@@ -282,22 +286,22 @@ export default function FleetPageView() {
         <h2>Looking for a different experience?</h2>
         <p>Whether you want a short canal ride or a budget-friendly group stay, explore our other premium backwater services in Alleppey.</p>
         <div className="ab-hb-cs-grid">
-            <a href="/sharing-houseboat-in-alleppey/" className="ab-hb-cs-card">
+            <Link href="/sharing-houseboat-in-alleppey/" className="ab-hb-cs-card">
                 <h3>Shared Houseboats <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></h3>
                 <p>Enjoy the classic backwater experience on our budget-friendly shared boathouses.</p>
-            </a>
-            <a href="/shikara-ride-in-alleppey/" className="ab-hb-cs-card">
+            </Link>
+            <Link href="/shikara-ride-in-alleppey/" className="ab-hb-cs-card">
                 <h3>Shikara Rides <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></h3>
                 <p>Explore the narrow village canals peacefully and get closer to local backwater life.</p>
-            </a>
-            <a href="/speed-boat-in-alleppey/" className="ab-hb-cs-card">
+            </Link>
+            <Link href="/speed-boat-in-alleppey/" className="ab-hb-cs-card">
                 <h3>Speed Boat Cruises <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></h3>
                 <p>Thrilling, fast-paced rides across the wide open waters of Vembanad Lake.</p>
-            </a>
-            <a href="/kayaking-in-alleppey/" className="ab-hb-cs-card">
+            </Link>
+            <Link href="/kayaking-in-alleppey/" className="ab-hb-cs-card">
                 <h3>Kayaking <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></h3>
                 <p>Paddle at your own pace and experience the tranquility of nature up close.</p>
-            </a>
+            </Link>
         </div>
     </section>
 
