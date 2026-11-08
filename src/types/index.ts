@@ -94,6 +94,7 @@ export interface BlogPost {
   seo: SEOData;
   excerpt: string;
   contentHtml: string;
+  faqs?: ActivityFAQ[];
 }
 
 export interface PageRecord {

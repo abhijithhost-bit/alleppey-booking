@@ -11,6 +11,7 @@ const blogSlugs = [
   "alleppey-backwater-itnerary",
   "sharing-houseboat-couples-families",
   "how-to-book-houseboat-alleppey",
+  "alleppey-houseboat-rates-tariff-guide",
 ];
 
 const nextConfig: NextConfig = {

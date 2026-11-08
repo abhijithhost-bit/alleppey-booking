@@ -97,6 +97,22 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
     },
   };
 
+  const faqSchema =
+    post.faqs && post.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }
+      : null;
+
   const whatsappInquiryUrl = `https://wa.me/917012761588?text=Hello%20Alleppey%20Booking%2C%20I%20read%20your%20article%20%22${encodeURIComponent(post.title)}%22%20and%20would%20like%20to%20enquire%20about%20booking%20a%20tour.`;
 
   const cleanedContent = cleanWpHtml(post.contentHtml || "");
@@ -108,6 +124,13 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumb
           items={[
