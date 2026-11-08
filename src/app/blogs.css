@@ -118,10 +118,12 @@
   font-size: 16px;
   line-height: 1.8;
   color: #374151;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .blog-content p { margin: 0 0 1.5rem 0; }
 .blog-content h1 { font-size: 2rem; font-weight: 800; color: #0a2540; margin: 2rem 0 1rem 0; line-height: 1.25; }
-.blog-content h2 { font-size: 1.5rem; font-weight: 700; color: #0a2540; margin: 2rem 0 1rem 0; line-height: 1.3; }
+.blog-content h2 { font-size: 1.5rem; font-weight: 700; color: #0a2540; margin: 2rem 0 1rem 0; line-height: 1.3; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.5rem; }
 .blog-content h3 { font-size: 1.2rem; font-weight: 700; color: #0a2540; margin: 1.5rem 0 0.75rem 0; }
 .blog-content h4 { font-size: 1rem; font-weight: 700; color: #0a2540; margin: 1.25rem 0 0.5rem 0; }
 .blog-content strong { font-weight: 700; color: #0a2540; }
@@ -147,12 +149,127 @@
   margin: 1.5rem auto;
   display: block;
 }
-.blog-content figure { margin: 2rem 0; }
+.blog-content figure { margin: 2rem 0; max-width: 100%; }
 .blog-content figcaption { text-align: center; font-size: 0.875rem; color: #6b7280; margin-top: 0.5rem; font-style: italic; }
-.blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
-.blog-content th { background: #0a2540; color: #ffffff; padding: 10px 14px; text-align: left; font-weight: 600; }
-.blog-content td { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
-.blog-content tr:nth-child(even) td { background: #f9fafb; }
+
+/* Responsive Table Styles */
+.blog-table-container {
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(10, 37, 64, 0.04);
+}
+
+.blog-table-scroll-hint {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #ea580c;
+  background: #fff7ed;
+  border-bottom: 1px solid #fed7aa;
+  padding: 6px 12px;
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 769px) {
+  .blog-table-scroll-hint {
+    display: none;
+  }
+}
+
+.blog-table-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #ffffff;
+}
+
+.blog-table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+.blog-table-wrapper::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.blog-table-wrapper::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.blog-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.blog-content table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  margin: 0 !important;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background: #ffffff;
+}
+
+.blog-content th {
+  background: #0a2540;
+  color: #ffffff;
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+.blog-content td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  font-size: 0.875rem;
+  vertical-align: middle;
+}
+
+.blog-content tr:last-child td {
+  border-bottom: none;
+}
+
+.blog-content tr:nth-child(even) td {
+  background: #f8fafc;
+}
+
+.blog-content tr:hover td {
+  background: #f1f5f9;
+}
+
+.blog-content td a {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  background: #fff5eb;
+  color: #ff6600 !important;
+  border: 1px solid #fed7aa;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: all 0.15s ease-in-out;
+}
+
+.blog-content td a:hover {
+  background: #ff6600;
+  color: #ffffff !important;
+  border-color: #ff6600;
+  transform: translateY(-1px);
+}
+
 /* Strip leftover WordPress classes */
 .blog-content .wp-block-list { list-style: disc; padding-left: 1.75rem; margin: 0 0 1.5rem 0; }
 .blog-content .wp-block-image img { border-radius: 12px; max-width: 100%; height: auto; }

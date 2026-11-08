@@ -53,9 +53,9 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
   };
 }
 
-/** Strip WordPress block comments and wp-* classes from HTML */
+/** Strip WordPress block comments and wp-* classes from HTML, and wrap tables for mobile responsiveness */
 function cleanWpHtml(html: string): string {
-  return html
+  let cleaned = html
     .replace(/<!--\s*\/?wp:[^>]*-->/g, "")
     .replace(/\bclass="wp-block-list\b[^"]*"/g, "")
     .replace(/\bclass="wp-block-heading\b[^"]*"/g, "")
@@ -64,6 +64,23 @@ function cleanWpHtml(html: string): string {
     .replace(/\bclass="\s*"/g, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
+
+  // Normalize any figure.wp-block-table wrapper into clean responsive wrapper
+  cleaned = cleaned.replace(
+    /<figure[^>]*wp-block-table[^>]*>\s*(<table[\s\S]*?<\/table>)\s*<\/figure>/gi,
+    '<div class="blog-table-container"><div class="blog-table-scroll-hint"><span>↔ Swipe horizontally to view full table</span></div><div class="blog-table-wrapper">$1</div></div>'
+  );
+
+  // Wrap any standalone <table> not already inside blog-table-wrapper
+  cleaned = cleaned.replace(
+    /(<div class="blog-table-wrapper">[\s\S]*?<\/div>)|(<table[\s\S]*?<\/table>)/gi,
+    (match, p1, p2) => {
+      if (p1) return p1;
+      return `<div class="blog-table-container"><div class="blog-table-scroll-hint"><span>↔ Swipe horizontally to view full table</span></div><div class="blog-table-wrapper">${p2}</div></div>`;
+    }
+  );
+
+  return cleaned;
 }
 
 export default async function SingleBlogPage({ params }: BlogPageProps) {
@@ -118,7 +135,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
   const cleanedContent = cleanWpHtml(post.contentHtml || "");
 
   return (
-    <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen">
+    <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen w-full max-w-full overflow-x-hidden">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -131,7 +148,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full min-w-0">
         <Breadcrumb
           items={[
             { label: "Blogs", href: "/blogs/" },
@@ -140,8 +157,8 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
         />
 
         {/* Article Header */}
-        <header className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-sm mt-4 mb-8">
-          <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-4">
+        <header className="bg-white rounded-3xl p-5 sm:p-10 border border-slate-200/80 shadow-sm mt-4 mb-8 min-w-0 overflow-hidden">
+          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 text-xs text-slate-400 mb-4">
             <span className="flex items-center gap-1.5 font-medium text-slate-600">
               <Calendar className="w-3.5 h-3.5 text-[#FF6600]" />
               <span>{post.date}</span>
@@ -158,12 +175,12 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-[#0A2540] tracking-tight leading-tight mb-6">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-[#0A2540] tracking-tight leading-tight mb-6 break-words">
             {post.title}
           </h1>
 
           {/* Featured Image */}
-          <div className="relative h-72 sm:h-96 w-full rounded-2xl overflow-hidden shadow-md bg-slate-100">
+          <div className="relative h-64 sm:h-96 w-full rounded-2xl overflow-hidden shadow-md bg-slate-100">
             <Image
               src={post.image}
               alt={post.title}
@@ -176,20 +193,20 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
         </header>
 
         {/* Main Article Body — cleaned WordPress HTML */}
-        <div className="bg-white rounded-3xl p-6 sm:p-12 border border-slate-200/80 shadow-sm mb-12">
+        <div className="bg-white rounded-3xl p-5 sm:p-12 border border-slate-200/80 shadow-sm mb-12 min-w-0 overflow-hidden">
           <div
-            className="blog-content"
+            className="blog-content min-w-0 break-words"
             suppressHydrationWarning
             dangerouslySetInnerHTML={{ __html: cleanedContent }}
           />
 
           {/* In-Article WhatsApp Callout */}
-          <div className="mt-12 p-6 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="mt-12 p-5 sm:p-6 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h2 className="text-base font-bold text-[#0A2540]">
                 Planning Your Alleppey Backwater Trip?
               </h2>
-              <p className="text-xs text-slate-600 mt-1">
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
                 Chat with our local cruise captain on WhatsApp for actual boat photos, live availability, and direct booking rates.
               </p>
             </div>
@@ -197,7 +214,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
               href={whatsappInquiryUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-full font-bold text-xs bg-[#2CD664] hover:bg-[#22B350] text-white flex items-center gap-2 flex-shrink-0 shadow-md transition-colors"
+              className="w-full sm:w-auto px-6 py-3 rounded-full font-bold text-xs bg-[#2CD664] hover:bg-[#22B350] text-white flex items-center justify-center gap-2 flex-shrink-0 shadow-md transition-colors"
             >
               <MessageCircle className="w-4 h-4 fill-white" />
               <span>Enquire on WhatsApp</span>
@@ -239,7 +256,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
             {relatedBlogs.map((b) => (
               <article
                 key={b.slug}
-                className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col group"
+                className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col group min-w-0"
               >
                 <div className="relative h-40 w-full bg-slate-100 overflow-hidden">
                   <Image
