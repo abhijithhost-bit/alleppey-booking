@@ -13,6 +13,7 @@ import "./legal.css";
 import "./blogs.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoogleTagManager from "@/components/GoogleTagManager";
 import siteConfig from "@/data/siteConfig.json";
 
 const poppins = Poppins({
@@ -132,6 +133,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${poppins.variable} ${inter.variable}`}>
       <body suppressHydrationWarning className="antialiased flex flex-col min-h-screen">
+        {/* Pre-initialize dataLayer inline so tracking queue is ready instantly without network delay */}
+        <script
+          id="gtm-datalayer-init"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());`,
+          }}
+        />
+        <GoogleTagManager />
         <script
           type="application/ld+json"
           suppressHydrationWarning
