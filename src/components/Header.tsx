@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import siteConfig from "@/data/siteConfig.json";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,11 +19,11 @@ export default function Header() {
     "@type": "SiteNavigationElement",
     name: "Main Navigation",
     hasPart: [
-      { "@type": "WebPage", name: "Private Houseboat Fleet", url: "https://alleppeybooking.com/house-boat-alleppey/" },
-      { "@type": "WebPage", name: "Shared Houseboats", url: "https://alleppeybooking.com/sharing-houseboat-in-alleppey/" },
-      { "@type": "WebPage", name: "Shikara Ride", url: "https://alleppeybooking.com/shikara-ride-in-alleppey/" },
-      { "@type": "WebPage", name: "Blogs", url: "https://alleppeybooking.com/blogs/" },
-      { "@type": "WebPage", name: "Contact Us", url: "https://alleppeybooking.com/contact/" }
+      { "@type": "WebPage", name: "Private Houseboat Fleet", url: `${siteConfig.url}/house-boat-alleppey/` },
+      { "@type": "WebPage", name: "Shared Houseboats", url: `${siteConfig.url}/sharing-houseboat-in-alleppey/` },
+      { "@type": "WebPage", name: "Shikara Ride", url: `${siteConfig.url}/shikara-ride-in-alleppey/` },
+      { "@type": "WebPage", name: "Blogs", url: `${siteConfig.url}/blogs/` },
+      { "@type": "WebPage", name: "Contact Us", url: `${siteConfig.url}/contact/` }
     ]
   };
 

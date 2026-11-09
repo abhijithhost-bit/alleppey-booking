@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
+import siteConfig from "@/data/siteConfig.json";
 
 interface Crumb {
   label: string;
@@ -19,14 +20,14 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://alleppeybooking.com/",
+        item: `${siteConfig.url}/`,
       },
       ...items.map((item, idx) => ({
         "@type": "ListItem",
         position: idx + 2,
         name: item.label,
         item: item.href
-          ? `https://alleppeybooking.com${item.href}`
+          ? `${siteConfig.url}${item.href}`
           : undefined,
       })),
     ],

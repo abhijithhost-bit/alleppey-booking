@@ -76,59 +76,59 @@ const homeSchemas = [
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp",
         "name": "Traditional Kerala Lunch",
         "description": "Tourists enjoying a traditional Kerala lunch at an Alleppey backwater restaurant.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp",
         "name": "Authentic Kerala Meals",
         "description": "Close-up of a traditional Kerala meal served on a banana leaf during a houseboat cruise.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.28-PM-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp",
         "name": "Shikara Boat Ride in Alleppey",
         "description": "Tourists relaxing on the open deck of a Shikara boat in the Kerala backwaters.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp",
         "name": "Kayaking in Alleppey Backwaters",
         "description": "Group of people kayaking through the narrow canals of the Kerala backwaters.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg",
         "name": "Private Alleppey Houseboat",
         "description": "Traditional Kerala private houseboat cruising the calm backwaters of Alleppey.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20251221-WA0043.jpg"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg",
         "name": "Luxury Houseboat at Night",
         "description": "Luxury Alleppey houseboat illuminated at dusk on Vembanad Lake.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-23-at-10.32.04-PM-5-1.jpeg"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp",
         "name": "Houseboat Bedroom Interior",
         "description": "Air-conditioned bedroom interior inside a budget-friendly shared boathouse in Alleppey.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/956393213fea4f638e89e8e1e2f60202.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp",
         "name": "Speedboat Ride in Alleppey",
         "description": "Family enjoying a sunset speedboat ride across the wide waters of Alleppey.",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp"
       }
     ]
   },

@@ -24,13 +24,13 @@ const schemas = [
           "priceCurrency": "INR",
           "price": "500",
           "availability": "https://schema.org/InStock",
-          "url": "/kayaking-in-alleppey/"
+          "url": "https://alleppeybooking.com/kayaking-in-alleppey/"
         }
       },
       {
         "@type": "TravelAgency",
         "name": "Alleppey Booking",
-        "image": "/wp-content/uploads/2026/06/4.webp",
+        "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/4.webp",
         "telephone": "+917012761588",
         "address": {
           "@type": "PostalAddress",
@@ -39,7 +39,7 @@ const schemas = [
           "addressRegion": "Kerala",
           "addressCountry": "IN"
         },
-        "url": "/"
+        "url": "https://alleppeybooking.com/"
       },
       {
         "@type": "ImageGallery",
@@ -52,59 +52,59 @@ const schemas = [
         "image": [
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg",
             "name": "Couple enjoying kayaking",
             "description": "Couple enjoying a guided kayaking in Alleppey backwater tour",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp",
             "name": "Friends kayaking together",
             "description": "Big group of friends kayaking in Alleppey backwaters",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg",
             "name": "Four friends kayaking",
             "description": "Four friends having fun kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp",
             "name": "Group posing on kayaks",
             "description": "Group posing on colorful boats while kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg",
             "name": "Paddling through green canal",
             "description": "Two women paddling through a narrow green canal while kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg",
             "name": "Solo traveler kayaking",
             "description": "Solo traveler enjoying a peaceful afternoon kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg",
             "name": "Couple on open water",
             "description": "Cheerful couple out on the open water kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg",
             "name": "Playful kayaking moment",
             "description": "Enjoying a fun, playful moment kayaking in Alleppey",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg"
           }
         ]
       },

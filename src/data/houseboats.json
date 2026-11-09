@@ -127,13 +127,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
@@ -210,59 +210,59 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg",
                 "name": "1 Bedroom Houseboat Exterior",
                 "description": "Premium 1 bedroom houseboat Alleppey exterior cruising on the backwaters",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg",
                 "name": "Private Houseboat Living Area",
                 "description": "Comfortable living area with wooden sofa in a 1 BHK Alleppey houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg",
                 "name": "Private AC Bedroom",
                 "description": "Luxury air-conditioned bedroom inside a 1 bedroom private houseboat in Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.52-PM-1-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg",
                 "name": "Houseboat Dining Area",
                 "description": "Premium dining space and lounge area inside a private Alleppey houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.55-PM-1-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg",
                 "name": "Upper Deck Seating",
                 "description": "Open-air upper deck seating area on a 1 bedroom private houseboat in Kerala",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.56-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg",
                 "name": "Attached Washroom",
                 "description": "Clean and hygienic attached western bathroom in an Alleppey private houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.54-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg",
                 "name": "Modern Washbasin",
                 "description": "Modern washbasin and aesthetic mirror inside a premium houseboat bathroom",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg",
                 "name": "Houseboat Kitchen",
                 "description": "Fully equipped private kitchen onboard a 1 bedroom houseboat in Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg"
               }
             ]
           }
@@ -445,13 +445,13 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
@@ -464,7 +464,7 @@
           {
             "@type": "Product",
             "name": "2 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
             "description": "Book a private 2 bedroom houseboat Alleppey perfect for families and small groups. Includes 2 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -528,73 +528,73 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
                 "name": "2 Bedroom Houseboat Alleppey Exterior",
                 "description": "Exterior view of a premium 2 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg",
                 "name": "Houseboat Indoor Lounge",
                 "description": "Premium air-conditioned living room with wooden sofa seating inside a family-friendly houseboat in Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-5-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg",
                 "name": "Luxury AC Bedroom",
                 "description": "Luxury air-conditioned master bedroom featuring a large double bed and modern decor inside our private Kerala backwater houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-6-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg",
                 "name": "Interior Corridor - Houseboat Alleppey",
                 "description": "Elegant wooden hallway with decorative leaf wall art connecting the rooms inside our 2 bedroom houseboat in Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg",
                 "name": "Modern Attached Bathroom",
                 "description": "Clean and modern attached bathroom featuring elegant marble tiles, a western toilet, and an illuminated mirror inside a premium twin-room boat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg",
                 "name": "Attached Bathroom with Shower",
                 "description": "Fully equipped attached bathroom with a shower, western toilet, and marble-style tiles docked on Vembanad Lake.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-4-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg",
                 "name": "Upper Deck Dining Area",
                 "description": "Spacious open-air upper deck dining area offering panoramic views on our private 2 bedroom houseboat in Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.18-PM-1-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg",
                 "name": "Houseboat Washbasin Setup",
                 "description": "Aesthetic modern washbasin setup featuring an elegant mirror and wooden cabinetry inside an Alleppey backwater cruise boat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.15-PM-5-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg",
                 "name": "Wooden Houseboat Staircase",
                 "description": "Polished wooden staircase leading to the upper deck of our private houseboat in Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.13-PM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg",
                 "name": "Spacious Living Area with Windows",
                 "description": "Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg"
               }
             ]
           }
@@ -772,26 +772,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "3 Bedroom Houseboat",
-                "item": "/3-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/3-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "3 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
             "description": "Book a private 3 bedroom houseboat Alleppey perfect for families and large groups. Includes 3 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -799,7 +799,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/3-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/3-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "13500",
               "highPrice": "24000",
@@ -855,66 +855,66 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
                 "name": "3 Bedroom Houseboat Alleppey Exterior",
                 "description": "Exterior view of a luxury 3 bedroom houseboat Alleppey cruising on the backwaters.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg",
                 "name": "Luxury Houseboat Interior Corridor",
                 "description": "Elegant illuminated hallway with wooden flooring inside a private Kerala backwater houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.35-AM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg",
                 "name": "Luxury AC Bedroom",
                 "description": "Luxurious air-conditioned master bedroom featuring modern mirror decor in our 3 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.34-AM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg",
                 "name": "Premium Houseboat Dining Area",
                 "description": "Premium dining area with a long table and beautiful ambient lighting on a family-friendly houseboat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg",
                 "name": "Houseboat Upper Deck Balcony",
                 "description": "Open-air upper deck balcony offering stunning evening views on our Alleppey backwater cruise.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.31-AM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg",
                 "name": "Comfortable Guest Bedroom",
                 "description": "Spacious and comfortable AC bedroom with modern lighting inside a premium three-room boat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.32-AM-3.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg",
                 "name": "Scenic Backwater Houseboat View",
                 "description": "Scenic view of a 3 bedroom houseboat Alleppey docked on Vembanad Lake showcasing Kerala culture.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-5.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg",
                 "name": "Indoor Lounge with Lake View",
                 "description": "Air-conditioned indoor lounge featuring sliding glass doors and panoramic water views.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-3.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg",
                 "name": "Elegant Group Dining Setup",
                 "description": "Elegant dining setup under custom LED lighting perfect for large groups in a premium Kerala houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg"
               }
             ]
           }
@@ -1132,26 +1132,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "4 Bedroom Houseboat",
-                "item": "/4-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/4-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "4 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
             "description": "Book a private 4 bedroom houseboat Alleppey perfect for families and large groups. Includes 4 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -1159,7 +1159,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/4-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/4-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "18000",
               "highPrice": "36500",
@@ -1215,122 +1215,122 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
                 "name": "4 Bedroom Houseboat Alleppey Exterior",
                 "description": "Exterior view of our premium 4 bedroom houseboat Alleppey cruising through the scenic Kerala backwaters.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg",
                 "name": "Indoor Lounge & Dining Area",
                 "description": "Spacious air-conditioned indoor lounge and glass dining table inside a luxury four-room boat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg",
                 "name": "Houseboat Interior Corridor",
                 "description": "Elegant wooden hallway adorned with traditional Kerala murals connecting the rooms of the houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.38-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg",
                 "name": "Scenic Houseboat Profile",
                 "description": "Side profile of a large family-friendly backwater cruise boat docked gracefully on Vembanad Lake.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM-1-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg",
                 "name": "Luxury Houseboat Living Space",
                 "description": "Comfortable wooden living space featuring plush white seating inside our private Kerala houseboat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.37-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg",
                 "name": "AC Master Bedroom",
                 "description": "Fully equipped AC master bedroom featuring beautiful wall art in our 4 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.36-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg",
                 "name": "Premium Guest Bedroom",
                 "description": "Cozy air-conditioned guest bedroom with premium bedding and sliding windows for a relaxing group stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg",
                 "name": "Scenic Lounge Area",
                 "description": "Panoramic views from the air-conditioned indoor living area of a premium Alleppey boat house.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.33-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg",
                 "name": "Third AC Bedroom",
                 "description": "Third luxury AC bedroom featuring elegant decor and a comfortable double bed for extended families.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.32-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg",
                 "name": "Twin Bed AC Room",
                 "description": "Twin bed AC room perfect for kids or friends joining a large group houseboat in Kerala.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg",
                 "name": "Cozy Indoor Lounge Space",
                 "description": "Cozy indoor lounge area with blue seating inside a 4 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.31-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg",
                 "name": "Corridor Washbasin Setup",
                 "description": "Convenient corridor washbasin and mirror setup on our family-friendly Kerala backwater boat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg",
                 "name": "Bright Guest Bedroom",
                 "description": "Bright and comfortable AC bedroom featuring traditional Kerala wall art on a private backwater cruise.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.30-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg",
                 "name": "Fresh Onboard Breakfast",
                 "description": "Freshly prepared Kerala breakfast with fruits and juice served onboard a 4 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.29-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg",
                 "name": "Spacious AC Living Area",
                 "description": "Spacious air-conditioned living and dining area designed for large groups and families.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg",
                 "name": "Clean Attached Bathroom",
                 "description": "Clean and hygienic attached bathroom with a shower and western toilet inside a four-room boat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.28-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg",
                 "name": "Twin Guest Bedroom",
                 "description": "Well-appointed twin bedroom perfect for kids or friends sharing a 4 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg"
               }
             ]
           }
@@ -1523,26 +1523,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "5 Bedroom Houseboat",
-                "item": "/5-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/5-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "5 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
             "description": "Book a private 5 bedroom houseboat Alleppey perfect for families and massive groups. Includes 5 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -1550,7 +1550,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/5-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/5-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "22500",
               "highPrice": "50000",
@@ -1606,87 +1606,87 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
                 "name": "5 Bedroom Houseboat Alleppey Exterior",
                 "description": "Premium 5 bedroom houseboat Alleppey exterior view with a spacious upper deck.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg",
                 "name": "Luxury Houseboat Lounge Area",
                 "description": "Spacious air-conditioned lounge area inside our luxury Kerala boat stay.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-5.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg",
                 "name": "Illuminated Houseboat at Dusk",
                 "description": "Evening view of an illuminated 5 bedroom houseboat Alleppey on the calm backwaters.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-4.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg",
                 "name": "Master AC Suite Design",
                 "description": "Master AC suite featuring a beautiful golden ceiling design.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.04-PM-3.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg",
                 "name": "Private AC Bedroom Decor",
                 "description": "Private AC bedroom with floral decor inside a luxury Alleppey boat.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg",
                 "name": "Botanical Theme AC Bedroom",
                 "description": "Comfortable double bed in an AC room for large family group stays.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.05-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg",
                 "name": "Modern Guest AC Room",
                 "description": "Clean and modern air-conditioned guest room for your backwater cruise.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-5.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg",
                 "name": "Furnished Family AC Cabin",
                 "description": "Beautifully furnished AC cabin on our premium 5 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-4.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg",
                 "name": "Spacious Group Dining Area",
                 "description": "Large indoor dining area perfect for up to 20 guests to eat together.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.06-PM-3.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg",
                 "name": "Wooden Interior Corridor",
                 "description": "Elegant wooden corridor connecting the guest rooms.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-5.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg",
                 "name": "Spacious Houseboat Dining Area",
                 "description": "Large air-conditioned dining area with a glass-topped wooden table inside a 5 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.08-PM-4.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg",
                 "name": "Luxury Houseboat Indoor Lounge",
                 "description": "Luxurious indoor lounge with plush seating and panoramic windows aboard our 5 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg"
               }
             ]
           }
@@ -1944,26 +1944,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "6 Bedroom Houseboat",
-                "item": "/6-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/6-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "6 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
             "description": "Book a private 6 bedroom houseboat Alleppey perfect for large families and massive groups. Includes 6 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
               "@type": "Brand",
@@ -1971,7 +1971,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/6-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/6-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "32000",
               "highPrice": "70400",
@@ -2027,178 +2027,178 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
                 "name": "Private 6 Bedroom Houseboat Alleppey Exterior",
                 "description": "Exterior view of a luxury 6 bedroom houseboat Alleppey cruising on Vembanad Lake",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg",
                 "name": "Lake View AC Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Spacious air-conditioned guest room with lake views inside a 6 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg",
                 "name": "Traditional Wooden Corridor Interior",
                 "description": "Elegant wooden hallway illuminated with warm hanging lights on our Alleppey backwater cruise",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.42-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg",
                 "name": "Comfortable Guest Room Accommodation",
                 "description": "Comfortable double bed with modern amenities for large group houseboat stays in Kerala",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg",
                 "name": "Large Indoor Dining Lounge",
                 "description": "Expansive indoor dining and lounge area perfect for a 6 bedroom houseboat Alleppey family trip",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg",
                 "name": "Open Air Upper Deck Balcony",
                 "description": "Open-air upper deck balcony with artificial grass flooring for sightseeing along the backwaters",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.41-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg",
                 "name": "Premium Private Bedroom Setup",
                 "description": "Premium private bedroom featuring traditional wood finishes and scenic window views",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg",
                 "name": "Well-Lit Sleeping Quarters",
                 "description": "Well-lit sleeping quarters ensuring a restful night during your Alleppey group vacation",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg",
                 "name": "Luxury Suite with Wardrobe",
                 "description": "Luxury suite equipped with a wooden wardrobe and comfortable bedding for guests",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.40-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg",
                 "name": "Modern Attached Bathroom Facilities",
                 "description": "Clean and modern attached western bathroom facilities included in our 6 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg",
                 "name": "Luxury AC Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Luxurious AC bedroom inside a premium 6 bedroom houseboat Alleppey featuring a comfortable double bed and elegant modern decor.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg",
                 "name": "Spacious Suite - 6 Bedroom Houseboat Alleppey",
                 "description": "Spacious suite with split AC, beautiful towel art, and striped blinds in our 6 bedroom houseboat Alleppey for premium large group comfort.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.39-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg",
                 "name": "Modern LED Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Modern bedroom with decorative LED lighting, beautiful wooden interiors, and large windows on a 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.38-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg",
                 "name": "Premium Yellow Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Beautifully designed bedroom with warm yellow accents, round mirrors, and plush bedding on a private 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg",
                 "name": "Attached Bathroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Clean and hygienic attached western bathroom with premium shower fittings and yellow tiles inside a luxury 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg",
                 "name": "Upper Deck Balcony - 6 Bedroom Houseboat Alleppey",
                 "description": "Exclusive open-air upper deck balcony with artificial grass and backwater views on a 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.37-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg",
                 "name": "Luxury Living Area - 6 Bedroom Houseboat Alleppey",
                 "description": "Expansive air-conditioned living room with comfortable brown sofas and a flat screen TV in the 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg",
                 "name": "Large Dining Hall - 6 Bedroom Houseboat Alleppey",
                 "description": "Large lower deck dining hall with traditional zigzag wooden flooring and seating for 24 guests on a 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg",
                 "name": "Elegant Dining Setup - 6 Bedroom Houseboat Alleppey",
                 "description": "Elegant dining table setup with a fresh fruit basket inside the spacious lounge of our premium 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.36-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg",
                 "name": "Long Wooden Corridor - 6 Bedroom Houseboat Alleppey",
                 "description": "A stunning view of the long wooden corridor and dining area typical of a luxury 6 bedroom houseboat Alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg",
                 "name": "Onboard Kitchen - 6 Bedroom Houseboat Alleppey",
                 "description": "Fully equipped onboard kitchen managed by a private chef, preparing fresh meals on a 6 bedroom houseboat alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg",
                 "name": "Guest AC Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Comfortable air-conditioned guest bedroom featuring traditional wooden decor and warm lighting on a 6 bedroom houseboat alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.35-PM.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg",
                 "name": "Spacious Lounge & Dining - 6 Bedroom Houseboat Alleppey",
                 "description": "Expansive lounge and dining hall with beautiful wooden flooring and ceiling lights inside a 6 bedroom houseboat alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-2.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg",
                 "name": "Premium Modern Bedroom - 6 Bedroom Houseboat Alleppey",
                 "description": "Premium modern bedroom with stylish LED headboard, large scenic windows, and striped flooring on a 6 bedroom houseboat alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.34-PM-1.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg",
                 "name": "Bedroom with Attached Bath - 6 Bedroom Houseboat Alleppey",
                 "description": "Beautifully furnished AC bedroom with an attached modern shower washroom and premium decor on a private 6 bedroom houseboat alleppey.",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg"
               }
             ]
           }
@@ -2411,26 +2411,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "7 Bedroom Luxury Houseboat",
-                "item": "/7-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/7-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "Private 7 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
             "description": "Book a massive 7 bedroom houseboat Alleppey designed exclusively for mega groups of up to 28 guests (up to 80 for day cruises). Features 7 AC suites, an elite 5-person crew, and an extra-wide backwater viewing deck.",
             "brand": {
               "@type": "Brand",
@@ -2438,7 +2438,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/7-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/7-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "28000",
               "highPrice": "56000",
@@ -2494,115 +2494,115 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
                 "name": "Luxury 7 Bedroom Houseboat Alleppey Exterior",
                 "description": "Exterior view of the luxury 7 bedroom houseboat Alleppey cruising on the backwaters",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg",
                 "name": "Family Bunk Bed Suite - Alleppey Houseboat",
                 "description": "Unique bunk bed family suite inside a private 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg",
                 "name": "Wooden Interior Hallway and Stairs",
                 "description": "Beautifully crafted wooden staircase and hallway inside our Alleppey backwater boat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-4-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg",
                 "name": "Modern Attached Bathroom Facility",
                 "description": "Modern attached washroom with elegant leaf wallpaper for guests on the cruise",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.35-PM-5-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg",
                 "name": "Premium AC Guest Bedroom",
                 "description": "Air-conditioned guest bedroom with a beige scalloped headboard on an Alleppey 7 bedroom houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.34-PM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg",
                 "name": "Luxury Master Suite Design",
                 "description": "Luxury master suite featuring unique interior design on our 7 bedroom houseboat in Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg",
                 "name": "Spacious Indoor Lounge Area",
                 "description": "Spacious lounge and living area with comfortable seating on a 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-4-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg",
                 "name": "Premium Double Bedroom with Modern Decor",
                 "description": "Premium double bedroom with modern decor perfectly suited for a large group stay",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.33-PM-5-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg",
                 "name": "Furnished AC Room with Floral Headboard",
                 "description": "Beautifully furnished AC room with a floral headboard design on an Alleppey backwater cruise",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg",
                 "name": "Elegant Wooden Corridor Doors",
                 "description": "Elegant wooden doors and ambient lighting in the corridor of a 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.32-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg",
                 "name": "Safe Wooden Corridor - 7 Bedroom Houseboat",
                 "description": "Long wooden corridor equipped with safety life jackets aboard our 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-5-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg",
                 "name": "Modern Welcome Counter Area",
                 "description": "Modern reception and welcome counter area inside the spacious houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg",
                 "name": "Expansive Banquet Dining Hall",
                 "description": "Expansive dining hall with elegant ceiling lights ready for large groups on a 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.30-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg",
                 "name": "Panoramic Backwater Dining View",
                 "description": "Long banquet seating with panoramic glass windows offering backwater views during your Alleppey cruise",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg",
                 "name": "Outdoor Viewing Balcony Deck",
                 "description": "Relaxing outdoor balcony deck with artificial grass and seating on our private 7 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.29-PM-4-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg",
                 "name": "Front Exterior Houseboat View",
                 "description": "Front exterior view of the premium Virtue 7 bedroom houseboat cruising through Alleppey backwaters",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg"
               }
             ]
           }
@@ -2770,26 +2770,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "8 Bedroom Luxury Houseboat",
-                "item": "/8-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/8-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "Private 8 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
             "description": "Book a massive 8 bedroom houseboat Alleppey designed exclusively for mega groups of up to 32 guests (up to 100 for day cruises). Features 8 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck.",
             "brand": {
               "@type": "Brand",
@@ -2797,7 +2797,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/8-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/8-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "32000",
               "highPrice": "99200",
@@ -2853,52 +2853,52 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
                 "name": "Vembanad Queen 8 Bedroom Houseboat Exterior",
                 "description": "Exterior view of the Vembanad Queen 8 bedroom houseboat Alleppey cruising the backwaters",
-                "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg",
                 "name": "Spacious Wooden Lounge Area",
                 "description": "Comfortable living area with traditional wooden seating for large groups on a private houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg",
                 "name": "Premium Interior Corridor",
                 "description": "Long polished wooden corridor connecting the guest suites on our 8 bedroom houseboat in Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.03-AM-1-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg",
                 "name": "Ambient Floral AC Bedroom",
                 "description": "Private AC guest room featuring warm ambient lighting and a floral headboard",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.01-AM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg",
                 "name": "Illuminated Arch Headboard Suite",
                 "description": "Luxury bedroom with a glowing circular headboard design on an 8 bedroom houseboat Alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.04-AM-2-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg",
                 "name": "Elegant Tree Pattern Bedroom",
                 "description": "Elegant air-conditioned suite with scenic window views on a Kerala backwater cruise",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.06-AM-3-scaled.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg",
                 "name": "Premium Suite with Towel Art",
                 "description": "Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg"
               }
             ]
           }
@@ -3091,26 +3091,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "10 Bedroom Luxury Houseboat",
-                "item": "/10-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/10-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "Private 10 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
             "description": "Book a massive 10 bedroom houseboat Alleppey designed exclusively for mega groups of up to 40 guests (up to 120 for day cruises). Features 10 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck ideal for events.",
             "brand": {
               "@type": "Brand",
@@ -3118,7 +3118,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/10-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/10-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "40000",
               "highPrice": "104000",
@@ -3174,87 +3174,87 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
                 "name": "Grand 10 Bedroom Houseboat Exterior",
                 "description": "Illuminated Royal Waves 10 bedroom houseboat alleppey exterior at dusk",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp",
                 "name": "10 Bedroom Houseboat Profile",
                 "description": "Royal Waves 10 bedroom houseboat alleppey cruising the backwaters during daytime",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp",
                 "name": "Luxury Living Area and Lounge",
                 "description": "Spacious living area with modern sofa inside the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-livingarea.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp",
                 "name": "Premium AC Bedroom Suite",
                 "description": "Luxury suite with circular lighted headboard in the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-bedroom.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg",
                 "name": "Scenic Window Bedroom",
                 "description": "Air-conditioned guest room with backwater views on the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-8.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg",
                 "name": "Elegant Guest Bedroom",
                 "description": "Modern bedroom interior with geometric wall decor on the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.12-PM-7.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg",
                 "name": "Wooden Interior Bedroom",
                 "description": "Comfortable bedding and wooden interiors inside the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-4.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg",
                 "name": "Cozy Private Cabin",
                 "description": "Cozy and well-lit private cabin inside the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.09.11-PM-3.jpeg"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp",
                 "name": "Modern Attached Bathroom",
                 "description": "Clean attached marble bathroom with modern fittings in the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-bathroom.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp",
                 "name": "Upper Deck Staircase Access",
                 "description": "Illuminated wooden staircase leading to the upper deck of the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-starecase.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp",
                 "name": "Elegant Group Dining Hall",
                 "description": "Massive dining hall with elegant table setups inside the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-dinighall.webp"
               },
               {
                 "@type": "ImageObject",
-                "contentUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp",
+                "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp",
                 "name": "Expansive Wooden Lounge Deck",
                 "description": "Expansive wooden lounge and dining deck with decorative lighting on the 10 bedroom houseboat alleppey",
-                "thumbnailUrl": "/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp"
+                "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp"
               }
             ]
           }
@@ -3462,26 +3462,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "12 Bedroom Luxury Houseboat",
-                "item": "/12-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/12-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "Private 12 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
             "description": "Book a massive 12 bedroom houseboat Alleppey designed exclusively for mega groups of up to 48 guests (and up to 150 guests for day cruises). Features 12 AC suites, an elite 6-person crew, and multiple packages including overnight, day cruise, and night stay.",
             "brand": {
               "@type": "Brand",
@@ -3489,7 +3489,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/12-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/12-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "48000",
               "highPrice": "129600",
@@ -3713,26 +3713,26 @@
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "/"
+                "item": "https://alleppeybooking.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Houseboats",
-                "item": "/house-boat-alleppey/"
+                "item": "https://alleppeybooking.com/house-boat-alleppey/"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "14 Bedroom Luxury Houseboat",
-                "item": "/14-bedroom-houseboat-alleppey/"
+                "item": "https://alleppeybooking.com/14-bedroom-houseboat-alleppey/"
               }
             ]
           },
           {
             "@type": "Product",
             "name": "Private 14 Bedroom Houseboat Alleppey",
-            "image": "/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
+            "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
             "description": "Book a massive 14 bedroom houseboat alleppey designed exclusively for mega groups of up to 56 guests (up to 200 for day cruises). Features 14 AC suites, a professional crew, and multiple packages including overnight, day cruise, and night stay.",
             "brand": {
               "@type": "Brand",
@@ -3740,7 +3740,7 @@
             },
             "offers": {
               "@type": "AggregateOffer",
-              "url": "/14-bedroom-houseboat-alleppey/",
+              "url": "https://alleppeybooking.com/14-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
               "lowPrice": "56000",
               "highPrice": "171200",

@@ -34,59 +34,59 @@ const schemas = [
         "image": [
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp",
             "name": "Tourists Relaxing on Shikara Deck",
             "description": "Tourists relaxing and enjoying the view from the front deck of a shikara boat in Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/shikara-adventure.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/shikara-adventure.webp",
             "name": "Family on Traditional Shikara",
             "description": "A happy family posing on a traditional wooden shikara boat near the lush green shores of Alleppey.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/shikara-adventure.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/shikara-adventure.webp"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/08/shikara-000.jpg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/08/shikara-000.jpg",
             "name": "Scenic Shikara Ride in Alleppey",
             "description": "Two people standing at the bow of a colorful traditional boat with a woven roof during a scenic shikara ride in Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/08/shikara-000.jpg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/08/shikara-000.jpg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg",
             "name": "Tourist with Eagle in Alleppey",
             "description": "A female tourist smiling with a large eagle perched on her shoulder near the Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg",
             "name": "Couple Enjoying Boat Ride",
             "description": "A romantic couple leaning back and relaxing on the front rails of a shikara boat in Kerala.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/08/shikara-001.jpg",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/08/shikara-001.jpg",
             "name": "Family Enjoying a Shikara Ride in Alleppey",
             "description": "A family of three posing on the yellow deck of a boat while enjoying a relaxing shikara ride in Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/08/shikara-001.jpg"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/08/shikara-001.jpg"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp",
             "name": "Shikara Cruising Backwaters",
             "description": "A traditional wooden shikara boat cruising smoothly across the wide Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp"
           },
           {
             "@type": "ImageObject",
-            "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp",
+            "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp",
             "name": "Tourists Dining by Backwaters",
             "description": "A group of tourists enjoying a meal around a table under a colorful umbrella near the Alleppey backwaters.",
-            "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp"
+            "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp"
           }
         ]
       },

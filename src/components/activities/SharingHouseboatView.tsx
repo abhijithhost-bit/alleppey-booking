@@ -12,15 +12,15 @@ const schemas = [
     "name": "Sharing Houseboat in Alleppey",
     "description": "Sharing houseboat in Alleppey is the perfect way to experience the vast backwaters on a budget. Enjoy a private AC bedroom, the exact same cruising route, and authentic meals.",
     "image": [
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg",
-      "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg"
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg",
+      "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg"
     ],
     "brand": {
       "@type": "Brand",
@@ -28,7 +28,7 @@ const schemas = [
     },
     "offers": {
       "@type": "Offer",
-      "url": "/sharing-houseboat-in-alleppey/",
+      "url": "https://alleppeybooking.com/sharing-houseboat-in-alleppey/",
       "priceCurrency": "INR",
       "price": "5999",
       "availability": "https://schema.org/InStock"

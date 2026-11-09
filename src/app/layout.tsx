@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "speed boat alleppey",
   ],
   alternates: {
-    canonical: siteConfig.url,
+    canonical: `${siteConfig.url}/`,
   },
   openGraph: {
     title: "Alleppey Boat Tour Packages | Kerala Backwater Bookings 2026",

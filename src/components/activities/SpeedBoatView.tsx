@@ -18,59 +18,59 @@ const schemas = [
     "image": [
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp",
         "name": "Group speed boat fun",
         "description": "Group of family and friends wearing life jackets having fun on our 10 minutes package during sunset speed boat in alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.31-PM-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp",
         "name": "Sunset family speed boat ride",
         "description": "Family enjoying a sunset speed boat in alleppey ride on the backwaters",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.32-PM-1.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg",
         "name": "Couple speed boat ride",
         "description": "Happy couple wearing life jackets enjoying a ride on a speed boat in Alleppey backwaters",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM-1-scaled.jpeg"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp",
         "name": "Friends group speed boat",
         "description": "Happy friends enjoying a group ride on a speed boat in Alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-scaled.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg",
         "name": "Family enjoying speed boat",
         "description": "Smiling family having fun on a speed boat in Alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-3-scaled.jpeg"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp",
         "name": "Family on yellow boat",
         "description": "Parents and child on a yellow speed boat in Alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.57.55-PM-scaled.webp"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg",
         "name": "Couples speed boat trip",
         "description": "Friends and couples having fun on a speed boat in Alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.27.29-PM.jpeg"
       },
       {
         "@type": "ImageObject",
-        "contentUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp",
+        "contentUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp",
         "name": "Scenic backwater views",
         "description": "Scenic evening backwater view from a speed boat in Alleppey",
-        "thumbnailUrl": "/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp"
+        "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-9.24.32-PM-2-scaled.webp"
       }
     ]
   },
