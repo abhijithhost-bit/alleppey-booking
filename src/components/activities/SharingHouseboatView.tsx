@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import DatePicker from "@/components/DatePicker";
 
 const schemas = [
@@ -112,9 +113,6 @@ export default function SharingHouseboatView() {
       ))}
 
       <div className="activity-pure w-full">
-        <link rel="dns-prefetch" href="https://wa.me" />
-<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
-<link rel="preload" as="image" href="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" />
 
 
 
@@ -309,42 +307,42 @@ export default function SharingHouseboatView() {
         <div className="gal-grid">
             
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Private AC Bedroom image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg" alt="Exterior view of a premium sharing houseboat in Alleppey cruising on the backwaters at dusk with beautiful warm lighting." title="Private AC Bedroom" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM.jpeg" alt="Exterior view of a premium sharing houseboat in Alleppey cruising on the backwaters at dusk with beautiful warm lighting." title="Private AC Bedroom" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Attached Bathroom image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg" alt="Front view of the Vembanad Queen shared houseboat in Alleppey navigating the tranquil Kerala backwaters under a cloudy sky" title="Attached Bathroom" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.20-AM.jpeg" alt="Front view of the Vembanad Queen shared houseboat in Alleppey navigating the tranquil Kerala backwaters under a cloudy sky" title="Attached Bathroom" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Upper Deck Views image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg" alt="A sharing houseboat in Alleppey docked alongside a scenic paved walkway surrounded by tropical palm trees" title="Upper Deck Views" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.28-AM.jpeg" alt="A sharing houseboat in Alleppey docked alongside a scenic paved walkway surrounded by tropical palm trees" title="Upper Deck Views" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Onboard Dining image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg" alt="Spacious indoor living area inside a shared Alleppey boathouse, featuring a comfortable sectional sofa and panoramic water views" title="Onboard Dining" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.21-AM-1.jpeg" alt="Spacious indoor living area inside a shared Alleppey boathouse, featuring a comfortable sectional sofa and panoramic water views" title="Onboard Dining" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Living Room Area image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg" alt="Cozy private AC bedroom with warm lighting and comfortable bedding available on a sharing houseboat in Alleppey" title="Living Room Area" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.23-AM.jpeg" alt="Cozy private AC bedroom with warm lighting and comfortable bedding available on a sharing houseboat in Alleppey" title="Living Room Area" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Sundeck Seating image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg" alt="Modern private cabin with stylish wall decor and a double bed on a budget backwater cruise in Alleppey" title="Sundeck Seating" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.26-AM.jpeg" alt="Modern private cabin with stylish wall decor and a double bed on a budget backwater cruise in Alleppey" title="Sundeck Seating" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Wooden Interiors image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg" alt="Traditional wooden interiors of a private bedroom with a green tufted headboard on a sharing houseboat in Alleppey." title="Wooden Interiors" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM.jpeg" alt="Traditional wooden interiors of a private bedroom with a green tufted headboard on a sharing houseboat in Alleppey." title="Wooden Interiors" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 
             <figure className="gal-item" tabIndex={0} role="button" aria-label="View Exterior Boat View image"  >
-                <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg" alt="Clean and modern attached bathroom featuring decorative patterned tiles inside an Alleppey shared houseboat." title="Exterior Boat View" decoding="async" width="800" height="600" />
+                <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-9.49.29-AM-1.jpeg" alt="Clean and modern attached bathroom featuring decorative patterned tiles inside an Alleppey shared houseboat." title="Exterior Boat View" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
                 <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
             </figure>
 

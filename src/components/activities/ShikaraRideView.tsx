@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import DatePicker from "@/components/DatePicker";
 
 const schemas = [
@@ -296,42 +297,42 @@ export default function ShikaraRideView() {
       
       <div className="gal-grid">
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourists Relaxing on Shikara Deck image"  >
-          <img src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing and enjoying the view from the front deck of a shikara boat in Alleppey backwaters." title="Tourists Relaxing on Shikara Deck" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/IMG-20250517-WA0011-1.webp" alt="Tourists relaxing and enjoying the view from the front deck of a shikara boat in Alleppey backwaters." title="Tourists Relaxing on Shikara Deck" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Family on Traditional Shikara image"  >
-          <img src="/wp-content/uploads/2026/06/shikara-adventure.webp" alt="A happy family posing on a traditional wooden shikara boat near the lush green shores of Alleppey." title="Family on Traditional Shikara" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/shikara-adventure.webp" alt="A happy family posing on a traditional wooden shikara boat near the lush green shores of Alleppey." title="Family on Traditional Shikara" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View image of a colorful boat on a scenic shikara ride in Alleppey"  >
-          <img src="/wp-content/uploads/2026/08/shikara-000.jpg" alt="Two people standing at the bow of a colorful traditional boat with a woven roof during a scenic shikara ride in Alleppey backwaters." title="Scenic Shikara Ride in Alleppey" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/08/shikara-000.jpg" alt="Two people standing at the bow of a colorful traditional boat with a woven roof during a scenic shikara ride in Alleppey backwaters." title="Scenic Shikara Ride in Alleppey" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourist with Eagle in Alleppey image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg" alt="A female tourist smiling with a large eagle perched on her shoulder near the Alleppey backwaters." title="Tourist with Eagle in Alleppey" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.33-PM-1-1.jpeg" alt="A female tourist smiling with a large eagle perched on her shoulder near the Alleppey backwaters." title="Tourist with Eagle in Alleppey" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Couple Enjoying Boat Ride image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg" alt="A romantic couple leaning back and relaxing on the front rails of a shikara boat in Kerala." title="Couple Enjoying Boat Ride" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.28.24-PM-1.jpeg" alt="A romantic couple leaning back and relaxing on the front rails of a shikara boat in Kerala." title="Couple Enjoying Boat Ride" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View image of a family enjoying a shikara ride in Alleppey"  >
-          <img src="/wp-content/uploads/2026/08/shikara-001.jpg" alt="A family of three posing on the yellow deck of a boat while enjoying a relaxing shikara ride in Alleppey backwaters." title="Family Enjoying a Shikara Ride in Alleppey" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/08/shikara-001.jpg" alt="A family of three posing on the yellow deck of a boat while enjoying a relaxing shikara ride in Alleppey backwaters." title="Family Enjoying a Shikara Ride in Alleppey" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Shikara Cruising Backwaters image"  >
-          <img src="/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp" alt="A traditional wooden shikara boat cruising smoothly across the wide Alleppey backwaters." title="Shikara Cruising Backwaters" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/IMG-20250106-WA0007.webp" alt="A traditional wooden shikara boat cruising smoothly across the wide Alleppey backwaters." title="Shikara Cruising Backwaters" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
         
         <figure className="gal-item" tabIndex={0} role="button" aria-label="View Tourists Dining by Backwaters image"  >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="A group of tourists enjoying a meal around a table under a colorful umbrella near the Alleppey backwaters." title="Tourists Dining by Backwaters" decoding="async" width="800" height="600" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.27-PM-1.webp" alt="A group of tourists enjoying a meal around a table under a colorful umbrella near the Alleppey backwaters." title="Tourists Dining by Backwaters" width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg></div>
         </figure>
       </div>

@@ -16,26 +16,18 @@ export default function HouseboatGallery({
   defaultImage,
   title,
 }: HouseboatGalleryProps) {
-  const [selectedImg, setSelectedImg] = useState<string>(
-    images.length > 0 ? images[0].src : defaultImage
-  );
-  const [isFading, setIsFading] = useState(false);
+  const galleryList =
+    images.length > 0 ? images : [{ src: defaultImage, alt: title, title }];
+
+  const [selectedImg, setSelectedImg] = useState<string>(galleryList[0].src);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const thumbsContainerRef = useRef<HTMLDivElement>(null);
 
-  const currentItem = images.find((img) => img.src === selectedImg) || {
-    src: selectedImg,
-    alt: title,
-    title,
-  };
+  const currentItem = galleryList.find((img) => img.src === selectedImg) || galleryList[0];
 
   const handleSelect = (src: string, e?: React.MouseEvent<HTMLButtonElement>) => {
     if (src === selectedImg) return;
-    setIsFading(true);
-    setTimeout(() => {
-      setSelectedImg(src);
-      setIsFading(false);
-    }, 150);
+    setSelectedImg(src);
 
     if (e?.currentTarget) {
       e.currentTarget.scrollIntoView({
@@ -49,7 +41,7 @@ export default function HouseboatGallery({
   return (
     <>
       <section className="ab-sh-gallery-container w-full mb-6">
-        {/* Main Image Viewport */}
+        {/* Main Image Viewport — renders all gallery images stacked for 0ms instant switching */}
         <div
           className="ab-sh-main-image-wrap relative rounded-2xl overflow-hidden bg-slate-900 shadow-md group cursor-pointer aspect-[16/10] sm:aspect-[16/9]"
           onClick={() => setIsLightboxOpen(true)}
@@ -63,28 +55,32 @@ export default function HouseboatGallery({
             }
           }}
         >
-          <Image
-            id="ab-main-img"
-            src={selectedImg}
-            alt={currentItem.alt || title}
-            title={currentItem.title || title}
-            fill
-            priority
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 800px"
-            className={`object-cover transition-opacity duration-200 ${
-              isFading ? "opacity-40" : "opacity-100"
-            }`}
-          />
-
+          {galleryList.map((img, idx) => {
+            const isSelected = img.src === selectedImg;
+            return (
+              <Image
+                key={img.src}
+                src={img.src}
+                alt={img.alt || title}
+                title={img.title || title}
+                fill
+                priority={idx === 0}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 800px"
+                className={`object-cover transition-opacity duration-150 ${
+                  isSelected ? "opacity-100 z-10" : "opacity-0 z-0 pointer-events-none"
+                }`}
+              />
+            );
+          })}
         </div>
 
         {/* Thumbnails Carousel */}
-        {images.length > 1 && (
+        {galleryList.length > 1 && (
           <div
             ref={thumbsContainerRef}
             className="ab-sh-thumbnails flex items-center gap-2.5 mt-3 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-slate-300"
           >
-            {images.map((img, idx) => {
+            {galleryList.map((img, idx) => {
               const isActive = img.src === selectedImg;
               return (
                 <button

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import DatePicker from "@/components/DatePicker";
 
 const schemas = [
@@ -196,7 +197,6 @@ export default function KayakingView() {
       ))}
 
       <div className="activity-pure w-full">
-        <link rel="preload" as="image" href="/wp-content/uploads/2026/06/4.webp" />
 
 
 
@@ -356,35 +356,35 @@ export default function KayakingView() {
       </div>
       <div className="gal-grid">
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" width="800" height="600" alt="Couple enjoying a guided kayaking tour in Alleppey" title="Couple enjoying kayaking" />
+          <Image src="/wp-content/uploads/2026/06/IMG-20230703-WA0000.jpg" width={800} height={600} alt="Couple enjoying a guided kayaking tour in Alleppey" title="Couple enjoying kayaking" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" width="800" height="600" alt="Group of friends kayaking the Kerala backwaters" title="Friends kayaking together" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-1-1.webp" width={800} height={600} alt="Group of friends kayaking the Kerala backwaters" title="Friends kayaking together" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" priority />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg" width="800" height="600" alt="Four friends paddling their kayaks in Alappuzha" title="Four friends kayaking" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM.jpeg" width={800} height={600} alt="Four friends paddling their kayaks in Alappuzha" title="Four friends kayaking" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp" width="800" height="600" alt="Group on colorful kayaks during backwater tour" title="Group posing on kayaks" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM.webp" width={800} height={600} alt="Group on colorful kayaks during backwater tour" title="Group posing on kayaks" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg" width="800" height="600" alt="Paddling through a narrow green canal in Alleppey" title="Paddling through green canal" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.18-PM-1.jpeg" width={800} height={600} alt="Paddling through a narrow green canal in Alleppey" title="Paddling through green canal" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg" width="800" height="600" alt="Solo traveler enjoying kayaking in Alleppey" title="Solo traveler kayaking" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.17-PM-1.jpeg" width={800} height={600} alt="Solo traveler enjoying kayaking in Alleppey" title="Solo traveler kayaking" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg" width="800" height="600" alt="Couple on open water during a Kerala kayak tour" title="Couple on open water" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.16.19-PM.jpeg" width={800} height={600} alt="Couple on open water during a Kerala kayak tour" title="Couple on open water" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
         <figure className="gal-item" tabIndex={0} >
-          <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg" width="800" height="600" alt="Playful moment while kayaking the backwaters" title="Playful kayaking moment" />
+          <Image src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-09-at-1.18.02-PM-scaled.jpeg" width={800} height={600} alt="Playful moment while kayaking the backwaters" title="Playful kayaking moment" sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 300px" />
           <div className="gal-overlay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg></div>
         </figure>
       </div>

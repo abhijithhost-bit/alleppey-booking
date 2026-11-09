@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -168,7 +169,16 @@ export default function FleetPageView() {
                   >
                     <meta itemProp="name" content={altTag} />
                     <div className="ab-hb-img-wrap">
-                      <img src={img} alt="Alleppey Houseboat Fleet Luxury Bedroom Cruise" title={altTag} width="400" height="260" decoding="async" itemProp="image" />
+                      <Image
+                        src={img}
+                        alt={altTag}
+                        title={altTag}
+                        width={400}
+                        height={260}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+                        priority={i < 2}
+                        itemProp="image"
+                      />
                       {item.badge && <span className="ab-hb-badge">{item.badge}</span>}
                     </div>
                     <div className="ab-hb-card-content">

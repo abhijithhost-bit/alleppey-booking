@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutUsView() {
   return (
@@ -30,8 +31,15 @@ export default function AboutUsView() {
         </div>
 
         <div className="au-story-image-box">
-            
-            <img src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp" alt="Alleppey Backwaters" />
+            <Image
+                src="/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp"
+                alt="Alleppey Backwaters - Traditional houseboat cruise"
+                width={600}
+                height={400}
+                priority
+                sizes="(max-width: 640px) 100vw, 600px"
+                className="w-full h-auto block rounded-[20px]"
+            />
             <div className="au-experience-badge">
                 <h3>100%</h3>
                 <p>Authentic Kerala</p>
