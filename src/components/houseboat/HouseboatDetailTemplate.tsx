@@ -341,7 +341,7 @@ export default function HouseboatDetailTemplate({
             </main>
 
             {/* Right Sidebar Column */}
-            <div className="lg:col-span-4 lg:self-start lg:sticky lg:top-6">
+            <div className="lg:col-span-4 lg:self-start lg:sticky lg:top-20">
               <BookingCard review={boat.review} />
             </div>
           </div>

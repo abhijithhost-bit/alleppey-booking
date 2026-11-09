@@ -70,7 +70,7 @@ export default function MobileStickyBar() {
         >
           <div className="ab-msb-price flex items-baseline gap-1.5">
             <span className="text-[11px] font-semibold text-slate-400">Total</span>
-            <strong className="text-base font-black text-brand-navy">
+            <strong className="text-sm sm:text-base font-black text-brand-navy whitespace-nowrap">
               {pricing.formattedTotal}
             </strong>
           </div>
