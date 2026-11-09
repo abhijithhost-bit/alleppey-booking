@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Houseboat } from "@/types";
 import HouseboatGallery from "@/components/gallery/HouseboatGallery";
+import HouseboatQuickSpecs from "@/components/houseboat/HouseboatQuickSpecs";
 import PackageTabs from "@/components/booking/PackageTabs";
 import BookingCard from "@/components/booking/BookingCard";
 import TermsAndConditions from "@/components/booking/TermsAndConditions";
@@ -149,6 +150,9 @@ export default function HouseboatDetailTemplate({
                 defaultImage={defaultImage}
                 title={boat.title}
               />
+
+              {/* Machine-Readable & Guest-Facing Quick Specifications */}
+              <HouseboatQuickSpecs boat={boat} />
 
               {/* About This Houseboat */}
               <section className="ab-sh-section bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/80 shadow-xs">

@@ -145,7 +145,7 @@
           },
           {
             "@type": "Product",
-            "name": "1 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 1 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-12.29.36-PM.webp",
             "description": "Book a private 1 bedroom houseboat Alleppey perfect for couples. Includes AC bedroom, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -156,7 +156,7 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "7500",
+              "lowPrice": "11000",
               "highPrice": "13500",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
@@ -164,11 +164,54 @@
             },
             "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
+              "ratingValue": "4.8",
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "1"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "1"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "2 Adults (Up to 4 with extra beds)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -263,6 +306,68 @@
                 "name": "Houseboat Kitchen",
                 "description": "Fully equipped private kitchen onboard a 1 bedroom houseboat in Alleppey",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-2.58.53-PM-1-scaled.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 1 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/1-bedroom-houseboat-alleppey/",
+            "description": "Experience the ultimate private romantic getaway on our private 1 bedroom houseboat in Alleppey. Featuring a cozy air-conditioned bedroom with attached bathroom, scenic front living deck, and dedicated crew members including an expert captain and personal chef.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹11,000 - ₹13,500",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 1,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "1 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -463,7 +568,7 @@
           },
           {
             "@type": "Product",
-            "name": "2 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 2 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.12-PM-3-scaled.jpeg",
             "description": "Book a private 2 bedroom houseboat Alleppey perfect for families and small groups. Includes 2 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -474,8 +579,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "9000",
-              "highPrice": "17200",
+              "lowPrice": "14000",
+              "highPrice": "19500",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -486,7 +591,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "2"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "2"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "4 to 8 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -595,6 +743,68 @@
                 "name": "Spacious Living Area with Windows",
                 "description": "Spacious indoor living area with panoramic windows, wooden seating, and a sound system on a premium Kerala houseboat.",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-7.50.11-PM-4-scaled.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 2 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/2-bedroom-houseboat-alleppey/",
+            "description": "Perfect for families or two couples traveling together, our 2 bedroom houseboat offers complete privacy, two separate AC bedrooms with attached en-suite bathrooms, a common living/dining area, and freshly prepared backwater cuisine.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹14,000 - ₹19,500",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 2,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "2 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -790,7 +1000,7 @@
           },
           {
             "@type": "Product",
-            "name": "3 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 3 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.28-AM-1.jpeg",
             "description": "Book a private 3 bedroom houseboat Alleppey perfect for families and large groups. Includes 3 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -801,8 +1011,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/3-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "13500",
-              "highPrice": "24000",
+              "lowPrice": "18000",
+              "highPrice": "25500",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -813,7 +1023,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "3"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "3"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "6 to 12 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -915,6 +1168,68 @@
                 "name": "Elegant Group Dining Setup",
                 "description": "Elegant dining setup under custom LED lighting perfect for large groups in a premium Kerala houseboat.",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-17-at-9.39.30-AM-4.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/3-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 3 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/3-bedroom-houseboat-alleppey/",
+            "description": "Ideal for extended family gatherings and friend circles, the 3 bedroom houseboat features 3 private AC rooms, large dining table, open sightseeing deck, and full onboard service.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹18,000 - ₹25,500",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 3,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "3 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -1150,7 +1465,7 @@
           },
           {
             "@type": "Product",
-            "name": "4 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 4 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.35-PM.jpeg",
             "description": "Book a private 4 bedroom houseboat Alleppey perfect for families and large groups. Includes 4 AC bedrooms, 3-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -1161,8 +1476,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/4-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "18000",
-              "highPrice": "36500",
+              "lowPrice": "24000",
+              "highPrice": "33000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -1173,7 +1488,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "4"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "4"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "8 to 16 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -1331,6 +1689,68 @@
                 "name": "Twin Guest Bedroom",
                 "description": "Well-appointed twin bedroom perfect for kids or friends sharing a 4 bedroom houseboat Alleppey.",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-14-at-6.02.27-PM-1.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/4-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 4 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/4-bedroom-houseboat-alleppey/",
+            "description": "Our spacious 4 bedroom houseboat accommodates up to 16 guests with luxury and ease. 4 en-suite AC bedrooms, sprawling open upper deck, and dedicated 4-member crew.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹24,000 - ₹33,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 4,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "4 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -1541,7 +1961,7 @@
           },
           {
             "@type": "Product",
-            "name": "5 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 5 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.10-PM-1.jpeg",
             "description": "Book a private 5 bedroom houseboat Alleppey perfect for families and massive groups. Includes 5 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -1552,8 +1972,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/5-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "22500",
-              "highPrice": "50000",
+              "lowPrice": "30000",
+              "highPrice": "42000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -1564,7 +1984,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "5"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "5"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "10 to 20 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -1687,6 +2150,68 @@
                 "name": "Luxury Houseboat Indoor Lounge",
                 "description": "Luxurious indoor lounge with plush seating and panoramic windows aboard our 5 bedroom houseboat Alleppey.",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-14-at-12.29.09-PM-1.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/5-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 5 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/5-bedroom-houseboat-alleppey/",
+            "description": "Designed for larger families, corporate retreats, and group reunions. 5 AC bedrooms with separate bathrooms, huge sun deck, and top-tier hospitality.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹30,000 - ₹42,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 5,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "5 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -1962,7 +2487,7 @@
           },
           {
             "@type": "Product",
-            "name": "6 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 6 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.33-PM-1.jpeg",
             "description": "Book a private 6 bedroom houseboat Alleppey perfect for large families and massive groups. Includes 6 AC bedrooms, 4-person crew, backwater cruise, and all Kerala meals.",
             "brand": {
@@ -1973,8 +2498,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/6-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "32000",
-              "highPrice": "70400",
+              "lowPrice": "36000",
+              "highPrice": "50000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -1985,7 +2510,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "6"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "6"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "12 to 24 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -2199,6 +2767,68 @@
                 "name": "Bedroom with Attached Bath - 6 Bedroom Houseboat Alleppey",
                 "description": "Beautifully furnished AC bedroom with an attached modern shower washroom and premium decor on a private 6 bedroom houseboat alleppey.",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-10.48.27-PM.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/6-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 6 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/6-bedroom-houseboat-alleppey/",
+            "description": "Cruise the Vembanad waters with 6 full-size air-conditioned bedrooms, massive upper deck seating area, and dedicated onboard chefs.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹36,000 - ₹50,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 6,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "6 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -2429,7 +3059,7 @@
           },
           {
             "@type": "Product",
-            "name": "Private 7 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 7 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-3-scaled.jpeg",
             "description": "Book a massive 7 bedroom houseboat Alleppey designed exclusively for mega groups of up to 28 guests (up to 80 for day cruises). Features 7 AC suites, an elite 5-person crew, and an extra-wide backwater viewing deck.",
             "brand": {
@@ -2440,8 +3070,8 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/7-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "28000",
-              "highPrice": "56000",
+              "lowPrice": "42000",
+              "highPrice": "58000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
@@ -2452,7 +3082,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "7"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "7"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "14 to 28 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -2603,6 +3276,68 @@
                 "name": "Front Exterior Houseboat View",
                 "description": "Front exterior view of the premium Virtue 7 bedroom houseboat cruising through Alleppey backwaters",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-3.22.31-PM-4-scaled.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/7-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 7 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/7-bedroom-houseboat-alleppey/",
+            "description": "A majestic double-decker cruise boat featuring 7 AC bedrooms, broad viewing areas, and high-capacity catering for private celebrations.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹42,000 - ₹58,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 7,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "7 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -2788,7 +3523,7 @@
           },
           {
             "@type": "Product",
-            "name": "Private 8 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 8 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-04-11-at-2.46.34-PM-3.webp",
             "description": "Book a massive 8 bedroom houseboat Alleppey designed exclusively for mega groups of up to 32 guests (up to 100 for day cruises). Features 8 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck.",
             "brand": {
@@ -2799,19 +3534,62 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/8-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "32000",
-              "highPrice": "99200",
+              "lowPrice": "48000",
+              "highPrice": "66000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "108",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "8"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "8"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "16 to 32 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -2899,6 +3677,68 @@
                 "name": "Premium Suite with Towel Art",
                 "description": "Beautifully decorated bedroom featuring intricate lighting panels inside a mega group houseboat",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-18-at-10.30.09-AM-3.jpeg"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/8-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 8 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/8-bedroom-houseboat-alleppey/",
+            "description": "Spacious 8-bedroom houseboat capable of hosting multi-family vacations and wedding guest parties with uncompromised comfort.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹48,000 - ₹66,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 8,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "8 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -3109,7 +3949,7 @@
           },
           {
             "@type": "Product",
-            "name": "Private 10 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 10 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom-exteror-2.webp",
             "description": "Book a massive 10 bedroom houseboat Alleppey designed exclusively for mega groups of up to 40 guests (up to 120 for day cruises). Features 10 AC suites, an elite 6-person crew, and an extra-wide backwater viewing deck ideal for events.",
             "brand": {
@@ -3120,19 +3960,62 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/10-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "40000",
-              "highPrice": "104000",
+              "lowPrice": "60000",
+              "highPrice": "82000",
               "offerCount": "3",
               "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "108",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "10"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "10"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "20 to 40 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -3255,6 +4138,68 @@
                 "name": "Expansive Wooden Lounge Deck",
                 "description": "Expansive wooden lounge and dining deck with decorative lighting on the 10 bedroom houseboat alleppey",
                 "thumbnailUrl": "https://alleppeybooking.com/wp-content/uploads/2026/07/royalwawes-10-bedroom.webp"
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/10-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 10 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/10-bedroom-houseboat-alleppey/",
+            "description": "One of Alleppey's largest houseboats. 10 private AC bedrooms, conference/party deck, state-of-the-art sound systems, and dedicated crew for up to 40 guests.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹60,000 - ₹82,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 10,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "10 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -3480,7 +4425,7 @@
           },
           {
             "@type": "Product",
-            "name": "Private 12 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 12 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/kiliroor-12-bedroom-000.jpg",
             "description": "Book a massive 12 bedroom houseboat Alleppey designed exclusively for mega groups of up to 48 guests (and up to 150 guests for day cruises). Features 12 AC suites, an elite 6-person crew, and multiple packages including overnight, day cruise, and night stay.",
             "brand": {
@@ -3491,19 +4436,62 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/12-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "48000",
-              "highPrice": "129600",
+              "lowPrice": "72000",
+              "highPrice": "98000",
               "offerCount": "3",
-              "availability": "https://schema.org/InStock",
-              "itemCondition": "https://schema.org/NewCondition"
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.8",
-              "reviewCount": "108",
+              "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "12"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "12"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "24 to 48 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -3531,6 +4519,68 @@
                   "@type": "Answer",
                   "text": "To maximize space and provide panoramic views, our 12 bedroom boats typically feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
                 }
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/12-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 12 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/12-bedroom-houseboat-alleppey/",
+            "description": "A monumental cruising vessel with 12 spacious AC rooms, banquet dining space, and panoramic views of the palm-lined canals.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹72,000 - ₹98,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 12,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "12 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }
@@ -3731,7 +4781,7 @@
           },
           {
             "@type": "Product",
-            "name": "Private 14 Bedroom Houseboat Alleppey",
+            "name": "Alleppey Booking - 14 Bedroom Houseboat in Alleppey",
             "image": "https://alleppeybooking.com/wp-content/uploads/2026/07/royal-carribean-14-bedroom-000.jpg",
             "description": "Book a massive 14 bedroom houseboat alleppey designed exclusively for mega groups of up to 56 guests (up to 200 for day cruises). Features 14 AC suites, a professional crew, and multiple packages including overnight, day cruise, and night stay.",
             "brand": {
@@ -3742,11 +4792,11 @@
               "@type": "AggregateOffer",
               "url": "https://alleppeybooking.com/14-bedroom-houseboat-alleppey/",
               "priceCurrency": "INR",
-              "lowPrice": "56000",
-              "highPrice": "171200",
+              "lowPrice": "84000",
+              "highPrice": "115000",
               "offerCount": "3",
-              "availability": "https://schema.org/InStock",
-              "itemCondition": "https://schema.org/NewCondition"
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
             },
             "aggregateRating": {
               "@type": "AggregateRating",
@@ -3754,7 +4804,50 @@
               "reviewCount": "124",
               "bestRating": "5",
               "worstRating": "1"
-            }
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Alleppey Booking",
+              "url": "https://alleppeybooking.com",
+              "telephone": "+91-7012761588"
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Bedrooms",
+                "value": "14"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Attached Bathrooms",
+                "value": "14"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Guest Capacity",
+                "value": "28 to 56 Guests"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Air Conditioning",
+                "value": "Deluxe: Night AC (9 PM - 6 AM) | Premium/Luxury: 24h Full-Time AC"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Meals Included",
+                "value": "All 3 Kerala Meals (Lunch, Dinner, Breakfast) + Evening Snacks & Tea"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Crew",
+                "value": "3-Person Dedicated Crew (Captain, Engine Driver, Private Chef)"
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Boarding Point",
+                "value": "Finishing Point Jetty, Alleppey, Kerala 688013"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
@@ -3782,6 +4875,68 @@
                   "@type": "Answer",
                   "text": "To maximize space and provide panoramic backwater views, our 14 bedroom boats feature a double-decker architecture. The luxurious AC suites are spread across both the lower and upper decks, offering ultimate privacy."
                 }
+              }
+            ]
+          },
+          {
+            "@type": "LodgingBusiness",
+            "@id": "https://alleppeybooking.com/14-bedroom-houseboat-alleppey/#lodging",
+            "name": "Alleppey Booking 14 Bedroom Houseboat in Alleppey",
+            "url": "https://alleppeybooking.com/14-bedroom-houseboat-alleppey/",
+            "description": "The crown jewel of Kerala backwater cruising — our 14-bedroom giant houseboat accommodates up to 56 guests for grand weddings, anniversaries, and corporate milestones.",
+            "telephone": "+91-7012761588",
+            "priceRange": "₹84,000 - ₹1,15,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finishing Point Road",
+              "addressLocality": "Alappuzha",
+              "addressRegion": "Kerala",
+              "postalCode": "688013",
+              "addressCountry": "IN"
+            },
+            "numberOfRooms": 14,
+            "petsAllowed": false,
+            "starRating": {
+              "@type": "Rating",
+              "ratingValue": "4.8"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Air Conditioning",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "14 Attached Private Bathrooms",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "All 3 Meals Included (Authentic Kerala Cuisine)",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Dedicated Private Chef & Crew",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Upper Sundeck / Viewing Deck",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Boarding at Finishing Point Jetty",
+                "value": true
               }
             ]
           }

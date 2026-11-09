@@ -9,6 +9,18 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: ["/api/"],
       },
+      {
+        userAgent: [
+          "OAI-SearchBot",
+          "ChatGPT-User",
+          "GPTBot",
+          "PerplexityBot",
+          "ClaudeBot",
+          "Google-Extended",
+        ],
+        allow: "/",
+        disallow: ["/api/"],
+      },
     ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
   };
