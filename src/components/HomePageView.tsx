@@ -535,7 +535,6 @@ export default function HomePageView() {
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="why-main-img object-cover"
-                loading="lazy"
               />
             </div>
             

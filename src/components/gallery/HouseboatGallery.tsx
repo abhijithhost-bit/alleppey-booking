@@ -105,7 +105,6 @@ export default function HouseboatGallery({
                     fill
                     sizes="96px"
                     className={`ab-thumb object-cover ${isActive ? "active" : ""}`}
-                    loading="lazy"
                   />
                 </button>
               );
