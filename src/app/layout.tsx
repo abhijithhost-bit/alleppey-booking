@@ -14,6 +14,7 @@ import "./blogs.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleTagManager from "@/components/GoogleTagManager";
+import UmamiAnalytics from "@/components/UmamiAnalytics";
 import siteConfig from "@/data/siteConfig.json";
 
 const poppins = Poppins({
@@ -141,6 +142,7 @@ export default function RootLayout({
           }}
         />
         <GoogleTagManager />
+        <UmamiAnalytics />
         <script
           type="application/ld+json"
           suppressHydrationWarning
