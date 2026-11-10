@@ -208,43 +208,6 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                 Guests
               </label>
               <div className="grid grid-cols-2 gap-2">
-                {/* Adults row */}
-                <div className="ab-guest-inner-row flex items-center justify-between p-2.5 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="ab-guest-info min-w-0 pr-1">
-                    <span className="text-xs font-bold text-brand-navy block">
-                      Adults
-                    </span>
-                    <small className="text-[11px] text-slate-400 block whitespace-nowrap">
-                      Age 5+
-                    </small>
-                  </div>
-                  <div className="ab-guest-controls flex items-center gap-1.5 flex-shrink-0">
-                    <button
-                      type="button"
-                      onClick={handleAdultMinus}
-                      disabled={adults <= 1}
-                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
-                      aria-label="Decrease adults"
-                    >
-                      -
-                    </button>
-                    <span className="w-6 text-center font-bold text-sm text-brand-navy">
-                      {adults}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={handleAdultPlus}
-                      disabled={
-                        adults >= maxCapacity || totalGuests >= maxCapacity
-                      }
-                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
-                      aria-label="Increase adults"
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-
                 {/* Kids row */}
                 <div className="ab-guest-inner-row flex items-center justify-between p-2.5 bg-slate-50 border border-slate-200 rounded-xl">
                   <div className="ab-guest-info min-w-0 pr-1">
@@ -276,6 +239,43 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                       }
                       className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
                       aria-label="Increase kids"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                {/* Adults row */}
+                <div className="ab-guest-inner-row flex items-center justify-between p-2.5 bg-slate-50 border border-slate-200 rounded-xl">
+                  <div className="ab-guest-info min-w-0 pr-1">
+                    <span className="text-xs font-bold text-brand-navy block">
+                      Adults
+                    </span>
+                    <small className="text-[11px] text-slate-400 block whitespace-nowrap">
+                      Age 5+
+                    </small>
+                  </div>
+                  <div className="ab-guest-controls flex items-center gap-1.5 flex-shrink-0">
+                    <button
+                      type="button"
+                      onClick={handleAdultMinus}
+                      disabled={adults <= 1}
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
+                      aria-label="Decrease adults"
+                    >
+                      -
+                    </button>
+                    <span className="w-6 text-center font-bold text-sm text-brand-navy">
+                      {adults}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={handleAdultPlus}
+                      disabled={
+                        adults >= maxCapacity || totalGuests >= maxCapacity
+                      }
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
+                      aria-label="Increase adults"
                     >
                       +
                     </button>
