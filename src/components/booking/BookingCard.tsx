@@ -209,26 +209,26 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
               </label>
               <div className="grid grid-cols-2 gap-2">
                 {/* Adults row */}
-                <div className="ab-guest-inner-row flex items-center justify-between p-2 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="ab-guest-info min-w-0">
-                    <span className="text-xs font-bold text-brand-navy block truncate">
+                <div className="ab-guest-inner-row flex items-center justify-between p-2.5 bg-slate-50 border border-slate-200 rounded-xl">
+                  <div className="ab-guest-info min-w-0 pr-1">
+                    <span className="text-xs font-bold text-brand-navy block">
                       Adults
                     </span>
-                    <small className="text-[10px] text-slate-400 block truncate">
+                    <small className="text-[11px] text-slate-400 block whitespace-nowrap">
                       Age 5+
                     </small>
                   </div>
-                  <div className="ab-guest-controls flex items-center gap-1 flex-shrink-0">
+                  <div className="ab-guest-controls flex items-center gap-1.5 flex-shrink-0">
                     <button
                       type="button"
                       onClick={handleAdultMinus}
                       disabled={adults <= 1}
-                      className="ab-ctrl-btn w-6 h-6 rounded-md bg-white border border-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
                       aria-label="Decrease adults"
                     >
                       -
                     </button>
-                    <span className="w-5 text-center font-bold text-xs text-brand-navy">
+                    <span className="w-6 text-center font-bold text-sm text-brand-navy">
                       {adults}
                     </span>
                     <button
@@ -237,7 +237,7 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                       disabled={
                         adults >= maxCapacity || totalGuests >= maxCapacity
                       }
-                      className="ab-ctrl-btn w-6 h-6 rounded-md bg-white border border-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
                       aria-label="Increase adults"
                     >
                       +
@@ -246,26 +246,26 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                 </div>
 
                 {/* Kids row */}
-                <div className="ab-guest-inner-row flex items-center justify-between p-2 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="ab-guest-info min-w-0">
-                    <span className="text-xs font-bold text-brand-navy block truncate">
+                <div className="ab-guest-inner-row flex items-center justify-between p-2.5 bg-slate-50 border border-slate-200 rounded-xl">
+                  <div className="ab-guest-info min-w-0 pr-1">
+                    <span className="text-xs font-bold text-brand-navy block">
                       Kids
                     </span>
-                    <small className="text-[10px] text-slate-400 block truncate">
-                      Below 5y (Free)
+                    <small className="text-[11px] text-slate-400 block whitespace-nowrap">
+                      &lt;5y (Free)
                     </small>
                   </div>
-                  <div className="ab-guest-controls flex items-center gap-1 flex-shrink-0">
+                  <div className="ab-guest-controls flex items-center gap-1.5 flex-shrink-0">
                     <button
                       type="button"
                       onClick={handleKidMinus}
                       disabled={kids <= 0}
-                      className="ab-ctrl-btn w-6 h-6 rounded-md bg-white border border-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
                       aria-label="Decrease kids"
                     >
                       -
                     </button>
-                    <span className="w-5 text-center font-bold text-xs text-brand-navy">
+                    <span className="w-6 text-center font-bold text-sm text-brand-navy">
                       {kids}
                     </span>
                     <button
@@ -274,7 +274,7 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                       disabled={
                         kids >= maxCapacity || totalGuests >= maxCapacity
                       }
-                      className="ab-ctrl-btn w-6 h-6 rounded-md bg-white border border-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                      className="ab-ctrl-btn w-7 h-7 rounded-lg bg-white border border-slate-200 text-slate-700 font-bold text-sm flex items-center justify-center hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-xs"
                       aria-label="Increase kids"
                     >
                       +
@@ -346,19 +346,19 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
         </div>
 
         {/* Docked Action Area */}
-        <div className="ab-sh-price-card-docked p-3.5 sm:p-4 bg-slate-50 border-t border-slate-100 text-center space-y-2">
+        <div className="ab-sh-price-card-docked p-3.5 sm:p-4 sm:pb-9 bg-slate-50 border-t border-slate-100 text-center space-y-2">
           <a
             href={whatsAppUrl}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Check Availability on WhatsApp"
-            className="ab-btn-wa w-full py-2.5 sm:py-3 px-4 bg-[#2cd664] hover:bg-[#25be57] text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/30 transition-all text-sm sm:text-base group"
+            className="ab-btn-wa w-[80%] sm:w-full mx-auto py-3.5 sm:py-3 px-4 bg-[#2cd664] hover:bg-[#25be57] text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/30 transition-all text-sm sm:text-base group"
           >
             <MessageCircle
-              size={18}
-              className="fill-white/20 group-hover:scale-110 transition-transform"
+              size={19}
+              className="fill-white/20 group-hover:scale-110 transition-transform flex-shrink-0"
             />
-            Check Availability on WhatsApp
+            <span>Check Availability on WhatsApp</span>
           </a>
 
           <div className="ab-response-guarantee flex items-center justify-center gap-1.5 text-xs font-semibold text-emerald-700">
