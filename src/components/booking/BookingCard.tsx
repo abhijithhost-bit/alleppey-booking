@@ -12,7 +12,49 @@ import {
   Zap,
   Phone,
   MessageCircle,
+  MoonStar,
+  Sun,
+  Moon,
 } from "lucide-react";
+
+const PACKAGE_THEMES = {
+  overnight: {
+    badge: "Best Seller",
+    icon: MoonStar,
+    triggerBg: "bg-blue-50/70 hover:bg-blue-100/60",
+    triggerBorder: "border-blue-200",
+    iconContainerBg: "bg-blue-600 text-white shadow-xs shadow-blue-500/20",
+    titleColor: "text-blue-950",
+    subtitleColor: "text-blue-700/80",
+    badgeClass: "bg-brand-orange text-white",
+    dropdownActiveBg: "bg-blue-50/80",
+    dropdownActiveBorder: "border-l-4 border-l-blue-600",
+  },
+  day: {
+    badge: undefined,
+    icon: Sun,
+    triggerBg: "bg-orange-50/70 hover:bg-orange-100/60",
+    triggerBorder: "border-orange-200",
+    iconContainerBg: "bg-amber-500 text-white shadow-xs shadow-amber-500/20",
+    titleColor: "text-amber-950",
+    subtitleColor: "text-amber-700/80",
+    badgeClass: "bg-amber-500 text-white",
+    dropdownActiveBg: "bg-orange-50/80",
+    dropdownActiveBorder: "border-l-4 border-l-amber-500",
+  },
+  night: {
+    badge: undefined,
+    icon: Moon,
+    triggerBg: "bg-slate-100 hover:bg-slate-200/70",
+    triggerBorder: "border-slate-300",
+    iconContainerBg: "bg-slate-800 text-amber-200 shadow-xs shadow-slate-900/20",
+    titleColor: "text-slate-900",
+    subtitleColor: "text-slate-600",
+    badgeClass: "bg-slate-800 text-white",
+    dropdownActiveBg: "bg-slate-100",
+    dropdownActiveBorder: "border-l-4 border-l-slate-800",
+  },
+} as const;
 
 interface BookingCardProps {
   review?: { quote: string; author: string } | null;
@@ -79,6 +121,8 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
   };
 
   const currentPkgInfo = PACKAGE_INFO[packageId];
+  const currentTheme = PACKAGE_THEMES[packageId];
+  const CurrentIcon = currentTheme.icon;
 
   return (
     <aside className="ab-sh-sidebar w-full" id="booking-widget">
@@ -115,22 +159,39 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                 <button
                   type="button"
                   onClick={() => setIsDropdownOpen((prev) => !prev)}
-                  className="ab-custom-select-trigger w-full flex items-center justify-between p-2.5 sm:p-3 bg-slate-50 hover:bg-slate-100/80 border border-slate-200 rounded-xl text-left transition-colors"
+                  className={`ab-custom-select-trigger w-full flex items-center justify-between p-2.5 sm:p-3 border rounded-xl text-left transition-all ${currentTheme.triggerBg} ${currentTheme.triggerBorder}`}
                   aria-haspopup="listbox"
                   aria-expanded={isDropdownOpen}
                 >
-                  <div className="ab-cst-content">
-                    <span className="ab-cst-title font-bold text-sm text-brand-navy block">
-                      {currentPkgInfo.title}
-                    </span>
-                    <span className="ab-cst-subtitle text-xs text-slate-500 block mt-0.5">
-                      {currentPkgInfo.subtitle}
-                    </span>
+                  <div className="flex items-center gap-2.5 min-w-0 pr-2">
+                    <div
+                      className={`w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 ${currentTheme.iconContainerBg}`}
+                    >
+                      <CurrentIcon size={18} />
+                    </div>
+                    <div className="ab-cst-content min-w-0">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className={`ab-cst-title font-bold text-sm block ${currentTheme.titleColor}`}>
+                          {currentPkgInfo.title}
+                        </span>
+                        {currentTheme.badge && (
+                          <span
+                            className={`text-[10px] font-bold px-1.5 py-0.2 rounded-full uppercase tracking-wider ${currentTheme.badgeClass}`}
+                          >
+                            {currentTheme.badge}
+                          </span>
+                        )}
+                      </div>
+                      <span className={`ab-cst-subtitle text-xs block mt-0.5 ${currentTheme.subtitleColor}`}>
+                        {currentPkgInfo.subtitle}
+                      </span>
+                    </div>
                   </div>
                   <ChevronDown
                     size={18}
-                    className={`text-slate-400 transition-transform duration-200 ${isDropdownOpen ? "rotate-180 text-brand-orange" : ""
-                      }`}
+                    className={`text-slate-400 transition-transform duration-200 flex-shrink-0 ${
+                      isDropdownOpen ? "rotate-180 text-brand-orange" : ""
+                    }`}
                   />
                 </button>
 
@@ -149,6 +210,8 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                     ).map((item) => {
                       const isSelected = packageId === item.id;
                       const info = PACKAGE_INFO[item.id];
+                      const theme = PACKAGE_THEMES[item.id];
+                      const ItemIcon = theme.icon;
                       return (
                         <button
                           key={item.id}
@@ -159,24 +222,41 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                             setPackageId(item.id);
                             setIsDropdownOpen(false);
                           }}
-                          className={`ab-cso-item w-full p-3 text-left transition-colors flex flex-col ${isSelected
-                              ? "bg-brand-orange-light/60 font-semibold"
-                              : "hover:bg-slate-50"
-                            }`}
+                          className={`ab-cso-item w-full p-2.5 sm:p-3 text-left transition-colors flex items-center justify-between gap-2.5 ${
+                            isSelected
+                              ? `${theme.dropdownActiveBg} ${theme.dropdownActiveBorder} font-semibold`
+                              : "hover:bg-slate-50 border-l-4 border-l-transparent"
+                          }`}
                         >
-                          <div className="ab-cso-title flex items-center justify-between">
-                            <span className="ab-cso-title-text text-sm font-bold text-brand-navy">
-                              {info.title}
-                            </span>
-                            {item.badge && (
-                              <span className="ab-cso-badge bg-brand-orange text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
-                                {item.badge}
+                          <div className="flex items-center gap-2.5 min-w-0">
+                            <div
+                              className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 ${theme.iconContainerBg}`}
+                            >
+                              <ItemIcon size={16} />
+                            </div>
+                            <div className="min-w-0">
+                              <div className="ab-cso-title flex items-center gap-1.5 flex-wrap">
+                                <span className="ab-cso-title-text text-sm font-bold text-brand-navy">
+                                  {info.title}
+                                </span>
+                                {item.badge && (
+                                  <span
+                                    className={`ab-cso-badge text-[10px] font-bold px-2 py-0.5 rounded-full ${theme.badgeClass}`}
+                                  >
+                                    {item.badge}
+                                  </span>
+                                )}
+                              </div>
+                              <span className="ab-cso-subtitle text-xs text-slate-500 mt-0.5 block truncate">
+                                {info.subtitle}
                               </span>
-                            )}
+                            </div>
                           </div>
-                          <span className="ab-cso-subtitle text-xs text-slate-500 mt-0.5">
-                            {info.subtitle}
-                          </span>
+                          {isSelected && (
+                            <div className="flex-shrink-0 pr-1">
+                              <Check size={16} className="text-emerald-600 stroke-[3]" />
+                            </div>
+                          )}
                         </button>
                       );
                     })}

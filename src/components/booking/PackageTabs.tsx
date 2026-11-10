@@ -3,6 +3,7 @@
 import React, { useState, useContext } from "react";
 import { CruisePackageId } from "@/lib/pricing";
 import { useBooking } from "./BookingContext";
+import { MoonStar, Sun, Moon } from "lucide-react";
 
 interface PackageTabsProps {
   bedrooms: number;
@@ -64,19 +65,33 @@ export default function PackageTabs({
           <button
             type="button"
             onClick={() => handleTabClick("overnight")}
-            className={`ab-tab-btn relative p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border ${
+            className={`ab-tab-btn relative p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border flex flex-col justify-between ${
               activePackage === "overnight"
-                ? "bg-brand-orange-light border-brand-orange text-brand-navy shadow-sm"
+                ? "bg-blue-50/80 border-blue-500 text-blue-950 shadow-sm ring-1 ring-blue-500/20"
                 : "bg-slate-50 border-transparent hover:bg-slate-100 text-slate-700"
             }`}
           >
-            <span className="badge inline-block bg-brand-orange text-white text-[10px] font-bold px-2 py-0.5 rounded-full mb-1">
-              Best Seller
-            </span>
-            <div className="tab-title font-bold text-sm sm:text-base">
-              Overnight Cruise
+            <div>
+              <div className="flex items-center justify-between gap-1 mb-1.5">
+                <span className="badge inline-block bg-brand-orange text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
+                  Best Seller
+                </span>
+              </div>
+              <div className="tab-title font-bold text-sm sm:text-base flex items-center gap-1.5">
+                <MoonStar
+                  size={17}
+                  className={`flex-shrink-0 ${
+                    activePackage === "overnight" ? "text-blue-600" : "text-slate-400"
+                  }`}
+                />
+                <span>Overnight Cruise</span>
+              </div>
             </div>
-            <small className="text-xs text-slate-500 block mt-0.5">
+            <small
+              className={`text-xs block mt-1.5 ${
+                activePackage === "overnight" ? "text-blue-700/80 font-medium" : "text-slate-500"
+              }`}
+            >
               12:00 PM - 9:00 AM
             </small>
           </button>
@@ -85,16 +100,29 @@ export default function PackageTabs({
           <button
             type="button"
             onClick={() => handleTabClick("day")}
-            className={`ab-tab-btn p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border ${
+            className={`ab-tab-btn p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border flex flex-col justify-between ${
               activePackage === "day"
-                ? "bg-brand-orange-light border-brand-orange text-brand-navy shadow-sm"
+                ? "bg-orange-50/80 border-orange-400 text-orange-950 shadow-sm ring-1 ring-orange-400/20"
                 : "bg-slate-50 border-transparent hover:bg-slate-100 text-slate-700"
             }`}
           >
-            <div className="tab-title font-bold text-sm sm:text-base mt-4 sm:mt-5">
-              Day Cruise
+            <div>
+              <div className="h-5 sm:h-6" />
+              <div className="tab-title font-bold text-sm sm:text-base flex items-center gap-1.5">
+                <Sun
+                  size={17}
+                  className={`flex-shrink-0 ${
+                    activePackage === "day" ? "text-amber-500" : "text-slate-400"
+                  }`}
+                />
+                <span>Day Cruise</span>
+              </div>
             </div>
-            <small className="text-xs text-slate-500 block mt-0.5">
+            <small
+              className={`text-xs block mt-1.5 ${
+                activePackage === "day" ? "text-amber-700/80 font-medium" : "text-slate-500"
+              }`}
+            >
               11:30 AM - 5:00 PM
             </small>
           </button>
@@ -103,16 +131,31 @@ export default function PackageTabs({
           <button
             type="button"
             onClick={() => handleTabClick("night")}
-            className={`ab-tab-btn p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border ${
+            className={`ab-tab-btn p-3 sm:p-4 rounded-xl text-left transition-all duration-200 border flex flex-col justify-between ${
               activePackage === "night"
-                ? "bg-brand-orange-light border-brand-orange text-brand-navy shadow-sm"
+                ? "bg-slate-900 border-slate-900 text-white shadow-sm ring-1 ring-slate-900/30"
                 : "bg-slate-50 border-transparent hover:bg-slate-100 text-slate-700"
             }`}
           >
-            <div className="tab-title font-bold text-sm sm:text-base mt-4 sm:mt-5">
-              Night Stay
+            <div>
+              <div className="h-5 sm:h-6" />
+              <div className="tab-title font-bold text-sm sm:text-base flex items-center gap-1.5">
+                <Moon
+                  size={17}
+                  className={`flex-shrink-0 ${
+                    activePackage === "night" ? "text-amber-300" : "text-slate-400"
+                  }`}
+                />
+                <span className={activePackage === "night" ? "text-white" : ""}>
+                  Night Stay
+                </span>
+              </div>
             </div>
-            <small className="text-xs text-slate-500 block mt-0.5">
+            <small
+              className={`text-xs block mt-1.5 ${
+                activePackage === "night" ? "text-slate-300 font-medium" : "text-slate-500"
+              }`}
+            >
               5:00 PM - 9:00 AM
             </small>
           </button>
