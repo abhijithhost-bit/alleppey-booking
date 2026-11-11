@@ -142,12 +142,12 @@ const schemas = [
 export default function ShikaraRideView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [duration, setDuration] = useState("3 Hours");
-  const [guests, setGuests] = useState("4 Persons");
+  const [duration, setDuration] = useState("");
+  const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book an Alleppey Shikara Boat Ride.\n- Duration: ${duration}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and boat photos.`
+    `Hi Alleppey Booking, I want to book an Alleppey Shikara Boat Ride.\n- Duration: ${duration || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and boat photos.`
   )}`;
 
   return (
@@ -194,25 +194,41 @@ export default function ShikaraRideView() {
             
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-duration">DURATION...</label>
-                <select id="shikara-duration" className="sh-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
-                    <option value="2 Hours">2 Hours</option>
-                    <option value="3 Hours">3 Hours</option>
-                    <option value="4 Hours">4 Hours</option>
-                    <option value="5 Hours">5 Hours</option>
-                    <option value="6 Hours">6 Hours</option>
-                    <option value="Full Day">Full Day</option>
+                <select
+                    id="shikara-duration"
+                    className="sh-form-control"
+                    aria-required="true"
+                    value={duration}
+                    onChange={(e) => setDuration(e.target.value)}
+                    style={{ color: !duration ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Duration</option>
+                    <option value="2 Hours" style={{ color: "#0f172a" }}>2 Hours</option>
+                    <option value="3 Hours" style={{ color: "#0f172a" }}>3 Hours</option>
+                    <option value="4 Hours" style={{ color: "#0f172a" }}>4 Hours</option>
+                    <option value="5 Hours" style={{ color: "#0f172a" }}>5 Hours</option>
+                    <option value="6 Hours" style={{ color: "#0f172a" }}>6 Hours</option>
+                    <option value="Full Day" style={{ color: "#0f172a" }}>Full Day</option>
                 </select>
             </div>
 
             <div className="sh-form-group">
                 <label className="sh-form-label" htmlFor="shikara-guests">NUMBER OF GUESTS...</label>
-                <select id="shikara-guests" className="sh-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
-                    <option value="2 Persons">2 Persons</option>
-                    <option value="3 Persons">3 Persons</option>
-                    <option value="4 Persons">4 Persons</option>
-                    <option value="5 Persons">5 Persons</option>
-                    <option value="6 Persons">6 Persons</option>
-                    <option value="7+ Persons">7+ Persons</option>
+                <select
+                    id="shikara-guests"
+                    className="sh-form-control"
+                    aria-required="true"
+                    value={guests}
+                    onChange={(e) => setGuests(e.target.value)}
+                    style={{ color: !guests ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Number of Guests</option>
+                    <option value="2 Persons" style={{ color: "#0f172a" }}>2 Persons</option>
+                    <option value="3 Persons" style={{ color: "#0f172a" }}>3 Persons</option>
+                    <option value="4 Persons" style={{ color: "#0f172a" }}>4 Persons</option>
+                    <option value="5 Persons" style={{ color: "#0f172a" }}>5 Persons</option>
+                    <option value="6 Persons" style={{ color: "#0f172a" }}>6 Persons</option>
+                    <option value="7+ Persons" style={{ color: "#0f172a" }}>7+ Persons</option>
                 </select>
             </div>
 

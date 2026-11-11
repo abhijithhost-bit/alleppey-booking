@@ -176,13 +176,13 @@ const schemas = [
 export default function KayakingView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [duration, setDuration] = useState("2 Hours (Includes Village Canals)");
-  const [preferredTime, setPreferredTime] = useState("Sunset (4:30 PM - 6:30 PM) - Popular");
-  const [guests, setGuests] = useState("2 Persons");
+  const [duration, setDuration] = useState("");
+  const [preferredTime, setPreferredTime] = useState("");
+  const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book a Kayaking Tour in Alleppey.\n- Duration: ${duration}\n- Time: ${preferredTime}\n- Kayakers: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm availability and rates.`
+    `Hi Alleppey Booking, I want to book a Kayaking Tour in Alleppey.\n- Duration: ${duration || "Flexible / To be decided"}\n- Time: ${preferredTime || "Flexible / To be decided"}\n- Kayakers: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm availability and rates.`
   )}`;
 
   return (
@@ -221,27 +221,51 @@ export default function KayakingView() {
             <h2 className="ky-box-title">Book Your <em>Kayak</em></h2>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-duration">DURATION</label>
-                <select id="ky-duration" className="ky-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
-                    <option value="1 Hour (Open Water / Lake Edge)">1 Hour (Open Water / Lake Edge)</option>
-                    <option value="2 Hours (Includes Village Canals)">2 Hours (Includes Village Canals)</option>
+                <select
+                    id="ky-duration"
+                    className="ky-form-control"
+                    aria-required="true"
+                    value={duration}
+                    onChange={(e) => setDuration(e.target.value)}
+                    style={{ color: !duration ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Duration</option>
+                    <option value="1 Hour (Open Water / Lake Edge)" style={{ color: "#0f172a" }}>1 Hour (Open Water / Lake Edge)</option>
+                    <option value="2 Hours (Includes Village Canals)" style={{ color: "#0f172a" }}>2 Hours (Includes Village Canals)</option>
                 </select>
             </div>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-time">PREFERRED TIME</label>
-                <select id="ky-time" className="ky-form-control" aria-required="true" value={preferredTime} onChange={(e) => setPreferredTime(e.target.value)}>
-                    <option value="Sunrise (6:00 AM - 8:00 AM)">Sunrise (6:00 AM - 8:00 AM)</option>
-                    <option value="Daytime (8:00 AM - 4:00 PM)">Daytime (8:00 AM - 4:00 PM)</option>
-                    <option value="Sunset (4:30 PM - 6:30 PM) - Popular">Sunset (4:30 PM - 6:30 PM) - Popular</option>
+                <select
+                    id="ky-time"
+                    className="ky-form-control"
+                    aria-required="true"
+                    value={preferredTime}
+                    onChange={(e) => setPreferredTime(e.target.value)}
+                    style={{ color: !preferredTime ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Preferred Time</option>
+                    <option value="Sunrise (6:00 AM - 8:00 AM)" style={{ color: "#0f172a" }}>Sunrise (6:00 AM - 8:00 AM)</option>
+                    <option value="Daytime (8:00 AM - 4:00 PM)" style={{ color: "#0f172a" }}>Daytime (8:00 AM - 4:00 PM)</option>
+                    <option value="Sunset (4:30 PM - 6:30 PM) - Popular" style={{ color: "#0f172a" }}>Sunset (4:30 PM - 6:30 PM) - Popular</option>
                 </select>
             </div>
             <div className="ky-form-group">
                 <label className="ky-form-label" htmlFor="ky-guests">NUMBER OF KAYAKERS</label>
-                <select id="ky-guests" className="ky-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
-                    <option value="1 Person">1 Person</option>
-                    <option value="2 Persons">2 Persons</option>
-                    <option value="3 Persons">3 Persons</option>
-                    <option value="4 Persons">4 Persons</option>
-                    <option value="5+ Persons">5+ Persons</option>
+                <select
+                    id="ky-guests"
+                    className="ky-form-control"
+                    aria-required="true"
+                    value={guests}
+                    onChange={(e) => setGuests(e.target.value)}
+                    style={{ color: !guests ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Number of Kayakers</option>
+                    <option value="1 Person" style={{ color: "#0f172a" }}>1 Person</option>
+                    <option value="2 Persons" style={{ color: "#0f172a" }}>2 Persons</option>
+                    <option value="3 Persons" style={{ color: "#0f172a" }}>3 Persons</option>
+                    <option value="4 Persons" style={{ color: "#0f172a" }}>4 Persons</option>
+                    <option value="5+ Persons" style={{ color: "#0f172a" }}>5+ Persons</option>
                 </select>
             </div>
             <div className="ky-form-group">

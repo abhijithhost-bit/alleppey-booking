@@ -141,12 +141,12 @@ const schemas = [
 export default function SpeedBoatView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [duration, setDuration] = useState("30 Minute Ride");
-  const [guests, setGuests] = useState("4 Persons");
+  const [duration, setDuration] = useState("");
+  const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book an Alleppey Speed Boat Ride.\n- Duration: ${duration}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and available slots.`
+    `Hi Alleppey Booking, I want to book an Alleppey Speed Boat Ride.\n- Duration: ${duration || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and available slots.`
   )}`;
 
   return (
@@ -197,22 +197,38 @@ export default function SpeedBoatView() {
             
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-duration">DURATION</label>
-                <select id="sb-duration" className="sb-form-control" aria-required="true" value={duration} onChange={(e) => setDuration(e.target.value)}>
-                    <option value="10 Minute Ride">10 Minute Ride</option>
-                    <option value="30 Minute Ride">30 Minute Ride</option>
-                    <option value="1 Hour Ride">1 Hour Ride</option>
+                <select
+                    id="sb-duration"
+                    className="sb-form-control"
+                    aria-required="true"
+                    value={duration}
+                    onChange={(e) => setDuration(e.target.value)}
+                    style={{ color: !duration ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Duration</option>
+                    <option value="10 Minute Ride" style={{ color: "#0f172a" }}>10 Minute Ride</option>
+                    <option value="30 Minute Ride" style={{ color: "#0f172a" }}>30 Minute Ride</option>
+                    <option value="1 Hour Ride" style={{ color: "#0f172a" }}>1 Hour Ride</option>
                 </select>
             </div>
 
             <div className="sb-form-group">
                 <label className="sb-form-label" htmlFor="sb-guests">NUMBER OF GUESTS</label>
-                <select id="sb-guests" className="sb-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
-                    <option value="2 Persons">2 Persons</option>
-                    <option value="3 Persons">3 Persons</option>
-                    <option value="4 Persons">4 Persons</option>
-                    <option value="5 Persons">5 Persons</option>
-                    <option value="6 Persons">6 Persons</option> 
-                    <option value="7+ Persons">7+ Persons</option>
+                <select
+                    id="sb-guests"
+                    className="sb-form-control"
+                    aria-required="true"
+                    value={guests}
+                    onChange={(e) => setGuests(e.target.value)}
+                    style={{ color: !guests ? "#64748b" : "#0f172a" }}
+                >
+                    <option value="" disabled style={{ color: "#64748b" }}>Select Number of Guests</option>
+                    <option value="2 Persons" style={{ color: "#0f172a" }}>2 Persons</option>
+                    <option value="3 Persons" style={{ color: "#0f172a" }}>3 Persons</option>
+                    <option value="4 Persons" style={{ color: "#0f172a" }}>4 Persons</option>
+                    <option value="5 Persons" style={{ color: "#0f172a" }}>5 Persons</option>
+                    <option value="6 Persons" style={{ color: "#0f172a" }}>6 Persons</option> 
+                    <option value="7+ Persons" style={{ color: "#0f172a" }}>7+ Persons</option>
                 </select>
             </div>
 

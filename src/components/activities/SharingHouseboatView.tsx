@@ -93,12 +93,12 @@ const schemas = [
 export default function SharingHouseboatView() {
   const [currentImg, setCurrentImg] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [rooms, setRooms] = useState("1 Bedroom");
-  const [guests, setGuests] = useState("2 Persons");
+  const [rooms, setRooms] = useState("");
+  const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book a Sharing Houseboat in Alleppey.\n- Rooms: ${rooms}\n- Guests: ${guests}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and cabin photos.`
+    `Hi Alleppey Booking, I want to book a Sharing Houseboat in Alleppey.\n- Rooms: ${rooms || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and cabin photos.`
   )}`;
 
   return (
@@ -151,25 +151,41 @@ export default function SharingHouseboatView() {
                 <h2 className="hb-box-title">Reserve Your <em>Room</em></h2>
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-rooms">I WANT TO BOOK...</label>
-                    <select id="shared-rooms" className="hb-form-control" aria-required="true" value={rooms} onChange={(e) => setRooms(e.target.value)}>
-                        <option value="1 Bedroom">1 Bedroom</option>
-                        <option value="2 Bedrooms">2 Bedrooms</option>
-                        <option value="3 Bedrooms">3 Bedrooms</option>
-                        <option value="4 Bedrooms">4 Bedrooms</option>
+                    <select
+                        id="shared-rooms"
+                        className="hb-form-control"
+                        aria-required="true"
+                        value={rooms}
+                        onChange={(e) => setRooms(e.target.value)}
+                        style={{ color: !rooms ? "#64748b" : "#0f172a" }}
+                    >
+                        <option value="" disabled style={{ color: "#64748b" }}>Select Number of Bedrooms</option>
+                        <option value="1 Bedroom" style={{ color: "#0f172a" }}>1 Bedroom</option>
+                        <option value="2 Bedrooms" style={{ color: "#0f172a" }}>2 Bedrooms</option>
+                        <option value="3 Bedrooms" style={{ color: "#0f172a" }}>3 Bedrooms</option>
+                        <option value="4 Bedrooms" style={{ color: "#0f172a" }}>4 Bedrooms</option>
                     </select>
                 </div>
                 <div className="hb-form-group">
                     <label className="hb-form-label" htmlFor="shared-guests">NUMBER OF GUESTS...</label>
-                    <select id="shared-guests" className="hb-form-control" aria-required="true" value={guests} onChange={(e) => setGuests(e.target.value)}>
-                        <option value="1 Person">1 Person</option>
-                        <option value="2 Persons">2 Persons</option>
-                        <option value="3 Persons">3 Persons</option>
-                        <option value="4 Persons">4 Persons</option>
-                        <option value="5 Persons">5 Persons</option>
-                        <option value="6 Persons">6 Persons</option>
-                        <option value="7 Persons">7 Persons</option>
-                        <option value="8 Persons">8 Persons</option>
-                        <option value="9+ Persons">9+ Persons</option>
+                    <select
+                        id="shared-guests"
+                        className="hb-form-control"
+                        aria-required="true"
+                        value={guests}
+                        onChange={(e) => setGuests(e.target.value)}
+                        style={{ color: !guests ? "#64748b" : "#0f172a" }}
+                    >
+                        <option value="" disabled style={{ color: "#64748b" }}>Select Number of Guests</option>
+                        <option value="1 Person" style={{ color: "#0f172a" }}>1 Person</option>
+                        <option value="2 Persons" style={{ color: "#0f172a" }}>2 Persons</option>
+                        <option value="3 Persons" style={{ color: "#0f172a" }}>3 Persons</option>
+                        <option value="4 Persons" style={{ color: "#0f172a" }}>4 Persons</option>
+                        <option value="5 Persons" style={{ color: "#0f172a" }}>5 Persons</option>
+                        <option value="6 Persons" style={{ color: "#0f172a" }}>6 Persons</option>
+                        <option value="7 Persons" style={{ color: "#0f172a" }}>7 Persons</option>
+                        <option value="8 Persons" style={{ color: "#0f172a" }}>8 Persons</option>
+                        <option value="9+ Persons" style={{ color: "#0f172a" }}>9+ Persons</option>
                     </select>
                 </div>
                 <div className="hb-form-group">
