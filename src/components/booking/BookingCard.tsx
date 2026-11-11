@@ -373,10 +373,10 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
               <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200/90 rounded-xl text-left shadow-xs">
                 <div className="flex items-center gap-1.5 text-amber-950 font-bold text-xs mb-1">
                   <Flame size={15} className="text-amber-600 flex-shrink-0 fill-amber-500" />
-                  <span>Peak Holiday Season Selected</span>
+                  <span>{seasonInfo.periodName ? `${seasonInfo.periodName} Selected` : "Peak Holiday Season Selected"}</span>
                 </div>
                 <p className="text-[11px] text-amber-900/90 leading-relaxed">
-                  Special peak holiday tariffs apply for Christmas, New Year &amp; festive dates. Our local team will check boat availability and share the best live rate directly on WhatsApp.
+                  {seasonInfo.description}
                 </p>
               </div>
 

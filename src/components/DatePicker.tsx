@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { Calendar as CalendarIcon, ChevronLeft, ChevronRight, X } from "lucide-react";
-import { isPeakHolidayDate } from "@/lib/pricing";
+import { getPeakHolidayPeriod } from "@/lib/pricing";
 
 interface DatePickerProps {
   value?: string;
@@ -311,7 +311,8 @@ export default function DatePicker({
                 cellDate.getMonth() === selectedDate.getMonth() &&
                 cellDate.getDate() === selectedDate.getDate();
 
-              const isPeak = !isPast && isPeakHolidayDate(cellDate);
+              const peakPeriod = !isPast ? getPeakHolidayPeriod(cellDate) : null;
+              const isPeak = peakPeriod !== null;
 
               return (
                 <button
@@ -319,7 +320,7 @@ export default function DatePicker({
                   type="button"
                   disabled={isPast}
                   onClick={() => handleSelectDay(day)}
-                  title={isPeak ? "Peak Holiday Date (Special Tariff)" : undefined}
+                  title={peakPeriod ? `${peakPeriod.name} (Special Tariff)` : undefined}
                   className={`h-8 w-full rounded-lg text-xs font-semibold flex items-center justify-center transition-all ${
                     isSelected
                       ? "bg-[#2cd664] text-white font-bold shadow-sm"

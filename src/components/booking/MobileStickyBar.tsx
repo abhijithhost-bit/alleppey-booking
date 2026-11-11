@@ -73,8 +73,8 @@ export default function MobileStickyBar() {
               <strong className="text-sm font-black text-amber-700 whitespace-nowrap">
                 Custom Quote
               </strong>
-              <span className="text-[10px] font-bold text-slate-500">
-                {seasonInfo.isPeak ? "Peak Season Date" : "Weekend Date"}
+              <span className="text-[10px] font-bold text-slate-500 truncate max-w-[150px]">
+                {seasonInfo.isPeak ? (seasonInfo.periodName || "Peak Season Date") : "Weekend Date"}
               </span>
             </div>
           ) : (

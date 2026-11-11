@@ -8,33 +8,80 @@ export interface DateSeasonInfo {
   type: DateSeasonType;
   label: string;
   badge?: string;
+  periodName?: string;
   description: string;
   isPeak: boolean;
   isWeekend: boolean;
 }
 
+export interface PeakHolidayPeriod {
+  start: string; // YYYY-MM-DD
+  end: string;   // YYYY-MM-DD
+  name: string;
+}
+
 /**
- * Checks if a given date falls into Alleppey Peak Holiday Seasons:
- * 1. November 11th - 15th (Diwali / Festive School Holidays)
- * 2. December 15th - January 10th (Christmas / New Year / Winter Peak Rush)
+ * Verified peak festival & holiday periods through May 31, 2027.
+ */
+export const PEAK_HOLIDAY_PERIODS: PeakHolidayPeriod[] = [
+  // 2026
+  {
+    start: "2026-11-11",
+    end: "2026-11-15",
+    name: "Festive Holidays",
+  },
+  {
+    start: "2026-12-15",
+    end: "2027-01-10",
+    name: "Christmas & New Year Peak",
+  },
+  // 2027
+  {
+    start: "2027-01-23",
+    end: "2027-01-26",
+    name: "Republic Day Long Weekend",
+  },
+  {
+    start: "2027-03-22",
+    end: "2027-03-29",
+    name: "Holi & Easter Festive Week",
+  },
+  {
+    start: "2027-04-10",
+    end: "2027-05-31",
+    name: "Vishu & Summer Vacation Peak",
+  },
+];
+
+function toDateOnly(d: Date): Date {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+
+function parseYMD(ymdStr: string): Date {
+  const [y, m, d] = ymdStr.split("-").map((v) => parseInt(v, 10));
+  return new Date(y, m - 1, d);
+}
+
+/**
+ * Returns the matching peak holiday period if a date falls into one, else null.
+ */
+export function getPeakHolidayPeriod(d: Date): PeakHolidayPeriod | null {
+  const target = toDateOnly(d);
+  for (const period of PEAK_HOLIDAY_PERIODS) {
+    const start = parseYMD(period.start);
+    const end = parseYMD(period.end);
+    if (target >= start && target <= end) {
+      return period;
+    }
+  }
+  return null;
+}
+
+/**
+ * Checks if a given date falls into Alleppey Peak Holiday Seasons through May 31, 2027.
  */
 export function isPeakHolidayDate(d: Date): boolean {
-  const m = d.getMonth(); // 0 = Jan, 10 = Nov, 11 = Dec
-  const day = d.getDate();
-
-  // Nov 11th to 15th
-  if (m === 10 && day >= 11 && day <= 15) {
-    return true;
-  }
-  // Dec 15th to Dec 31st
-  if (m === 11 && day >= 15) {
-    return true;
-  }
-  // Jan 1st to Jan 10th
-  if (m === 0 && day <= 10) {
-    return true;
-  }
-  return false;
+  return getPeakHolidayPeriod(d) !== null;
 }
 
 /**
@@ -70,12 +117,14 @@ export function getDateSeasonInfo(dateStr?: string | null): DateSeasonInfo {
     };
   }
 
-  if (isPeakHolidayDate(parsed)) {
+  const peakPeriod = getPeakHolidayPeriod(parsed);
+  if (peakPeriod) {
     return {
       type: "peak",
-      label: "Peak Holiday Season",
-      badge: "🔥 Peak Holiday Season",
-      description: "Special peak holiday tariffs apply for Christmas, New Year & festive dates. Our team will verify available boats and share the best live rate on WhatsApp.",
+      label: peakPeriod.name,
+      badge: `🔥 ${peakPeriod.name}`,
+      periodName: peakPeriod.name,
+      description: `Special holiday tariffs apply for ${peakPeriod.name.toLowerCase()}. Our local team will check boat availability and share the best live rate directly on WhatsApp.`,
       isPeak: true,
       isWeekend: isWeekendDate(parsed),
     };
