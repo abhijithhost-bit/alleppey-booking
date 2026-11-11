@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DatePicker from "@/components/DatePicker";
+import { formatDateToDDMMYYYY } from "@/lib/utils";
 
 const schemas = [
   {
@@ -146,8 +147,9 @@ export default function ShikaraRideView() {
   const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
+  const formattedDate = formatDateToDDMMYYYY(date);
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book an Alleppey Shikara Boat Ride.\n- Duration: ${duration || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and boat photos.`
+    `Hi Alleppey Booking, I want to book an Alleppey Shikara Boat Ride.\n- Duration: ${duration || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${formattedDate || "Flexible / Upcoming"}\nPlease confirm rates and boat photos.`
   )}`;
 
   return (

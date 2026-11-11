@@ -22,26 +22,38 @@ const MONTH_NAMES = [
 
 const DAYS_OF_WEEK = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
-function formatToYYYYMMDD(d: Date): string {
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, "0");
+function formatToDDMMYYYY(d: Date): string {
   const day = String(d.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const year = d.getFullYear();
+  return `${day}-${month}-${year}`;
 }
 
-function parseYYYYMMDD(str: string): Date | null {
+function parseDateString(str: string): Date | null {
   if (!str) return null;
-  const parts = str.split("-");
+  const parts = str.split(/[-/]/);
   if (parts.length !== 3) return null;
-  const y = parseInt(parts[0], 10);
-  const m = parseInt(parts[1], 10) - 1;
-  const d = parseInt(parts[2], 10);
-  if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
-  return new Date(y, m, d);
+  // If YYYY-MM-DD
+  if (parts[0].length === 4) {
+    const y = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10) - 1;
+    const d = parseInt(parts[2], 10);
+    if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
+    return new Date(y, m, d);
+  }
+  // If DD-MM-YYYY
+  if (parts[2].length === 4) {
+    const d = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10) - 1;
+    const y = parseInt(parts[2], 10);
+    if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
+    return new Date(y, m, d);
+  }
+  return null;
 }
 
 function formatDisplayDate(str: string): string {
-  const d = parseYYYYMMDD(str);
+  const d = parseDateString(str);
   if (!d) return "";
   return d.toLocaleDateString("en-US", {
     weekday: "short",
@@ -76,7 +88,7 @@ export default function DatePicker({
     minDate.getDate()
   );
 
-  const selectedDate = parseYYYYMMDD(currentValue);
+  const selectedDate = parseDateString(currentValue);
 
   const [viewDate, setViewDate] = useState<Date>(() => {
     return selectedDate || normalizedMinDate;
@@ -85,7 +97,7 @@ export default function DatePicker({
   useEffect(() => {
     if (value !== undefined) {
       setInternalValue(value);
-      const parsed = parseYYYYMMDD(value);
+      const parsed = parseDateString(value);
       if (parsed) {
         setViewDate(parsed);
       }
@@ -151,7 +163,7 @@ export default function DatePicker({
 
   const handleSelectDay = (day: number) => {
     const chosen = new Date(viewYear, viewMonth, day);
-    const dateStr = formatToYYYYMMDD(chosen);
+    const dateStr = formatToDDMMYYYY(chosen);
     if (value === undefined) {
       setInternalValue(dateStr);
     }

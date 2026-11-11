@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { MessageCircle, Calendar, Users, Ship, CheckCircle2 } from "lucide-react";
 import DatePicker from "@/components/DatePicker";
+import { formatDateToDDMMYYYY } from "@/lib/utils";
 
 interface BookingFormProps {
   initialService?: string;
@@ -32,7 +33,7 @@ export default function BookingForm({
 *Name:* ${formData.name || "Customer"}
 *Phone:* ${formData.phone || "Not provided"}
 *Service/Boat:* ${formData.service}
-*Date of Cruise:* ${formData.date || "To be discussed"}
+*Date of Cruise:* ${formatDateToDDMMYYYY(formData.date) || "To be discussed"}
 *Number of Guests:* ${formData.guests}
 ${formData.notes ? `*Special Request:* ${formData.notes}` : ""}
 ----------------------------------------

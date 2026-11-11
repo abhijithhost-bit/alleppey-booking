@@ -1,3 +1,5 @@
+import { formatDateToDDMMYYYY } from "./utils";
+
 export type CruisePackageId = "overnight" | "day" | "night";
 
 export interface PackagePricingConfig {
@@ -238,7 +240,7 @@ export function buildHouseboatWhatsAppUrl({
   kids: number;
   totalPriceFormatted: string;
 }): string {
-  const dateVal = date && date.trim() ? date.trim() : "To be decided";
+  const dateVal = date && date.trim() ? formatDateToDDMMYYYY(date.trim()) : "To be decided";
   const msg = `Hi Alleppey Booking! I would like to check availability for a ${bedrooms} Bedroom Houseboat Alleppey.\n\n*Package:* ${packageName}\n*Check-in Date:* ${dateVal}\n*Guests:* ${adults} Adults, ${kids} Kids\n*Estimated Price:* ${totalPriceFormatted}\n\nPlease confirm availability.`;
   return `https://wa.me/917012761588?text=${encodeURIComponent(msg)}`;
 }

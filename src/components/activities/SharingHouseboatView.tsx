@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import DatePicker from "@/components/DatePicker";
+import { formatDateToDDMMYYYY } from "@/lib/utils";
 
 const schemas = [
   {
@@ -97,8 +98,9 @@ export default function SharingHouseboatView() {
   const [guests, setGuests] = useState("");
   const [date, setDate] = useState("");
 
+  const formattedDate = formatDateToDDMMYYYY(date);
   const whatsappUrl = `https://wa.me/917012761588?text=${encodeURIComponent(
-    `Hi Alleppey Booking, I want to book a Sharing Houseboat in Alleppey.\n- Rooms: ${rooms || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${date || "Flexible / Upcoming"}\nPlease confirm rates and cabin photos.`
+    `Hi Alleppey Booking, I want to book a Sharing Houseboat in Alleppey.\n- Rooms: ${rooms || "Flexible / To be decided"}\n- Guests: ${guests || "Flexible / To be decided"}\n- Date: ${formattedDate || "Flexible / Upcoming"}\nPlease confirm rates and cabin photos.`
   )}`;
 
   return (
