@@ -8,6 +8,8 @@ import {
   CalculatedPrice,
   buildHouseboatWhatsAppUrl,
   PACKAGE_INFO,
+  DateSeasonInfo,
+  getDateSeasonInfo,
 } from "@/lib/pricing";
 
 interface BookingContextType {
@@ -21,6 +23,7 @@ interface BookingContextType {
   kids: number;
   setKids: (val: number | ((prev: number) => number)) => void;
   pricing: CalculatedPrice;
+  seasonInfo: DateSeasonInfo;
   whatsAppUrl: string;
   scrollToBookingWidget: () => void;
 }
@@ -44,6 +47,9 @@ export function BookingProvider({
   // Compute pricing
   const pricing = calculateHouseboatPrice(bedrooms, packageId, adults);
 
+  // Compute seasonal context
+  const seasonInfo = getDateSeasonInfo(date);
+
   // Clamp adults + kids if exceeding maxCapacity
   useEffect(() => {
     const currentMax = pricing.maxCapacity;
@@ -63,7 +69,6 @@ export function BookingProvider({
     date,
     adults,
     kids,
-    totalPriceFormatted: pricing.formattedTotal,
   });
 
   const scrollToBookingWidget = () => {
@@ -88,6 +93,7 @@ export function BookingProvider({
         kids,
         setKids,
         pricing,
+        seasonInfo,
         whatsAppUrl,
         scrollToBookingWidget,
       }}

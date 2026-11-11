@@ -36,3 +36,30 @@ export function formatDateToDDMMYYYY(dateStr?: string | null): string {
   return trimmed;
 }
 
+/**
+ * Parses a date string formatted as YYYY-MM-DD or DD-MM-YYYY into a Date object.
+ */
+export function parseDateString(str?: string | null): Date | null {
+  if (!str) return null;
+  const parts = str.trim().split(/[-/]/);
+  if (parts.length !== 3) return null;
+  // If YYYY-MM-DD
+  if (parts[0].length === 4) {
+    const y = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10) - 1;
+    const d = parseInt(parts[2], 10);
+    if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
+    return new Date(y, m, d);
+  }
+  // If DD-MM-YYYY
+  if (parts[2].length === 4) {
+    const d = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10) - 1;
+    const y = parseInt(parts[2], 10);
+    if (isNaN(y) || isNaN(m) || isNaN(d)) return null;
+    return new Date(y, m, d);
+  }
+  return null;
+}
+
+

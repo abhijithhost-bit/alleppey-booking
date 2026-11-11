@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { Calendar as CalendarIcon, ChevronLeft, ChevronRight, X } from "lucide-react";
+import { isPeakHolidayDate } from "@/lib/pricing";
 
 interface DatePickerProps {
   value?: string;
@@ -310,12 +311,15 @@ export default function DatePicker({
                 cellDate.getMonth() === selectedDate.getMonth() &&
                 cellDate.getDate() === selectedDate.getDate();
 
+              const isPeak = !isPast && isPeakHolidayDate(cellDate);
+
               return (
                 <button
                   key={`day-${day}`}
                   type="button"
                   disabled={isPast}
                   onClick={() => handleSelectDay(day)}
+                  title={isPeak ? "Peak Holiday Date (Special Tariff)" : undefined}
                   className={`h-8 w-full rounded-lg text-xs font-semibold flex items-center justify-center transition-all ${
                     isSelected
                       ? "bg-[#2cd664] text-white font-bold shadow-sm"
@@ -323,6 +327,8 @@ export default function DatePicker({
                       ? "border border-[#2cd664] text-[#2cd664] font-bold"
                       : isPast
                       ? "text-slate-300 cursor-not-allowed opacity-40"
+                      : isPeak
+                      ? "bg-amber-100 text-amber-950 font-bold border border-amber-300 hover:bg-amber-200"
                       : "text-slate-700 hover:bg-emerald-50 hover:text-brand-navy"
                   }`}
                 >
@@ -333,7 +339,7 @@ export default function DatePicker({
           </div>
 
           {/* Quick Footer */}
-          <div className="flex justify-between items-center mt-2.5 pt-2 border-t border-slate-100">
+          <div className="flex justify-between items-center mt-2.5 pt-2 border-t border-slate-100 gap-2">
             <button
               type="button"
               onClick={() => {
@@ -343,6 +349,11 @@ export default function DatePicker({
             >
               Today
             </button>
+
+            <div className="flex items-center gap-1.5 text-[11px] font-semibold text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+              <span className="w-2 h-2 rounded-full bg-amber-500 inline-block animate-pulse"></span>
+              <span>Peak Dates</span>
+            </div>
 
             <button
               type="button"

@@ -10,6 +10,7 @@ import {
   ChevronDown,
   Info,
   Zap,
+  Flame,
   Phone,
   MessageCircle,
   MoonStar,
@@ -73,6 +74,7 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
     kids,
     setKids,
     pricing,
+    seasonInfo,
     whatsAppUrl,
   } = useBooking();
 
@@ -365,49 +367,101 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
             </div>
           </div>
 
-          {/* Price Breakdown */}
-          <div className="ab-price-breakdown mt-3 p-3 bg-slate-50 rounded-xl border border-slate-100 space-y-1.5">
-            <div className="ab-pb-row flex justify-between text-xs text-slate-600">
-              <span className="flex items-center">
-                Base Price{" "}
-                <span className="text-[11px] text-slate-400 ml-1">
-                  (Up to {pricing.threshold} Adults)
-                </span>
-              </span>
-              <span className="font-semibold text-brand-navy">
-                {pricing.formattedBase}
-              </span>
-            </div>
-
-            {pricing.extraCharges > 0 && (
-              <div className="ab-pb-row flex justify-between text-xs text-slate-600">
-                <span>Extra Adults Charge</span>
-                <span className="font-semibold text-brand-orange">
-                  {pricing.formattedExtra}
-                </span>
+          {/* Seasonal Notice & Starting Price Display */}
+          {seasonInfo.isPeak ? (
+            <div className="ab-season-card mt-3 space-y-2">
+              <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200/90 rounded-xl text-left shadow-xs">
+                <div className="flex items-center gap-1.5 text-amber-950 font-bold text-xs mb-1">
+                  <Flame size={15} className="text-amber-600 flex-shrink-0 fill-amber-500" />
+                  <span>Peak Holiday Season Selected</span>
+                </div>
+                <p className="text-[11px] text-amber-900/90 leading-relaxed">
+                  Special peak holiday tariffs apply for Christmas, New Year &amp; festive dates. Our local team will check boat availability and share the best live rate directly on WhatsApp.
+                </p>
               </div>
-            )}
 
-            <hr className="border-slate-200 my-1.5" />
+              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1.5">
+                <div className="flex justify-between items-baseline text-xs">
+                  <span className="text-slate-500 font-medium">Regular Base Tariff:</span>
+                  <span className="font-semibold text-slate-500 line-through">
+                    {pricing.formattedBase}
+                  </span>
+                </div>
+                <div className="flex justify-between items-baseline pt-1 border-t border-slate-200 font-bold">
+                  <span className="text-xs text-brand-navy">Holiday Tariff:</span>
+                  <span className="text-sm font-black text-amber-700 uppercase tracking-tight">
+                    Custom Quote
+                  </span>
+                </div>
+              </div>
 
-            <div className="ab-pb-row ab-pb-total flex justify-between items-baseline font-bold gap-2">
-              <span className="text-xs sm:text-sm text-brand-navy whitespace-nowrap">Total Estimate</span>
-              <span className="text-sm sm:text-base font-black text-brand-navy whitespace-nowrap">
-                {pricing.formattedTotal}
-              </span>
+              <div className="ab-capacity-note flex items-center gap-1.5 text-xs text-slate-500 font-medium px-0.5">
+                <Info size={13} className="text-slate-400 flex-shrink-0" />
+                <span>Capacity: Up to {maxCapacity} guests • Rates depend on live boat availability.</span>
+              </div>
             </div>
-          </div>
+          ) : seasonInfo.isWeekend ? (
+            <div className="ab-season-card mt-3 space-y-2">
+              <div className="p-3 bg-blue-50/80 border border-blue-200 rounded-xl text-left shadow-xs">
+                <div className="flex items-center gap-1.5 text-blue-950 font-bold text-xs mb-1">
+                  <Zap size={14} className="text-blue-600 flex-shrink-0 fill-blue-500" />
+                  <span>Weekend Date Selected</span>
+                </div>
+                <p className="text-[11px] text-blue-900/90 leading-relaxed">
+                  Weekend rates apply due to higher backwater demand. Exact rate will be confirmed on WhatsApp based on real-time boat availability.
+                </p>
+              </div>
 
-          {/* Capacity Note */}
-          <div className="ab-capacity-note mt-2 flex items-center gap-1.5 text-xs text-slate-500 font-medium">
-            <Info size={13} className="text-slate-400 flex-shrink-0" />
-            <span>Maximum capacity is {maxCapacity} guests total.</span>
-          </div>
+              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1.5">
+                <div className="flex justify-between items-baseline text-xs">
+                  <span className="text-slate-500 font-medium">Weekday Starting Rate:</span>
+                  <span className="font-semibold text-slate-600">
+                    {pricing.formattedBase}
+                  </span>
+                </div>
+                <div className="flex justify-between items-baseline pt-1 border-t border-slate-200 font-bold">
+                  <span className="text-xs text-brand-navy">Weekend Tariff:</span>
+                  <span className="text-sm font-black text-blue-900 uppercase tracking-tight">
+                    Custom Quote
+                  </span>
+                </div>
+              </div>
 
-          {/* Pricing Disclaimer */}
-          <p className="mt-1 text-[11px] text-slate-400 italic leading-snug">
-            Estimate only. Final rate depends on date, weekends, season &amp; boat availability.
-          </p>
+              <div className="ab-capacity-note flex items-center gap-1.5 text-xs text-slate-500 font-medium px-0.5">
+                <Info size={13} className="text-slate-400 flex-shrink-0" />
+                <span>Capacity: Up to {maxCapacity} guests • Final quote shared on WhatsApp.</span>
+              </div>
+            </div>
+          ) : (
+            <div className="ab-season-card mt-3 space-y-2">
+              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80">
+                <div className="flex justify-between items-baseline">
+                  <div>
+                    <span className="text-xs font-bold text-brand-navy block">
+                      Starting Rate
+                    </span>
+                    <span className="text-[11px] text-slate-500 block mt-0.5">
+                      Up to {pricing.threshold} Adults • {currentPkgInfo.title}
+                    </span>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-base sm:text-lg font-black text-brand-navy">
+                      {pricing.formattedBase}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ab-capacity-note flex items-center gap-1.5 text-xs text-slate-500 font-medium px-0.5">
+                <Info size={13} className="text-slate-400 flex-shrink-0" />
+                <span>Maximum capacity is {maxCapacity} guests total.</span>
+              </div>
+
+              <p className="text-[11px] text-slate-400 italic leading-snug px-0.5">
+                Starting rate for standard dates. Rates vary based on travel date, weekends, seasonal demand &amp; boat availability.
+              </p>
+            </div>
+          )}
 
           {/* Testimonial / Review snippet */}
           {!compact && review && (
@@ -438,7 +492,11 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
               size={19}
               className="fill-white/20 group-hover:scale-110 transition-transform flex-shrink-0"
             />
-            <span>Check Availability on WhatsApp</span>
+            <span>
+              {seasonInfo.isPeak || seasonInfo.isWeekend
+                ? "Get Live Rate on WhatsApp"
+                : "Check Availability on WhatsApp"}
+            </span>
           </a>
 
           <div className="ab-response-guarantee flex items-center justify-center gap-1.5 text-xs font-semibold text-emerald-700">

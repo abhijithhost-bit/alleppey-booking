@@ -1,6 +1,105 @@
-import { formatDateToDDMMYYYY } from "./utils";
+import { formatDateToDDMMYYYY, parseDateString } from "./utils";
 
 export type CruisePackageId = "overnight" | "day" | "night";
+
+export type DateSeasonType = "peak" | "weekend" | "regular";
+
+export interface DateSeasonInfo {
+  type: DateSeasonType;
+  label: string;
+  badge?: string;
+  description: string;
+  isPeak: boolean;
+  isWeekend: boolean;
+}
+
+/**
+ * Checks if a given date falls into Alleppey Peak Holiday Seasons:
+ * 1. November 11th - 15th (Diwali / Festive School Holidays)
+ * 2. December 15th - January 10th (Christmas / New Year / Winter Peak Rush)
+ */
+export function isPeakHolidayDate(d: Date): boolean {
+  const m = d.getMonth(); // 0 = Jan, 10 = Nov, 11 = Dec
+  const day = d.getDate();
+
+  // Nov 11th to 15th
+  if (m === 10 && day >= 11 && day <= 15) {
+    return true;
+  }
+  // Dec 15th to Dec 31st
+  if (m === 11 && day >= 15) {
+    return true;
+  }
+  // Jan 1st to Jan 10th
+  if (m === 0 && day <= 10) {
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Checks if a given date is a Weekend (Saturday or Sunday)
+ */
+export function isWeekendDate(d: Date): boolean {
+  const dayOfWeek = d.getDay();
+  return dayOfWeek === 0 || dayOfWeek === 6;
+}
+
+/**
+ * Retrieves seasonal tariff classification and context for any selected check-in date.
+ */
+export function getDateSeasonInfo(dateStr?: string | null): DateSeasonInfo {
+  if (!dateStr || !dateStr.trim()) {
+    return {
+      type: "regular",
+      label: "Regular Season",
+      description: "Standard season starting rates apply. Rates vary based on season, weekends, holidays & boat availability.",
+      isPeak: false,
+      isWeekend: false,
+    };
+  }
+
+  const parsed = parseDateString(dateStr);
+  if (!parsed || isNaN(parsed.getTime())) {
+    return {
+      type: "regular",
+      label: "Regular Season",
+      description: "Standard season starting rates apply. Rates vary based on season, weekends, holidays & boat availability.",
+      isPeak: false,
+      isWeekend: false,
+    };
+  }
+
+  if (isPeakHolidayDate(parsed)) {
+    return {
+      type: "peak",
+      label: "Peak Holiday Season",
+      badge: "🔥 Peak Holiday Season",
+      description: "Special peak holiday tariffs apply for Christmas, New Year & festive dates. Our team will verify available boats and share the best live rate on WhatsApp.",
+      isPeak: true,
+      isWeekend: isWeekendDate(parsed),
+    };
+  }
+
+  if (isWeekendDate(parsed)) {
+    return {
+      type: "weekend",
+      label: "Weekend Tariff",
+      badge: "⚡ Weekend Rate",
+      description: "Weekend rates apply due to higher backwater demand. Exact rate will be confirmed on WhatsApp based on real-time boat availability.",
+      isPeak: false,
+      isWeekend: true,
+    };
+  }
+
+  return {
+    type: "regular",
+    label: "Regular Season",
+    description: "Standard season starting rates apply. Rates vary based on season, weekends, holidays & boat availability.",
+    isPeak: false,
+    isWeekend: false,
+  };
+}
 
 export interface PackagePricingConfig {
   base: number;
@@ -238,10 +337,10 @@ export function buildHouseboatWhatsAppUrl({
   date?: string;
   adults: number;
   kids: number;
-  totalPriceFormatted: string;
+  totalPriceFormatted?: string;
 }): string {
   const dateVal = date && date.trim() ? formatDateToDDMMYYYY(date.trim()) : "To be decided";
-  const msg = `Hi Alleppey Booking! I would like to check availability for a ${bedrooms} Bedroom Houseboat Alleppey.\n\n*Package:* ${packageName}\n*Check-in Date:* ${dateVal}\n*Guests:* ${adults} Adults, ${kids} Kids\n*Estimated Price:* ${totalPriceFormatted}\n\nPlease confirm availability.`;
+  const msg = `Hi Alleppey Booking! I would like to check availability and rate for a ${bedrooms} Bedroom Houseboat Alleppey.\n\n*Package:* ${packageName}\n*Check-in Date:* ${dateVal}\n*Guests:* ${adults} Adults, ${kids} Kids\n\nPlease let me know the availability and best rate for these dates.`;
   return `https://wa.me/917012761588?text=${encodeURIComponent(msg)}`;
 }
 

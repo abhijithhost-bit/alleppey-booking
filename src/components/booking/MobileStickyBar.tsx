@@ -6,7 +6,7 @@ import BookingCard from "./BookingCard";
 import { ChevronUp, X } from "lucide-react";
 
 export default function MobileStickyBar() {
-  const { pricing } = useBooking();
+  const { pricing, seasonInfo } = useBooking();
   const [isBarVisible, setIsBarVisible] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -68,12 +68,23 @@ export default function MobileStickyBar() {
             }
           }}
         >
-          <div className="ab-msb-price flex items-baseline gap-1.5">
-            <span className="text-[11px] font-semibold text-slate-400">Total</span>
-            <strong className="text-sm sm:text-base font-black text-brand-navy whitespace-nowrap">
-              {pricing.formattedTotal}
-            </strong>
-          </div>
+          {seasonInfo.isPeak || seasonInfo.isWeekend ? (
+            <div className="ab-msb-price flex flex-col text-left">
+              <strong className="text-sm font-black text-amber-700 whitespace-nowrap">
+                Custom Quote
+              </strong>
+              <span className="text-[10px] font-bold text-slate-500">
+                {seasonInfo.isPeak ? "Peak Season Date" : "Weekend Date"}
+              </span>
+            </div>
+          ) : (
+            <div className="ab-msb-price flex items-baseline gap-1.5">
+              <span className="text-[11px] font-semibold text-slate-400">From</span>
+              <strong className="text-sm sm:text-base font-black text-brand-navy whitespace-nowrap">
+                {pricing.formattedBase}
+              </strong>
+            </div>
+          )}
           <div className="flex items-center gap-1 text-[11px] font-bold text-slate-400">
             <span>Tap to customise</span>
             <ChevronUp size={12} className="stroke-[3]" />
@@ -87,7 +98,7 @@ export default function MobileStickyBar() {
           aria-label="Open booking details"
           className="flex items-center gap-2 py-2.5 px-5 bg-brand-orange hover:bg-brand-orange-hover text-white font-bold text-sm rounded-xl shadow-md shadow-orange-500/20 active:scale-95 transition-all"
         >
-          Book Now
+          {seasonInfo.isPeak || seasonInfo.isWeekend ? "Get Quote" : "Book Now"}
         </button>
       </div>
 
