@@ -387,6 +387,12 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                     {pricing.formattedBase}
                   </span>
                 </div>
+                {pricing.extraCharges > 0 && (
+                  <div className="flex justify-between items-baseline text-xs text-slate-500">
+                    <span>Extra Adults ({adults - pricing.threshold} Guests):</span>
+                    <span className="font-medium text-amber-900">Bedding included</span>
+                  </div>
+                )}
                 <div className="flex justify-between items-baseline pt-1 border-t border-slate-200 font-bold">
                   <span className="text-xs text-brand-navy">Holiday Tariff:</span>
                   <span className="text-sm font-black text-amber-700 uppercase tracking-tight">
@@ -419,6 +425,12 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
                     {pricing.formattedBase}
                   </span>
                 </div>
+                {pricing.extraCharges > 0 && (
+                  <div className="flex justify-between items-baseline text-xs text-slate-500">
+                    <span>Extra Adults ({adults - pricing.threshold} Guests):</span>
+                    <span className="font-medium text-blue-900">Bedding included</span>
+                  </div>
+                )}
                 <div className="flex justify-between items-baseline pt-1 border-t border-slate-200 font-bold">
                   <span className="text-xs text-brand-navy">Weekend Tariff:</span>
                   <span className="text-sm font-black text-blue-900 uppercase tracking-tight">
@@ -434,23 +446,58 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
             </div>
           ) : (
             <div className="ab-season-card mt-3 space-y-2">
-              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80">
-                <div className="flex justify-between items-baseline">
-                  <div>
-                    <span className="text-xs font-bold text-brand-navy block">
-                      Starting Rate
+              {pricing.extraCharges > 0 ? (
+                <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80 space-y-2">
+                  <div className="flex justify-between items-baseline text-xs text-slate-600">
+                    <span className="flex items-center">
+                      Base Price{" "}
+                      <span className="text-[11px] text-slate-400 ml-1">
+                        (Up to {pricing.threshold} Adults)
+                      </span>
                     </span>
-                    <span className="text-[11px] text-slate-500 block mt-0.5">
-                      Up to {pricing.threshold} Adults • {currentPkgInfo.title}
-                    </span>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-base sm:text-lg font-black text-brand-navy">
+                    <span className="font-semibold text-brand-navy">
                       {pricing.formattedBase}
                     </span>
                   </div>
+
+                  <div className="flex justify-between items-baseline text-xs text-slate-600">
+                    <span className="flex items-center">
+                      Extra Adults{" "}
+                      <span className="text-[11px] text-slate-400 ml-1">
+                        ({adults - pricing.threshold} × ₹{pricing.extraPerAdult.toLocaleString("en-IN")})
+                      </span>
+                    </span>
+                    <span className="font-semibold text-brand-orange">
+                      {pricing.formattedExtra}
+                    </span>
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-200 flex justify-between items-baseline font-bold">
+                    <span className="text-xs sm:text-sm text-brand-navy">Total Estimate</span>
+                    <span className="text-base sm:text-lg font-black text-brand-navy">
+                      {pricing.formattedTotal}
+                    </span>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/80">
+                  <div className="flex justify-between items-baseline">
+                    <div>
+                      <span className="text-xs font-bold text-brand-navy block">
+                        Starting Rate
+                      </span>
+                      <span className="text-[11px] text-slate-500 block mt-0.5">
+                        Up to {pricing.threshold} Adults • {currentPkgInfo.title}
+                      </span>
+                    </div>
+                    <div className="text-right">
+                      <span className="text-base sm:text-lg font-black text-brand-navy">
+                        {pricing.formattedBase}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="ab-capacity-note flex items-center gap-1.5 text-xs text-slate-500 font-medium px-0.5">
                 <Info size={13} className="text-slate-400 flex-shrink-0" />
@@ -458,7 +505,9 @@ export default function BookingCard({ review, compact = false }: BookingCardProp
               </div>
 
               <p className="text-[11px] text-slate-400 italic leading-snug px-0.5">
-                Starting rate for standard dates. Rates vary based on travel date, weekends, seasonal demand &amp; boat availability.
+                {pricing.extraCharges > 0
+                  ? `Standard season estimate for ${adults} adults (all meals included). Final rate depends on travel date and boat availability.`
+                  : "Starting rate for standard dates. Rates vary based on travel date, weekends, seasonal demand & boat availability."}
               </p>
             </div>
           )}

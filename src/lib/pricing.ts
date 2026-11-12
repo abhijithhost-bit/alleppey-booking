@@ -389,7 +389,8 @@ export function buildHouseboatWhatsAppUrl({
   totalPriceFormatted?: string;
 }): string {
   const dateVal = date && date.trim() ? formatDateToDDMMYYYY(date.trim()) : "To be decided";
-  const msg = `Hi Alleppey Booking! I would like to check availability and rate for a ${bedrooms} Bedroom Houseboat Alleppey.\n\n*Package:* ${packageName}\n*Check-in Date:* ${dateVal}\n*Guests:* ${adults} Adults, ${kids} Kids\n\nPlease let me know the availability and best rate for these dates.`;
+  const priceLine = totalPriceFormatted ? `\n*Estimated Total:* ${totalPriceFormatted}` : "";
+  const msg = `Hi Alleppey Booking! I would like to check availability and rate for a ${bedrooms} Bedroom Houseboat Alleppey.\n\n*Package:* ${packageName}\n*Check-in Date:* ${dateVal}\n*Guests:* ${adults} Adults, ${kids} Kids${priceLine}\n\nPlease let me know the availability and best rate for these dates.`;
   return `https://wa.me/917012761588?text=${encodeURIComponent(msg)}`;
 }
 

@@ -63,12 +63,14 @@ export function BookingProvider({
 
   // Build WhatsApp URL
   const packageName = PACKAGE_INFO[packageId]?.title || "Overnight Cruise";
+  const isSpecialDate = seasonInfo.isPeak || seasonInfo.isWeekend;
   const whatsAppUrl = buildHouseboatWhatsAppUrl({
     bedrooms,
     packageName,
     date,
     adults,
     kids,
+    totalPriceFormatted: isSpecialDate ? undefined : pricing.formattedTotal,
   });
 
   const scrollToBookingWidget = () => {
