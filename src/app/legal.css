@@ -555,3 +555,485 @@
     .cr-section h2, .cr-section h3 { font-size: 18px; }
     .cr-table th, .cr-table td { padding: 10px 12px; font-size: 13px; }
 }
+
+/* ==========================================================================
+   5. MODERN GUEST-FRIENDLY POLICY SYSTEM (AT-A-GLANCE, PLAIN ENGLISH, PILLS)
+   ========================================================================== */
+
+/* --- STICKY QUICK-JUMP PILL BAR --- */
+.policy-sticky-nav-wrapper {
+    position: sticky;
+    top: 70px;
+    z-index: 35;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    padding: 10px 0;
+    margin: -40px -60px 30px -60px;
+    border-radius: 16px 16px 0 0;
+}
+
+@media (max-width: 768px) {
+    .policy-sticky-nav-wrapper {
+        top: 60px;
+        margin: -30px -18px 24px -18px;
+        padding: 8px 0;
+        border-radius: 16px 16px 0 0;
+    }
+}
+
+.policy-sticky-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 0 20px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+.policy-sticky-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.policy-pill {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 600;
+    color: #475569;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.policy-pill:hover,
+.policy-pill:focus {
+    color: #0f172a;
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+}
+.policy-pill-active {
+    background: #0a2540;
+    color: #ffffff;
+    border-color: #0a2540;
+}
+
+/* --- AT A GLANCE (TL;DR) HIGHLIGHT CARDS --- */
+.policy-glance-section {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px 20px;
+    margin-bottom: 35px;
+}
+
+.policy-glance-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.policy-glance-title {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0a2540;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.policy-glance-badge {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0369a1;
+    background: #e0f2fe;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.policy-glance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 12px;
+}
+
+.policy-glance-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+.policy-glance-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e1;
+}
+
+.policy-glance-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.policy-icon-blue { background: #e0f2fe; color: #0284c7; }
+.policy-icon-amber { background: #fef3c7; color: #d97706; }
+.policy-icon-emerald { background: #dcfce7; color: #16a34a; }
+.policy-icon-rose { background: #ffe4e6; color: #e11d48; }
+.policy-icon-purple { background: #f3e8ff; color: #9333ea; }
+.policy-icon-teal { background: #ccfbf1; color: #0d9488; }
+
+.policy-glance-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.3;
+}
+
+.policy-glance-desc {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* --- "IN PLAIN ENGLISH" CALLOUT BANNER --- */
+.policy-plain-english {
+    background: #faf5ff;
+    border: 1px solid #e9d5ff;
+    border-left: 4px solid #9333ea;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 14px 0 20px 0;
+}
+.policy-plain-english.variant-amber {
+    background: #fffbeb;
+    border-color: #fde68a;
+    border-left-color: #f59e0b;
+}
+.policy-plain-english.variant-emerald {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+    border-left-color: #10b981;
+}
+.policy-plain-english.variant-sky {
+    background: #f0f9ff;
+    border-color: #bae6fd;
+    border-left-color: #0284c7;
+}
+
+.policy-plain-english-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+.variant-amber .policy-plain-english-header { color: #b45309; }
+.variant-emerald .policy-plain-english-header { color: #047857; }
+.variant-sky .policy-plain-english-header { color: #0369a1; }
+.policy-plain-english-header { color: #7e22ce; }
+
+.policy-plain-english ul {
+    margin: 0;
+    padding-left: 18px;
+    list-style-type: disc;
+}
+.policy-plain-english li {
+    font-size: 13.5px;
+    color: #334155;
+    line-height: 1.55;
+    margin-bottom: 6px;
+}
+.policy-plain-english li:last-child {
+    margin-bottom: 0;
+}
+.policy-plain-english strong {
+    color: #0f172a;
+}
+
+/* --- REFUND MATRIX TIMELINE CARDS --- */
+.policy-refund-timeline {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 20px 0;
+}
+@media (max-width: 768px) {
+    .policy-refund-timeline {
+        grid-template-columns: 1fr;
+    }
+}
+
+.policy-timeline-card {
+    border-radius: 14px;
+    padding: 18px 16px;
+    border: 2px solid #e2e8f0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+}
+.policy-timeline-card:hover {
+    transform: translateY(-2px);
+}
+.policy-card-success {
+    border-color: #86efac;
+    background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+}
+.policy-card-warning {
+    border-color: #fde047;
+    background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+}
+.policy-card-danger {
+    border-color: #fca5a5;
+    background: linear-gradient(180deg, #fef2f2 0%, #ffffff 100%);
+}
+
+.policy-timeline-days {
+    font-size: 13px;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.policy-timeline-refund {
+    font-size: 26px;
+    font-weight: 900;
+    margin: 4px 0 8px 0;
+    line-height: 1;
+}
+.policy-card-success .policy-timeline-refund { color: #15803d; }
+.policy-card-warning .policy-timeline-refund { color: #b45309; }
+.policy-card-danger .policy-timeline-refund { color: #b91c1c; }
+
+.policy-timeline-detail {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --- KERALA MONSOON & WEATHER CALLOUT --- */
+.policy-weather-guide {
+    background: linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 100%);
+    border: 1px solid #99f6e4;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.policy-weather-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f766e;
+    margin-bottom: 12px;
+}
+.policy-weather-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+@media (max-width: 640px) {
+    .policy-weather-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.policy-weather-item {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccfbf1;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+.policy-weather-item strong {
+    display: block;
+    font-size: 13px;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+.policy-weather-item p {
+    font-size: 12px;
+    color: #475569;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* --- PRIVACY PROMISE TRUST CARDS --- */
+.policy-trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 20px 0;
+}
+@media (max-width: 768px) {
+    .policy-trust-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.policy-trust-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 18px 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+.policy-trust-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: #ecfdf5;
+    color: #059669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.policy-trust-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+.policy-trust-desc {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --- ACCESSIBLE ACCORDION FAQ --- */
+.policy-accordion-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.policy-accordion-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: border-color 0.2s ease;
+}
+.policy-accordion-item:hover {
+    border-color: #cbd5e1;
+}
+.policy-accordion-item[open] {
+    border-color: #94a3b8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+.policy-accordion-summary {
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f172a;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    user-select: none;
+}
+.policy-accordion-summary::-webkit-details-marker {
+    display: none;
+}
+.policy-accordion-summary::after {
+    content: '+';
+    font-size: 18px;
+    font-weight: 400;
+    color: #64748b;
+    transition: transform 0.2s ease;
+}
+.policy-accordion-item[open] .policy-accordion-summary::after {
+    content: '−';
+}
+.policy-accordion-content {
+    padding: 0 18px 16px 18px;
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.6;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 12px;
+}
+
+/* --- INSTANT WHATSAPP SUPPORT CTA CARD --- */
+.policy-support-cta {
+    background: linear-gradient(135deg, #0a2540 0%, #17385a 100%);
+    border-radius: 16px;
+    padding: 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+    box-shadow: 0 10px 25px rgba(10, 37, 64, 0.15);
+}
+@media (max-width: 768px) {
+    .policy-support-cta {
+        flex-direction: column;
+        text-align: center;
+        padding: 22px 18px;
+        gap: 16px;
+    }
+}
+.policy-support-info h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 6px 0;
+}
+.policy-support-info p {
+    font-size: 13px;
+    color: #cbd5e1;
+    margin: 0;
+    line-height: 1.5;
+}
+.policy-support-btn {
+    background: #25d366;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+.policy-support-btn:hover {
+    background: #22bf5b;
+    transform: translateY(-2px);
+}
