@@ -39,6 +39,11 @@ export default function Footer() {
               <li>
                 <Link href="/terms-conditions/">Terms and Conditions</Link>
               </li>
+              <li>
+                <Link href="/cancellation-refund-policy/">
+                  Cancellation &amp; Refund Policy
+                </Link>
+              </li>
             </ul>
           </div>
 

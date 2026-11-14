@@ -669,5 +669,15 @@
         "version": "0.0"
       }
     ]
+  },
+  "cancellation-refund-policy": {
+    "slug": "cancellation-refund-policy",
+    "title": "Cancellation & Refund Policy",
+    "seo": {
+      "title": "Cancellation & Refund Policy | Alleppey Booking",
+      "description": "Official Cancellation & Refund Policy for Alleppey Booking houseboat stays, Shikara rides, kayaking, and speedboat experiences in Kerala.",
+      "focusKeyword": "alleppey houseboat cancellation refund policy"
+    },
+    "contentHtml": ""
   }
 }

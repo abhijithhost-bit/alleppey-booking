@@ -118,6 +118,25 @@ const nextConfig: NextConfig = {
       }
     );
 
+    // 4. Aliases for Cancellation & Refund Policy
+    const refundAliases = [
+      "/refund-policy",
+      "/refund-policy/",
+      "/cancellation-policy",
+      "/cancellation-policy/",
+      "/cancellation",
+      "/cancellation/",
+      "/refunds",
+      "/refunds/",
+    ];
+    for (const src of refundAliases) {
+      list.push({
+        source: src,
+        destination: "/cancellation-refund-policy/",
+        permanent: true,
+      });
+    }
+
     return list;
   },
 };
