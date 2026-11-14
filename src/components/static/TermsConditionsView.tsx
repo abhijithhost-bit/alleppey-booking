@@ -54,11 +54,11 @@ export default function TermsConditionsView() {
 
           <span className="tc-last-updated">Last Updated: June 2026 • Alleppey Booking</span>
 
-          {/* AT A GLANCE (TL;DR) CARDS */}
+          {/* AT A GLANCE CARDS */}
           <section id="glance" className="policy-glance-section">
             <div className="policy-glance-header">
               <h2 className="policy-glance-title">
-                <Sparkles size={18} className="text-amber-500" /> Key Rules at a Glance (TL;DR)
+                <Sparkles size={18} className="text-amber-500" /> Key Rules at a Glance (Quick Summary)
               </h2>
               <span className="policy-glance-badge">2-Min Read</span>
             </div>

@@ -54,11 +54,11 @@ export default function CancellationRefundPolicyView() {
 
           <span className="cr-last-updated">Last Updated: June 2026 • Alleppey Booking</span>
 
-          {/* AT A GLANCE (TL;DR) CARDS */}
+          {/* AT A GLANCE CARDS */}
           <section id="glance" className="policy-glance-section">
             <div className="policy-glance-header">
               <h2 className="policy-glance-title">
-                <Sparkles size={18} className="text-amber-500" /> Refund Terms at a Glance (TL;DR)
+                <Sparkles size={18} className="text-amber-500" /> Refund Terms at a Glance (Quick Summary)
               </h2>
               <span className="policy-glance-badge">Instant Summary</span>
             </div>
