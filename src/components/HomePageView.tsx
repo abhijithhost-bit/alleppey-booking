@@ -391,7 +391,7 @@ export default function HomePageView() {
                 <div className="at-card-footer">
                     <div className="at-price-box">
                         <span className="at-price-label">FROM</span>
-                        <span className="at-price-amount">₹9000</span>
+                        <span className="at-price-amount">₹11,000</span>
                     </div>
                     <span className="at-book-btn">Check Availability →</span>
                 </div>

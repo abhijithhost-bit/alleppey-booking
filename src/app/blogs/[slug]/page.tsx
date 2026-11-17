@@ -109,7 +109,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
     {
       title: "1 Bedroom Private",
       subtitle: "Honeymoons & Couples",
-      price: "₹9,000",
+      price: "₹11,000",
       href: "/1-bedroom-houseboat-alleppey/",
       badge: "Most Popular",
     },
