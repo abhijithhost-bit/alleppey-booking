@@ -18,6 +18,7 @@ import blogsData from "@/data/blogs.json";
 import siteConfig from "@/data/siteConfig.json";
 import Breadcrumb from "@/components/Breadcrumb";
 import BookingForm from "@/components/BookingForm";
+import FAQAccordion from "@/components/FAQAccordion";
 import { BlogPost } from "@/types";
 
 interface BlogPageProps {
@@ -42,8 +43,13 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
     return { title: "Blog Post Not Found | Alleppey Booking" };
   }
 
+  const resolvedTitle =
+    post.seo.title.includes("Alleppey Booking") || post.seo.title.length > 42
+      ? { absolute: post.seo.title }
+      : post.seo.title;
+
   return {
-    title: post.seo.title,
+    title: resolvedTitle,
     description: post.seo.description,
     keywords: post.seo.focusKeyword ? [post.seo.focusKeyword] : undefined,
     alternates: { canonical: `${siteConfig.url}/blogs/${slug}/` },
@@ -100,10 +106,11 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
 
   if (!post) notFound();
 
-  // Popular and related guides
+  // Popular and related guides (distinct slices so sidebar and bottom grids don't duplicate links)
   const otherBlogs = blogs.filter((b) => b.slug !== slug);
   const sidebarGuides = otherBlogs.slice(0, 3);
-  const relatedBlogs = otherBlogs.slice(0, 3);
+  const relatedBlogs =
+    otherBlogs.length > 3 ? otherBlogs.slice(3, 6) : otherBlogs.slice(0, 3);
 
   const featuredFleets = [
     {
@@ -178,6 +185,15 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
   const whatsappInquiryUrl = `https://wa.me/917012761588?text=Hello%20Alleppey%20Booking%2C%20I%20read%20your%20article%20%22${encodeURIComponent(post.title)}%22%20and%20would%20like%20to%20enquire%20about%20booking%20a%20tour.`;
 
   const cleanedContent = cleanWpHtml(post.contentHtml || "");
+  const plainTextWords = cleanedContent
+    .replace(/<[^>]+>/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length;
+  const readMinutes = Math.max(1, Math.ceil(plainTextWords / 200));
+  const hasInlineFaq = /<h2[^>]*>[\s\S]*?(?:frequently asked|faq)/i.test(
+    cleanedContent
+  );
 
   return (
     <article className="pt-24 pb-12 sm:pt-28 sm:pb-16 bg-slate-50 min-h-screen w-full max-w-full overflow-x-hidden">
@@ -218,7 +234,7 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
             <span>•</span>
             <span className="flex items-center gap-1.5 font-medium text-slate-500">
               <Clock className="w-3.5 h-3.5" />
-              <span>5 min read</span>
+              <span>{readMinutes} min read</span>
             </span>
           </div>
 
@@ -275,6 +291,17 @@ export default async function SingleBlogPage({ params }: BlogPageProps) {
                 </a>
               </div>
             </div>
+
+            {post.faqs && post.faqs.length > 0 && !hasInlineFaq && (
+              <div className="mb-8">
+                <FAQAccordion
+                  items={post.faqs}
+                  includeSchema={false}
+                  title="Frequently Asked Questions"
+                  subtitle={`Quick answers on ${post.seo.focusKeyword || post.title}`}
+                />
+              </div>
+            )}
 
             {/* Back to Blogs Link */}
             <div className="mb-8">

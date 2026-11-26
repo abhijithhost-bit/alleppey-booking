@@ -12,12 +12,14 @@ interface FAQAccordionProps {
   items: FAQItem[];
   title?: string;
   subtitle?: string;
+  includeSchema?: boolean;
 }
 
 export default function FAQAccordion({
   items,
   title = "Frequently Asked Questions",
   subtitle = "Everything you need to know about cruising the Kerala backwaters with Alleppey Booking",
+  includeSchema = true,
 }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -37,10 +39,12 @@ export default function FAQAccordion({
 
   return (
     <section className="py-12 bg-white rounded-3xl border-2 border-[#EAE5DD] shadow-sm">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      {includeSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-orange-50 border border-orange-200/80 text-[#FF6600] rounded-full text-xs font-bold uppercase tracking-wider mb-3">
